@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  =============================================================================================================
+	
+	HL7 Conformance Profile Schema version xxx
+	
+	Developed by the National Institute of Standards and Technology (NIST) and Prometheus Computing
+	
+	==  Authors:
+	Robert D. Snelick             -        NIST                        -        robert.snelick@nist.gov
+	Salifou Sidi M. Malick        -        Prometheus Computing        -        s.malick@prometheuscomputing.com
+	============================================================================================================= -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+	
+	<xs:include schemaLocation="Assertions.xsd"/>
+	
+	<!--  =============================================================================================================
+		    =========================         Root  Element  Definition           =======================================
+		    ============================================================================================================= -->
+	
+	<xs:element name="HL7v2xConformanceProfile" type="HL7v2xConformanceProfileType"/>
+
+	<!--  =============================================================================================================
+		    =========================       Simple Types Definitions              =======================================
+		    ============================================================================================================= -->
+	
+	<xs:simpleType name="IntegerOrStar">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d+|\*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="UsageType">
+		<xs:annotation>
+			<xs:documentation>
+				Usage identifies the circumstances under which an element appears in a message. Possible values are: 
+				R - Required (must always be present); 
+				RE - Required or Empty (must be present if available); 
+				O - Optional (no guidance on when the element should appear); 
+				C - Conditional (the element is required or allowed to be present when the condition specified in the Predicate element is true);
+				X - Not supported (the element is not supported)
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="R"/>
+			<xs:enumeration value="RE"/>
+			<xs:enumeration value="O"/>
+			<xs:enumeration value="C"/>
+			<xs:enumeration value="X"/>
+			<!-- #FIXME# Not sure if we need these -->
+			<xs:enumeration value="B"/>
+			<xs:enumeration value="W"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="SegmentNameType">
+		<xs:restriction base="NonEmptyString">
+			<xs:pattern value="[A-Z]{2}[0-9]{1}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--  =============================================================================================================
+		    =========================         Attribute Group Definitions         =======================================
+		    ============================================================================================================= -->
+	
+	<xs:attributeGroup name="RepeatableProperties">
+		<xs:attribute name="Min" type="PositiveInteger" use="required">
+			<xs:annotation>
+				<xs:documentation>
+					This identifies the minimum number of repetitions of the element that are permitted in a message instance. This attribute should 
+					only be specified if the minimum number of repetitions is greater than 1, as the minimum for other elements is always '0'.
+				</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Max" type="IntegerOrStar" use="required">
+			<xs:annotation>
+				<xs:documentation>
+					This identifies the maximum number of repetitions of the element that are permitted in a message instance. This attribute should 
+					only be specified if the maximum number of repetitions is greater than 1 and differs from the minimum attribute (i.e. the maximum
+					number of repetitions is greater than the minimum number of repetitions). The special value '*' may be used to represent 'unlimited' repetitions.
+				</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	
+	<xs:attributeGroup name="ElementProperties">
+		<xs:attribute name="Usage" type="UsageType" use="required"/>
+		<xs:attribute name="PredicateTrueUsage" type="UsageType" use="optional"/>
+		<xs:attribute name="PredicateFalseUsage" type="UsageType" use="optional"/>
+		<!-- Allow unkown attributes -->
+		<xs:anyAttribute processContents="lax"/>
+	</xs:attributeGroup>
+	
+	<xs:attributeGroup name="DataElementProperties">
+		<xs:attributeGroup ref="ElementProperties"/>
+		<xs:attribute name="Name" type="NonEmptyString" use="required"/>
+		<xs:attribute name="Datatype" type="NonEmptyString" use="required">
+			<xs:annotation>
+				<xs:documentation>The datatype of the data element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="MinLength" type="xs:integer" use="optional" default="0">
+			<xs:annotation>
+				<xs:documentation>Identifies the minimum allowed length for the content of the element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="MaxLength" type="IntegerOrStar" use="optional" default="*">
+			<xs:annotation>
+				<xs:documentation>Identifies the maximum allowed length for the content of the element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Table" type="NonEmptyString" use="optional"/>    	
+	</xs:attributeGroup>
+	
+	<xs:attributeGroup name="MessageElementProperties">
+		<xs:attributeGroup ref="ElementProperties"/>
+		<xs:attributeGroup ref="RepeatableProperties"/>
+		<xs:attribute name="Name" type="NonEmptyString" use="required"/>
+		<xs:attribute name="LongName" type="NonEmptyString" use="optional"/>
+	</xs:attributeGroup>
+	
+
+	<!--  =============================================================================================================
+		    =========================         Complex Types Definitions           =======================================
+		    ============================================================================================================= -->
+	
+	<xs:complexType name="AbstractElement" abstract="true">
+		<xs:sequence>
+			<xs:element name="Predicate" type="PredicateType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="ConformanceStatement"  type="ConformanceStatementType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="ElementProperties"/>
+	</xs:complexType>
+	
+	<xs:complexType name="AbstractDataElementType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="AbstractElement">
+				<xs:attributeGroup ref="DataElementProperties"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="AbstractMessageElementType" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="AbstractElement">
+				<xs:attributeGroup ref="MessageElementProperties"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="SubComponentType">
+		<xs:complexContent>
+			<xs:extension base="AbstractDataElementType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ComponentType">
+		<xs:complexContent>
+			<xs:extension base="AbstractDataElementType">
+				<xs:sequence>
+					<xs:element name="SubComponent" type="SubComponentType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="FieldType">
+		<xs:complexContent>
+			<xs:extension base="AbstractDataElementType">
+				<xs:sequence>
+					<xs:element name="Component" type="ComponentType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+				<xs:attributeGroup ref="RepeatableProperties"/>
+				<xs:attribute name="ItemNo" type="NonEmptyString" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="SegmentType">
+		<xs:annotation>
+			<xs:documentation>Documents the characteristics of a single HL7 segment within the context of a particular message or segment group.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="AbstractMessageElementType">
+				<xs:sequence>
+					<xs:element name="Field" type="FieldType" minOccurs="0" maxOccurs="unbounded"/>	
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:group name="GroupStructure">
+		<xs:sequence>
+			<xs:choice minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="Segment" type="SegmentType" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="SegGroup" type="GroupType" minOccurs="1" maxOccurs="1"/>
+			</xs:choice>
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:complexType name="GroupType">
+		<xs:annotation>
+			<xs:documentation>Documents the characteristics of a grouping of HL7 segments within the context of a particular message or segment group.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="AbstractMessageElementType">
+				<xs:group ref="GroupStructure" minOccurs="1" maxOccurs="1"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="StaticDefType">
+		<xs:sequence>
+			<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:group ref="GroupStructure" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="MsgType" type="NonEmptyString" use="required"/>
+		<xs:attribute name="EventType" type="NonEmptyString" use="required"/>
+		<xs:attribute name="MsgStructID" type="NonEmptyString" use="required"/>
+		<!-- Allow unkown attributes -->
+		<xs:anyAttribute processContents="lax"/>
+	</xs:complexType>
+	
+	<xs:complexType name="HL7v2xConformanceProfileType">
+		<xs:sequence>
+			<xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="HL7v2xStaticDef" type="StaticDefType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<!-- Only the HL7Version attribute is required for validation purpose -->
+		<xs:attribute name="HL7Version" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="2.0"/>
+					<xs:enumeration value="2.1"/>
+					<xs:enumeration value="2.2"/>
+					<xs:enumeration value="2.3"/>
+					<xs:enumeration value="2.3.1"/>
+					<xs:enumeration value="2.4"/>
+					<xs:enumeration value="2.5"/>
+					<xs:enumeration value="2.5.1"/>
+					<xs:enumeration value="2.6"/>
+					<xs:enumeration value="2.7"/>
+					<xs:enumeration value="2.8"/>	
+				</xs:restriction>
+			</xs:simpleType>			
+		</xs:attribute>
+		<xs:anyAttribute processContents="lax"/> 
+	</xs:complexType>
+	
+	
+	<xs:simpleType name="PositiveInteger">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="[0-9]+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="NonEmptyString">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[\s]*[\S].*"/> <!-- \S is the negation of \s  -->
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="CSVType">
+		<xs:annotation>
+			<xs:documentation> A comma separated values</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9a-zA-Z]+(,[0-9a-zA-Z]+)*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="LocationType">
+		<xs:restriction base="xs:string">
+			<!--<xs:pattern value="(\.|\.\.)(/[1-9][0-9]*(\[([1-9][0-9])|\*\])*)*"></xs:pattern>--> <!-- TODO -->
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="PresenceType">
+		<xs:annotation>
+			<xs:documentation>Constraint the location to be valued(present)</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="location" type="LocationType" use="required"/> 
+	</xs:complexType>
+	
+	<xs:complexType name="RangeType">
+		<xs:annotation>
+			<xs:documentation>Constraint the value of the location to be in the range</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="location" type="LocationType" use="required"/>
+		<xs:attribute name="min" type="PositiveInteger" use="required"/>
+		<xs:attribute name="max" type="PositiveInteger" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="RegexType">
+		<xs:annotation>
+			<xs:documentation>Constraint the value of the location to match the regular expression</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="location" type="LocationType" use="required"/>
+		<xs:attribute name="regex" type="NonEmptyString" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="ListType">
+		<xs:annotation>
+			<xs:documentation>Constraint the value of the location to be in the list</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="location" type="LocationType" use="required"/> 
+		<xs:attribute name="csv" type="CSVType" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="PlainTextType">
+		<xs:annotation>
+			<xs:documentation>Constraint the value of the location to be equal to the value or the content of another location</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="location" type="LocationType" use="required"/> 
+		<xs:attribute name="value" type="NonEmptyString"/>
+		<xs:attribute name="locationContent"  type="LocationType"/>
+	</xs:complexType>
+	
+	<xs:complexType name="ANDType">
+		<xs:sequence>
+			<xs:group ref="AnyExpressionGroup" minOccurs="2" maxOccurs="2"/>
+		</xs:sequence>    
+	</xs:complexType>
+	
+	<xs:complexType name="ORType">
+		<xs:sequence>
+			<xs:group ref="AnyExpressionGroup" minOccurs="2" maxOccurs="2"/>
+		</xs:sequence>    
+	</xs:complexType>
+	
+	<xs:complexType name="NOTType">
+		<xs:choice>
+			<xs:group ref="AnyExpressionGroup" minOccurs="1" maxOccurs="1"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="SequenceIDType">
+		<xs:annotation>
+			<xs:documentation>Check the HL7 v2 set id logic</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="location" type="LocationType" use="required"/>
+		<xs:attribute name="location1" type="LocationType" use="required"/>
+	</xs:complexType>
+	
+	<xs:group name="AnyExpressionGroup">
+		<xs:choice>
+			<xs:element name="Presence" type="PresenceType" />
+			<xs:element name="Valued" type="PresenceType" />
+			<xs:element name="Range" type="RangeType" />
+			<xs:element name="Regex" type="RegexType" />
+			<xs:element name="List" type="ListType" />
+			<xs:element name="PlainText" type="PlainTextType" />
+			<xs:element name="AND" type="ANDType"/>
+			<xs:element name="OR" type="ORType"/>
+			<xs:element name="NOT" type="NOTType"/>
+		</xs:choice>
+	</xs:group>
+	
+	<xs:complexType name="AssertionType">
+		<xs:choice>
+			<xs:group ref="AnyExpressionGroup"/>
+			<xs:element name="SequenceID" type="SequenceIDType"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="ConformanceStatementType">
+		<xs:sequence>
+			<xs:element name="EnglishDescription" type="NonEmptyString" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Assertion" type="AssertionType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>	
+		<xs:attribute name="id" type="NonEmptyString" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="PredicateType">
+		<xs:sequence>
+			<xs:element name="EnglishDescription" type="NonEmptyString" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Condition" type="AssertionType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

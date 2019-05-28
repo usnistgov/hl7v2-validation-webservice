@@ -1,0 +1,42 @@
+<xmlResourceList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xmlResourceList.xsd">
+	<Resource>
+		<resourceID>1.2.814.99999.1.252</resourceID>
+		<name>ITI</name>
+		<version>2.5</version>
+		<organization>IHE - ITI</organization>
+		<description>Change attending doctor</description>
+		<HL7version>2.5</HL7version>
+		<resourceType>PROFILE</resourceType>
+	</Resource>
+	<Resource>
+		<resourceID>1.2.814.99999.1.253</resourceID>
+		<name>ITI</name>
+		<version>2.5</version>
+		<organization>IHE - ITI</organization>
+		<description>Cancel change attending doctor</description>
+		<HL7version>2.5</HL7version>
+		<resourceType>PROFILE</resourceType>
+	</Resource>
+	<Resource>
+		<resourceID>1.2.814.99999.1.254</resourceID>
+		<name>ITI</name>
+		<version>2.5</version>
+		<organization>IHE - ITI</organization>
+		<description>Who Am I</description>
+		<HL7version>2.5</HL7version>
+		<resourceType>PROFILE</resourceType>
+	</Resource>
+	<Resource>
+		<resourceID>1.2.814.99999.1.255</resourceID>
+		<name>SWF</name>
+		<version>2.3.1</version>
+		<organization>IHE - RAD</organization>
+		<description>ORU/ACK - Unsolicited transmission of an observation</description>
+		<HL7version>2.3.1</HL7version>
+		<resourceType>PROFILE</resourceType>
+	</Resource>
+	<Resource>
+		<resourceID>2.16.840.1.113883.3.72.4.2.90001</resourceID>
+		<resourceType>TABLE</resourceType>
+	</Resource>
+</xmlResourceList>

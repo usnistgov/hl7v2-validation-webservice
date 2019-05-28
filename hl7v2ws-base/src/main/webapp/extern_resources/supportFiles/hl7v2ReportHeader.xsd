@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="ReportHeader">
+		<xs:sequence>
+			<xs:element name="ValidationStatus" type="ValidationStatusType"/>
+			<xs:element name="ValidationStatusInfo" type="xs:string" minOccurs="0"/>
+			<xs:element name="ServiceName" type="xs:string" fixed="HL7 V2 Validation"/>
+			<xs:element name="ServiceProvider" type="xs:string" fixed="NIST"/>
+			<xs:element name="ServiceVersion" type="xs:string"/>
+			<xs:element name="StandardType" type="xs:string" fixed="HL7 V2"/>
+			<xs:element name="StandardVersion" type="StandardVersionType"/>
+			<xs:element name="ProfileName" type="xs:string" minOccurs="0"/>
+			<xs:element name="ProfileType" type="xs:string" minOccurs="0"/>
+			<xs:element name="ProfileVersion" type="xs:string" minOccurs="0"/>
+			<xs:element name="ValidationType" type="xs:string" fixed="Automated"/>
+			<xs:element name="TestIdentifier" type="xs:string" minOccurs="0"/>
+			<xs:element name="DateOfTest" type="xs:date"/>
+			<xs:element name="TimeOfTest" type="xs:time"/>
+			<xs:element name="ValidationObjectReference" type="xs:string" minOccurs="0"/>
+			<xs:element name="ResultOfTest" type="ResultOfTestType"/>
+			<xs:element name="ErrorCount" type="xs:int"/>
+			<xs:element name="WarningCount" type="xs:int"/>
+			<xs:element name="UserCount" type="xs:int"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="ValidationStatusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Complete"/>
+			<xs:enumeration value="Incomplete"/>
+			<xs:enumeration value="Results ID not found"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StandardVersionType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="2.3.1"/>
+			<xs:enumeration value="2.4"/>
+			<xs:enumeration value="2.5"/>
+			<xs:enumeration value="2.5.1"/>
+			<xs:enumeration value="N/A"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ResultOfTestType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Passed"/>
+			<xs:enumeration value="Failed"/>
+			<xs:enumeration value="Inconclusive"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

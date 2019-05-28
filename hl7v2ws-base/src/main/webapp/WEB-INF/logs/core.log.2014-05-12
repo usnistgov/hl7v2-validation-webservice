@@ -1,0 +1,212 @@
+2014-05-12/11:36:52.499/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113652-0400.xml to log the message. (MV)
+2014-05-12/11:36:52.502/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:36:52.687/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:52.691/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113652-0400.xml to log the message. (MV)
+2014-05-12/11:36:55.116/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113655-0400.xml to log the message. (MV)
+2014-05-12/11:36:55.180/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113655-0400.xml to log the message. (MV)
+2014-05-12/11:36:55.181/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:36:55.197/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:55.203/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113655-0400.xml to log the message. (MV)
+2014-05-12/11:36:56.968/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113656-0400.xml to log the message. (MV)
+2014-05-12/11:36:57.692/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113657-0400.xml to log the message. (MV)
+2014-05-12/11:36:57.695/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:57.697/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113657-0400.xml to log the message. (MV)
+2014-05-12/11:36:58.261/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113658-0400.xml to log the message. (MV)
+2014-05-12/11:36:58.323/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113658-0400.xml to log the message. (MV)
+2014-05-12/11:36:58.327/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:58.329/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113658-0400.xml to log the message. (MV)
+2014-05-12/11:36:58.865/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113658-0400.xml to log the message. (MV)
+2014-05-12/11:36:58.909/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113658-0400.xml to log the message. (MV)
+2014-05-12/11:36:58.912/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:58.913/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113658-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.223/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.252/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.254/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:59.255/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.394/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.416/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.419/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:59.420/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.560/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.578/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.580/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:59.581/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.688/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.709/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.709/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:36:59.724/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:59.725/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.804/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.835/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.836/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:36:59.843/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:59.844/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.941/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.968/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:36:59.969/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:36:59.976/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:36:59.977/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113659-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.037/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.073/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.073/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:37:00.085/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:37:00.086/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.285/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.316/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.316/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:37:00.334/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:37:00.336/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.530/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.576/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.577/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:37:00.595/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:37:00.597/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.850/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.888/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:00.888/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/11:37:00.896/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/11:37:00.897/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512113700-0400.xml to log the message. (MV)
+2014-05-12/11:37:01.119/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512113701-0400.xml to log the message. (MV)
+2014-05-12/12:05:54.782/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120554-0400.xml to log the message. (MV)
+2014-05-12/12:05:54.787/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:05:54.961/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:05:54.969/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120554-0400.xml to log the message. (MV)
+2014-05-12/12:05:57.344/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120557-0400.xml to log the message. (MV)
+2014-05-12/12:05:57.429/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120557-0400.xml to log the message. (MV)
+2014-05-12/12:05:57.435/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:05:57.453/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:05:57.470/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120557-0400.xml to log the message. (MV)
+2014-05-12/12:05:59.092/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120559-0400.xml to log the message. (MV)
+2014-05-12/12:05:59.753/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120559-0400.xml to log the message. (MV)
+2014-05-12/12:05:59.755/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:05:59.771/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120559-0400.xml to log the message. (MV)
+2014-05-12/12:06:00.387/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120600-0400.xml to log the message. (MV)
+2014-05-12/12:06:00.444/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120600-0400.xml to log the message. (MV)
+2014-05-12/12:06:00.447/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:00.449/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120600-0400.xml to log the message. (MV)
+2014-05-12/12:06:00.861/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120600-0400.xml to log the message. (MV)
+2014-05-12/12:06:00.896/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120600-0400.xml to log the message. (MV)
+2014-05-12/12:06:00.898/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:00.900/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120600-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.194/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.219/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.221/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.222/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.353/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.370/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.372/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.373/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.498/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.517/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.519/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.520/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.625/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.643/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.643/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:01.655/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.655/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.732/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.759/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.759/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:01.767/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.768/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.835/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.859/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.859/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:01.868/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.868/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.933/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.974/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:01.974/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:01.986/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:01.988/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120601-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.168/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.200/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.200/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:02.219/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:02.221/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.405/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.455/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.455/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:02.476/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:02.477/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.649/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.686/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.686/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/12:06:02.694/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/12:06:02.695/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512120602-0400.xml to log the message. (MV)
+2014-05-12/12:06:02.880/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512120602-0400.xml to log the message. (MV)
+2014-05-12/13:03:01.326/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130301-0400.xml to log the message. (MV)
+2014-05-12/13:03:01.331/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:01.543/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:01.552/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130301-0400.xml to log the message. (MV)
+2014-05-12/13:03:04.312/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130304-0400.xml to log the message. (MV)
+2014-05-12/13:03:04.384/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130304-0400.xml to log the message. (MV)
+2014-05-12/13:03:04.386/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:04.399/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:04.410/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130304-0400.xml to log the message. (MV)
+2014-05-12/13:03:06.048/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130306-0400.xml to log the message. (MV)
+2014-05-12/13:03:06.133/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130306-0400.xml to log the message. (MV)
+2014-05-12/13:03:06.133/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:06.142/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:06.176/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130306-0400.xml to log the message. (MV)
+2014-05-12/13:03:07.933/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130307-0400.xml to log the message. (MV)
+2014-05-12/13:03:08.410/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130308-0400.xml to log the message. (MV)
+2014-05-12/13:03:08.412/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:08.414/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130308-0400.xml to log the message. (MV)
+2014-05-12/13:03:08.769/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130308-0400.xml to log the message. (MV)
+2014-05-12/13:03:08.799/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130308-0400.xml to log the message. (MV)
+2014-05-12/13:03:08.801/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:08.802/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130308-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.020/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.060/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.061/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:09.063/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.285/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.309/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.311/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:09.315/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.430/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.449/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.451/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:09.457/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.600/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.620/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.621/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:09.625/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.738/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.755/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.755/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:09.769/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:09.770/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.863/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.890/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.890/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:09.896/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:09.897/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:09.973/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130309-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.004/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.005/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:10.010/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:10.011/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.103/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.143/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.143/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:10.152/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:10.154/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.333/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.365/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.365/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:10.380/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:10.381/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.588/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.636/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.636/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:10.652/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:10.653/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.877/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.915/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:10.916/EDTINFOMessageValidationInterface - User sets a message validation context
+2014-05-12/13:03:10.924/EDTINFOMessageValidationInterface - User runs a Validation
+2014-05-12/13:03:10.926/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140512130310-0400.xml to log the message. (MV)
+2014-05-12/13:03:11.164/EDTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140512130311-0400.xml to log the message. (MV)

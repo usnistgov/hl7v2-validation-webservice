@@ -1,0 +1,27 @@
+<?xml version="1.0" ?> 
+<xmlConfig  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+   <HL7V2Config>
+    <xmlMessage>true</xmlMessage>
+    <er7Message>true</er7Message>
+      <HL7Resource>
+	        <Type>HL7table</Type>
+                <Oid>2.16.840.1.113883.3.72.4.2.99001</Oid>
+                <Order>0</Order>
+      </HL7Resource>
+      <HL7Resource>
+	 	<Type>HL7table</Type>
+		<Oid>2.16.840.1.113883.3.72.4.2.99002</Oid> 
+		<Order>1</Order> 
+      </HL7Resource>
+      <HL7Resource>
+	 	<Type>HL7table</Type>
+		<Oid>2.16.840.1.113883.3.72.4.2.99003</Oid> 
+		<Order>1</Order> 
+      </HL7Resource>
+      <HL7Resource>
+	 	<Type>HL7table</Type>
+		<Oid>2.16.840.1.113883.3.72.4.2.99004</Oid> 
+		<Order>1</Order> 
+      </HL7Resource>
+  </HL7V2Config>
+</xmlConfig>

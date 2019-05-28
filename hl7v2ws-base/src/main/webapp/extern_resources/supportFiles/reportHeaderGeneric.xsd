@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Validation Results Reporting for Gazelle
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="ReportHeader">
+		<xs:sequence>
+			<xs:element name="ValidationStatus" type="ValidationStatusType"/>
+			<xs:element name="ValidationStatusInfo" type="xs:string" minOccurs="0"/>
+			<xs:element name="ServiceName" type="xs:string"/>
+			<xs:element name="ServiceProvider" type="xs:string"/>
+			<xs:element name="ServiceVersion" type="xs:string" minOccurs="0"/>
+			<xs:element name="StandardType" type="StandardTypeType"/>
+			<xs:element name="StandardVersion" type="xs:string"/>
+			<xs:element name="ProfileName" type="xs:string" minOccurs="0"/>
+			<xs:element name="ProfileType" type="xs:string" minOccurs="0"/>
+			<xs:element name="ProfileVersion" type="xs:string" minOccurs="0"/>
+			<xs:element name="ValidationType" type="ValidationType"/>
+			<xs:element name="TestIdentifier" type="xs:string" minOccurs="0"/>
+			<xs:element name="ServiceTestIdentifier" type="xs:string" minOccurs="0"/>
+			<xs:element name="ResultsID" type="xs:string" minOccurs="0"/>
+			<xs:element name="ExtendedResultsID" type="xs:string" minOccurs="0"/>
+			<xs:element name="DateOfTest" type="xs:date"/>
+			<xs:element name="TimeOfTest" type="xs:time"/>
+			<xs:element name="ValidationObjectReference" type="xs:string"/>
+			<xs:element name="TestObjectReference" type="xs:string" minOccurs="0"/>
+			<xs:element name="ResultOfTest" type="ResultOfTestType"/>
+			<xs:element name="ErrorCount" type="xs:int"/>
+			<xs:element name="WarningCount" type="xs:int"/>
+			<xs:element name="ConditionCount" type="xs:int" minOccurs="0"/>
+			<xs:element name="NoteCount" type="xs:int" minOccurs="0"/>
+			<xs:element name="UserCount" type="xs:int" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="ValidationStatusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Complete"/>
+			<xs:enumeration value="Incomplete"/>
+			<xs:enumeration value="Results ID not found"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StandardTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="HL7 V2"/>
+			<xs:enumeration value="CDA"/>
+			<xs:enumeration value="DICOM"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ValidationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Automated"/>
+			<xs:enumeration value="Human Inspection"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ResultOfTestType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Passed"/>
+			<xs:enumeration value="Failed"/>
+			<xs:enumeration value="Inconclusive"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

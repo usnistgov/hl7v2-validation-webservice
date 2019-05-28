@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLibrary Name="NIST Example Local" OrganizationName="NIST" TableLibraryVersion="1.0" HL7Version="2.5" TableLibraryIdentifier="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Tables.xsd" DateCreated="2008-08-12" Description="Simple table library example" Status="Draft">
+	<TableDefinition Id="0300" Name="namespace ID" Codesys="" Type="Local">
+		<TableElement Code="EHR_IBM" DisplayName="EHR_IBM" Source="User"/>
+		<TableElement Code="IBM" DisplayName="IBM" Source="User"/>
+		<TableElement Code="ASHVINS" DisplayName="ASHVINS" Source="User"/>
+		<TableElement Code="ASHVINS_AMPI" DisplayName="ASHVINS_AMPI" Source="User"/>
+	</TableDefinition>
+	<TableDefinition Id="0361" Name="Application" Codesys="" Type="Local">
+		<TableElement Code="EHR_IBM" DisplayName="EHR_IBM" Source="User"/>
+		<TableElement Code="IBM" DisplayName="IBM" Source="User"/>
+		<TableElement Code="ASHVINS" DisplayName="ASHVINS" Source="User"/>
+		<TableElement Code="ASHVINS_AMPI" DisplayName="ASHVINS_AMPI" Source="User"/>
+	</TableDefinition>
+	<TableDefinition Id="0362" Name="Facility" Codesys="" Type="Local">
+		<TableElement Code="EHR_IBM" DisplayName="EHR_IBM" Source="User"/>
+		<TableElement Code="IBM" DisplayName="IBM" Source="User"/>
+		<TableElement Code="ASHVINS" DisplayName="ASHVINS" Source="User"/>
+		<TableElement Code="ASHVINS_AMPI" DisplayName="ASHVINS_AMPI" Source="User"/>
+	</TableDefinition>
+</TableLibrary>

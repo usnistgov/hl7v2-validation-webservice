@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 2012-09-28 13:26:26 updated by JY, V3.0.2 -->
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of tables that are specified in the PHINVADs" Name="RestrictedTables_ELRVocab" OrganizationName="HL7 NIST" Status="Active" TableLibraryIdentifier="" TableLibraryVersion="1.0">
+  <TableDefinition AlternateId="PHVS_LabTestOrderables_CDC" Codesys="PHVS_LabTestOrderables_CDC" Id="Laboratory Order Value Set" Name="Ordered Test" Oid="2.16.840.1.114222.4.11.1004" Type="External" Version="4">
+    <TableElement Code="5671-3" DisplayName="Lead [Mass/volume] in Blood" Codesys="LN" Source="Local"/>
+    <TableElement Code="11011-4" DisplayName="Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="11475-1" DisplayName="Microorganism identified in Unspecified specimen by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="1742-6" DisplayName="Alanine aminotransferase [Enzymatic actiity/Volume] in Serum or Plasma" Codesys="LN" Source="Local"/>
+    <TableElement Code="20508-8" DisplayName="Reagin Ab [Units/volume] in Serum by RPR" Codesys="LN" Source="Local"/>
+    <TableElement Code="23826-1" DisplayName="Bordetella pertussis DNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="29568-3" DisplayName="West Nile Virus Ab[Titer] in Serum by Neutralization test" Codesys="LN" Source="Local"/>
+    <TableElement Code="29579-0" DisplayName="Mycobacterial susceptibility panel in Isolate" Codesys="LN" Source="Local"/>
+    <TableElement Code="31147-2" DisplayName="Reagin Ab [Titer] in Serum by RPR" Codesys="LN" Source="Local"/>
+    <TableElement Code="32515-9" DisplayName="CD3+CD4+9(T4helper)cells[#/volume] in Blood" Codesys="LN" Source="Local"/>
+    <TableElement Code="40699-1" DisplayName="Mycobacterium sp identified in Unspecified specimen" Codesys="LN" Source="Local"/>
+    <TableElement Code="40982-1" DisplayName="Influenza virus B RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="42191-7" DisplayName="Hepatitis A and B and C panel in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="46197-0" DisplayName="Measles virus Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="48174-7" DisplayName="Mycobacterium tuberculosis complex rRNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="49589-5" DisplayName="Bacterial susceptibility panel in Isolate by Gradient strip (E-test)" Codesys="LN" Source="Local"/>
+    <TableElement Code="50545-3" DisplayName="Bacterial Susceptibility Panel in Isolate by Minimum Inhibitory Concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="51657-5" DisplayName="Hepatitis C Virus Ab[Presence] in Body Fluid" Codesys="LN" Source="Local"/>
+    <TableElement Code="543-9" DisplayName="Mycobacterium sp identified in Unspecified specimen by Organism specific culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="5609-3" DisplayName="Cadmium [Mass/volume] in Blood" Codesys="LN" Source="Local"/>
+    <TableElement Code="60566-7" DisplayName="Respiratory virus DNA and RNA 12 panel in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="625-4" DisplayName="Bacteria identified in Stool by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="64017-7" DisplayName="Chlamydia trachomatis and Neisseria gonorrhoeae rRNA panel in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="6463-4" DisplayName="Bacteria identified in Unspecified specimen by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="6584-7" DisplayName="Virus identified in Unspecified specimen by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="6811-4" DisplayName="Dengue virus IgG Ab [Titer] in Serum" Codesys="LN" Source="Local"/>
+  </TableDefinition>
+
+  <TableDefinition AlternateId="PHVS_BodySite_HITSP" Codesys="PHVS_BodySite_HITSP" Id="Body Site Value Set" Name="Body Site Value Set" Oid="2.16.840.1.113883.3.88.12.3221.8.9" Type="External" Version="3">
+    <TableElement Code="7569003" DisplayName="Finger structure (body structure)" Codesys="SCT" Source="Local"/>
+    <TableElement Code="244001006" DisplayName="Antecubital fossa" Codesys="SCT" Source="Local"/>
+  </TableDefinition>
+  
+  <TableDefinition AlternateId="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Codesys="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Id="Reason For Study Value Set" Name="Diagnosis (ICD-9 CM)" Oid="2.16.840.1.114222.4.11.856" Type="External" Version="4">
+    <TableElement Code="V1586" DisplayName="HX-contact/exposure lead" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="5733" DisplayName="Hepatitis NOS" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="042" DisplayName="Human immunodeficiency virus [HIV] disease [42]" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="V2382" DisplayName="Supervision of high-risk pregnancy with elderly multigravida [V23.82" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="V220" DisplayName="Supervision of normal first pregnancy [V22.0]" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="V221" DisplayName="Supervision of other normal pregnancy [V22.1]" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="0090" DisplayName="Infectious enteritis NOS" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="9131" DisplayName="Abrasion forearm-infect" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="0092" DisplayName="Infectious diarrhea NOS" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="1181" DisplayName="Pulmonary TB NEC-no exam" Codesys="I9CDX" Source="Local"/>
+    <TableElement Code="481" DisplayName="Pneumococcal pneumonia" Codesys="I9CDX" Source="Local"/>
+  </TableDefinition>
+ 
+  <TableDefinition AlternateId="PHVS_Animal_CDC" Codesys="PHVS_Animal_CDC" Id="PHVS_Animal_CDC" Name="Animal" Oid="2.16.840.1.114222.4.11.1074" Type="External" Version="5">
+    <TableElement Code="337915000" DisplayName="Homo sapiens (organism)" Codesys="SCT" Source="Local"/>
+  </TableDefinition>
+
+  <TableDefinition AlternateId="PHVS_ModifierOrQualifier_CDC" Codesys="PHVS_ModifierOrQualifier_CDC" Id="PHVS_ModifierOrQualifier_CDC" Name="Modifier or Qualifier" Oid="2.16.840.1.114222.4.11.1014" Type="External" Version="5">
+    <TableElement Code="73775008" DisplayName="Morning (qualifier value)" Codesys="SCT" Source="Local"/>
+    <TableElement Code="263925004" DisplayName="Venous (qualifier value)" Codesys="SCT" Source="Local"/>
+    <TableElement Code="7771000" DisplayName="Left (qualifier value)" Codesys="SCT" Source="Local"/>
+  </TableDefinition>
+  
+  
+  
+  <TableDefinition AlternateId="PHVS_LabTest_ReportableConditions" Codesys="PHVS_LabTestName_ReportableConditions" Id="Laboratory Observation Identifier Value Set" Name="Lab Test Name (Reportable Conditions)" Oid="2.16.840.1.114222.4.11.6053" Type="External" Version="4">
+    <TableElement Code="625-4" DisplayName="Bacteria identified in Stool by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="11475-1" DisplayName="Microorganism identified in Unspecified specimen by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="6463-4" DisplayName="Bacteria identified in Unspecified specimen by Culture" Codesys="LN" Source="Local"/>
+    <TableElement Code="16128-1" DisplayName="Hepatitis C virus Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="22592-0" DisplayName="Treponema pallidum IgG Ab [Units/volume] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="48159-8" DisplayName="HCV Ab s/co SerPl EIA" Codesys="LN" Source="Local"/>
+    <TableElement Code="5671-3" DisplayName="Lead [Mass/volume] in Blood" Codesys="LN" Source="Local"/>
+    <TableElement Code="1742-6" DisplayName="Alanine aminotransferase [Enzymatic activity/Volume] in Serum or Plasma" Codesys="LN" Source="Local"/>
+    <TableElement Code="24467-3" DisplayName="CD3+CD4+ (T4 helper) cells [#/volume] in Blood" Codesys="LN" Source="Local"/>
+    <TableElement Code="35659-2" DisplayName="Age at Specimen Collection" Codesys="LN" Source="Local"/>
+    <TableElement Code="5609-3" DisplayName="Cadmium [Mass/volume] in Blood" Codesys="LN" Source="Local"/>
+    <TableElement Code="564-5" DisplayName="Colony count [#] in Unspecified specimen by Visual count" Codesys="LN" Source="Local"/>
+    <TableElement Code="20-8" DisplayName="Amoxicillin+Clavulanate [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="516-5" DisplayName="Trimethoprim+Sulfamethoxazole [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="185-9" DisplayName="Ciprofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="48177-0" DisplayName="Streptomycin 1 ug/mL [Susceptibility] by Method for Slow-growing mycobacteria" Codesys="LN" Source="Local"/>
+    <TableElement Code="25217-1" DisplayName="Isoniazid 0.1 ug/mL [Susceptibility] by Method for Slow-growing mycobacteria" Codesys="LN" Source="Local"/>
+    <TableElement Code="25202-3" DisplayName="Rifampin 1 ug/mL [Susceptibility] by Method for Slow-growing mycobacteria" Codesys="LN" Source="Local"/>
+    <TableElement Code="25194-2" DisplayName="Ethambutol 5 ug/mL [Susceptibility] by Method for Slow-growing mycobacteria" Codesys="LN" Source="Local"/>
+    <TableElement Code="20-8" DisplayName="Amoxicillin + Clavulanate [Susceptibility] by Minimum Inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="141-2" DisplayName="Ceftriaxone [Susceptibility] by Minimum Inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="193-3" DisplayName="Clindamycin [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="108-1" DisplayName="Cefotaxime [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="145-3" DisplayName="Cefuroxime Parenteral [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="233-7" DisplayName="Erythromycin  [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="6644-9" DisplayName="Cefepime [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="20396-8" DisplayName="Levofloxacin [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="6652-2" DisplayName="Meropenem [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="6932-8" DisplayName="Penicillin [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="524-9" DisplayName="Vancomycin [Susceptibility] by Minimum inhibitory concentration (MIC)" Codesys="LN" Source="Local"/>
+    <TableElement Code="22314-9" DisplayName="Hepatitis A virus IgM Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="20575-7" DisplayName="Hepatitis A virus Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="16933-4" DisplayName="Hepatitis B virus core Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="22320-6" DisplayName="Hepatitis B virus e Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="5195-3" DisplayName="Hepatitis B virus surface Ag [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="22322-2" DisplayName="Hepatitis B virus surface Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="13955-0" DisplayName="Hepatitis C virus Ab [Presence] in Serum by Immunoassay" Codesys="LN" Source="Local"/>
+    <TableElement Code="48159-8" DisplayName="Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay" Codesys="LN" Source="Local"/>
+    <TableElement Code="11011-4" DisplayName="Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="20508-8" DisplayName="Reagin Ab [Units/volume] in Serum by RPR" Codesys="LN" Source="Local"/>
+    <TableElement Code="11011-4" DisplayName="Hepatitis C virus RNA [Units/​volume] (viral load) in Serum or Plasma by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="11011-4" DisplayName="11011-4 Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="6812-2" DisplayName="Dengue virus IgM Ab [Titer] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="31147-2" DisplayName="Reagin Ab [Titer] in Serum by RPR" Codesys="LN" Source="Local"/>
+    <TableElement Code="33331-0" DisplayName="West Nile virus IgM Ab [Titer] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="23826-1" DisplayName="Bordetella pertussis DNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="40982-1" DisplayName="Influenza virus B RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="48174-7" DisplayName="Mycobacterium tuberculosis complex rRNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="43305-2" DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="43304-5" DisplayName="Chlamydia trachomatis rRNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="39528-5" DisplayName="Adenovirus DNA [Presence] in Unspecified specimen by Probe and target" Codesys="LN" Source="Local"/>
+    <TableElement Code="34487-9" DisplayName="Influenza virus A RNA [Presence] in Unspecified specimen by Probe and target" Codesys="LN" Source="Local"/>
+    <TableElement Code="49521-8" DisplayName="Influenza virus A H1 RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="49524-2" DisplayName="Influenza virus A H3 RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="29908-1" DisplayName="Parainfluenza virus 1 RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="29909-9" DisplayName="Parainfluenza virus 2 RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="29910-7" DisplayName="Parainfluenza virus 3 RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="30075-6" DisplayName="Respiratory syncytial virus A RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="30076-4" DisplayName="Respiratory syncytial virus B RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="7993-9" DisplayName="Rhinovirus RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="38917-1" DisplayName="Human metapneumovirus RNA [Presence] in Unspecified specimen by Probe and target amplification method" Codesys="LN" Source="Local"/>
+    <TableElement Code="20479-2" DisplayName="Measles virus IgG Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="21503-8" DisplayName="Measles virus IgM Ab [Presence] in Serum" Codesys="LN" Source="Local"/>
+    <TableElement Code="543-9" DisplayName="Mycobacterium sp identified in Unspecified specimen by Organism specific culture" Codesys="LN" Source="Local"/>
+    
+  </TableDefinition>
+  
+  <TableDefinition AlternateId="PHVS_LabTestResult_ReportableConditions" Codesys="PHVS_LabTestResult_ReportableConditions" Id="Laboratory Coded Observation Value Set" Name="Lab Test Result (Reportable Conditions)" Oid="2.16.840.1.114222.4.11.6054" Type="External" Version="1">
+        <TableElement Code="10828004" DisplayName="Positive (qualifier value)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="11214006" DisplayName="reactive" Codesys="SCT" Source="Local"/>
+        <TableElement Code="11214006" DisplayName="Reactive (qualifier value)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="112283007" DisplayName="Escherichia coli (organism)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="113858008" DisplayName="Mycobacterium tuberculosis complex (organism)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="17872004" DisplayName="Neisseria meningitidis" Codesys="SCT" Source="Local"/>
+        <TableElement Code="260373001" DisplayName="Detected" Codesys="SCT" Source="Local"/>
+        <TableElement Code="260373001" DisplayName="Detected (qualifier value)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="260385009" DisplayName="Negative (qualifier value)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="260415000" DisplayName="Not detected (qualifier value)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="3092008" DisplayName="Staphylococcus aureus (organism)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="372342007" DisplayName="Salmonella species (organism)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="44470000" DisplayName="Haemophilus influenzae (organism)" Codesys="SCT" Source="Local"/>
+        <TableElement Code="5851001" DisplayName="Corynebacterium diphtheriae" Codesys="SCT" Source="Local"/>
+        <TableElement Code="66543000" DisplayName="Campylobacter jejuni" Codesys="SCT" Source="Local"/>
+        <TableElement Code="83723009" DisplayName="Mycobacterium avium" Codesys="SCT" Source="Local"/>
+        <TableElement Code="85729005" DisplayName="Shigella flexneri" Codesys="SCT" Source="Local"/>
+        <TableElement Code="9861002" DisplayName="Streptococcus pneumoniae (organism)" Codesys="SCT" Source="Local"/>       
+    </TableDefinition>
+</TableLibrary>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?> 
+<xmlConfig  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+   <HL7V2Config>
+    <xmlMessage>true</xmlMessage>
+    <er7Message>false</er7Message>
+   	<!-- <HL7Resource>
+	     <Type>HL7table</Type>
+		 <Oid>2.16.840.1.113883.3.72.4.2.90001</Oid> 
+		 <Order>1</Order> 
+    </HL7Resource>
+    <HL7Resource>
+		<Type>HL7table</Type>
+		<Oid>2.16.840.1.113883.3.72.4.2.90002</Oid> 
+		<Order>3</Order> 
+    </HL7Resource> --> 
+    <HL7Resource>
+	<!-- Example : NIST HL7 Default Table V2.4 OID Assignment -->
+	 	<Type>HL7table</Type>
+		<Oid>2.16.840.1.113883.3.72.4.1.90005</Oid> 
+		<Order>2</Order> 
+	</HL7Resource>
+  </HL7V2Config>
+</xmlConfig>

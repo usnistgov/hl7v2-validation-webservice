@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="hl7v2ReportHeader.xsd"/>
+	<xs:include schemaLocation="Hl7v2ValidationReport.xsd"/>
+	<xs:element name="ValidationReport" type="Hl7V2ValidationReport"/>
+	<xs:complexType name="Hl7V2ValidationReport">
+		<xs:sequence>
+			<xs:element name="ReportHeader" type="ReportHeader"/>
+			<xs:element name="ReportDetails" type="ReportDetailsType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReportDetailsType">
+		<xs:sequence>
+			<xs:element name="Organization" type="xs:string" minOccurs="0"/>
+			<xs:element name="MessageFilename" type="xs:string" minOccurs="0"/>
+			<xs:element name="MessageID" type="xs:string" minOccurs="0"/>
+			<xs:element name="MessageEncoding" type="MessageType"/>
+			<xs:element name="MessageTransformed" type="xs:boolean" fixed="false"/>
+			<xs:element name="xmlMessage" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="er7Message" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="Hl7v2ValidationReport" type="Hl7v2ValidationReportType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

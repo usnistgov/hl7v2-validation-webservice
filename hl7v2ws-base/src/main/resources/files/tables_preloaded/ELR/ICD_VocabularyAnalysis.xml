@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of tables that are specified in the PHINVADs" TableLibraryIdentifier="" Status="Active" TableLibraryVersion="1.0" OrganizationName="HL7 NIST" Name="RestrictedTables_ELRVocab">
+    <TableDefinition AlternateId="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Oid="2.16.840.1.114222.4.11.856" Codesys="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Version="4" Type="External" Name="Diagnosis (ICD-9 CM)" Id="Reason For Study Value Set">
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="HX-contact/exposure lead" Code="V1586"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Hepatitis NOS" Code="5733"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Human immunodeficiency virus [HIV] disease [42]" Code="042"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Supervision of high-risk pregnancy with elderly multigravida [V23.82" Code="V2382"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Supervision of normal first pregnancy [V22.0]" Code="V220"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Supervision of other normal pregnancy [V22.1]" Code="V221"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Infectious enteritis NOS" Code="0090"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Abrasion forearm-infect" Code="9131"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Infectious diarrhea NOS" Code="0092"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Pulmonary TB NEC-no exam" Code="1181"/>
+        <TableElement Codesys="I9CDX" Source="Local" DisplayName="Pneumococcal pneumonia" Code="481"/>
+    </TableDefinition>
+</TableLibrary>

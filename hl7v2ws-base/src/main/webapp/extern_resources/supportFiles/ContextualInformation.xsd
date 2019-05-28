@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp2 (http://www.altova.com) by Sydney Henrard (NIST) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="HL7V2SimpleMessageGenerationContextDefinition">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Encoding" type="EncodingType"/>
+				<xs:element ref="MessageInstanceSpecificValues" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HL7V2ValidationContextDefinition">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="FailureInterpretation"/>
+				<xs:element ref="MessageInstanceSpecificValues" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="required"/>
+			<xs:attribute name="OrganizationName" type="xs:string"/>
+			<xs:attribute name="Version" type="xs:string"/>
+			<xs:attribute name="ValidationContextIdentifier" type="xs:string"/>
+			<xs:attribute name="Description" type="xs:string"/>
+			<xs:attribute name="DateCreated" type="xs:date"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="FailureInterpretation">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="Failure" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Failure">
+		<xs:complexType>
+			<xs:attribute name="Level" type="FailureLevelType" use="required"/>
+			<xs:attribute name="Type" type="MessageFailureType" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MessageInstanceSpecificValues">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DataValueLocationItem" type="DataValueLocationItemType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DataValueLocationItemType">
+		<xs:sequence>
+			<xs:element ref="SegGroup" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="Segment"/>
+			<xs:element ref="Field"/>
+			<!-- The following choice insure that we will not find any SubComponent without Component -->
+			<xs:sequence minOccurs="0">
+				<xs:element ref="Component"/>
+				<xs:element ref="SubComponent" minOccurs="0"/>
+			</xs:sequence>
+			<!-- Value is unbounded in order to consider the cases where the possible values for a field are multiple -->
+			<xs:element ref="Value" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Component">
+		<xs:complexType>
+			<xs:attribute name="DataType" type="xs:string"/>
+			<xs:attribute name="InstanceNumber" type="xs:int"/>
+			<xs:attribute name="Name" type="xs:string" use="optional"/>
+			<xs:attribute name="Position" type="xs:int" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SubComponent">
+		<xs:complexType>
+			<xs:attribute name="DataType" type="xs:string"/>
+			<xs:attribute name="InstanceNumber" type="xs:int"/>
+			<xs:attribute name="Name" type="xs:string" use="optional"/>
+			<xs:attribute name="Position" type="xs:int" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Field">
+		<xs:complexType>
+			<xs:attribute name="DataType" type="xs:string"/>
+			<xs:attribute name="InstanceNumber" type="xs:int"/>
+			<xs:attribute name="Name" type="xs:string" use="optional"/>
+			<xs:attribute name="Position" type="xs:int" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Segment">
+		<xs:complexType>
+			<xs:attribute name="InstanceNumber" type="xs:int"/>
+			<xs:attribute name="Name" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SegGroup">
+		<xs:complexType>
+			<xs:attribute name="InstanceNumber" type="xs:int"/>
+			<xs:attribute name="Name" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Value" type="xs:string"/>
+	<xs:simpleType name="MessageFailureType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="VERSION"/>
+			<xs:enumeration value="MESSAGE_STRUCTURE_ID"/>
+			<xs:enumeration value="MESSAGE_STRUCTURE"/>
+			<xs:enumeration value="USAGE"/>
+			<xs:enumeration value="CARDINALITY"/>
+			<xs:enumeration value="LENGTH"/>
+			<xs:enumeration value="DATATYPE"/>
+			<xs:enumeration value="DATA"/>
+			<xs:enumeration value="MESSAGE_VALIDATION_CONTEXT"/>
+			<xs:enumeration value="TABLE_NOT_FOUND"/>
+			<xs:enumeration value="AMBIGUOUS_PROFILE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="FailureLevelType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ERROR"/>
+			<xs:enumeration value="WARNING"/>
+			<xs:enumeration value="IGNORE"/>
+			<xs:enumeration value="USER"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EncodingType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ER7"/>
+			<xs:enumeration value="XML"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+xmlns:p="http://www.springframework.org/schema/p"
+xmlns:simple="http://cxf.apache.org/simple"
+xmlns:soap="http://cxf.apache.org/bindings/soap"
+xmlns:jaxws="http://cxf.apache.org/jaxws"
+xmlns:cxf="http://cxf.apache.org/core"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+http://cxf.apache.org/simple http://cxf.apache.org/schemas/simple.xsd
+http://cxf.apache.org/bindings/soap
+http://cxf.apache.org/schemas/configuration/soap.xsd
+http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+ ">
+ 	<context:component-scan base-package="gov.nist.healthcare.hl7ws"/>
+ 	
+ 	<!-- import cxf configuration files  -->
+ 	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
+	<import resource="classpath:META-INF/cxf/cxf.xml"/>
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+	<import resource="classpath:META-INF/cxf/cxf-extension-jaxrs-binding.xml"/>
+	<!-- cxf logging -->
+	<cxf:bus>
+        <cxf:features>
+            <cxf:logging/>
+        </cxf:features>
+    </cxf:bus>
+    <!--  define the cxf server configuration -->
+    
+    <!-- define soap endpoint for the the message validation -->
+    <jaxws:endpoint implementor="#messageValidationV2" address="/soap/MessageValidationV2">
+		<jaxws:inInterceptors>
+     		<bean class="gov.nist.healthcare.hl7ws.StatInterceptor"/>
+ 		</jaxws:inInterceptors>
+ 		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.2"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+
+	
+	<!-- define soap endpoint for the the message generation --> 
+	<!-- <jaxws:endpoint implementor="#messageGenerationV2" address="/soap/MessageGenerationV2">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.2"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+ -->	
+ 	<!--  resources (.jsp) handling  -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" /> 
+	
+	<!-- internationalization -->
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="messages"/>
+    </bean>  
+    
+   <!-- Mapper for all rest (WebException) exceptions  --> 
+   <bean id="restExceptionMapper" class="gov.nist.healthcare.hl7ws.RestExceptionMapper" />
+    
+    
+	
+</beans>

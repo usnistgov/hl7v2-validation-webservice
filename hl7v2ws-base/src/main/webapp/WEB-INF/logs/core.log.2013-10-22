@@ -1,0 +1,14 @@
+2013-10-22/10:54:17.566/EDTFATALjava.lang.Exception: Can't find a profile with oid=null
+2013-10-22/10:54:21.197/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-10-22/10:54:21.370/EDTINFOMessageValidationInterface - User runs a Validation
+2013-10-22/10:54:21.378/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_131022105421-0400.xml to log the message. (MV)
+2013-10-22/10:54:21.454/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_131022105421-0400.xml to log the message. (MV)
+2013-10-22/10:54:21.495/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_profileOID_131022105421-0400.xml to log the message. (MV)
+2013-10-22/10:54:21.495/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-10-22/10:54:21.507/EDTINFOMessageValidationInterface - User runs a Validation
+2013-10-22/10:54:21.523/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_131022105421-0400.xml to log the message. (MV)
+2013-10-22/10:54:24.826/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_131022105424-0400.xml to log the message. (MV)
+2013-10-22/10:54:24.869/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_profileOID_131022105424-0400.xml to log the message. (MV)
+2013-10-22/10:54:24.873/EDTINFOMessageValidationInterface - User runs a Validation
+2013-10-22/10:54:24.883/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_131022105424-0400.xml to log the message. (MV)
+2013-10-22/10:54:26.346/EDTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_131022105426-0400.xml to log the message. (MV)

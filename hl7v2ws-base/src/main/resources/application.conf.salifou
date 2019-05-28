@@ -1,0 +1,15 @@
+report {
+
+  # Detection categories
+  category {
+    re-usage = "RE-Usage" # Add a new category
+  }
+  
+  ## Overwrite REUsage template, category and classification
+  re-usage {
+    template = "%s is missing."
+    category = ${report.category.re-usage}
+    classification = "Info" # ${report.classification.informational}
+  }
+  
+}

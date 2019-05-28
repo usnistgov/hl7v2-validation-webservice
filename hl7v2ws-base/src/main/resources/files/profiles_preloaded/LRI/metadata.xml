@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MetadataDocument DocumentVersion="1.0" xmlns="http://www.nist.gov/healthcare/data">
+	<MetaData Version="NIST_LRI_ACK_GU_Profile_V1.0_Nov6-2012.xml" FileName="LRI ACK Global Unique Profile" DateLastUploaded="2012-11-06 11:29:22"/>
+	<MetaData Version="NIST_LRI_ACK_NG_Profile_V1.0_Nov6-2012.xml" FileName="LRI ACK Non-Global Unique Profile" DateLastUploaded="2012-11-06 11:29:22"/>
+    <MetaData Version="NIST_LRI_ORU_R01_GU_RN_Profile_V1.0_Nov6-2012.xml" FileName="LRI ORU R01 Global Unique RN Profile" DateLastUploaded="2012-11-06 11:29:22"/>
+    <MetaData Version="NIST_LRI_ORU_R01_GU_RU_Profile_V1.0_Nov6-2012.xml" FileName="LRI ORU R01 Global Unique RU Profile" DateLastUploaded="2012-11-06 11:29:22"/>
+    <MetaData Version="NIST_LRI_ORU_R01_NG_RN_Profile_V1.0_Nov6-2012.xml" FileName="LRI ORU R01 Non-Global Unique RN Profile" DateLastUploaded="2012-11-06 11:29:22"/>
+    <MetaData Version="NIST_LRI_ORU_R01_NG_RU_Profile_V1.0_Nov6-2012.xml" FileName="LRI ORU R01 Non-Global Unique RU Profile" DateLastUploaded="2012-11-06 11:29:22"/>
+</MetadataDocument>
+
+
+

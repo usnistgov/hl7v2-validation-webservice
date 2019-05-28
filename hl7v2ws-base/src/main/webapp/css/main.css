@@ -1,0 +1,638 @@
+/* HIT Implementation Testing & Support
+ * Author: Daniel W Filler
+ * Date: March 19th, 2007     
+ * Modification: Clement Ridoret   
+*/
+
+ 
+/* Reset  */
+html, body, p, a, div, span, dl, dd, dt, form, pre, blockquote { 
+	margin: 0; padding: 0; text-align: justify;
+}
+
+h1           { font-family: Arial; font-size: 16pt; font-weight: bold }
+h2           { font-family: Arial; font-size: 13pt; font-weight: bold; color: #5D0D7D }
+h3           { font-family: Arial; font-size: 12pt; font-weight:bold }
+
+/* The Basics */
+body {
+	font: 76%/1.4em Arial, Geneva, Verdana, Helvetica, sans-serif;
+	background: #021a4c url(../images/bg_body4.jpg) no-repeat 50% -20pt;
+	color: #000;
+}
+
+a img { border: none; }
+
+/* The Framework */
+#errorDisplay {
+	padding: 10px 10px 10px 10px;
+	position: absolute;
+	left: 150px;
+	top: 75px;
+	background: #00349A none repeat scroll 0%;
+	color: #FFF;
+	z-index:1000;
+	display: none;
+}
+
+#command{
+	display: inline;
+}
+
+#wrapper {
+	position: relative;
+	width: 850px;
+	margin: 0 auto;
+	/*padding-top: 27px;*/
+}
+
+.content {
+	float: left;
+	width: 670px;
+	margin: 0 40px 20px 0;
+	min-height: 400px;
+}
+
+.logo {
+	padding-top: 22px;
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.logolink {
+	display:block;
+	width: 120px;	
+	color: #FFF;
+	text-decoration:none;
+}
+
+.logo #hl7top {
+	padding:5px 0 5px 5px;
+}
+
+.logo #hl7bot {
+	padding:0 0 5px 5px;
+}
+
+.logo #hl7 {
+	font-size: 32px;
+	color: #F3C60D;
+}
+
+.logo #hl7_spec {
+	font-size: 22px;
+	font-style: italic;
+}
+
+#container {
+	background: #fff;
+	padding: 20px 20px 15px 20px;
+	margin-bottom: 30px;
+}
+
+#treeContainer {
+	overflow: auto; 
+}
+
+#treeDetail {
+	margin: 5px;
+}
+
+.jslink {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.imgSave {
+	vertical-align: top;
+}
+
+.hlError {
+	background-color: red;	
+}
+
+.titleFiles {
+	background: url("../images/bullet_go.gif") no-repeat left top;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.contentFiles {
+	padding-left: 20px;
+	margin-top: 5px;
+}
+
+.sidebar {
+	float: left;
+	width: 245px;
+}
+
+.content_home {
+	float: left;
+	width: 96%;
+	padding: 0px 10px 10px 10px;
+	min-height: 200px;
+}
+
+.sidebar_home {
+	float: left;
+	width: 515px;
+}	
+
+/* Header Styles */
+
+/* Header Styles */
+
+.subNavBar {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#subNav {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#subNav li {
+	display: inline;
+}
+
+#subNav li a {
+	padding: 5px 7px;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 5px;
+	float: left;
+}
+
+#subNav li a:hover,
+#subNav li a.current {
+	background: #1a4eb4;
+}
+
+
+#search {
+	position: absolute;
+	top: 40px;
+	right: 7px;
+}
+
+#searchInput {
+	border: 1px solid #184eb2;
+	padding: 3px;
+}
+
+#searchInput:focus {
+	border: 1px solid #ffcc00;
+}
+
+.button {
+	background: #12359d url(../images/bg_button.jpg) repeat-x 0 0;
+	border: 1px solid #1a4eb4;
+	padding: .3em;
+	font-weight: bold;
+	font-size: .9em;
+	color: #fff;
+	vertical-align: top;
+}
+
+.button:hover {
+	border: 1px solid #ffcc00;
+}
+
+/* Main Nav Styles */
+#mainNav {
+	display: block;
+	background: #ffcc00;
+	padding-left: 4px;
+	margin:0;
+	padding:0;
+}
+
+#mainNav li {
+	display: inline;
+}
+
+#mainNav li a {
+	float: left;
+	padding: 5px 7px;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+#mainNav li a:hover,
+#mainNav li a.current {
+	background: #ffec9d;
+}
+
+/* Main Sub Nav Styles */
+
+#mainSubNav {
+	display: block;
+	background: #ffec9d;
+	padding-left: 4px;
+	font-size: .9em;
+	margin-left: 0;
+}
+
+#mainSubNav li {
+	display: inline;
+}
+
+#mainSubNav li a {
+	float: left;
+	padding: 4px 6px;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+#mainSubNav li a:hover,
+#mainSubNav li a.current {
+	text-decoration: underline;
+}
+
+/* Content Styles */
+
+#container a { 
+	color: #003399; 
+}
+
+#container a:hover { 
+	color: #000; 
+}
+
+p { 
+	margin: 1em 0; 
+}
+
+h2 {
+	font: 1.6em 'Trebuchet MS', Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	color: #003399;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+h3 {
+	font: 1.2em/1.8em 'Trebuchet MS', Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	color: #003399;
+	font-weight: bold;
+	margin: 1em 0 -.3em 0;
+	font-weight: normal;
+	/* position: relative; */
+}
+
+	text-decoration: none;
+}
+
+.headerIS {
+	background: url(../images/icon_is_24.gif) no-repeat 0 1px;
+	padding-left: 29px;
+}
+
+.headerStandards {
+	background: url(../images/icon_standards_24.gif) no-repeat 0 1px;
+	padding-left: 29px;
+}
+
+.headerTestTools {
+	background: url(../images/icon_testtools_24.gif) no-repeat 0 1px;
+	padding-left: 29px;
+}
+
+a.showHideLink {
+	background: url(../images/bg_showHideLink.jpg) no-repeat 0 50%;
+	padding-left: 13px;
+	font-size: .7em;
+	position: absolute;
+	right: 0;
+	text-transform: uppercase;
+}
+
+img#sectionIcon {
+	float: right;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+/* FAQ Specific Styles */
+#faq  #content p:first-letter {
+	font: 2em 'Trebuchet MS', Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	float: left;
+	font-style: italic;
+	padding: 0 10px 5px 0;
+	margin-top: 7px;
+	color: #003399;
+	font-weight: bold;
+}
+
+/* hCard Styles */
+.vcard .n {
+	font-weight: bold;
+}
+
+/* Sidebar Styles */
+
+#splash {
+	margin-bottom: 20px;
+}
+
+blockquote {
+	float: left;
+	margin: 0 20px 0 0;
+	width: 235px;
+}
+
+blockquote img {
+	margin: .5em 0;
+}
+
+blockquote p em {
+	font: 1.2em Georgia, 'Times New Roman', serif;
+	font-style: italic;
+	color: #003399;
+}
+
+cite {
+	display: block;
+	margin-top: 5px;
+	font-style: normal;
+}
+
+.module {
+	float: left;
+	padding: 10px;
+	width: 225px;
+	background: #d8e2f7;
+	border-top: 1px solid #003399;
+	margin-bottom: 10px;
+}
+
+.module h4 {
+	font: 1.1em 'Trebuchet MS', Tahoma, Arial, Helvetica, Verdana, sans-serif;
+	color: #003399;
+	font-weight: bold;
+	margin-bottom: .5em;
+}
+
+.module ol {
+	list-style: none;
+}
+
+.module ol li {
+	margin-bottom: .5em;
+}
+
+.module ol li a {
+	display: block;
+}
+
+.module ol li#archiveLink {
+	float: right;
+	margin: 0;
+}
+
+.module ul {
+	list-style: none;
+}
+
+.module p {
+	margin: 0 0 1em 0;
+}
+
+/* Link Styles */
+
+.wordLink {
+	background: url(../images/icon_word.gif) no-repeat 0 0;
+	padding-left: 18px;
+}
+
+.pdfLink {
+	background: url(../images/icon_pdf.gif) no-repeat 0 0;
+	padding-left: 18px;
+}
+
+.excelLink {
+	background: url(../images/icon_excel.gif) no-repeat 0 0;
+	padding-left: 18px;
+}
+
+.siteLink {
+	background: url(../images/icon_site.gif) no-repeat 0 0;
+	padding-left: 18px;
+}
+
+.externalLink {
+	background: url(../images/bg_external.gif) no-repeat right;
+	padding-right: 10px;
+}
+
+.testLink {
+	background: url(../images/icon_testtools_16.gif) no-repeat 0 0;
+	padding-left: 18px;
+}
+
+.isLink {
+	background: url(../images/icon_is_16.gif) no-repeat 0 0;
+	padding-left: 18px;
+}
+
+.addressLink {
+	background: url(../images/icon_address.gif) no-repeat 0 -1px;
+	padding-left: 18px;
+}
+
+/* Footer Styles */
+
+#footer {
+	border-top: 1px solid #8d9bb8;
+	clear: left;
+	padding-top: 10px;
+	text-align: right;
+	color: #a6a6a6;
+}
+
+#footer img {
+	float: left;
+	margin-right: 30px;
+}
+
+#footer p {
+	margin: 0;
+}
+
+/* Clearing Help */
+
+.clearfix:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}  
+
+.clearfix { 
+	display: inline-block;
+}
+
+.clearfix { 
+	display: block;
+}
+
+.validateColorValid {
+	background-color: #CCFFCC;
+}
+.validateColorInvalid {
+	background-color: #00FF00;
+}
+.validateColorEmpty {
+	background-color: #FF0000;
+}
+
+.errorMessage {
+	font-weight:bold;
+	font-family:Arial, Verdana, sans-serif;
+	color:#ff0000;
+	font-size:0.9em;
+}
+
+.dojoDialog {
+	background : #eee;
+	border : 1px solid #999;
+	-moz-border-radius : 5px;
+	padding : 4px;
+}
+	
+/* group multiple buttons in a row */
+.box {
+	display: block;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+}
+
+span.invalid, span.missing {
+	font-weight:bold;
+	font-family:Arial, Verdana, sans-serif;
+	color:#ff0000;
+	font-size:0.9em;
+}
+
+/* Result display */
+.ltgtXml {
+	color:#0000FF;
+}
+
+.textXml {
+	font-weight:bold;
+}
+
+.dashXml {
+	color:#FF0000;
+}
+
+.elementXml {
+	color:#AC0048;
+}
+
+.divXml {
+	/*float:left;*/
+	font-family: "Consolas", "Courier New", Courier, mono;
+	font-size: 12px;
+	/*background-color: #E7E5DC;*/
+	width: 99%;
+	overflow: auto;
+	margin: 2px 0px 2px 0px;
+	padding-top: 1px; /* adds a little border on top when controls are hidden */
+	height:500px;
+}
+
+.divXml ol {
+	list-style: decimal; /* for ie */
+	list-style: decimal-leading-zero; /* better look for others */
+	background-color: #fff;
+	margin: 0px 0px 1px 30px; /* 1px bottom margin seems to fix occasional Firefox scrolling */
+	padding: 0px;
+	color: #5C5C5C;
+}
+
+.divXml ol li {
+	border-left: 3px solid #021A4C;
+	background-color: #f8f8f8;
+	padding-left: 10px;
+	line-height: 14px;
+}
+
+.errorMsg {
+	vertical-align: top;
+	color: #FFF;
+	background-color: red; 
+	display: inline;
+	cursor: pointer;
+}
+
+/* XSL transformation */
+.row4 a, .row3 a {
+	color: #003399;
+	text-decoration: underline;
+}
+
+
+.row4 a:hover, .row3 a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.headerReport {
+	width: 250px;
+}
+
+.row1 { 
+	vertical-align: top;
+	background-color: #EFEFEF;
+	width: 100px;
+}
+
+.row2 { 
+	background-color: #DEE3E7;
+	width: 100px;
+}
+
+.row3 { 
+	background-color: #D1D7DC; 
+	vertical-align: top;
+}
+
+.row4 { 
+	background-color: #EFEFEF; 
+	vertical-align: top;
+}
+
+.row5 { 
+	background-color: #FFEC9D; 
+	vertical-align: top;
+}
+
+.forumline { 
+	background-color:#FFFFFF; 
+	border: 2px #006699 solid;
+	width: 700px;
+}
+
+.maintitle {
+	font-weight: bold; 
+	font-size: 22px;
+	font-family: Georgia, Verdana; 
+	text-decoration: none; 
+	line-height : 120%; 
+	color : #000000;
+}

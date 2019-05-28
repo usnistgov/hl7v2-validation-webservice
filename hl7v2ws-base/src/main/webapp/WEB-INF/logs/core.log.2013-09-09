@@ -1,0 +1,19 @@
+2013-09-09/12:17:36.965/EDTINFOMessageGeneration - The generation has started
+2013-09-09/12:17:50.318/EDTINFOMessageGeneration - The Generation is finished
+2013-09-09/12:17:50.461/EDTFATALjava.lang.Exception: Can't find a profile with oid=null
+2013-09-09/12:17:51.669/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_profileOID_130909121751-0400.xml to log the message. (MV)
+2013-09-09/12:17:51.682/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-09-09/12:17:52.187/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-09-09/12:17:52.210/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_profileOID_130909121752-0400.xml to log the message. (MV)
+2013-09-09/12:17:52.211/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-09-09/12:17:52.216/EDTINFOMessageValidationInterface - User runs a Validation
+2013-09-09/12:17:52.216/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_message_130909121752-0400.xml to log the message. (MV)
+2013-09-09/12:17:53.597/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_report_130909121753-0400.xml to log the message. (MV)
+2013-09-09/12:17:53.652/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_profileOID_130909121753-0400.xml to log the message. (MV)
+2013-09-09/12:17:55.522/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-09-09/12:17:55.545/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_profileOID_130909121755-0400.xml to log the message. (MV)
+2013-09-09/12:17:55.545/EDTINFOMessageValidationInterface - User sets a message validation context
+2013-09-09/12:17:55.550/EDTINFOMessageValidationInterface - User runs a Validation
+2013-09-09/12:17:55.550/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_message_130909121755-0400.xml to log the message. (MV)
+2013-09-09/12:17:56.206/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_report_130909121756-0400.xml to log the message. (MV)
+2013-09-09/12:17:56.272/EDTINFOCouldn't create the file /Users/indovina/Documents/workspace-sts/hl7ws-maven/hl7ws-base/null/logs/hl7ws/msgValid_profileOID_130909121756-0400.xml to log the message. (MV)

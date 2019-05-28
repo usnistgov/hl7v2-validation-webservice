@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited by Justin Manweiler (NIST), June 15, 2006
+       * added comment noting second deviation from standard HL7 schema 
+       * added table values for v2.4 validation -->
+<!-- edited with XML Spy Version 2006 by Robert Snelick, October 2005-->
+<!-- The UseCase element was made optional to provide a "loose" interpretation of the schema. For Message Maker, all we care about is the definition of the message it self, that is, the Elements (Segment, Segment groups, etc.).-->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Jennifer Puyenbroek (HL7 Control Query TC) -->
+<!--
+   - HL7 version 2.x Conformance profile schema
+   -
+   - Written by:  Lloyd McKenzie
+   - Last Updated: Sept. 19, 2002
+   -
+   - This schema contains embedded Schematron constraints.  These schematron constraints may be tested in many ways.
+   - One of the easiest is with a combined w3c Schema/Schematron validator such as the free one produced by Topologia:
+   - http://www.topologi.com/validator
+   -->
+<xs:schema xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="HL7v2xConformanceProfile">
+		<xs:annotation>
+			<xs:documentation>An unambiguous specification of one or more standard HL7 messages that have been analyzed for a particular use case.  It prescribes a set of precise constraints upon one or more standard HL7 messages.</xs:documentation>
+			<xs:appinfo>
+				<sch:pattern name="Check for no optionality in Implementation profiles">
+					<sch:rule context="HL7v2xConformanceProfile">
+						<sch:report test="@ProfileType='Implementation' and count(HL7v2xStaticDef/descendant::*[@Usage='O'])!=0">May not have elements with a Usage of 'O' in an Implementation profile.</sch:report>
+					</sch:rule>
+				</sch:pattern>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="MetaData" type="MetaDataType">
+					<xs:annotation>
+						<xs:documentation>Provides descriptive information about the life-cycle of the HL7v2xConformanceProfile, as well as authorship and control information.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ImpNote" type="ImpNoteType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Implementation Notes provide a general description about how the profile is intended to be used, as well as hints on using or interpreting the profile.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<!-- Made UseCase optional for loose Schema -->
+				<xs:element name="UseCase" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>A use case model documents the scope and requirements for an HL7 message profile or set of message profiles.</xs:documentation>
+						<xs:appinfo>
+							<sch:pattern name="Check for Description or EventFlows">
+								<sch:rule context="UseCase">
+									<sch:report test="count(Purpose)=0 and count(EventFlow)=0">Must have at least a Description or EventFlows in a use-case.</sch:report>
+								</sch:rule>
+							</sch:pattern>
+						</xs:appinfo>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Purpose" type="NonEmptyStringType" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Identifies the reason and/or objectives for the usecase</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Description" type="NonEmptyStringType" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Descriptive text for the use-case.  In cases where the use-case is not broken down into component elements, this will include the complete details of the usecase.  Otherwise, it will contain a basic overview.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:choice minOccurs="0" maxOccurs="unbounded">
+								<xs:element name="Actor" type="UseCaseElementType">
+									<xs:annotation>
+										<xs:documentation>Identifies and defines the entities involved in the use-case.  This includes the sending and receiving applications</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="PreCondition" type="UseCaseElementType">
+									<xs:annotation>
+										<xs:documentation>Identifies a circumstance that must hold true prior to the use-case being invoked.</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="PostCondition" type="UseCaseElementType">
+									<xs:annotation>
+										<xs:documentation>Identifies a circumstance that will hold true after the successful completion of the use-case.</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="EventFlow" type="UseCaseElementType">
+									<xs:annotation>
+										<xs:documentation>Identifies a step within the chain of occurrences that lead to the successful completion of the use-case.  This includes the exchange of messages between applications.</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+								<xs:element name="DerivedEvent" type="UseCaseElementType">
+									<xs:annotation>
+										<xs:documentation>
+											
+										</xs:documentation>
+									</xs:annotation>
+								</xs:element>
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:key name="ActorNamesUniqueInUseCase">
+						<xs:selector xpath="Actor"/>
+						<xs:field xpath="@Name"/>
+					</xs:key>
+					<xs:key name="PreConditionNamesUniqueInUseCase">
+						<xs:selector xpath="PreCondition"/>
+						<xs:field xpath="@Name"/>
+					</xs:key>
+					<xs:key name="PostConditionNamesUniqueInUseCase">
+						<xs:selector xpath="PostCondition"/>
+						<xs:field xpath="@Name"/>
+					</xs:key>
+					<xs:key name="EventFlowNamesUniqueInUseCase">
+						<xs:selector xpath="EventFlow"/>
+						<xs:field xpath="@Name"/>
+					</xs:key>
+					<xs:key name="DerivedEventNamesUniqueInUseCase">
+						<xs:selector xpath="DerivedEvent"/>
+						<xs:field xpath="@Name"/>
+					</xs:key>
+				</xs:element>
+				<xs:element name="Encodings">
+					<xs:annotation>
+						<xs:documentation>Identifies all of the message encoding mechanisms supported by the profile.  Non-traditional encoding mechanisms may be identified if desired.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Encoding" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Identifies one of the encoding mechanisms supported by the profile.</xs:documentation>
+								</xs:annotation>
+								<xs:simpleType>
+									<xs:union memberTypes="xs:NMTOKEN">
+										<xs:simpleType>
+											<xs:restriction base="xs:NMTOKEN">
+												<xs:enumeration value="ER7"/>
+												<xs:enumeration value="XML"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:union>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:key name="EncodingUniqueInEncodings">
+						<xs:selector xpath="Encoding"/>
+						<xs:field xpath="."/>
+					</xs:key>
+				</xs:element>
+				<xs:sequence maxOccurs="unbounded">
+					<xs:element name="DynamicDef">
+						<xs:annotation>
+							<xs:documentation>The dynamic definition is an interaction specification for a conversation between 2 or more systems.</xs:documentation>
+							<xs:appinfo>
+								<sch:pattern name="Check QueryMode and QueryMessageType correspondence">
+									<sch:rule context="DynamicDef">
+										<sch:report test="@QueryMessageType='NonQuery' and @QueryMode">May only have a QueryMode when QueryMessageType is not 'NonQuery'.</sch:report>
+										<sch:report test="@QueryMessageType!='NonQuery' and not(@QueryMode)">Must have a QueryMode when QueryMessageType is not 'NonQuery'.</sch:report>
+									</sch:rule>
+								</sch:pattern>
+							</xs:appinfo>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:attribute name="AccAck" type="AcknowledgmentType" default="NE">
+								<xs:annotation>
+									<xs:documentation>Identifies when and if HL7 'Accept' acknowledgments are required.  Allowed values are: AL (always), NE (never), SU (on success), ER (on error).  Default is 'NE'.</xs:documentation>
+								</xs:annotation>
+							</xs:attribute>
+							<xs:attribute name="AppAck" type="AcknowledgmentType" default="AL">
+								<xs:annotation>
+									<xs:documentation>Identifies when and if HL7 'Application' acknowledgments are required.  Allowed values are: AL (always), NE (never), SU (on success), ER (on error).  Default is 'AL'.</xs:documentation>
+								</xs:annotation>
+							</xs:attribute>
+							<xs:attribute name="MsgAckMode" default="Deferred">
+								<xs:annotation>
+									<xs:documentation>Identifies the type of acknowledgment expected by the sender of a message.  Allowed values are: Immediate and Deferred.  Default is Immediate.</xs:documentation>
+								</xs:annotation>
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="Immediate"/>
+										<xs:enumeration value="Deferred"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+							<xs:attribute name="QueryMessageType" default="NonQuery">
+								<xs:annotation>
+									<xs:documentation>Identifies whether the message is query-related, and if so, what type of query message it is.  Allowed values are: NonQuery, Query, Response and Publish.  Default is NonQuery.
+									</xs:documentation>
+								</xs:annotation>
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="NonQuery"/>
+										<xs:enumeration value="Query"/>
+										<xs:enumeration value="Response"/>
+										<xs:enumeration value="Publish"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+							<xs:attribute name="QueryMode" default="RealTime">
+								<xs:annotation>
+									<xs:documentation>Identifies the type of query being performed.  Allowed values are: Batch, RealTime or Both.</xs:documentation>
+								</xs:annotation>
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="Batch"/>
+										<xs:enumeration value="RealTime"/>
+										<xs:enumeration value="Both"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+						</xs:complexType>
+					</xs:element>
+					<xs:choice maxOccurs="unbounded">
+						<xs:element ref="HL7v2xStaticDef"/>
+						<xs:element name="HL7v2xStaticDefRef">
+							<xs:annotation>
+								<xs:documentation>Provides an identifier reference to the static definition for one of the messages used by the profile.</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:attribute name="Identifier" type="IdentifierType" use="required">
+									<xs:annotation>
+										<xs:documentation>The identifier for the static definition being referenced.</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
+							</xs:complexType>
+						</xs:element>
+					</xs:choice>
+				</xs:sequence>
+			</xs:sequence>
+			<xs:attribute name="HL7Version" use="required">
+				<xs:annotation>
+					<xs:documentation>Identifies the HL7 2.x version on which the profile is based and with which it is expected to comply.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+          <!-- edit for v2.4 validation START-->
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="2.4"/>
+          </xs:restriction>
+          <!--
+					<xs:union memberTypes="xs:NMTOKEN">
+						<xs:simpleType>
+							<xs:restriction base="xs:NMTOKEN">
+                <xs:enumeration value="2.0"/>
+                <xs:enumeration value="2.0D"/>
+                <xs:enumeration value="2.1"/>
+                <xs:enumeration value="2.2"/>
+                <xs:enumeration value="2.3"/>
+                <xs:enumeration value="2.3.1"/>
+                <xs:enumeration value="2.4"/>
+                <xs:enumeration value="2.5"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:union>
+          -->
+          <!-- edit for v2.4 validation END-->
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="ProfileType" use="required">
+				<xs:annotation>
+					<xs:documentation>Categorizes the profile into one of 3 types: HL7 - represents a specific HL7 published standard (may only be submitted by the HL7 Organization); Constrainable - May contain "Optional" elements which must be further constrained in order to create implementation profiles; Implementation - Fully constrained with no optionality (reflects the behavior of a runtime system)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="HL7"/>
+						<xs:enumeration value="Implementation"/>
+						<xs:enumeration value="Constrainable"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Identiifer" type="IdentifierType">
+				<xs:annotation>
+					<xs:documentation>A unique identifier for this specific version of this dynamic profile.  If not specified, one will be assigned to the profile upon submission to a registry.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="HL7v2xStaticDef">
+		<xs:annotation>
+			<xs:documentation>This represents a detailed profile of a single message.  It provides a detailed breakdown of exactly what the message may contain, including optionality and cardinality.</xs:documentation>
+			<xs:appinfo>
+				<sch:pattern name="Check that MsgStructID is present for the appropriate versions, not present otherwise">
+					<sch:rule context="HL7v2xStaticDef">
+						<sch:report test="not(@MsgStructID) and not(contains('2.0;2.0D;2.1;2.2;2.3', parent::HL7v2xConformanceProfile/@HL7Version))">MsgStructID must be present for HL7 versions 2.3.1 and higher.</sch:report>
+						<sch:report test="@MsgStructID and contains('2.0;2.0D;2.1;2.2;2.3', parent::HL7v2xConformanceProfile/@HL7Version)">MsgStructID must not be present for HL7 versions prior to 2.3.1</sch:report>
+					</sch:rule>
+				</sch:pattern>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="MetaData" type="MetaDataType" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Provides descriptive information about the life-cycle of the HL7 v2x Static Definition, as well as authorship and control information.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:group ref="MessageGroup"/>
+				<xs:element name="Segment" type="SegmentType">
+					<xs:annotation>
+						<xs:documentation>Documents the characteristics of a single HL7 segment within the context of a particular message or segment group.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:group ref="SegGroupOrSegmentGrouping" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="MsgType" type="MsgTypeType" use="required">
+				<xs:annotation>
+					<xs:documentation>The HL7 message type code, as identified in MSH-9.1 (see HL7 Table 0076 - Message type).</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="EventType" type="EventTypeType" use="required">
+				<xs:annotation>
+					<xs:documentation>The HL7 event type code, as identified in MSH-9.2 (see HL7 Table 0003 - Event type)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="MsgStructID" type="MsgStructIDType" use="required">
+				<xs:annotation>
+					<xs:documentation>The HL7 message structure code, as identified in MSH-9.3 (see HL7 Table 0354 - Message Structure Type). </xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="OrderControl" type="OrderControlType">
+				<xs:annotation>
+					<xs:documentation>The HL7 Order control code, as identified in ORC 1 (see HL7 Table 0119 - Order Control Codes).</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="EventDesc" type="NonEmptyStringType" use="required">
+				<xs:annotation>
+					<xs:documentation>A description of the event carried by this message.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Identifier" type="IdentifierType" use="optional">
+				<xs:annotation>
+					<xs:documentation>A unique identifier for this specific version of this static definition.  If not specified, one will be assigned to the profile upon submission to a registry.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Role" default="Sender">
+				<xs:annotation>
+					<xs:documentation>Identifies whether the profile is constructed from the perspective of the message generator (Sender) or parser (Receiver).  Default is 'Sender'.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="Sender"/>
+						<xs:enumeration value="Receiver"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="UseCaseElementType">
+		<xs:simpleContent>
+			<xs:extension base="NonEmptyStringType">
+				<xs:attribute name="Name" type="NonEmptyStringType" use="required">
+					<xs:annotation>
+						<xs:documentation>The unique name or number associated with a particular use-case element.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="MetaDataType">
+		<xs:attribute name="Name" type="NonEmptyStringType" use="required">
+			<xs:annotation>
+				<xs:documentation>Provides a name that clearly and concisely defines the message exchange being profiled.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="OrgName" type="NonEmptyStringType" use="required">
+			<xs:annotation>
+				<xs:documentation>Name of the organization that submitted the profile.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Version" type="NonEmptyStringType" use="optional">
+			<xs:annotation>
+				<xs:documentation>The version identifier assigned to this profile by the author.  There is no prescribed version numbering scheme.  However 'higher' versions should generally be interpreted to be more resent.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Status" type="NonEmptyStringType" use="optional">
+			<xs:annotation>
+				<xs:documentation>Status of this profile, as assigned by the author.  There is no prescribed status scheme at this time.  Possible values might include: 'Draft', 'Active', 'Superceded', 'Withdrawn'</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Topics" type="NonEmptyStringType" use="optional">
+			<xs:annotation>
+				<xs:documentation>This provides a list of key-words that relate to the profile and that may be useful in profile searches.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:group name="SegGroupOrSegmentGrouping">
+		<xs:choice>
+			<xs:element name="SegGroup">
+				<xs:annotation>
+					<xs:documentation>Documents the characteristics of a grouping of HL7 segments within the context of a particular message or segment group.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:group ref="MessageElementsGroup"/>
+						<xs:group ref="SegGroupOrSegmentGrouping" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="Name" use="required">
+						<xs:annotation>
+							<xs:documentation>This is the short, formal name for the group.  It appears in the tag name when using the XML Encoding syntax.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:NMTOKEN">
+								<!-- EDIT FROM HL7: allow numbers in name -->
+								<xs:pattern value="([A-Z0-9]|_)+"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute ref="LongName" use="required"/>
+					<xs:attribute ref="Usage" use="required"/>
+					<xs:attributeGroup ref="RepeatableElementAttributes"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Segment" type="SegmentType">
+				<xs:annotation>
+					<xs:documentation>Documents the characteristics of a single HL7 segment within the context of a particular message or segment group.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:group>
+	<xs:complexType name="SegmentType">
+		<xs:sequence>
+			<xs:group ref="MessageElementsGroup"/>
+			<xs:element name="Field" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Documents the characteristics of a single HL7 field within the context of a particular message segment.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:group ref="LeafMessageElementsGroup"/>
+						<xs:element name="Component" minOccurs="0" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Documents the characteristics of a single component within the context of a field.</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:group ref="LeafMessageElementsGroup"/>
+									<xs:element name="SubComponent" minOccurs="0" maxOccurs="unbounded">
+										<xs:annotation>
+											<xs:documentation>Documents the characteristics of a single sub-component within the context of a component.</xs:documentation>
+										</xs:annotation>
+										<xs:complexType>
+											<xs:group ref="LeafMessageElementsGroup"/>
+											<xs:attributeGroup ref="LeafElementAttributes"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attributeGroup ref="LeafElementAttributes"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attributeGroup ref="RepeatableElementAttributes"/>
+					<xs:attributeGroup ref="LeafElementAttributes"/>
+					<xs:attribute name="ItemNo">
+						<xs:annotation>
+							<xs:documentation>The HL7-assigned item number corresponding with the semantic meaning of the field.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:NMTOKEN">
+								<xs:pattern value="\d{5}"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="Name" type="SegmentNameType" use="required">
+			<xs:annotation>
+				<xs:documentation>This is the short, formal name for the segment.  It is used to identify the segment in both ER7 and XML encodings.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute ref="LongName"/>
+		<xs:attribute ref="Usage" use="required"/>
+		<xs:attributeGroup ref="RepeatableElementAttributes"/>
+	</xs:complexType>
+	<xs:attributeGroup name="LeafElementAttributes">
+		<xs:attribute name="Name" type="NonEmptyStringType" use="required">
+			<xs:annotation>
+				<xs:documentation>The descriptive name for the field/component/sub-component</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute ref="Usage" use="required"/>
+		<xs:attribute name="Datatype" type="DatatypeType" use="required">
+			<xs:annotation>
+				<xs:documentation>Identifies the HL7 datatype associated with the element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Length" type="xs:positiveInteger">
+			<xs:annotation>
+				<xs:documentation>Identifies the maximum allowed length for the content of the element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Table" type="TableType">
+			<xs:annotation>
+				<xs:documentation>Identifies the name of the table associated with the content of this element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ConstantValue" type="NonEmptyStringType">
+			<xs:annotation>
+				<xs:documentation>Identifies the fixed value associated with this element</xs:documentation>
+				<xs:appinfo>
+					<sch:pattern name="Check that ConstantValues only occur at leaf elements">
+						<sch:rule context="*[@ConstantValue]">
+							<sch:report test="count(Component|SubComponent)!=0">ConstantValues may only be specified for items with no components or sub-components.</sch:report>
+						</sch:rule>
+					</sch:pattern>
+				</xs:appinfo>
+			</xs:annotation>
+			<!-- Can only have constant values for leaf elements -->
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="RepeatableElementAttributes">
+		<xs:attribute name="Min" type="xs:nonNegativeInteger" use="required">
+			<xs:annotation>
+				<xs:documentation>This identifies the minimum number of repetitions of the element that are permitted in a message instance.  This attribute should only be specified if the minimum number of repetitions is greater than 1, as the minimum for other elements is always '0'.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="Max" use="required">
+			<xs:annotation>
+				<xs:documentation>This identifies the maximum number of repetitions of the element that are permitted in a message instance.  This attribute should only be specified if the maximum number of repetitions is greater than 1 and differs from the minimum attribute (i.e. the maximum number of repetitions is greater than the minimum number of repetitions).  The special value '*' may be used to represent 'unlimited' repetitions.</xs:documentation>
+				<xs:appinfo>
+					<sch:pattern name="Check that Max is greater than or equal to Min">
+						<sch:rule context="*[@Max]">
+							<sch:report test="@Min and @Max!='*' and @Min&gt;@Max">Min may not be greater than Max.</sch:report>
+						</sch:rule>
+					</sch:pattern>
+				</xs:appinfo>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:union>
+					<xs:simpleType>
+						<xs:restriction base="xs:positiveInteger">
+							<xs:minInclusive value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="*"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:union>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:simpleType name="ImpNoteType">
+		<xs:restriction base="NonEmptyStringType"/>
+	</xs:simpleType>
+	<xs:group name="MessageGroup">
+		<xs:sequence>
+			<xs:element name="ImpNote" type="ImpNoteType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Implementation Notes provide a general description about how the element is intended to be used, as well as hints on using or interpreting the it.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="NonEmptyStringType" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Provides an explanation or definition of what the element represents.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Reference" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Identifies external sources or other locations within the profile where additional information can be found about this item.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="NonEmptyStringType"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:group name="MessageElementsGroup">
+		<xs:sequence>
+			<xs:group ref="MessageGroup"/>
+			<xs:element name="Predicate" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Identifies the conditionality rule for this element, if applicable</xs:documentation>
+					<xs:appinfo>
+						<sch:pattern name="Check that predicates only occur for conditional items">
+							<sch:rule context="Predicate">
+								<sch:report test="parent::*/@Usage!='C' and parent::*/@Usage!='CE'">May not have a Predicate unless the Usage is 'C' or 'CE'.</sch:report>
+							</sch:rule>
+						</sch:pattern>
+					</xs:appinfo>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="NonEmptyStringType"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:group name="LeafMessageElementsGroup">
+		<xs:sequence>
+			<xs:group ref="MessageElementsGroup"/>
+			<xs:element name="DataValues" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Provides a list of possible example values for the element.</xs:documentation>
+					<xs:appinfo>
+						<sch:pattern name="Check that DataValues only occur at leaf elements">
+							<sch:rule context="DataValues">
+								<sch:report test="count(parent::*/*[self::Component or self::SubComponent])!=0">DataValues may only be specified for items with no components or sub-components.</sch:report>
+							</sch:rule>
+						</sch:pattern>
+					</xs:appinfo>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attribute name="ExValue" type="NonEmptyStringType">
+						<xs:annotation>
+							<xs:documentation>Identifies an individual example value.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:group>
+	<xs:attribute name="Usage">
+		<xs:annotation>
+			<xs:documentation>Usage identifies the circumstances under which an element appears in a message.  Possible values are: 
+				R - Required (must always be present); 
+				RE - Required or Empty (must be present if available); 
+				O - Optional (no guidance on when the element should appear); 
+				C - Conditional (the element is required or allowed to be present when the condition specified in the Predicate element is true);
+				CE - Conditional or Empty (the element is required or allowed to be present when the condition specified in the Predicate element is true and the information is available)
+				X - Not supported (the element will not be sent)
+			</xs:documentation>
+			<xs:appinfo>
+				<sch:pattern name="Check that all conditional items have predicates">
+					<sch:rule context="*[@Usage='C' or @Usage='CE']">
+						<sch:report test="count(Predicate)=0">Must have a Predicate when Usage is 'C' or 'CE'.</sch:report>
+					</sch:rule>
+				</sch:pattern>
+				<sch:pattern name="Check that all non-leaf elements with a Usage other than 'Not Supported' have supported children">
+					<sch:rule context="*[@Usage!='X' and count(Component|SubComponent)!=0]">
+						<sch:report test="count(child::*[self::Component or self::SubComponent][@Usage!='X'])=0">Must have at least one supported Component or Sub-Component (Usage not 'X') when element is marked as supported.</sch:report>
+					</sch:rule>
+				</sch:pattern>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:NMTOKEN">
+				<xs:enumeration value="R"/>
+				<xs:enumeration value="RE"/>
+				<xs:enumeration value="O"/>
+				<xs:enumeration value="C"/>
+				<xs:enumeration value="CE"/>
+				<xs:enumeration value="X"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:attribute name="LongName" type="NonEmptyStringType">
+		<xs:annotation>
+			<xs:documentation>This is the descriptive name for the element.  It does not appear in any encodings.</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:simpleType name="NonEmptyStringType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="AcknowledgmentType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="AL"/>
+			<xs:enumeration value="NE"/>
+			<xs:enumeration value="SU"/>
+			<xs:enumeration value="ER"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="IdentifierType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:pattern value="(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MsgTypeType">
+		<xs:restriction base="xs:NMTOKEN">
+      <!-- edit for v2.4 validation: added table data START -->
+      <!-- 
+      <xs:pattern value="[A-Z0-9]{3}"/>
+      -->
+      <!-- data from HL7 table #0076 -->
+      <xs:enumeration value="ACK"/>
+      <xs:enumeration value="ADR"/>
+      <xs:enumeration value="ADT"/>
+      <xs:enumeration value="BAR"/>
+      <xs:enumeration value="CRM"/>
+      <xs:enumeration value="CSU"/>
+      <xs:enumeration value="DFT"/>
+      <xs:enumeration value="DOC"/>
+      <xs:enumeration value="DSR"/>
+      <xs:enumeration value="EAC"/>
+      <xs:enumeration value="EAN"/>
+      <xs:enumeration value="EAR"/>
+      <xs:enumeration value="EDR"/>
+      <xs:enumeration value="EQQ"/>
+      <xs:enumeration value="ERP"/>
+      <xs:enumeration value="ESR"/>
+      <xs:enumeration value="ESU"/>
+      <xs:enumeration value="INR"/>
+      <xs:enumeration value="INU"/>
+      <xs:enumeration value="LSR"/>
+      <xs:enumeration value="LSU"/>
+      <xs:enumeration value="MCF"/>
+      <xs:enumeration value="MDM"/>
+      <xs:enumeration value="MFD"/>
+      <xs:enumeration value="MFK"/>
+      <xs:enumeration value="MFN"/>
+      <xs:enumeration value="MFQ"/>
+      <xs:enumeration value="MFR"/>
+      <xs:enumeration value="NMD"/>
+      <xs:enumeration value="NMQ"/>
+      <xs:enumeration value="NMR"/>
+      <xs:enumeration value="OMD"/>
+      <xs:enumeration value="OMG"/>
+      <xs:enumeration value="OML"/>
+      <xs:enumeration value="OMN"/>
+      <xs:enumeration value="OMP"/>
+      <xs:enumeration value="OMS"/>
+      <xs:enumeration value="ORD"/>
+      <xs:enumeration value="ORF"/>
+      <xs:enumeration value="ORG"/>
+      <xs:enumeration value="ORL"/>
+      <xs:enumeration value="ORM"/>
+      <xs:enumeration value="ORN"/>
+      <xs:enumeration value="ORP"/>
+      <xs:enumeration value="ORR"/>
+      <xs:enumeration value="ORS"/>
+      <xs:enumeration value="ORU"/>
+      <xs:enumeration value="OSQ"/>
+      <xs:enumeration value="OSR"/>
+      <xs:enumeration value="OUL"/>
+      <xs:enumeration value="PEX"/>
+      <xs:enumeration value="PGL"/>
+      <xs:enumeration value="PIN"/>
+      <xs:enumeration value="PMU"/>
+      <xs:enumeration value="PPG"/>
+      <xs:enumeration value="PPP"/>
+      <xs:enumeration value="PPR"/>
+      <xs:enumeration value="PPT"/>
+      <xs:enumeration value="PPV"/>
+      <xs:enumeration value="PRR"/>
+      <xs:enumeration value="PTR"/>
+      <xs:enumeration value="QBP"/>
+      <xs:enumeration value="QCK"/>
+      <xs:enumeration value="QCN"/>
+      <xs:enumeration value="QRY"/>
+      <xs:enumeration value="QSB"/>
+      <xs:enumeration value="QSX"/>
+      <xs:enumeration value="QVR"/>
+      <xs:enumeration value="RAR"/>
+      <xs:enumeration value="RAS"/>
+      <xs:enumeration value="RCI"/>
+      <xs:enumeration value="RCL"/>
+      <xs:enumeration value="RDE"/>
+      <xs:enumeration value="RDR"/>
+      <xs:enumeration value="RDS"/>
+      <xs:enumeration value="RDY"/>
+      <xs:enumeration value="REF"/>
+      <xs:enumeration value="RER"/>
+      <xs:enumeration value="RGR"/>
+      <xs:enumeration value="RGV"/>
+      <xs:enumeration value="ROR"/>
+      <xs:enumeration value="RPA"/>
+      <xs:enumeration value="RPI"/>
+      <xs:enumeration value="RPL"/>
+      <xs:enumeration value="RPR"/>
+      <xs:enumeration value="RQA"/>
+      <xs:enumeration value="RQC"/>
+      <xs:enumeration value="RQI"/>
+      <xs:enumeration value="RQP"/>
+      <xs:enumeration value="RQQ"/>
+      <xs:enumeration value="RRA"/>
+      <xs:enumeration value="RRD"/>
+      <xs:enumeration value="RRE"/>
+      <xs:enumeration value="RRG"/>
+      <xs:enumeration value="RRI"/>
+      <xs:enumeration value="RSP"/>
+      <xs:enumeration value="RTB"/>
+      <xs:enumeration value="SIU"/>
+      <xs:enumeration value="SPQ"/>
+      <xs:enumeration value="SQM"/>
+      <xs:enumeration value="SQR"/>
+      <xs:enumeration value="SRM"/>
+      <xs:enumeration value="SRR"/>
+      <xs:enumeration value="SSR"/>
+      <xs:enumeration value="SSU"/>
+      <xs:enumeration value="SUR"/>
+      <xs:enumeration value="TBR"/>
+      <xs:enumeration value="TCR"/>
+      <xs:enumeration value="TCU"/>
+      <xs:enumeration value="UDM"/>
+      <xs:enumeration value="VQQ"/>
+      <xs:enumeration value="VXQ"/>
+      <xs:enumeration value="VXR"/>
+      <xs:enumeration value="VXU"/>
+      <xs:enumeration value="VXX"/>
+      <!-- edit for v2.4 validation: added table data END -->
+    </xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EventTypeType">
+		<xs:restriction base="xs:NMTOKEN">
+      <!-- edit for v2.4 validation: added table data START -->
+      <!-- 
+      <xs:pattern value="[A-Z0-9]{3}"/>
+      -->
+      <!-- data from HL7 table #0003 -->
+      <xs:enumeration value="A01"/>
+      <xs:enumeration value="A02"/>
+      <xs:enumeration value="A03"/>
+      <xs:enumeration value="A04"/>
+      <xs:enumeration value="A05"/>
+      <xs:enumeration value="A06"/>
+      <xs:enumeration value="A07"/>
+      <xs:enumeration value="A08"/>
+      <xs:enumeration value="A09"/>
+      <xs:enumeration value="A10"/>
+      <xs:enumeration value="A11"/>
+      <xs:enumeration value="A12"/>
+      <xs:enumeration value="A13"/>
+      <xs:enumeration value="A14"/>
+      <xs:enumeration value="A15"/>
+      <xs:enumeration value="A16"/>
+      <xs:enumeration value="A17"/>
+      <xs:enumeration value="A18"/>
+      <xs:enumeration value="A19"/>
+      <xs:enumeration value="A20"/>
+      <xs:enumeration value="A21"/>
+      <xs:enumeration value="A22"/>
+      <xs:enumeration value="A23"/>
+      <xs:enumeration value="A24"/>
+      <xs:enumeration value="A25"/>
+      <xs:enumeration value="A26"/>
+      <xs:enumeration value="A27"/>
+      <xs:enumeration value="A28"/>
+      <xs:enumeration value="A29"/>
+      <xs:enumeration value="A30"/>
+      <xs:enumeration value="A31"/>
+      <xs:enumeration value="A32"/>
+      <xs:enumeration value="A33"/>
+      <xs:enumeration value="A34"/>
+      <xs:enumeration value="A35"/>
+      <xs:enumeration value="A36"/>
+      <xs:enumeration value="A37"/>
+      <xs:enumeration value="A38"/>
+      <xs:enumeration value="A39"/>
+      <xs:enumeration value="A40"/>
+      <xs:enumeration value="A41"/>
+      <xs:enumeration value="A42"/>
+      <xs:enumeration value="A43"/>
+      <xs:enumeration value="A44"/>
+      <xs:enumeration value="A45"/>
+      <xs:enumeration value="A46"/>
+      <xs:enumeration value="A47"/>
+      <xs:enumeration value="A48"/>
+      <xs:enumeration value="A49"/>
+      <xs:enumeration value="A50"/>
+      <xs:enumeration value="A51"/>
+      <xs:enumeration value="A52"/>
+      <xs:enumeration value="A53"/>
+      <xs:enumeration value="A54"/>
+      <xs:enumeration value="A55"/>
+      <xs:enumeration value="A60"/>
+      <xs:enumeration value="A61"/>
+      <xs:enumeration value="A62"/>
+      <xs:enumeration value="B01"/>
+      <xs:enumeration value="B02"/>
+      <xs:enumeration value="B03"/>
+      <xs:enumeration value="B04"/>
+      <xs:enumeration value="B05"/>
+      <xs:enumeration value="B06"/>
+      <xs:enumeration value="C01"/>
+      <xs:enumeration value="C02"/>
+      <xs:enumeration value="C03"/>
+      <xs:enumeration value="C04"/>
+      <xs:enumeration value="C05"/>
+      <xs:enumeration value="C06"/>
+      <xs:enumeration value="C07"/>
+      <xs:enumeration value="C08"/>
+      <xs:enumeration value="C09"/>
+      <xs:enumeration value="C10"/>
+      <xs:enumeration value="C11"/>
+      <xs:enumeration value="C12"/>
+      <xs:enumeration value="I01"/>
+      <xs:enumeration value="I02"/>
+      <xs:enumeration value="I03"/>
+      <xs:enumeration value="I04"/>
+      <xs:enumeration value="I05"/>
+      <xs:enumeration value="I06"/>
+      <xs:enumeration value="I07"/>
+      <xs:enumeration value="I08"/>
+      <xs:enumeration value="I09"/>
+      <xs:enumeration value="I10"/>
+      <xs:enumeration value="I11"/>
+      <xs:enumeration value="I12"/>
+      <xs:enumeration value="I13"/>
+      <xs:enumeration value="I14"/>
+      <xs:enumeration value="I15"/>
+      <xs:enumeration value="J01"/>
+      <xs:enumeration value="J02"/>
+      <xs:enumeration value="K11"/>
+      <xs:enumeration value="K13"/>
+      <xs:enumeration value="K1"/>
+      <xs:enumeration value="K21"/>
+      <xs:enumeration value="K22"/>
+      <xs:enumeration value="K23"/>
+      <xs:enumeration value="K24"/>
+      <xs:enumeration value="K25"/>
+      <xs:enumeration value="M01"/>
+      <xs:enumeration value="M02"/>
+      <xs:enumeration value="M03"/>
+      <xs:enumeration value="M04"/>
+      <xs:enumeration value="M05"/>
+      <xs:enumeration value="M06"/>
+      <xs:enumeration value="M07"/>
+      <xs:enumeration value="M08"/>
+      <xs:enumeration value="M09"/>
+      <xs:enumeration value="M10"/>
+      <xs:enumeration value="M11"/>
+      <xs:enumeration value="M12"/>
+      <xs:enumeration value="N01"/>
+      <xs:enumeration value="N02"/>
+      <xs:enumeration value="O01"/>
+      <xs:enumeration value="O02"/>
+      <xs:enumeration value="O03"/>
+      <xs:enumeration value="O04"/>
+      <xs:enumeration value="O05"/>
+      <xs:enumeration value="O06"/>
+      <xs:enumeration value="O07"/>
+      <xs:enumeration value="O08"/>
+      <xs:enumeration value="O09"/>
+      <xs:enumeration value="O10"/>
+      <xs:enumeration value="O11"/>
+      <xs:enumeration value="O12"/>
+      <xs:enumeration value="O13"/>
+      <xs:enumeration value="O14"/>
+      <xs:enumeration value="O15"/>
+      <xs:enumeration value="O16"/>
+      <xs:enumeration value="O17"/>
+      <xs:enumeration value="O18"/>
+      <xs:enumeration value="O19"/>
+      <xs:enumeration value="O20"/>
+      <xs:enumeration value="O21"/>
+      <xs:enumeration value="O22"/>
+      <xs:enumeration value="P01"/>
+      <xs:enumeration value="P02"/>
+      <xs:enumeration value="P03"/>
+      <xs:enumeration value="P04"/>
+      <xs:enumeration value="P05"/>
+      <xs:enumeration value="P06"/>
+      <xs:enumeration value="P07"/>
+      <xs:enumeration value="P08"/>
+      <xs:enumeration value="P09"/>
+      <xs:enumeration value="P10"/>
+      <xs:enumeration value="PC1"/>
+      <xs:enumeration value="PC2"/>
+      <xs:enumeration value="PC3"/>
+      <xs:enumeration value="PC4"/>
+      <xs:enumeration value="PC5"/>
+      <xs:enumeration value="PC6"/>
+      <xs:enumeration value="PC7"/>
+      <xs:enumeration value="PC8"/>
+      <xs:enumeration value="PC9"/>
+      <xs:enumeration value="PCA"/>
+      <xs:enumeration value="PCB"/>
+      <xs:enumeration value="PCC"/>
+      <xs:enumeration value="PCD"/>
+      <xs:enumeration value="PCE"/>
+      <xs:enumeration value="PCF"/>
+      <xs:enumeration value="PCG"/>
+      <xs:enumeration value="PCH"/>
+      <xs:enumeration value="PCJ"/>
+      <xs:enumeration value="PCK"/>
+      <xs:enumeration value="PCL"/>
+      <xs:enumeration value="Q01"/>
+      <xs:enumeration value="Q02"/>
+      <xs:enumeration value="Q03"/>
+      <xs:enumeration value="Q04"/>
+      <xs:enumeration value="Q05"/>
+      <xs:enumeration value="Q06"/>
+      <xs:enumeration value="Q07"/>
+      <xs:enumeration value="Q08"/>
+      <xs:enumeration value="Q09"/>
+      <xs:enumeration value="Q16"/>
+      <xs:enumeration value="Q17"/>
+      <xs:enumeration value="Q21"/>
+      <xs:enumeration value="Q22"/>
+      <xs:enumeration value="Q23"/>
+      <xs:enumeration value="Q24"/>
+      <xs:enumeration value="Q25"/>
+      <xs:enumeration value="Q26"/>
+      <xs:enumeration value="Q27"/>
+      <xs:enumeration value="Q28"/>
+      <xs:enumeration value="Q29"/>
+      <xs:enumeration value="Q30"/>
+      <xs:enumeration value="QNC"/>
+      <xs:enumeration value="R01"/>
+      <xs:enumeration value="R02"/>
+      <xs:enumeration value="R03"/>
+      <xs:enumeration value="R04"/>
+      <xs:enumeration value="R07"/>
+      <xs:enumeration value="R08"/>
+      <xs:enumeration value="R09"/>
+      <xs:enumeration value="R21"/>
+      <xs:enumeration value="ROR"/>
+      <xs:enumeration value="S01"/>
+      <xs:enumeration value="S02"/>
+      <xs:enumeration value="S03"/>
+      <xs:enumeration value="S04"/>
+      <xs:enumeration value="S05"/>
+      <xs:enumeration value="S06"/>
+      <xs:enumeration value="S07"/>
+      <xs:enumeration value="S08"/>
+      <xs:enumeration value="S09"/>
+      <xs:enumeration value="S10"/>
+      <xs:enumeration value="S11"/>
+      <xs:enumeration value="S12"/>
+      <xs:enumeration value="S13"/>
+      <xs:enumeration value="S14"/>
+      <xs:enumeration value="S15"/>
+      <xs:enumeration value="S16"/>
+      <xs:enumeration value="S17"/>
+      <xs:enumeration value="S18"/>
+      <xs:enumeration value="S19"/>
+      <xs:enumeration value="S20"/>
+      <xs:enumeration value="S21"/>
+      <xs:enumeration value="S22"/>
+      <xs:enumeration value="S23"/>
+      <xs:enumeration value="S24"/>
+      <xs:enumeration value="S25"/>
+      <xs:enumeration value="S26"/>
+      <xs:enumeration value="T01"/>
+      <xs:enumeration value="T02"/>
+      <xs:enumeration value="T03"/>
+      <xs:enumeration value="T04"/>
+      <xs:enumeration value="T05"/>
+      <xs:enumeration value="T06"/>
+      <xs:enumeration value="T07"/>
+      <xs:enumeration value="T08"/>
+      <xs:enumeration value="T09"/>
+      <xs:enumeration value="T10"/>
+      <xs:enumeration value="T11"/>
+      <xs:enumeration value="T12"/>
+      <xs:enumeration value="U01"/>
+      <xs:enumeration value="U02"/>
+      <xs:enumeration value="U03"/>
+      <xs:enumeration value="U04"/>
+      <xs:enumeration value="U05"/>
+      <xs:enumeration value="U06"/>
+      <xs:enumeration value="U07"/>
+      <xs:enumeration value="U08"/>
+      <xs:enumeration value="U09"/>
+      <xs:enumeration value="U10"/>
+      <xs:enumeration value="U11"/>
+      <xs:enumeration value="U12"/>
+      <xs:enumeration value="U13"/>
+      <xs:enumeration value="V01"/>
+      <xs:enumeration value="V02"/>
+      <xs:enumeration value="V03"/>
+      <xs:enumeration value="V04"/>
+      <xs:enumeration value="Varies"/>
+      <xs:enumeration value="W01"/>
+      <xs:enumeration value="W02"/>
+      <!-- edit for v2.4 validation: added table data END -->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MsgStructIDType">
+		<xs:restriction base="xs:NMTOKEN">
+      <!-- edit for v2.4 validation: added table data START -->
+      <!-- 
+      <xs:pattern value="[A-Z0-9]{3}(_[A-Z0-9]{3})?"/>
+      -->
+      <!-- data from HL7 table #0354 -->
+      <xs:enumeration value="ACK"/>
+      <xs:enumeration value="ADR_A19"/>
+      <xs:enumeration value="ADT_A01"/>
+      <xs:enumeration value="ADT_A02"/>
+      <xs:enumeration value="ADT_A03"/>
+      <xs:enumeration value="ADT_A05"/>
+      <xs:enumeration value="ADT_A06"/>
+      <xs:enumeration value="ADT_A09"/>
+      <xs:enumeration value="ADT_A15"/>
+      <xs:enumeration value="ADT_A16"/>
+      <xs:enumeration value="ADT_A17"/>
+      <xs:enumeration value="ADT_A18"/>
+      <xs:enumeration value="ADT_A20"/>
+      <xs:enumeration value="ADT_A21"/>
+      <xs:enumeration value="ADT_A24"/>
+      <xs:enumeration value="ADT_A30"/>
+      <xs:enumeration value="ADT_A37"/>
+      <xs:enumeration value="ADT_A38"/>
+      <xs:enumeration value="ADT_A39"/>
+      <xs:enumeration value="ADT_A43"/>
+      <xs:enumeration value="ADT_A45"/>
+      <xs:enumeration value="ADT_A50"/>
+      <xs:enumeration value="ADT_A52"/>
+      <xs:enumeration value="ADT_A54"/>
+      <xs:enumeration value="ADT_A60"/>
+      <xs:enumeration value="ADT_A61"/>
+      <xs:enumeration value="BAR_P01"/>
+      <xs:enumeration value="BAR_P02"/>
+      <xs:enumeration value="BAR_P05"/>
+      <xs:enumeration value="BAR_P06"/>
+      <xs:enumeration value="BAR_P10"/>
+      <xs:enumeration value="CRM_C01"/>
+      <xs:enumeration value="CSU_C09"/>
+      <xs:enumeration value="DFT_P03"/>
+      <xs:enumeration value="DOC_T12"/>
+      <xs:enumeration value="DSR_P04"/>
+      <xs:enumeration value="DSR_Q01"/>
+      <xs:enumeration value="DSR_Q03"/>
+      <xs:enumeration value="EAC_U07"/>
+      <xs:enumeration value="EAN_U09"/>
+      <xs:enumeration value="EAR_U08"/>
+      <xs:enumeration value="EDR_R07"/>
+      <xs:enumeration value="EQQ_Q04"/>
+      <xs:enumeration value="ERP_R09"/>
+      <xs:enumeration value="ESR_U02"/>
+      <xs:enumeration value="ESU_U01"/>
+      <xs:enumeration value="INR_U06"/>
+      <xs:enumeration value="INU_U05"/>
+      <xs:enumeration value="LSU_U12"/>
+      <xs:enumeration value="MDM_T01"/>
+      <xs:enumeration value="MDM_T02"/>
+      <xs:enumeration value="MFD_MFA"/>
+      <xs:enumeration value="MFK_M01"/>
+      <xs:enumeration value="MFN_M01"/>
+      <xs:enumeration value="MFN_M02"/>
+      <xs:enumeration value="MFN_M03"/>
+      <xs:enumeration value="MFN_M04"/>
+      <xs:enumeration value="MFN_M05"/>
+      <xs:enumeration value="MFN_M06"/>
+      <xs:enumeration value="MFN_M07"/>
+      <xs:enumeration value="MFN_M08"/>
+      <xs:enumeration value="MFN_M09"/>
+      <xs:enumeration value="MFN_M10"/>
+      <xs:enumeration value="MFN_M11"/>
+      <xs:enumeration value="MFN_M12"/>
+      <xs:enumeration value="MFQ_M01"/>
+      <xs:enumeration value="MFR_M01"/>
+      <xs:enumeration value="NMD_N02"/>
+      <xs:enumeration value="NMQ_N01"/>
+      <xs:enumeration value="NMR_N01"/>
+      <xs:enumeration value="OMD_O03"/>
+      <xs:enumeration value="OMG_O19"/>
+      <xs:enumeration value="OML_O21"/>
+      <xs:enumeration value="OMN_O07"/>
+      <xs:enumeration value="OMP_O09"/>
+      <xs:enumeration value="OMS_O05"/>
+      <xs:enumeration value="ORD_O04"/>
+      <xs:enumeration value="ORF_R04"/>
+      <xs:enumeration value="ORG_O20"/>
+      <xs:enumeration value="ORL_O22"/>
+      <xs:enumeration value="ORM_O01"/>
+      <xs:enumeration value="ORN_O08"/>
+      <xs:enumeration value="ORP_O10"/>
+      <xs:enumeration value="ORR_O02"/>
+      <xs:enumeration value="ORS_O06"/>
+      <xs:enumeration value="ORU_R01"/>
+      <xs:enumeration value="ORU_W01"/>
+      <xs:enumeration value="OSQ_Q06"/>
+      <xs:enumeration value="OSR_Q06"/>
+      <xs:enumeration value="OUL_R21"/>
+      <xs:enumeration value="PEX_P07"/>
+      <xs:enumeration value="PGL_PC6"/>
+      <xs:enumeration value="PMU_B01"/>
+      <xs:enumeration value="PMU_B03"/>
+      <xs:enumeration value="PMU_B04"/>
+      <xs:enumeration value="PPG_PCG"/>
+      <xs:enumeration value="PPP_PCB"/>
+      <xs:enumeration value="PPR_PC1"/>
+      <xs:enumeration value="PPT_PCL"/>
+      <xs:enumeration value="PPV_PCA"/>
+      <xs:enumeration value="PRR_PC5"/>
+      <xs:enumeration value="PTR_PCF"/>
+      <xs:enumeration value="QBP_Q11"/>
+      <xs:enumeration value="QBP_Q13"/>
+      <xs:enumeration value="QBP_Q15"/>
+      <xs:enumeration value="QBP_Q21"/>
+      <xs:enumeration value="QCK_Q02"/>
+      <xs:enumeration value="QCN_J01"/>
+      <xs:enumeration value="QRY_A19"/>
+      <xs:enumeration value="QRY_PC4"/>
+      <xs:enumeration value="QRY_Q01"/>
+      <xs:enumeration value="QRY_Q02"/>
+      <xs:enumeration value="QRY_R02"/>
+      <xs:enumeration value="QRY_T12"/>
+      <xs:enumeration value="QSB_Q16"/>
+      <xs:enumeration value="QVR_Q17"/>
+      <xs:enumeration value="RAR_RAR"/>
+      <xs:enumeration value="RAS_O17"/>
+      <xs:enumeration value="RCI_I05"/>
+      <xs:enumeration value="RCL_I06"/>
+      <xs:enumeration value="RDE_O11"/>
+      <xs:enumeration value="RDR_RDR"/>
+      <xs:enumeration value="RDS_O13"/>
+      <xs:enumeration value="RDY_K15"/>
+      <xs:enumeration value="RRA_O02"/>
+      <xs:enumeration value="RRE_O02"/>
+      <xs:enumeration value="RTB_K13"/>
+      <xs:enumeration value="REF_I12"/>
+      <xs:enumeration value="RER_RER"/>
+      <xs:enumeration value="RGR_RGR"/>
+      <xs:enumeration value="RGV_O15"/>
+      <xs:enumeration value="ROR_ROR"/>
+      <xs:enumeration value="RPA_I08"/>
+      <xs:enumeration value="RPI_I01"/>
+      <xs:enumeration value="RPI_I04"/>
+      <xs:enumeration value="RPL_I02"/>
+      <xs:enumeration value="RPR_I03"/>
+      <xs:enumeration value="RQA_I08"/>
+      <xs:enumeration value="RQC_I05"/>
+      <xs:enumeration value="RQI_I01"/>
+      <xs:enumeration value="RQP_I04"/>
+      <xs:enumeration value="RQQ_Q09"/>
+      <xs:enumeration value="RRA_O18"/>
+      <xs:enumeration value="RRD_O14"/>
+      <xs:enumeration value="RRE_O12"/>
+      <xs:enumeration value="RRG_O16"/>
+      <xs:enumeration value="RRI_I12"/>
+      <xs:enumeration value="RSP_K11"/>
+      <xs:enumeration value="RSP_K21"/>
+      <xs:enumeration value="RSP_K22"/>
+      <xs:enumeration value="RSP_K23"/>
+      <xs:enumeration value="RSP_K24"/>
+      <xs:enumeration value="RSP_K25"/>
+      <xs:enumeration value="SIU_S12"/>
+      <xs:enumeration value="SPQ_Q08"/>
+      <xs:enumeration value="SQM_S25"/>
+      <xs:enumeration value="SQR_S25"/>
+      <xs:enumeration value="SRM_S01"/>
+      <xs:enumeration value="SRR_S01"/>
+      <xs:enumeration value="SSR_U04"/>
+      <xs:enumeration value="SSU_U03"/>
+      <xs:enumeration value="SUR_P09"/>
+      <xs:enumeration value="TBR_R08"/>
+      <xs:enumeration value="TCU_U10"/>
+      <xs:enumeration value="UDM_Q05"/>
+      <xs:enumeration value="VQQ_Q07"/>
+      <xs:enumeration value="VXQ_V01"/>
+      <xs:enumeration value="VXR_V03"/>
+      <xs:enumeration value="VXU_V04"/>
+      <xs:enumeration value="VXX_V02"/>
+      <xs:enumeration value="ORU_W01"/>
+      <xs:enumeration value="QRF_W02"/>
+      <!-- edit for v2.4 validation: added table data END -->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OrderControlType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:pattern value="[A-Z]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DatatypeType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SegmentNameType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:pattern value="[A-Z][A-Z0-9]{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TableType">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

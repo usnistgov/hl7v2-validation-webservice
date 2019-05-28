@@ -1,0 +1,851 @@
+2014-01-22/11:49:03.935/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114903-0500.xml to log the message. (MV)
+2014-01-22/11:49:04.326/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:04.328/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114904-0500.xml to log the message. (MV)
+2014-01-22/11:49:06.195/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114906-0500.xml to log the message. (MV)
+2014-01-22/11:49:06.262/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114906-0500.xml to log the message. (MV)
+2014-01-22/11:49:06.265/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:06.277/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114906-0500.xml to log the message. (MV)
+2014-01-22/11:49:06.832/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114906-0500.xml to log the message. (MV)
+2014-01-22/11:49:06.877/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114906-0500.xml to log the message. (MV)
+2014-01-22/11:49:06.880/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:06.889/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114906-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.312/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.344/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.348/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:07.351/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.530/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.570/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.573/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:07.575/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.747/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.768/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.771/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:07.772/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.878/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.893/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:07.893/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:07.920/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:07.920/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114907-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.009/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.047/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.047/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:08.061/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:08.062/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.130/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.167/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.167/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:08.175/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:08.176/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.253/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.313/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.338/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:08.355/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:08.356/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.564/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.594/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.595/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:08.613/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:08.615/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.800/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.844/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:08.844/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:08.860/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:08.861/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114908-0500.xml to log the message. (MV)
+2014-01-22/11:49:09.062/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114909-0500.xml to log the message. (MV)
+2014-01-22/11:49:09.103/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122114909-0500.xml to log the message. (MV)
+2014-01-22/11:49:09.104/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:49:09.114/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:49:09.116/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122114909-0500.xml to log the message. (MV)
+2014-01-22/11:49:09.345/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122114909-0500.xml to log the message. (MV)
+2014-01-22/11:52:21.628/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115221-0500.xml to log the message. (MV)
+2014-01-22/11:52:21.871/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:21.873/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115221-0500.xml to log the message. (MV)
+2014-01-22/11:52:23.762/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115223-0500.xml to log the message. (MV)
+2014-01-22/11:52:23.859/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115223-0500.xml to log the message. (MV)
+2014-01-22/11:52:23.900/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:23.902/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115223-0500.xml to log the message. (MV)
+2014-01-22/11:52:24.452/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115224-0500.xml to log the message. (MV)
+2014-01-22/11:52:24.501/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115224-0500.xml to log the message. (MV)
+2014-01-22/11:52:24.503/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:24.505/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115224-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.020/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.061/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.064/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:25.065/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.253/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.272/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.275/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:25.276/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.447/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.479/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.481/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:25.482/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.601/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.624/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.626/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:25.666/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:25.666/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.784/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.823/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.823/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:25.831/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:25.832/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.956/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.994/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115225-0500.xml to log the message. (MV)
+2014-01-22/11:52:25.995/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:26.003/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:26.004/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.103/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.159/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.159/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:26.172/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:26.174/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.401/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.435/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.435/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:26.459/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:26.461/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.672/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.719/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.719/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:26.734/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:26.735/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.939/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.978/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:26.978/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/11:52:26.987/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/11:52:26.989/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122115226-0500.xml to log the message. (MV)
+2014-01-22/11:52:27.227/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122115227-0500.xml to log the message. (MV)
+2014-01-22/12:48:57.715/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124857-0500.xml to log the message. (MV)
+2014-01-22/12:48:57.923/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:48:57.924/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124857-0500.xml to log the message. (MV)
+2014-01-22/12:48:59.736/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124859-0500.xml to log the message. (MV)
+2014-01-22/12:48:59.797/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124859-0500.xml to log the message. (MV)
+2014-01-22/12:48:59.801/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:48:59.808/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124859-0500.xml to log the message. (MV)
+2014-01-22/12:49:00.359/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124900-0500.xml to log the message. (MV)
+2014-01-22/12:49:00.403/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124900-0500.xml to log the message. (MV)
+2014-01-22/12:49:00.406/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:00.411/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124900-0500.xml to log the message. (MV)
+2014-01-22/12:49:00.879/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124900-0500.xml to log the message. (MV)
+2014-01-22/12:49:00.933/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124900-0500.xml to log the message. (MV)
+2014-01-22/12:49:00.937/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:00.939/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124900-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.246/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.268/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.276/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:01.278/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.492/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.522/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.526/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:01.527/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.671/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.691/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.691/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:01.728/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:01.729/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.844/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.876/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.876/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:01.883/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:01.884/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.955/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.992/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124901-0500.xml to log the message. (MV)
+2014-01-22/12:49:01.992/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:02.000/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:02.001/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.072/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.108/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.117/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:02.131/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:02.133/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.332/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.363/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.363/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:02.383/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:02.385/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.563/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.606/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.606/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:02.621/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:02.622/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.811/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.847/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:02.847/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/12:49:02.857/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/12:49:02.859/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122124902-0500.xml to log the message. (MV)
+2014-01-22/12:49:03.128/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122124903-0500.xml to log the message. (MV)
+2014-01-22/13:04:41.111/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130441-0500.xml to log the message. (MV)
+2014-01-22/13:04:41.310/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:41.312/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130441-0500.xml to log the message. (MV)
+2014-01-22/13:04:43.205/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130443-0500.xml to log the message. (MV)
+2014-01-22/13:04:43.265/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130443-0500.xml to log the message. (MV)
+2014-01-22/13:04:43.269/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:43.274/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130443-0500.xml to log the message. (MV)
+2014-01-22/13:04:43.820/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130443-0500.xml to log the message. (MV)
+2014-01-22/13:04:43.859/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130443-0500.xml to log the message. (MV)
+2014-01-22/13:04:43.863/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:43.864/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130443-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.306/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.347/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.354/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:44.356/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.537/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.554/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.561/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:44.562/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.690/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.712/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.714/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:44.715/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.834/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.848/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.848/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:44.872/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:44.872/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.960/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.996/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130444-0500.xml to log the message. (MV)
+2014-01-22/13:04:44.996/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:45.008/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:45.009/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.082/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.115/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.115/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:45.124/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:45.125/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.185/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.213/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.213/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:45.226/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:45.227/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.422/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.449/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.450/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:45.468/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:45.469/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.646/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.693/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.693/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:45.708/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:45.709/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.914/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.955/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:45.955/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:04:45.964/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:04:45.965/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130445-0500.xml to log the message. (MV)
+2014-01-22/13:04:46.220/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130446-0500.xml to log the message. (MV)
+2014-01-22/13:06:32.055/ESTFATALjava.lang.Exception: Can't find a profile with oid=null
+2014-01-22/13:07:09.810/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130709-0500.xml to log the message. (MV)
+2014-01-22/13:07:10.013/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:10.015/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130710-0500.xml to log the message. (MV)
+2014-01-22/13:07:11.846/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130711-0500.xml to log the message. (MV)
+2014-01-22/13:07:11.914/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130711-0500.xml to log the message. (MV)
+2014-01-22/13:07:11.920/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:11.922/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130711-0500.xml to log the message. (MV)
+2014-01-22/13:07:12.438/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130712-0500.xml to log the message. (MV)
+2014-01-22/13:07:12.480/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130712-0500.xml to log the message. (MV)
+2014-01-22/13:07:12.483/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:12.485/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130712-0500.xml to log the message. (MV)
+2014-01-22/13:07:12.913/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130712-0500.xml to log the message. (MV)
+2014-01-22/13:07:12.946/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130712-0500.xml to log the message. (MV)
+2014-01-22/13:07:12.949/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:12.953/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130712-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.153/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.169/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.172/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:13.173/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.352/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.373/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.377/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:13.378/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.509/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.527/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.527/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:13.553/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:13.554/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.641/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.677/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.679/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:13.689/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:13.690/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.761/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.795/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.795/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:13.804/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:13.805/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.908/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.942/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:13.946/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:13.958/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:13.960/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130713-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.271/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.316/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.316/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:14.342/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:14.343/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.687/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.733/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.733/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:14.748/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:14.749/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.930/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.972/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:14.972/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:07:14.981/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:07:14.983/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122130714-0500.xml to log the message. (MV)
+2014-01-22/13:07:15.220/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122130715-0500.xml to log the message. (MV)
+2014-01-22/13:10:38.050/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131038-0500.xml to log the message. (MV)
+2014-01-22/13:10:38.312/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:38.314/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131038-0500.xml to log the message. (MV)
+2014-01-22/13:10:40.133/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131040-0500.xml to log the message. (MV)
+2014-01-22/13:10:40.196/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131040-0500.xml to log the message. (MV)
+2014-01-22/13:10:40.199/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:40.205/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131040-0500.xml to log the message. (MV)
+2014-01-22/13:10:40.731/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131040-0500.xml to log the message. (MV)
+2014-01-22/13:10:40.772/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131040-0500.xml to log the message. (MV)
+2014-01-22/13:10:40.776/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:40.777/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131040-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.268/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.302/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.305/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:41.309/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.486/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.508/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.514/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:41.519/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.691/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.712/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.716/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:41.724/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.841/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.858/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.859/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:41.889/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:41.890/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:41.997/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131041-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.047/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.048/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:42.055/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:42.056/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.129/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.167/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.167/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:42.177/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:42.178/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.263/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.300/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.300/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:42.315/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:42.317/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.540/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.574/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.574/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:42.597/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:42.598/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.813/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.859/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:42.860/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:42.879/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:42.880/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131042-0500.xml to log the message. (MV)
+2014-01-22/13:10:43.065/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131043-0500.xml to log the message. (MV)
+2014-01-22/13:10:43.106/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131043-0500.xml to log the message. (MV)
+2014-01-22/13:10:43.106/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:10:43.116/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:10:43.117/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131043-0500.xml to log the message. (MV)
+2014-01-22/13:10:43.372/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131043-0500.xml to log the message. (MV)
+2014-01-22/13:12:16.663/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131216-0500.xml to log the message. (MV)
+2014-01-22/13:12:16.871/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:16.874/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131216-0500.xml to log the message. (MV)
+2014-01-22/13:12:18.746/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131218-0500.xml to log the message. (MV)
+2014-01-22/13:12:18.822/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131218-0500.xml to log the message. (MV)
+2014-01-22/13:12:18.827/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:18.829/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131218-0500.xml to log the message. (MV)
+2014-01-22/13:12:19.406/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131219-0500.xml to log the message. (MV)
+2014-01-22/13:12:19.468/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131219-0500.xml to log the message. (MV)
+2014-01-22/13:12:19.472/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:19.474/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131219-0500.xml to log the message. (MV)
+2014-01-22/13:12:19.947/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131219-0500.xml to log the message. (MV)
+2014-01-22/13:12:19.986/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131219-0500.xml to log the message. (MV)
+2014-01-22/13:12:19.990/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:19.995/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131219-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.193/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.213/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.217/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:20.222/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.395/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.417/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.419/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:20.425/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.548/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.562/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.563/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:20.587/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:20.588/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.681/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.717/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.718/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:20.728/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:20.729/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.802/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.838/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.839/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:20.849/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:20.850/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.924/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.954/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:20.954/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:20.968/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:20.969/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131220-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.176/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.207/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.207/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:21.227/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:21.229/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.448/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.516/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.516/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:21.530/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:21.531/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.731/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.771/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:21.771/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:12:21.780/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:12:21.782/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131221-0500.xml to log the message. (MV)
+2014-01-22/13:12:22.043/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131222-0500.xml to log the message. (MV)
+2014-01-22/13:13:39.933/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131339-0500.xml to log the message. (MV)
+2014-01-22/13:13:39.935/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:39.937/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131339-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.160/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.200/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.203/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:40.204/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.410/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.437/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.439/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:40.440/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.654/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.676/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.678/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:40.678/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.777/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.788/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.789/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:40.790/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.902/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.915/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:40.917/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:40.918/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131340-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.016/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.028/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.028/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.034/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.034/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.085/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.104/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.104/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.107/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.108/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.146/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.171/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.171/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.176/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.177/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.225/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.244/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.244/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.250/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.251/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.394/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.419/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.419/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.444/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.445/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.605/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.637/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.637/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.647/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.648/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.769/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.798/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.799/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:13:41.804/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:13:41.806/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:13:41.968/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131341-0500.xml to log the message. (MV)
+2014-01-22/13:19:34.609/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131934-0500.xml to log the message. (MV)
+2014-01-22/13:19:34.777/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:34.782/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131934-0500.xml to log the message. (MV)
+2014-01-22/13:19:37.240/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131937-0500.xml to log the message. (MV)
+2014-01-22/13:19:37.754/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131937-0500.xml to log the message. (MV)
+2014-01-22/13:19:37.758/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:37.777/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131937-0500.xml to log the message. (MV)
+2014-01-22/13:19:38.364/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131938-0500.xml to log the message. (MV)
+2014-01-22/13:19:38.429/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131938-0500.xml to log the message. (MV)
+2014-01-22/13:19:38.431/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:38.433/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131938-0500.xml to log the message. (MV)
+2014-01-22/13:19:38.894/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131938-0500.xml to log the message. (MV)
+2014-01-22/13:19:38.942/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131938-0500.xml to log the message. (MV)
+2014-01-22/13:19:38.945/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:38.947/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131938-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.200/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.228/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.230/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:39.234/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.368/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.385/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.388/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:39.389/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.519/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.535/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.537/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:39.542/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.655/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.672/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.672/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:39.695/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:39.695/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.798/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.828/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.828/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:39.833/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:39.833/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.902/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.935/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:39.935/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:39.943/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:39.944/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131939-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.020/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.055/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.058/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:40.071/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:40.072/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.271/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.305/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.305/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:40.326/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:40.327/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.497/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.539/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.539/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:40.551/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:40.552/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.713/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.754/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.754/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:19:40.763/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:19:40.765/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:19:40.974/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122131940-0500.xml to log the message. (MV)
+2014-01-22/13:22:17.879/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132217-0500.xml to log the message. (MV)
+2014-01-22/13:22:17.881/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:17.886/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132217-0500.xml to log the message. (MV)
+2014-01-22/13:22:18.338/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132218-0500.xml to log the message. (MV)
+2014-01-22/13:22:18.761/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132218-0500.xml to log the message. (MV)
+2014-01-22/13:22:18.762/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:18.764/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132218-0500.xml to log the message. (MV)
+2014-01-22/13:22:18.927/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132218-0500.xml to log the message. (MV)
+2014-01-22/13:22:18.947/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132218-0500.xml to log the message. (MV)
+2014-01-22/13:22:18.948/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:18.950/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132218-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.088/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.110/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.111/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.113/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.260/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.279/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.280/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.281/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.381/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.392/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.393/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.394/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.504/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.517/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.518/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.519/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.597/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.606/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.606/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:19.610/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.610/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.651/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.676/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.677/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:19.681/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.682/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.731/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.750/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.750/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:19.753/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.754/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.792/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.812/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.812/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:19.818/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.819/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.940/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.963/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:19.964/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:19.973/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:19.974/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132219-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.120/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.145/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.145/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:20.155/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:20.156/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.288/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.321/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.321/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:22:20.325/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:22:20.328/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:22:20.477/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132220-0500.xml to log the message. (MV)
+2014-01-22/13:24:04.122/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132404-0500.xml to log the message. (MV)
+2014-01-22/13:24:04.287/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:04.292/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132404-0500.xml to log the message. (MV)
+2014-01-22/13:24:06.788/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132406-0500.xml to log the message. (MV)
+2014-01-22/13:24:07.360/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132407-0500.xml to log the message. (MV)
+2014-01-22/13:24:07.364/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:07.394/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132407-0500.xml to log the message. (MV)
+2014-01-22/13:24:07.911/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132407-0500.xml to log the message. (MV)
+2014-01-22/13:24:07.961/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132407-0500.xml to log the message. (MV)
+2014-01-22/13:24:07.964/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:07.966/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132407-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.393/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.445/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.447/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:08.449/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.706/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.737/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.740/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:08.741/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.879/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.895/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:08.897/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:08.898/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132408-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.007/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.022/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.024/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:09.025/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.126/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.141/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.142/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:09.162/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:09.162/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.252/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.293/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.293/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:09.299/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:09.300/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.367/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.417/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.417/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:09.437/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:09.438/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.513/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.555/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.555/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:09.569/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:09.570/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.787/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.814/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:09.814/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:09.832/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:09.833/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132409-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.014/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.056/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.056/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:10.067/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:10.069/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.241/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.283/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.283/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:24:10.291/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:24:10.292/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:24:10.487/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122132410-0500.xml to log the message. (MV)
+2014-01-22/13:51:00.700/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135100-0500.xml to log the message. (MV)
+2014-01-22/13:51:00.857/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:00.861/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135100-0500.xml to log the message. (MV)
+2014-01-22/13:51:03.373/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135103-0500.xml to log the message. (MV)
+2014-01-22/13:51:03.970/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135103-0500.xml to log the message. (MV)
+2014-01-22/13:51:03.973/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:04.000/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135104-0500.xml to log the message. (MV)
+2014-01-22/13:51:04.651/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135104-0500.xml to log the message. (MV)
+2014-01-22/13:51:04.707/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135104-0500.xml to log the message. (MV)
+2014-01-22/13:51:04.709/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:04.711/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135104-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.264/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.310/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.313/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:05.315/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.631/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.663/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.666/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:05.667/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.800/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.823/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.826/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:05.827/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.927/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.939/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:05.940/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:05.941/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135105-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.044/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.059/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.060/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:06.078/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:06.078/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.160/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.191/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.191/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:06.197/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:06.198/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.260/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.287/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.287/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:06.295/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:06.296/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.372/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.426/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.429/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:06.450/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:06.452/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.699/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.736/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.737/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:06.758/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:06.759/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:06.997/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135106-0500.xml to log the message. (MV)
+2014-01-22/13:51:07.053/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135107-0500.xml to log the message. (MV)
+2014-01-22/13:51:07.053/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:07.069/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:07.070/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135107-0500.xml to log the message. (MV)
+2014-01-22/13:51:07.293/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135107-0500.xml to log the message. (MV)
+2014-01-22/13:51:07.343/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135107-0500.xml to log the message. (MV)
+2014-01-22/13:51:07.343/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:51:07.352/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:51:07.353/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135107-0500.xml to log the message. (MV)
+2014-01-22/13:51:07.607/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135107-0500.xml to log the message. (MV)
+2014-01-22/13:53:05.346/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135305-0500.xml to log the message. (MV)
+2014-01-22/13:53:05.594/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:05.601/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135305-0500.xml to log the message. (MV)
+2014-01-22/13:53:08.612/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135308-0500.xml to log the message. (MV)
+2014-01-22/13:53:09.298/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135309-0500.xml to log the message. (MV)
+2014-01-22/13:53:09.302/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:09.305/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135309-0500.xml to log the message. (MV)
+2014-01-22/13:53:10.296/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135310-0500.xml to log the message. (MV)
+2014-01-22/13:53:10.361/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135310-0500.xml to log the message. (MV)
+2014-01-22/13:53:10.365/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:10.367/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135310-0500.xml to log the message. (MV)
+2014-01-22/13:53:10.963/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135310-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.010/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.015/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:11.017/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.328/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.367/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.370/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:11.371/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.537/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.555/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.558/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:11.559/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.718/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.745/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.747/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:11.748/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.888/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.903/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:11.903/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:11.939/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:11.940/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135311-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.076/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.125/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.125/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:12.134/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:12.136/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.246/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.308/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.308/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:12.317/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:12.318/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.407/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.439/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.439/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:12.450/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:12.452/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.672/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.718/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:12.718/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:12.753/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:12.755/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135312-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.011/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.070/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.070/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:13.083/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:13.084/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.305/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.354/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.354/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:53:13.363/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:53:13.365/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:53:13.676/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135313-0500.xml to log the message. (MV)
+2014-01-22/13:59:45.281/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135945-0500.xml to log the message. (MV)
+2014-01-22/13:59:45.445/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:45.449/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135945-0500.xml to log the message. (MV)
+2014-01-22/13:59:47.813/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135947-0500.xml to log the message. (MV)
+2014-01-22/13:59:48.413/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135948-0500.xml to log the message. (MV)
+2014-01-22/13:59:48.418/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:48.420/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135948-0500.xml to log the message. (MV)
+2014-01-22/13:59:49.175/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135949-0500.xml to log the message. (MV)
+2014-01-22/13:59:49.221/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135949-0500.xml to log the message. (MV)
+2014-01-22/13:59:49.223/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:49.225/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135949-0500.xml to log the message. (MV)
+2014-01-22/13:59:49.658/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135949-0500.xml to log the message. (MV)
+2014-01-22/13:59:49.707/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135949-0500.xml to log the message. (MV)
+2014-01-22/13:59:49.710/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:49.712/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135949-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.004/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.035/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.037/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.038/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.164/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.177/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.180/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.181/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.307/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.332/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.334/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.335/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.432/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.445/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.445/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:50.471/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.471/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.550/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.584/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.584/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:50.591/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.592/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.659/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.688/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.688/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:50.696/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.697/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.771/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.810/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:50.810/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:50.846/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:50.847/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135950-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.016/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.043/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.043/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:51.060/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:51.062/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.258/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.301/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.301/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:51.318/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:51.319/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.505/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.548/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_profileOID_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.548/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-22/13:59:51.556/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-22/13:59:51.558/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_message_140122135951-0500.xml to log the message. (MV)
+2014-01-22/13:59:51.761/ESTINFOCouldn't create the file /usr/local/apache-tomcat-7.0.40/logs/hl7ws/msgValid_report_140122135951-0500.xml to log the message. (MV)

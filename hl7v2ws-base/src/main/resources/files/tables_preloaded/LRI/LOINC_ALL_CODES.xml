@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TableLibrary TableLibraryIdentifier="1.0" xmlns="http://www.nist.gov/healthcare/data" TableLibraryVersion="1.0" Status="Active" OrganizationName="LOINC NIST" Name="Categorized Tests for LRI Testing Compiled ST v18" Description="The set of all LOINC codes from Categorized Tests">
+    <TableDefinition Version="1.0" Type="External" Name="All LOINC Codes" Id="LN" Codesys="LOINC">
+        <TableElement DisplayName="Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P" Code="30239-8"/>
+        <TableElement DisplayName="Aspartate aminotransferase [Enzymatic activity/volume] (Methodless)" Code="1920-8"/>
+        <TableElement DisplayName="Aspartate aminotransferase [Enzymatic activity/volume] in maximum Serum or Plasma (Methodless)" Code="44786-2"/>
+        <TableElement DisplayName="Potassium [Moles/volume] in Mixed venous blood (Methodless)" Code="41656-0"/>
+        <TableElement DisplayName="Potassium [Moles/volume] in Arterial blood (Methodless)" Code="32713-0"/>
+        <TableElement DisplayName="Potassium [Moles/volume] (in Blood) (Methodless)" Code="6298-4"/>
+        <TableElement DisplayName="Potassium [Moles/volume] in Venous blood (Methodless)" Code="39789-3"/>
+        <TableElement DisplayName="Potassium [Moles/volume] in Capillary blood (Methodless)" Code="39790-1"/>
+        <TableElement DisplayName="Potassium [Moles/volume] in Serum or Plasma (Methodless)" Code="2823-3"/>
+        <TableElement DisplayName="Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P" Code="1743-4"/>
+        <TableElement DisplayName="Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by Without P-5'-P" Code="1744-2"/>
+        <TableElement DisplayName="Alanine aminotransferase [Enzymatic activity/volume] (Methodless)" Code="1742-6"/>
+        <TableElement DisplayName="Alanine aminotransferase [Enzymatic activity/volume] in maximum Serum or Plasma by Without P-5'-P" Code="44785-4"/>
+        <TableElement DisplayName="Iron saturation [Mass] (Methodless)" Code="2502-3"/>
+        <TableElement DisplayName="Microorganism identified in Unspecified specimen by Culture" Code="11475-1"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Unspecified specimen (by Rapid test)" Code="49905-3"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Saliva (by Immunoblot (IB))" Code="35439-9"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Serum (methodless)" Code="7917-8"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Saliva (methodless)" Code="41144-7"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Unspecified specimen (methodless)" Code="53379-4"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Saliva (by Immunoassay)" Code="35437-3"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Serum (by Immunoblot (IB))" Code="5221-7"/>
+        <TableElement DisplayName="HIV 1 Ab [Presence] in Serum (by Immunoassay)" Code="29893-5"/>
+        <TableElement DisplayName="Urinalysis panel in Urine (by Auto)" Code="50564-4"/>
+        <TableElement DisplayName="Urinalysis microscopic panel [#/area] in Urine (by Automated count)" Code="53293-7"/>
+        <TableElement DisplayName="Nitrite [Presence] in Urine (Methodless)" Code="32710-6"/>
+        <TableElement DisplayName="Nitrite [Presence] in Urine (by Test strip)" Code="5802-4"/>
+        <TableElement DisplayName="Nitrite [Presence] in Urine (by Automated test strip)" Code="50558-6"/>
+        <TableElement DisplayName="Hematocrit [Volume Fraction] of Blood (by Impedance)" Code="31100-1"/>
+        <TableElement DisplayName="Hematocrit [Volume Fraction] of Blood (by Automated count)" Code="4544-3"/>
+        <TableElement DisplayName="Hematocrit [Volume Fraction] of Blood (Methodless)" Code="20570-8"/>
+        <TableElement DisplayName="Crystals [type] in Urine sediment (by Light microscopy)" Code="5782-8"/>
+        <TableElement DisplayName="Protein [Presence] in Urine (by Automated test strip)" Code="57735-3"/>
+        <TableElement DisplayName="Protein [Presence] in Urine (by Test strip)" Code="20454-5"/>
+        <TableElement DisplayName="Protein [Presence] in Urine (by SSA method)" Code="53525-2"/>
+        <TableElement DisplayName="Protein [Presence] in Urine (Methodless)" Code="2887-8"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] (by Minimum lethal concentration (MLC))" Code="232-9"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] (by Gradient strip (E-test))" Code="7009-4"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] (by Serum bactericidal titer)" Code="235-2"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] (by Method for Slow-growing mycobacteria)" Code="20380-2"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] (Methodless)" Code="18919-1"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="233-7"/>
+        <TableElement DisplayName="Erythromycin [Susceptibility] by Disk diffusion (KB) (by Agar diffusion)" Code="234-5"/>
+        <TableElement DisplayName="HIV 1+2 Ab [Presence] in Serum (by Immunoblot (IB))" Code="44873-8"/>
+        <TableElement DisplayName="HIV 1+2 Ab [Presence] in Unspecified specimen (by Rapid test)" Code="49580-4"/>
+        <TableElement DisplayName="HIV 1+2 Ab [Presence] in Serum (Methodless)" Code="7918-6"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] (by Minimum lethal concentration (MLC))" Code="107-3"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] (by Gradient strip (E-test))" Code="6989-8"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] by Disk diffusion (KB) (by Agar diffusion)" Code="109-9"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] (by Method for Slow-growing mycobacteria)" Code="50632-9"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="108-1"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] (by Serum bactericidal titer)" Code="110-7"/>
+        <TableElement DisplayName="Cefotaxime [Susceptibility] (Methodless)" Code="18886-2"/>
+        <TableElement DisplayName="Monocytes/100 leukocytes in Blood (by Manual count)" Code="744-3"/>
+        <TableElement DisplayName="Monocytes/100 leukocytes in Blood (Methodless)" Code="26485-3"/>
+        <TableElement DisplayName="Monocytes/100 leukocytes in Blood (by Automated count)" Code="5905-5"/>
+        <TableElement DisplayName="Creatine kinase [Enzymatic activity/volume]" Code="2157-6"/>
+        <TableElement DisplayName="Triglyceride [Mass/volume] in Serum or Plasma (Methodless)" Code="2571-8"/>
+        <TableElement DisplayName="Triglyceride [Mass/volume] in Serum or Plasma (by calculation)" Code="12951-0"/>
+        <TableElement DisplayName="Triglyceride [Mass/volume] in Blood (Methodless)" Code="3043-7"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (by Confirm method &gt;20 ng/mL)" Code="14311-5"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (by SAMHSA confirm method)" Code="8237-0"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (by Screen method &gt;25 ng/mL)" Code="14310-7"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (Methodless)" Code="3936-2"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (by Confirm method)" Code="18392-1"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (by Screen method)" Code="19659-2"/>
+        <TableElement DisplayName="Phencyclidine [Presence] in Urine (by SAMSHA screen method)" Code="8238-8"/>
+        <TableElement DisplayName="Leukocytes [#/volume] in Blood (Methodless)" Code="26464-8"/>
+        <TableElement DisplayName="Leukocytes [#/volume] in Blood (Automated)" Code="6690-2"/>
+        <TableElement DisplayName="Complete blood count (hemogram) panel in Blood (by Automated count)" Code="58410-2"/>
+        <TableElement DisplayName="Appearance of Urine (Methodless)" Code="5767-9"/>
+        <TableElement DisplayName="Phosphate [Mass/volume] (Methodless)" Code="2777-1"/>
+        <TableElement DisplayName="Phosphate [Mass/volume] in Blood (Methodless)" Code="2774-8"/>
+        <TableElement DisplayName="Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen (by Organism specific culture)" Code="13317-3"/>
+        <TableElement DisplayName="Methicillin resistant Staphylococcus aureus [Presence] in Genital specimen (by Organism specific culture)" Code="53572-4"/>
+        <TableElement DisplayName="Methicillin resistant Staphylococcus aureus [Presence] in Nose (by Organism specific culture)" Code="52969-3"/>
+        <TableElement DisplayName="Sodium [Moles/volume] in Arterial blood (Methodless)" Code="32717-1"/>
+        <TableElement DisplayName="Sodium [Moles/volume] in Venous blood (Methodless)" Code="39791-9"/>
+        <TableElement DisplayName="Sodium [Moles/volume] in Mixed venous blood (Methodless)" Code="41657-8"/>
+        <TableElement DisplayName="Sodium [Moles/volume] in Serum or Plasma (Methodless)" Code="2951-2"/>
+        <TableElement DisplayName="Sodium [Moles/volume] in Capillary blood (Methodless)" Code="39792-7"/>
+        <TableElement DisplayName="Sodium [Moles/volume] in blood (Methodless)" Code="2947-0"/>
+        <TableElement DisplayName="Comprehensive metabolic 1998 panel in Serum or Plasma (Methodless)" Code="24322-0"/>
+        <TableElement DisplayName="INR in Platelet poor plasma (by Coagulation assay)" Code="6301-6"/>
+        <TableElement DisplayName="Calcium [Mass/volume] in Serum or Plasma (Methodless)" Code="17861-6"/>
+        <TableElement DisplayName="Calcium [Mass/volume] in Blood (Methodless)" Code="49765-1"/>
+        <TableElement DisplayName="Calcidiol [Mass/volume] in Serum or Plasma (Methodless)" Code="1989-3"/>
+        <TableElement DisplayName="Reticulocytes/100 Erythrocytes in Blood (Methodless)" Code="4679-7"/>
+        <TableElement DisplayName="Reticulocytes/100 erythrocytes in Blood (by Manual)" Code="31112-6"/>
+        <TableElement DisplayName="Reticulocytes/100 erythrocytes in Blood (by Automated count)" Code="17849-1"/>
+        <TableElement DisplayName="Penicillin [Susceptibility] (by Gradient strip (E-test))" Code="23925-1"/>
+        <TableElement DisplayName="Penicillin [Susceptibility] (by Disk diffusion (KB))" Code="13968-3"/>
+        <TableElement DisplayName="Penicillin [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="6932-8"/>
+        <TableElement DisplayName="Penicillin [Susceptibility] (Methodless)" Code="18964-7"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen (by DNA probe)" Code="45076-7"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Urine by Probe &amp; target amplification method" Code="21416-3"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Cervical mucus (by Probe &amp; target amplification method)" Code="21189-6"/>
+        <TableElement DisplayName="Influenza virus A+B RNA [Identifier] in Isolate (by Probe &amp; target amplification method)" Code="49537-4"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Genital specimen (by DNA probe)" Code="45069-2"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Cervix (by DNA probe)" Code="45067-6"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Urethra (by Probe &amp; target amplification method)" Code="21191-2"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Nasopharynx by Probe &amp; target amplification method" Code="57180-2"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Nasopharynx by Probe &amp; target amplification method" Code="57289-1"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Urethra by Probe &amp; target amplification method" Code="53927-0"/>
+        <TableElement DisplayName="Chlamydia trachomatis rRNA [Presence] in Genital specimen (by DNA probe)" Code="16600-9"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urine (by DNA probe)" Code="45074-2"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Conjunctival specimen by DNA probe" Code="33904-4"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Urethra (by DNA probe)" Code="45075-9"/>
+        <TableElement DisplayName="Chlamydia trachomatis rRNA [Presence] in Urine (by DNA probe)" Code="16601-7"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Cervix (by Probe &amp; target amplification method)" Code="21190-4"/>
+        <TableElement DisplayName="Human papilloma virus 6+11+42+43+44 DNA [Presence] in Cervix (by Probe &amp; signal amplification method) (HPV Low Risk DNA Cervix Ql bDNA)" Code="42481-2"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Genital specimen by Probe &amp; target amplification method" Code="47387-6"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Tissue (by DNA probe)" Code="45073-4"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Unspecified specimen (by Probe &amp; target amplification method)" Code="21613-5"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe &amp; signal amplification method" Code="43403-5"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Cervix by DNA probe" Code="32198-4"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen (by Probe &amp; signal amplification method)" Code="43406-8"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen by Probe &amp; target amplification method" Code="24111-7"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen (by Probe &amp; target amplification method)" Code="36902-5"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Urethra by Probe &amp; target amplification method" Code="21415-5"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Vaginal fluid by Probe &amp; target amplification method" Code="32705-6"/>
+        <TableElement DisplayName="Human papilloma virus 16+18+31+33+35+45+51+52+56 DNA [Presence] in Cervix by DNA probe (HPV I/H Risk DNA Cervix Ql Prb)" Code="21440-3"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Penis by Probe &amp; target amplification method" Code="53878-5"/>
+        <TableElement DisplayName="Chlamydia trachomatis rRNA [Presence] in Urethra (by DNA probe)" Code="21192-0"/>
+        <TableElement DisplayName="Influenza virus A+B RNA [Identifier] in Unspecified specimen (by Probe &amp; target amplification method)" Code="48509-4"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid by Probe &amp; target amplification method" Code="53879-3"/>
+        <TableElement DisplayName="Influenza virus A RNA [Presence] in Unspecified specimen (by Probe &amp; target amplification method)" Code="34487-9"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Urine by Probe &amp; target amplification method" Code="60256-5"/>
+        <TableElement DisplayName="Chlamydia trachomatis rRNA [Presence] in Unspecified specimen (by DNA probe)" Code="4993-2"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Genital specimen (by Probe &amp; target amplification method)" Code="44807-6"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Genital specimen (by Probe &amp; target amplification method)" Code="6356-0"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Cervical mucus by Probe &amp; target amplification method" Code="21414-8"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Cervix by Probe &amp; target amplification method" Code="50388-8"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Urine (by Probe &amp; target amplification method)" Code="6357-8"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Unspecified specimen from donor by Probe &amp; target amplification method" Code="50326-8"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Anal (by DNA probe)" Code="45072-6"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Vaginal fluid (by DNA probe)" Code="45070-0"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Anal by Probe &amp; target amplification method" Code="57458-2"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Urethra by DNA probe" Code="32199-2"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by DNA probe" Code="5028-6"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Throat by Probe &amp; target amplification method" Code="60255-7"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen from donor by Probe &amp; target amplification method" Code="50412-6"/>
+        <TableElement DisplayName="Chlamydia trachomatis DNA [Presence] in Unspecified specimen (by Probe &amp; signal amplification method)" Code="43404-3"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae rRNA [Presence] in Penis (by DNA probe)" Code="45071-8"/>
+        <TableElement DisplayName="Chlamydia trachomatis rRNA [Presence] in Cervix (by DNA probe)" Code="45078-3"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae DNA [Presence] in Conjunctival specimen by Probe &amp; target amplification method" Code="35735-0"/>
+        <TableElement DisplayName="HIV genotype [Susceptibility] (by Genotyping)" Code="48558-1"/>
+        <TableElement DisplayName="Neisseria gonorrhoeae rRNA [Presence] in Unspecified specimen by Probe &amp; target amplification method" Code="43305-2"/>
+        <TableElement DisplayName="Influenza virus B RNA [Presence] in Isolate (by Probe &amp; target amplification method)" Code="49535-8"/>
+        <TableElement DisplayName="Chlamydia trachomatis+Neisseria gonorrhoeae DNA [Presence] in Urine (by Probe &amp; target amplification method)" Code="44806-8"/>
+        <TableElement DisplayName="Chlamydia trachomatis rRNA [Presence] in Cervix (by Probe &amp; target amplification method)" Code="50387-0"/>
+        <TableElement DisplayName="Influenza virus B RNA [Presence] in Unspecified specimen (by Probe &amp; target amplification method)" Code="40982-1"/>
+        <TableElement DisplayName="Human papilloma virus 16+18+31+33+35+39+45+51+52+56+58+59+68 DNA [Presence] in Cervix by Probe &amp; signal amplification method (HPV I/H Risk 1 DNA Cervix Ql bDNA) " Code="30167-1"/>
+        <TableElement DisplayName="Protein [Mass/volume] in Serum or Plasma " Code="2885-2"/>
+        <TableElement DisplayName="Microcytes [Presence] in Blood (by Automated count)" Code="15199-3"/>
+        <TableElement DisplayName="Microcytes [Presence] in Blood" Code="30434-5"/>
+        <TableElement DisplayName="Triiodothyronine (T3) Free [Mass/volume] in Serum or Plasma (Methodless)" Code="3051-0"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] (by Minimum lethal concentration (MLC))" Code="266-7"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="267-5"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] (by Gradient strip (E-test))" Code="7016-9"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] (by Serum bactericidal titer)" Code="269-1"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] (by Method for Slow-growing mycobacteria)" Code="50630-3"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] by Disk diffusion (KB) (by Agar diffusion)" Code="268-3"/>
+        <TableElement DisplayName="Gentamicin [Susceptibility] (Methodless)" Code="18928-2"/>
+        <TableElement DisplayName="Casts [#/area] in Urine sediment (by Microscopy low power field)" Code="9842-6"/>
+        <TableElement DisplayName="Casts [#/area] in Urine sediment (by Microscopy high power field)" Code="9439-1"/>
+        <TableElement DisplayName="Casts [#/area] in Urine (by Automated count)" Code="43755-8"/>
+        <TableElement DisplayName="Epithelial cells [#/area] in Urine sediment (by Microscopy high power field)" Code="5787-7"/>
+        <TableElement DisplayName="Creatinine [Mass/volume] in Arterial blood (Methodless)" Code="21232-4"/>
+        <TableElement DisplayName="Creatinine [Mass/volume] in Blood (Methodless)" Code="38483-4"/>
+        <TableElement DisplayName="Creatinine [Mass/volume] in Serum or Plasma (Methodless)" Code="2160-0"/>
+        <TableElement DisplayName="Creatinine [Mass/volume] in maximum Serum or Plasma (Methodless)" Code="44784-7"/>
+        <TableElement DisplayName="Colony count [#] in Unspecified specimen by Visual count" Code="564-5"/>
+        <TableElement DisplayName="Platelet morphology finding [Identifier] in Blood" Code="11125-2"/>
+        <TableElement DisplayName="Eosinophils [#/volume] in Blood (by Automated count)" Code="711-2"/>
+        <TableElement DisplayName="Eosinophils [#/volume] in Blood (by Manual count)" Code="712-0"/>
+        <TableElement DisplayName="Eosinophils [#/volume] in Blood (Methodless)" Code="26449-9"/>
+        <TableElement DisplayName="Platelets [#/volume] in Blood (Manual count)" Code="778-1"/>
+        <TableElement DisplayName="Platelets [#/volume] in Blood (Methodless)" Code="26515-7"/>
+        <TableElement DisplayName="Platelets [#/volume] in Blood (by Automated count)" Code="777-3"/>
+        <TableElement DisplayName="Hypochromia [Presence] in Blood (by Automated count)" Code="15180-3"/>
+        <TableElement DisplayName="Hypochromia [Presence] in Blood" Code="30400-6"/>
+        <TableElement DisplayName="Urine sediment comments (by Light microscopy Narrative)" Code="11279-7"/>
+        <TableElement DisplayName="Thyroxine (T4) free index in Serum or Plasma" Code="32215-6"/>
+        <TableElement DisplayName="Thyroxine (T4) free [Mass/volume] in Serum or Plasma (Methodless)" Code="3024-7"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Serum or Plasma (Methodless)" Code="2028-9"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Blood (by calculation)" Code="34728-6"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Venous blood (by calculation)" Code="48391-7"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Mixed venous blood (by calculation)" Code="57920-1"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Arterial blood (by calculation)" Code="41647-9"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Arterial blood (Methodless)" Code="2026-3"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Mixed venous blood (Methodless)" Code="19223-7"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Capillary blood (by calculation)" Code="51781-3"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Venous blood (Methodless)" Code="2027-1"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Serum or Plasma (by calculation)" Code="57922-7"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] in Capillary blood (Methodless)" Code="16551-4"/>
+        <TableElement DisplayName="Carbon dioxide, total [Moles/volume] (Methodless)" Code="20565-8"/>
+        <TableElement DisplayName="C reactive protein [Mass/volume] in Capillary blood (Methodless)" Code="48421-2"/>
+        <TableElement DisplayName="C reactive protein [Mass/volume] in Serum or Plasma (by High sensitivity method)" Code="30522-7"/>
+        <TableElement DisplayName="C reactive protein [Mass/volume] in Serum or Plasma (Methodless)" Code="1988-5"/>
+        <TableElement DisplayName="Lead [Mass/volume] in Serum or Plasma (Methodless)" Code="10912-4"/>
+        <TableElement DisplayName="Lead [Mass/mass] in Red Blood Cells (Methodless)" Code="27129-6"/>
+        <TableElement DisplayName="Lead [Mass/volume] in Red Blood Cells (Methodless)" Code="5674-7"/>
+        <TableElement DisplayName="Lead [Mass/volume] in Capillary blood (Methodless)" Code="10368-9"/>
+        <TableElement DisplayName="Lead [Mass/volume] in Blood (Methodless)" Code="5671-3"/>
+        <TableElement DisplayName="Erythrocyte mean corpuscular volume [Entitic volume] (Methodless)" Code="30428-7"/>
+        <TableElement DisplayName="Erythrocyte mean corpuscular volume [Entitic volume] (by Automated count)" Code="787-2"/>
+        <TableElement DisplayName="Follitropin [Units/volume] (Methodless)" Code="15067-2"/>
+        <TableElement DisplayName="Triiodothyronine (T3) [Mass/volume] in Serum or Plasma (Methodless)" Code="3053-6"/>
+        <TableElement DisplayName="Erythrocyte mean corpuscular hemoglobin concentration [Mass/volume](by Automated count)" Code="786-4"/>
+        <TableElement DisplayName="Erythrocyte mean corpuscular hemoglobin concentration [Mass/volume] (Methodless)" Code="28540-3"/>
+        <TableElement DisplayName="Lymphocytes/100 leukocytes in Blood (by Automated count)" Code="736-9"/>
+        <TableElement DisplayName="Lymphocytes/100 leukocytes in Blood (by Manual count)" Code="737-7"/>
+        <TableElement DisplayName="Lymphocytes/100 leukocytes in Blood (Methodless)" Code="26478-8"/>
+        <TableElement DisplayName="Specific gravity of Urine (by Refractometry automated)" Code="50562-8"/>
+        <TableElement DisplayName="Specific gravity of Urine (Methodless)" Code="2965-2"/>
+        <TableElement DisplayName="Specific gravity of Urine (by Automated test strip)" Code="53326-5"/>
+        <TableElement DisplayName="Specific gravity of Urine (by Test Strip)" Code="5811-5"/>
+        <TableElement DisplayName="Specific gravity of Urine (by Refractometry)" Code="5810-7"/>
+        <TableElement DisplayName="Leukocytes [#/area] in Urine ( Automated count)" Code="46702-7"/>
+        <TableElement DisplayName="Leukocytes [#/area] in Urine sediment (by Microscopy high power field)" Code="5821-4"/>
+        <TableElement DisplayName="Leukocytes [#/area] in Urine sediment (by Microscopy low power field)" Code="45383-7"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M predicted among females (by Creatinine-based formula (MDRD))" Code="50044-7"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M.predicted (by Creatinine-based formula (Schwartz))" Code="50384-7"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M.predicted (by Creatinine-based formula MDRD)" Code="33914-3"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M predicted among non-blacks (by Creatinine-based formula (MDRD))" Code="48642-3"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M predicted among blacks (by Creatinine-based formula (MDRD))" Code="48643-1"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M.predicted (by Creatinine-based formula (CKD-EPI) )" Code="62238-1"/>
+        <TableElement DisplayName="Glomerular filtration rate/1.73 sq M.predicted (by Cystatin-based formula)" Code="50210-4"/>
+        <TableElement DisplayName="Bilirubin [Presence] in Urine (by Confirmatory method)" Code="58450-8"/>
+        <TableElement DisplayName="Bilirubin [Presence] in Urine (by Test strip)" Code="5770-3"/>
+        <TableElement DisplayName="Bilirubin [Presence] in Urine (by Automated test strip)" Code="50551-1"/>
+        <TableElement DisplayName="Bilirubin [Presence] in Urine (Methodless)" Code="1977-8"/>
+        <TableElement DisplayName="Poikilocytosis [Presence] in Blood by Light microscopy" Code="779-9"/>
+        <TableElement DisplayName="Poikilocytosis [Presence] in Blood (by Automated count) by Light microscopy" Code="38908-0"/>
+        <TableElement DisplayName="Hemoglobin [Presence] in Urine (by Test strip)" Code="5794-3"/>
+        <TableElement DisplayName="Hemoglobin [Presence] in Urine (by Automated test strip)" Code="57751-0"/>
+        <TableElement DisplayName="Hemoglobin [Presence] in Urine (Methodless)" Code="725-2"/>
+        <TableElement DisplayName="Iron [Mass/volume] in Serum or Plasma (Methodless)" Code="2498-4"/>
+        <TableElement DisplayName="Fibrinogen [Mass/volume] in Platelet poor plasma (by Coagulation.derived)" Code="48664-7"/>
+        <TableElement DisplayName="Fibrinogen [Mass/volume] in Platelet poor plasma (by Coagulation assay)" Code="3255-7"/>
+        <TableElement DisplayName="Fibrinogen [Mass/volume] in Platelet poor plasma (by Heat denaturation)" Code="30902-1"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by Confirm method)" Code="16369-1"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (Methodless)" Code="3349-8"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by Screen method)" Code="19261-7"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by SAMSHA screen method)" Code="8152-1"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by Screen method &gt;500 ng/mL)" Code="43983-6"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by Confirm method &gt;200 ng/mL)" Code="14309-9"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by Screen method &gt;1000 ng/mL)" Code="14308-1"/>
+        <TableElement DisplayName="Amphetamines [Presence] in Urine (by SAMHSA confirm method)" Code="8151-3"/>
+        <TableElement DisplayName="Urinalysis dipstick W Reflex Microscopic panel in Urine (Methodless)" Code="57020-0"/>
+        <TableElement DisplayName="Neutrophils [#/volume] in Blood (by Automated count)" Code="751-8"/>
+        <TableElement DisplayName="Neutrophils [#/volume] in Blood (Methodless)" Code="26499-4"/>
+        <TableElement DisplayName="Neutrophils [#/volume] in Blood (by Manual count)" Code="753-4"/>
+        <TableElement DisplayName="Urinalysis complete panel in Urine (Methodless)" Code="24356-8"/>
+        <TableElement DisplayName="Natriutietic peptide B [Mass/volume] in Blood (Methodless)" Code="42637-9"/>
+        <TableElement DisplayName="Natriutietic peptide B [Mass/volume] in Serum or Plasma (Methodless)" Code="30934-4"/>
+        <TableElement DisplayName="IgM [Mass/volume] in Serum (by Electrophoresis)" Code="55925-2"/>
+        <TableElement DisplayName="IgM [Mass/volume] in Serum (Methodless)" Code="2472-9"/>
+        <TableElement DisplayName="Prostate specific Ag [Mass/volume] in Serum or Plasma (methodless)" Code="2857-1"/>
+        <TableElement DisplayName="Prostate specific Ag [Mass/volume] in Serum or Plasma (by Detection)" Code="35741-8"/>
+        <TableElement DisplayName="Urinalysis dipstick panel in Urine (by Automated test strip)" Code="50556-0"/>
+        <TableElement DisplayName="Creatine kinase.MB [Mass/volume] in Blood (Methodless)" Code="49551-5"/>
+        <TableElement DisplayName="Creatine kinase.MB [Mass/volume] in Serum or Plasma (Methodless)" Code="13969-1"/>
+        <TableElement DisplayName="Bacterial susceptibility panel in Isolate (by Minimum inhibitory concentration (MIC))" Code="50545-3"/>
+        <TableElement DisplayName="Bacteria identified in Stool by Culture" Code="625-4"/>
+        <TableElement DisplayName="Urinalysis macro (dipstick) panel in Urine (by dipstick)" Code="24357-6"/>
+        <TableElement DisplayName="Thyroxine (T4) [Mass/volume] in Serum or Plasma (Methodless)" Code="3026-2"/>
+        <TableElement DisplayName="Thyroxine (T4) [Mass/volume] in Blood (Methodless)" Code="3025-4"/>
+        <TableElement DisplayName="Chloride [Moles/volume] in Capillary blood (Methodless)" Code="51590-8"/>
+        <TableElement DisplayName="Chloride [Moles/volume] (in Blood) (Methodless)" Code="2069-3"/>
+        <TableElement DisplayName="Chloride [Moles/volume] in Arterial blood (Methodless)" Code="41650-3"/>
+        <TableElement DisplayName="Chloride [Moles/volume] in Serum or Plasma (Methodless)" Code="2075-0"/>
+        <TableElement DisplayName="Chloride [Moles/volume] in Venous blood (Methodless)" Code="41649-5"/>
+        <TableElement DisplayName="Erythrocyte mean corpuscular hemoglobin [Entitic mass] (by Automated count)" Code="785-6"/>
+        <TableElement DisplayName="Erythrocyte mean corpuscular hemoglobin [Entitic mass] (Methodless)" Code="28539-5"/>
+        <TableElement DisplayName="Color of Urine (by Auto)" Code="50553-7"/>
+        <TableElement DisplayName="Color of Urine (Methodless)" Code="5778-6"/>
+        <TableElement DisplayName="Comprehensive metabolic 2000 panel in Serum or Plasma (Methodless)" Code="24323-8"/>
+        <TableElement DisplayName="Basophils [#/volume] in Blood (Manual count)" Code="705-4"/>
+        <TableElement DisplayName="Basophils [#/volume] in Blood (Methodless)" Code="26444-0"/>
+        <TableElement DisplayName="Basophils [#/volume] in Blood (by Automated count)" Code="704-7"/>
+        <TableElement DisplayName="Cholesterol [Mass/volume] in Serum or Plasma (Methodless)" Code="2093-3"/>
+        <TableElement DisplayName="Cholesterol non HDL [Mass/volume] in Serum or Plasma" Code="43396-1"/>
+        <TableElement DisplayName="Cholesterol [Mass/volume] in Serum or Plasma (ultracentrifugate)" Code="48620-9"/>
+        <TableElement DisplayName="Cocaine [Presence] in Urine (by Screen method)" Code="19359-9"/>
+        <TableElement DisplayName="Cocaine [Presence] in Urine (by Confirm method)" Code="19360-7"/>
+        <TableElement DisplayName="Cocaine [Presence] in Urine (Methodless)" Code="3397-7"/>
+        <TableElement DisplayName="Prostate specific Ag panel in Serum or Plasma (methodless)" Code="53764-7"/>
+        <TableElement DisplayName="Cholesterol.in LDL (real) [Mass/volume] in Serum or Plasma (by VAP)" Code="55440-2"/>
+        <TableElement DisplayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma (by calculation)" Code="13457-7"/>
+        <TableElement DisplayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma (Methodless)" Code="2089-1"/>
+        <TableElement DisplayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma (by Direct assay)" Code="18262-6"/>
+        <TableElement DisplayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma (by Electrophoresis)" Code="49132-4"/>
+        <TableElement DisplayName="Cholesterol in LDL [Mass/volume] in Serum or Plasma (ultracentrifugate)" Code="18261-8"/>
+        <TableElement DisplayName="Virus identified in Blood by Culture" Code="5883-4"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Baerman concentration)" Code="20926-2"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Trichrome stain)" Code="43227-8"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Light microscopy)" Code="10704-5"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Iron hematoxylin stain)" Code="18307-9"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Immune stain)" Code="10702-9"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Parasite sedimentation)" Code="20924-7"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Kinyoun iron hematoxylin stain)" Code="10703-7"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by Concentration)" Code="10701-1"/>
+        <TableElement DisplayName="Ova+Parasites identified in Stool (by McMaster concentration)" Code="20925-4"/>
+        <TableElement DisplayName="Activated partial thrombplastin time (aPTT) in Platelet poor plasma (by Coagulation 1:1 saline)" Code="43734-3"/>
+        <TableElement DisplayName="Activated partial thrombplastin time (aPTT) in Platelet poor plasma from control (by Coagulation assay)" Code="13488-2"/>
+        <TableElement DisplayName="Activated partial thrombplastin time (aPTT) in Platelet poor plasma (by Coagulation assay)" Code="14979-9"/>
+        <TableElement DisplayName="Activated partial thrombplastin time (aPTT) in Platelet poor plasma (by Coagulation assay --baseline)" Code="40100-0"/>
+        <TableElement DisplayName="Tetracycline [Susceptibility] (by Disk diffusion (KB))" Code="497-8"/>
+        <TableElement DisplayName="Tetracycline [Susceptibility] (by Gradient strip (E-test))" Code="7052-4"/>
+        <TableElement DisplayName="Tetracycline [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="496-0"/>
+        <TableElement DisplayName="Tetracycline [Susceptibility] (by Serum bactericidal titer)" Code="498-6"/>
+        <TableElement DisplayName="Tetracycline [Susceptibility] (by Minimum lethal concentration (MLC))" Code="495-2"/>
+        <TableElement DisplayName="Tetracycline [Susceptibility] (Methodless)" Code="18993-6"/>
+        <TableElement DisplayName="Erythrocyte distribution width [Ratio] (Methodless)" Code="30385-9"/>
+        <TableElement DisplayName="Erythrocyte distribution width [Ratio] (by Automated count)" Code="788-0"/>
+        <TableElement DisplayName="CBC with Ordered Manual Differential panel in Blood (Methodless)" Code="57782-5"/>
+        <TableElement DisplayName="Tacrolimus [Mass/volume] in Serum or Plasma (Methodless)" Code="32721-3"/>
+        <TableElement DisplayName="Tacrolimus [Mass/volume] in Blood (Methodless)" Code="11253-2"/>
+        <TableElement DisplayName="Ampicillin [Susceptibility] (by Serum bactericidal titer)" Code="30-7"/>
+        <TableElement DisplayName="Ampicillin [Susceptibility] (by Minimum lethal concentration (MLC))" Code="27-3"/>
+        <TableElement DisplayName="Ampicillin [Susceptibility] by Disk diffusion (KB) (by Agar diffusion)" Code="29-9"/>
+        <TableElement DisplayName="Ampicillin [Susceptibility] (Methodless)" Code="18864-9"/>
+        <TableElement DisplayName="Ampicillin [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="28-1"/>
+        <TableElement DisplayName="Ampicillin [Susceptibility] (by Gradient strip (E-test))" Code="6979-9"/>
+        <TableElement DisplayName="Leukocyte morphology finding [Identifier] in Blood" Code="11156-7"/>
+        <TableElement DisplayName="Prothrombin time (PT) in Platelet poor plasma (by Coagulation assay)" Code="5902-2"/>
+        <TableElement DisplayName="Globulin [Mass/volume] in Plasma (Methodless)" Code="13536-8"/>
+        <TableElement DisplayName="Globulin [Mass/volume] in Serum (Methodless)" Code="2336-6"/>
+        <TableElement DisplayName="Globulin [Mass/volume] (by Calculation)" Code="10834-0"/>
+        <TableElement DisplayName="Triiodothyronine (T3) resin uptake in Serum or Plasma (Methodless)" Code="3050-2"/>
+        <TableElement DisplayName="Troponin I cardiac [Mass/volume]" Code="10839-9"/>
+        <TableElement DisplayName="Bacterial susceptibility panel in Isolate by Disk diffusion (KB) (by agar diffusion)" Code="50546-1"/>
+        <TableElement DisplayName="Streptococcus sp identified in Unspecified specimen (by Organism specific culture)" Code="38353-9"/>
+        <TableElement DisplayName="Streptococcus.beta-hemolytic [Presence] in Genital specimen (by Organism specific culture)" Code="11267-2"/>
+        <TableElement DisplayName="Streptococcus.beta-hemolytic [Presence] culture in Unspecified specimen (by Organism specific culture)" Code="547-0"/>
+        <TableElement DisplayName="Streptococcus.beta-hemolytic [Presence] in Throat (by Organism specific culture)" Code="546-2"/>
+        <TableElement DisplayName="Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma (Methodless)" Code="6768-6"/>
+        <TableElement DisplayName="Alkaline phosphatase [Enzymatic activity/volume] in Blood (Methodless)" Code="1783-0"/>
+        <TableElement DisplayName="Iron binding capacity.unsaturated [Mass/volume] (Methodless)" Code="2501-5"/>
+        <TableElement DisplayName="Lymphocytes [#/volume] in Blood (Methodless)" Code="26474-7"/>
+        <TableElement DisplayName="Lymphocytes [#/volume] in Blood (by Automated count)" Code="731-0"/>
+        <TableElement DisplayName="Lymphocytes [#/volume] in Blood (by Manual count)" Code="732-8"/>
+        <TableElement DisplayName="Prolactin [Mass/volume] (Methodless)" Code="2842-3"/>
+        <TableElement DisplayName="Prolactin [Mass/volume] in Serum or Plasma (by Immunoassay)" Code="20568-2"/>
+        <TableElement DisplayName="Cholesterol in HDL [Mass/volume] (Methodless) in Serum or Plasma" Code="2085-9"/>
+        <TableElement DisplayName="Cholesterol in HDL [Mass/volume] in Serum or Plasma (by Electrophoresis)" Code="49130-8"/>
+        <TableElement DisplayName="Cholesterol in HDL [Mass/volume] in Serum or Plasma (ultracentrifugate)" Code="18263-4"/>
+        <TableElement DisplayName="Lactate dehydrogenase [Enzymatic activity/volume]" Code="2532-0"/>
+        <TableElement DisplayName="Cytomegalovirus Ab [Presence] in Serum (by Latex agglutination)" Code="15377-5"/>
+        <TableElement DisplayName="Varicella zoster virus IgG Ab [Units/volume] in Serum (by Immunoassay)" Code="5403-1"/>
+        <TableElement DisplayName="Varicella zoster virus IgM Ab [Units/volume] in Serum (Methodless)" Code="8048-1"/>
+        <TableElement DisplayName="Varicella zoster virus IgG Ab [Presence] in Serum" Code="19162-7"/>
+        <TableElement DisplayName="Varicella zoster virus IgG Ab [Units/volume] in Serum (Methodless)" Code="8047-3"/>
+        <TableElement DisplayName="Respiratory syncytial virus Ag [Presence] in Unspecified specimen (by Immunofluorescence)" Code="5877-6"/>
+        <TableElement DisplayName="Measles virus Ab [Presence] in Serum (Methodless)" Code="46197-0"/>
+        <TableElement DisplayName="Varicella zoster virus IgG Ab [Units/volume] in Serum (by Immunofluorescence)" Code="17763-4"/>
+        <TableElement DisplayName="Measles virus Ab [Presence] in Serum (by Immunoassay)" Code="43976-0"/>
+        <TableElement DisplayName="Corynebacterium diphtheriae IgG Ab [Units/volume] in Serum (Methodless)" Code="13227-4"/>
+        <TableElement DisplayName="Cytomegalovirus Ab [Presence] in Serum or Plasma (by Latex agglutination)" Code="59838-3"/>
+        <TableElement DisplayName="Varicella zoster virus IgG Ab [Presence] in Serum by Immunofluorescence" Code="41512-5"/>
+        <TableElement DisplayName="Herpes simplex virus 2 Ab [Titer] in Cerebral spinal fluid (Methodless)" Code="43029-8"/>
+        <TableElement DisplayName="Herpes simplex virus 2 Ab [Titer] in Serum (by Immunofluorescence)" Code="25839-2"/>
+        <TableElement DisplayName="Mumps virus Ab [Presence] in Serum (Methodless)" Code="31503-6"/>
+        <TableElement DisplayName="Mumps virus Ab [Presence] in Serum (by Immunoassay)" Code="26942-3"/>
+        <TableElement DisplayName="Corynebacterium diphtheriae IgG Ab [Units/volume] in Serum (by Immunoassay)" Code="58787-3"/>
+        <TableElement DisplayName="Varicella zoster virus IgM Ab [Units/volume] in Serum (by Immunoassay)" Code="5404-9"/>
+        <TableElement DisplayName="Varicella zoster virus IgM Ab [Units/volume] in Serum (by Immunofluorescence)" Code="17766-7"/>
+        <TableElement DisplayName="Herpes simplex virus 2 Ab [Titer] in Serum (Methodless)" Code="43028-0"/>
+        <TableElement DisplayName="Herpes simplex virus 1 Ab [Titer] in Cerebral spinal fluid (Methodless)" Code="43032-2"/>
+        <TableElement DisplayName="Varicella zoster virus IgG Ab [Presence] in Serum by Immunoassay" Code="15410-4"/>
+        <TableElement DisplayName="Herpes simplex virus 1 Ab [Titer] in Cerebral spinal fluid (by Immunofluorescence)" Code="25838-4"/>
+        <TableElement DisplayName="Herpes simplex virus 2 Ab [Titer] in Cerebral spinal fluid (by Immunofluorescence)" Code="25840-0"/>
+        <TableElement DisplayName="Respiratory syncytial virus Ag [Presence] in Unspecified specimen (by Immunoassay)" Code="5876-8"/>
+        <TableElement DisplayName="Herpes simplex virus 1 Ab [Titer] in Serum (Methodless)" Code="43031-4"/>
+        <TableElement DisplayName="Cytomegalovirus Ab [Presence] in Serum (Methodless)" Code="22239-8"/>
+        <TableElement DisplayName="Respiratory syncytial virus Ag [Presence] in Unspecified specimen (Methodless)" Code="31950-9"/>
+        <TableElement DisplayName="Herpes simplex virus 1 Ab [Titer] in Serum (by Immunofluorescence)" Code="25837-6"/>
+        <TableElement DisplayName="Erythrocyte sedimentation rate (by 15 minute reading)" Code="43402-7"/>
+        <TableElement DisplayName="Erythrocyte sedimentation rate (by Westergren method)" Code="4537-7"/>
+        <TableElement DisplayName="Erythrocyte sedimentation rate (by Wintrobe method)" Code="4538-5"/>
+        <TableElement DisplayName="Erythrocyte sedimentation rate Zeta (by Zetafuge)" Code="4539-3"/>
+        <TableElement DisplayName="Erythrocyte sedimentation rate (Methodless)" Code="30341-2"/>
+        <TableElement DisplayName="Erythrocyte sedimentation rate (by 2H Westergren method)" Code="18184-2"/>
+        <TableElement DisplayName="Leukocyte esterase [Presence] in Urine (by Test strip)" Code="5799-2"/>
+        <TableElement DisplayName="Leukocyte esterase [Presence] in Urine (by Automated test strip)" Code="60026-2"/>
+        <TableElement DisplayName="HIV 1 RNA [Presence] in Blood (by Probe &amp; target amplification method)" Code="5017-9"/>
+        <TableElement DisplayName="HIV 1 RNA [Presence] in Unspecified specimen (by Probe &amp; target amplification method)" Code="5018-7"/>
+        <TableElement DisplayName="HIV 1 RNA [Presence] in Serum or Plasma (by Probe &amp; target amplification method)" Code="25835-0"/>
+        <TableElement DisplayName="IgA [Mass/volume] in Serum (Methodless)" Code="2458-8"/>
+        <TableElement DisplayName="IgA [Mass/volume] in Serum (by Electrophoresis)" Code="55902-1"/>
+        <TableElement DisplayName="Cobalamin (Vitamin B12) [Mass/volume] (Methodless)" Code="2132-9"/>
+        <TableElement DisplayName="Cobalamin (Vitamin B12) [Mass/volume] of Body fluid (Methodless)" Code="54377-7"/>
+        <TableElement DisplayName="Cobalamin (Vitamin B12) [Mass/volume] in Blood (Methodless)" Code="16695-9"/>
+        <TableElement DisplayName="Estradiol [Mass/volume] in Serum or Plasma (by High sensitivity method)" Code="35384-7"/>
+        <TableElement DisplayName="Estradiol [Mass/volume] (Methodless)" Code="2243-4"/>
+        <TableElement DisplayName="Albumin/Globulin [Mass ratio] in Serum or Plasma (by Electrophoresis)" Code="44429-9"/>
+        <TableElement DisplayName="Albumin/Globulin [Mass ratio] in Serum or Plasma (Methodless)" Code="1759-0"/>
+        <TableElement DisplayName="Lipase [Enzymatic activity/volume] (Methodless)" Code="3040-3"/>
+        <TableElement DisplayName="Bacterial susceptibility panel in Isolate (by Gradient strip (E-test))" Code="49589-5"/>
+        <TableElement DisplayName="Macrocytes [Presence] in Blood (by Automated count)" Code="15198-5"/>
+        <TableElement DisplayName="Macrocytes [Presence] in Blood" Code="30424-6"/>
+        <TableElement DisplayName="Hemoglobin A1c/Hemoglobin.total in Blood (by IFCC protocol)" Code="59261-8"/>
+        <TableElement DisplayName="Hemoglobin A1c/Hemoglobin.total in Blood (by JDS/JSCC protocol)" Code="62388-4"/>
+        <TableElement DisplayName="Hemoglobin A1c/Hemoglobin.total in Blood (by Electrophoresis)" Code="4549-2"/>
+        <TableElement DisplayName="Hemoglobin A1c/Hemoglobin.total (Methodless)" Code="4548-4"/>
+        <TableElement DisplayName="Hemoglobin A1c/Hemoglobin.total in Blood (by calculation)" Code="17855-8"/>
+        <TableElement DisplayName="Hemoglobin A1c/Hemoglobin.total in Blood (by HPLC)" Code="17856-6"/>
+        <TableElement DisplayName="Glucose [Presence] in Urine (by Automated test strip)" Code="50555-2"/>
+        <TableElement DisplayName="Glucose [Presence] in Urine (Methodless)" Code="2349-9"/>
+        <TableElement DisplayName="Glucose [Presence] in Urine (by Test strip)" Code="25428-4"/>
+        <TableElement DisplayName="Bacterial susceptibility panel in Isolate (methodless)" Code="29576-6"/>
+        <TableElement DisplayName="Lutropin [Units/volume] (Methodless)" Code="10501-5"/>
+        <TableElement DisplayName="Hemoglobin [Mass/volume] in Blood (by Calculation)" Code="20509-6"/>
+        <TableElement DisplayName="Hemoglobin [Mass/volume] in Venous blood (Methodless)" Code="30350-3"/>
+        <TableElement DisplayName="Hemoglobin [Mass/volume] in Capillary blood (Methodless)" Code="30352-9"/>
+        <TableElement DisplayName="Hemoglobin [Mass/volume] in Arterial blood (Methodless)" Code="30313-1"/>
+        <TableElement DisplayName="Hemoglobin [Mass/volume] in Mixed venous blood (Methodless)" Code="30351-1"/>
+        <TableElement DisplayName="Hemoglobin [Mass/volume] in Blood (Methodless)" Code="718-7"/>
+        <TableElement DisplayName="Erythrocytes [#/volume] in Blood (Methodless)" Code="26453-1"/>
+        <TableElement DisplayName="Erythrocytes [#/volume] in Blood (Automated)" Code="789-8"/>
+        <TableElement DisplayName="Monocytes [#/volume] in Blood (by Automated count)" Code="742-7"/>
+        <TableElement DisplayName="Monocytes [#/volume] in Blood (Methodless)" Code="26484-6"/>
+        <TableElement DisplayName="Monocytes [#/volume] in Blood (by Manual count)" Code="743-5"/>
+        <TableElement DisplayName="Ketones [Presence] in Urine (by Test strip)" Code="2514-8"/>
+        <TableElement DisplayName="Ketones [Presence] in Urine (by Automated test strip)" Code="57734-6"/>
+        <TableElement DisplayName="Ketones [Presence] in Urine (Methodless)" Code="33903-6"/>
+        <TableElement DisplayName="Urobilinogen [Mass/volume] in Urine (Methodless)" Code="3107-0"/>
+        <TableElement DisplayName="Urobilinogen [Mass/volume] in Urine (by automated test strip)" Code="50563-6"/>
+        <TableElement DisplayName="Urobilinogen [Mass/volume] in Urine (by test strip) " Code="20405-7"/>
+        <TableElement DisplayName="IgG [Mass/volume] in Serum (Methodless)" Code="2465-3"/>
+        <TableElement DisplayName="IgG [Mass/volume] in Serum (by Electrophoresis)" Code="55922-9"/>
+        <TableElement DisplayName="IgG [Mass/volume] in Serum (by Immune diffusion (ID))" Code="55974-0"/>
+        <TableElement DisplayName="Amylase [Enzymatic activity/volume] (Methodless)" Code="1798-8"/>
+        <TableElement DisplayName="CBC W Reflex Manual Differential panel in Blood (Methodless)" Code="57022-6"/>
+        <TableElement DisplayName="Basophils/100 leukocytes in Blood (by Automated count)" Code="706-2"/>
+        <TableElement DisplayName="Basophils/100 leukocytes in Blood (by Manual count)" Code="707-0"/>
+        <TableElement DisplayName="Basophils/100 leukocytes in Blood (Methodless)" Code="30180-4"/>
+        <TableElement DisplayName="Erythrocytes [#/area] in Urine sediment (by Microscopy high power field)" Code="13945-1"/>
+        <TableElement DisplayName="Iron binding capacity [Mass/volume] in Serum or Plasma (Methodless)" Code="2500-7"/>
+        <TableElement DisplayName="pH of Urine (by Automated test strip)" Code="50560-2"/>
+        <TableElement DisplayName="pH of Urine (Methodless)" Code="2756-5"/>
+        <TableElement DisplayName="pH of Urine (by Test strip)" Code="5803-2"/>
+        <TableElement DisplayName="Eosinophils/100 leukocytes in Blood (Methodless)" Code="26450-7"/>
+        <TableElement DisplayName="Eosinophils/100 leukocytes in Blood (by Manual count)" Code="714-6"/>
+        <TableElement DisplayName="Eosinophils/100 leukocytes in Blood (by Automated count)" Code="713-8"/>
+        <TableElement DisplayName="Urinalysis microscopic panel [#/volume] in Urine (by Automated count)" Code="50554-5"/>
+        <TableElement DisplayName="Ferritin [Mass/volume] in Serum or Plasma (by Immunoassay)" Code="20567-4"/>
+        <TableElement DisplayName="Ferritin [Mass/volume] (Methodless)" Code="2276-4"/>
+        <TableElement DisplayName="Creatinine/Urea nitrogen [Mass ratio] in Serum or Plasma (Methodless)" Code="31045-8"/>
+        <TableElement DisplayName="Urea nitrogen/Creatinine [Mass ratio] in Blood (Methodless)" Code="44734-2"/>
+        <TableElement DisplayName="Urea nitrogen/Creatinine [Mass ratio] in Serum or Plasma (Methodless)" Code="3097-3"/>
+        <TableElement DisplayName="Mucus [Presence] in Urine sediment (by Light microscopy)" Code="8247-9"/>
+        <TableElement DisplayName="CBC W Auto Differential panel in Blood (Methodless)" Code="57021-8"/>
+        <TableElement DisplayName="Testosterone [Mass/volume] in Serum or Plasma by Detection limit = 1.0 ng/dL" Code="49041-7"/>
+        <TableElement DisplayName="Testosterone [Mass/volume] (Methodless)" Code="2986-8"/>
+        <TableElement DisplayName="Rubella virus IgM Ab [Presence] in Serum (by Latex agglutination)" Code="25420-1"/>
+        <TableElement DisplayName="Bordetella pertussis Ag [Presence] in Sputum (by Immunofluorescence)" Code="43891-1"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Cerebral spinal fluid (by Hemagglutination)" Code="50689-9"/>
+        <TableElement DisplayName="Treponema pallidum DNA [Presence] in Unspecified specimen (by Probe &amp; target amplification method" Code="41163-7"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (by Agglutination)" Code="24312-1"/>
+        <TableElement DisplayName="Bordetella pertussis Ag [Presence] in Unspecified specimen (methodless)" Code="31737-0"/>
+        <TableElement DisplayName="Rubella virus IgG Ab [Presence] in Serum (by Immunoassay)" Code="40667-8"/>
+        <TableElement DisplayName="Rubella virus IgM Ab [Units/volume] in Serum by Immunoassay" Code="5335-5"/>
+        <TableElement DisplayName="Rubella virus IgM Ab [Presence] in Serum (Methodless)" Code="31616-6"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Cerebral spinal fluid (Methodless)" Code="22586-2"/>
+        <TableElement DisplayName="Treponema pallidum DNA [Presence] in Cerebral spinal fluid (by Probe &amp; target amplification method)" Code="49799-0"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (by Immunoblot (IB))" Code="57032-5"/>
+        <TableElement DisplayName="Rubella virus IgG Ab [Units/volume] in Serum (by Immunoassay)" Code="5334-8"/>
+        <TableElement DisplayName="Respiratory syncytial virus RNA [Identifier] in Unspecified specimen (by Probe &amp; target amplification method)" Code="40987-0"/>
+        <TableElement DisplayName="Bordetella pertussis Ag [Presence] in Nasopharynx (by Immunofluorescence)" Code="38198-8"/>
+        <TableElement DisplayName="Rubella virus IgG Ab [Presence] in Serum (Methodless)" Code="25514-1"/>
+        <TableElement DisplayName="Bordetella pertussis Ag [Presence] in Nasopharynx (methodless)" Code="43909-1"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Cerebral spinal fluid (by Immunofluorescence)" Code="9826-9"/>
+        <TableElement DisplayName="Treponema pallidum DNA [Presence] in Blood (by Probe &amp; target amplification method)" Code="53605-2"/>
+        <TableElement DisplayName="Reagin Ab [Presence] in Serum (by RPR)" Code="20507-0"/>
+        <TableElement DisplayName="Reagin Ab [Titer] in Serum (by RPR)" Code="31147-2"/>
+        <TableElement DisplayName="Bordetella pertussis Ag [Presence] in Unspecified specimen (by Immunofluorescence)" Code="550-4"/>
+        <TableElement DisplayName="Rubella virus IgG Ab [Units/volume] in Serum (Methodless)" Code="8014-3"/>
+        <TableElement DisplayName="Reagin Ab [Titer] in CSF (by RPR)" Code="46203-6"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (by Immobilization)" Code="17723-8"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (by Immunoassay)" Code="24110-9"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (by Immunofluorescence)" Code="5393-4"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (Methodless)" Code="22587-0"/>
+        <TableElement DisplayName="Treponema pallidum Ab [Presence] in Serum (by Hemagglutination)" Code="8041-6"/>
+        <TableElement DisplayName="Rubella virus IgM Ab [Units/volume] in Serum" Code="8015-0"/>
+        <TableElement DisplayName="Rubella virus IgM Ab [Presence] in Serum (by Immunoassay)" Code="24116-6"/>
+        <TableElement DisplayName="Albumin [Mass/volume] in serum or plasma (Methodless)" Code="1751-7"/>
+        <TableElement DisplayName="Albumin [Mass/volume] in Serum or Plasma by Bromcresol purple (BCP) dye binding method" Code="61152-5"/>
+        <TableElement DisplayName="Albumin [Mass/volume] in Serum or Plasma by Bromcresol green (BCG) dye binding method" Code="61151-7"/>
+        <TableElement DisplayName="Albumin [Mass/volume] in Serum or Plasma by Electrophoresis" Code="2862-1"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] (by Method for Slow-growing mycobacteria)" Code="20377-8"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] (Methodless)" Code="18906-8"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] (by Serum bactericidal titer)" Code="187-5"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] by Disk diffusion (KB) (by Agar diffusion)" Code="186-7"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] (by Minimum lethal concentration (MLC))" Code="184-2"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] (by Minimum inhibitory concentration (MIC))" Code="185-9"/>
+        <TableElement DisplayName="Ciprofloxacin [Susceptibility] (by Gradient strip (E-test))" Code="7002-9"/>
+        <TableElement DisplayName="Neutrophils/100 leukocytes in Blood (by Automated count)" Code="770-8"/>
+        <TableElement DisplayName="Neutrophils.segmented/100 leukocytes in Blood (by Manual count)" Code="769-0"/>
+        <TableElement DisplayName="Neutrophils/100 leukocytes in Blood (Methodless)" Code="26511-6"/>
+        <TableElement DisplayName="Lipid 1996 panel in Serum or Plasma (Methodless)" Code="24331-1"/>
+        <TableElement DisplayName="Lipid panel with direct LDL in Serum or Plasma (Methodless)" Code="57698-3"/>
+        <TableElement DisplayName="Urate [Mass/volume] (Methodless)" Code="3084-1"/>
+        <TableElement DisplayName="Magnesium [Mass/volume] (Methodless)" Code="19123-9"/>
+        <TableElement DisplayName="Opiates [Presence] in Urine (by Screen method)" Code="19295-5"/>
+        <TableElement DisplayName="Opiates [Presence] in Urine (by SAMHSA confirm method)" Code="8221-4"/>
+        <TableElement DisplayName="Opiates [Presence] in Urine (by Confirm method)" Code="18390-5"/>
+        <TableElement DisplayName="Opiates [Presence] in Urine (by Screen method &gt;2000 ng/mL)" Code="21431-2"/>
+        <TableElement DisplayName="Opiates [Presence] in Urine (by SAMSHA screen method)" Code="8222-2"/>
+        <TableElement DisplayName="Opiates [Presence] in Urine (Methodless)" Code="3879-4"/>
+        <TableElement DisplayName="Urinalysis microscopic panel in Urine (by Automated)" Code="53315-8"/>
+        <TableElement DisplayName="Bilirubin.total [Mass/volume] in Serum or Plasma (Methodless)" Code="1975-2"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Arterial blood (Methodless)" Code="34581-9"/>
+        <TableElement DisplayName="Thyrotropin [Units/volume] in Serum or Plasma (by Detection limit &lt;= 0.05 mIU/L)" Code="11579-0"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Capillary blood (Methodless)" Code="41644-6"/>
+        <TableElement DisplayName="Thyrotropin [Units/volume] in Serum or Plasma (by Detection limit &lt;= 0.005 mU/L)" Code="11580-8"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Blood (Methodless)" Code="1994-3"/>
+        <TableElement DisplayName="Choriogonadotropin [Units/volume] in Serum or Plasma (Methodless)" Code="19080-1"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Serum or Plasma (Methodless)" Code="1995-0"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Serum or Plasma (by Ion-selective membrane electrode (ISE))" Code="12180-6"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Venous blood (Methodless)" Code="41645-3"/>
+        <TableElement DisplayName="Thyrotropin [Units/volume] in Blood (Methodless)" Code="3015-5"/>
+        <TableElement DisplayName="Choriogonadotropin (pregnancy test) [Presence] in Urine (Methodless)" Code="2106-3"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Serum or Plasma (by calculation)" Code="13959-2"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Mixed venous blood (Methodless)" Code="41646-1"/>
+        <TableElement DisplayName="Thyrotropin [Units/volume] in Serum or Plasma (Methodless)" Code="3016-3"/>
+        <TableElement DisplayName="Calcium.ionized [Moles/volume] in Blood (by Ion-selective membrane electrode (ISE))" Code="47596-2"/>
+        <TableElement DisplayName="Polychromasia [Presence] in Blood by Light microscopy" Code="10378-8"/>
+        <TableElement DisplayName="Normocytic/Normochromic polychromasia [Presence] in Blood (by Light microscopy)" Code="7794-1"/>
+        <TableElement DisplayName="Erythrocyte morphology finding [Identifier] in Blood" Code="6742-1"/>
+        <TableElement DisplayName="Bacteria [#/area] in Urine (by Automated count)" Code="33218-9"/>
+        <TableElement DisplayName="Bacteria [#/area] in Urine (Urine sediment by Microscopy high power field)" Code="5769-5"/>
+        <TableElement DisplayName="Folate [Mass/volume] in Red Blood Cells (Methodless)" Code="2283-0"/>
+        <TableElement DisplayName="Folate [Mass/volume] in Serum or Plasma (Methodless)" Code="2284-8"/>
+        <TableElement DisplayName="Folate [Mass/volume] in Blood (Methodless)" Code="2282-2"/>
+        <TableElement DisplayName="Gamma glutamyl transferase [Enzymatic activity/volume]" Code="2324-2"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Ear by Gram stain" Code="14365-1"/>
+        <TableElement DisplayName="Bacteria identified in Blood (by Anaerobe culture 25 degree C incubation)" Code="45276-3"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Unspecified specimen by Gram stain" Code="664-3"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Tissue by Gram stain" Code="6664-7"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Nose by Gram stain" Code="32026-7"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Wound by Gram stain" Code="10357-2"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Bronchial specimen by Gram stain" Code="21021-1"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Eye by Gram stain" Code="14364-4"/>
+        <TableElement DisplayName="Bacteria identified in Blood (by Aerobe culture)" Code="17928-3"/>
+        <TableElement DisplayName="Bacteria identified in Blood (by Anaerobe culture)" Code="17934-1"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Sputum by Gram stain" Code="648-6"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Throat by Gram stain" Code="14362-8"/>
+        <TableElement DisplayName="Bacteria identified in Blood (by Aerobe culture 25 degree C incubation)" Code="45275-5"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Urine by Gram stain" Code="653-6"/>
+        <TableElement DisplayName="Microscopic observation [Identifier] in Stool by Gram stain" Code="649-4"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Capillary blood by Glucometer (Methodless)" Code="41653-7"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Blood (Methodless)" Code="2339-0"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Arterial blood (Methodless)" Code="41651-1"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Serum or Plasma (Methodless)" Code="2345-7"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Capillary blood (Methodless)" Code="32016-8"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Blood by Test strip auto (Methodless)" Code="2340-8"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Blood by Test strip manual (Methodless)" Code="2341-6"/>
+        <TableElement DisplayName="Glucose [Mass/volume] in Venous blood (Methodless)" Code="41652-9"/>
+        <TableElement DisplayName="Cannabinoids [Presence] in Urine (by Screen method)" Code="18282-4"/>
+        <TableElement DisplayName="Cannabinoids [Presence] in Urine (by Confirm method)" Code="19289-8"/>
+        <TableElement DisplayName="Cannabinoids [Presence] in Urine (Methodless)" Code="3427-2"/>
+        <TableElement DisplayName="Urea nitrogen [Mass/volume] in Serum or Plasma (Methodless)" Code="3094-0"/>
+        <TableElement DisplayName="Urea nitrogen [Mass/volume] in Venous blood (Methodless)" Code="12962-7"/>
+        <TableElement DisplayName="Urea nitrogen [Mass/volume] in Peripheral blood (Methodless)" Code="12963-5"/>
+        <TableElement DisplayName="Urea nitrogen [Mass/volume] in Blood (Methodless)" Code="6299-2"/>
+        <TableElement DisplayName="Urea nitrogen [Mass/volume] in Arterial blood (Methodless)" Code="12961-9"/>
+        <TableElement DisplayName="Bilirubin.direct [Mass/volume] in Serum or Plasma (Methodless)" Code="1968-7"/>
+        <TableElement DisplayName="Anisocytosis [Presence] in Blood (by Automated count)" Code="15150-6"/>
+        <TableElement DisplayName="Anisocytosis [Presence] in Blood (Methodless)" Code="38892-6"/>
+        <TableElement DisplayName="Anisocytosis [Presence] in Blood (by Light microscopy)" Code="702-1"/>
+        
+        
+        <TableElement DisplayName="Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe and target amplification method" Code="11011-4"/>
+        <TableElement DisplayName="Hepatitis C virus Ab [Presence] in Serum" Code="16128-1"/>
+        <TableElement DisplayName="Hepatitis B virus core Ab [Presence] in Serum" Code="16933-4"/>
+        <TableElement DisplayName="Hepatitis A virus Ab [Presence] in Serum" Code="20575-7"/>
+        <TableElement DisplayName="Hepatitis A virus IgM Ab [Presence] in Serum" Code="22314-9"/>
+        <TableElement DisplayName="Hepatitis B virus core Ab [Units/volume] in Serum" Code="22316-4"/>
+        <TableElement DisplayName="Hepatitis B virus e Ab [Presence] in Serum" Code="22320-6"/>
+        <TableElement DisplayName="Hepatitis B virus surface Ab [Presence] in Serum" Code="22322-2"/>
+        <TableElement DisplayName="Hepatitis C virus Ab Signal/Cutoff in Serum or Plasma by Immunoassay" Code="48159-8"/>
+        <TableElement DisplayName="Hepatitis B virus surface Ag [Presence] in Serum" Code="5195-3"/>
+        <TableElement DisplayName="Hypochromia [Presence] in Blood (by Light microscopy)" Code="728-6"/>
+        <TableElement DisplayName="Macrocytes [Presence] in Blood (by Light microscopy)" Code="738-5"/>
+        <TableElement DisplayName="Microcytes [Presence] in Blood (by Light microscopy)" Code="741-9"/>
+    </TableDefinition>
+</TableLibrary>

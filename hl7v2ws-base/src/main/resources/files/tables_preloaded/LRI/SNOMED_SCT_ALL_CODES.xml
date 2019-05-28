@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--  Changed the following SNOMED codes
+    66543000 with 103429008,
+    302620005 with 398567006
+    77352002 with 85729005
+-->
+<TableLibrary TableLibraryIdentifier="1.0" xmlns="http://www.nist.gov/healthcare/data" TableLibraryVersion="1.0" OrganizationName="SNOMED NIST" Name="SNOMED Codes">
+    <TableDefinition Version="1.0" Type="External" Name="SNOMED SCT" Id="SCT" Codesys="SNOMED">
+        <TableElement  DisplayName="Hyperlipoproteinemia" Code="3744001"/>
+        <TableElement  DisplayName="Pyrexia of unknown origin" Code="7520000"/>
+        <TableElement  DisplayName="Resistant" Code="30714006"/>
+        <TableElement  DisplayName="Isolated" Code="46651001"/>
+        <TableElement  DisplayName="Chronic fatigue syndrome" Code="52702003"/>
+        <TableElement  DisplayName="Campylobacter jejuni" Code="103429008"/>
+        <TableElement  DisplayName="Shigella" Code="85729005"/>
+        <TableElement  DisplayName="Sensitive" Code="83185005"/>
+        <TableElement  DisplayName="Blood specimen" Code="119297000"/>
+        <TableElement  DisplayName="Mixed venous blood specimen" Code="119298005"/>
+        <TableElement  DisplayName="Sputum specimen" Code="119334006"/>
+        <TableElement  DisplayName="Stool specimen" Code="119339001"/>
+        <TableElement  DisplayName="Plasma specimen" Code="119361006"/>
+        <TableElement  DisplayName="Platelet poor plasma specimen" Code="119362004"/>
+        <TableElement  DisplayName="Serum specimen" Code="119364003"/>
+        <TableElement  DisplayName="Tissue specimen" Code="119376003"/>
+        <TableElement  DisplayName="Arterial blood specimen" Code="122552005"/>
+        <TableElement  DisplayName="Capillary blood specimen" Code="122554006"/>
+        <TableElement  DisplayName="Venous blood specimen" Code="122555007"/>
+        <TableElement  DisplayName="Urine specimen" Code="122575003"/>
+        <TableElement  DisplayName="Cervical mucus specimen" Code="122577006"/>
+        <TableElement  DisplayName="Specimen from lung obtained by biopsy" Code="122610009"/>
+        <TableElement  DisplayName="Throat swab" Code="258529004"/>
+        <TableElement  DisplayName="Detected" Code="260373001"/>
+        <TableElement  DisplayName="Negative" Code="260385009"/>
+        <TableElement  DisplayName="Not detected" Code="260415000"/>
+        <TableElement  DisplayName="Clear" Code="263707001"/>
+        <TableElement  DisplayName="Salmonella group B phase 1 a-e" Code="398567006"/>
+        <TableElement  DisplayName="Body fluid sample" Code="309051001"/>
+        <TableElement  DisplayName="Skin biopsy sample" Code="309066003"/>
+        <TableElement  DisplayName="Yellow color" Code="371244009"/>
+        <TableElement  DisplayName="Severe diarrhea" Code="409587002"/>
+        <TableElement  DisplayName="Specimen from unspecified body site" Code="430304001"/>
+    </TableDefinition>
+</TableLibrary>

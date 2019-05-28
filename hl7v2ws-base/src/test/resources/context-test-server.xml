@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+xmlns:p="http://www.springframework.org/schema/p"
+xmlns:simple="http://cxf.apache.org/simple"
+xmlns:soap="http://cxf.apache.org/bindings/soap"
+xmlns:jaxws="http://cxf.apache.org/jaxws"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+http://cxf.apache.org/simple http://cxf.apache.org/schemas/simple.xsd
+http://cxf.apache.org/bindings/soap
+http://cxf.apache.org/schemas/configuration/soap.xsd
+http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd ">
+ 
+	
+	<context:component-scan base-package="gov.nist.healthcare.hl7ws"/>
+	
+ 	<bean id="registry" class="gov.nist.healthcare.hl7ws.registry.Registry" />
+  	<bean id="tempRegistry" class="gov.nist.healthcare.hl7ws.registry.TempRegistry">
+		<property name="profileOid" value="2.16.840.1.113883.3.72.2.2." />
+		<property name="tableOid" value="2.16.840.1.113883.3.72.4.2." />
+		<property name="profileMapping">
+		 <map>
+		 		<entry key="ACK_A01" value="NIST_ACK_A01"/>  
+				<entry key="ACK_A04" value="NIST_ACK_A04"/>
+				<entry key="ACK_A05" value="NIST_ACK_A05"/>
+				<entry key="ACK_A08" value="NIST_ACK_A08"/>
+				<entry key="ACK_A31" value="NIST_ACK_A31"/>
+				<entry key="ACK_A40" value="NIST_ACK_A40"/>
+				<entry key="ACK_2.3.1" value="NIST_ACK_ALL_2.3.1"/>
+				<entry key="ACK_2.5" value="NIST_ACK_ALL_2.5"/>
+				<entry key="ACK_J01" value="NIST_ACK_J01"/>
+				<entry key="ACK_Q22" value="NIST_ACK_Q22"/>
+				<entry key="ACK_Q23" value="NIST_ACK_Q23"/>
+				<entry key="ADT_A01" value="NIST_ADT_A01"/>
+				<entry key="ADT_A04" value="NIST_ADT_A04"/>
+				<entry key="ADT_A05" value="NIST_ADT_A05"/>
+				<entry key="ADT_A08" value="NIST_ADT_A08"/>
+				<entry key="ADT_A31" value="NIST_ADT_A31"/>
+				<entry key="ADT_A40" value="NIST_ADT_A40"/>
+				<entry key="QBP_Q22" value="NIST_QBP_Q22"/>
+				<entry key="QBP_Q23" value="NIST_QBP_Q23"/>
+				<entry key="QCN_J01" value="NIST_QCN_J01"/>
+				<entry key="RSP_K22" value="NIST_RSP_K22"/>
+				<entry key="RSP_K21" value="NIST_RSP_K22"/>
+				<entry key="RSP_K23" value="NIST_RSP_K23"/>
+		 </map>
+		</property> 
+ 	</bean>
+     
+    <bean id="messageValidationV2Utils" class="gov.nist.healthcare.hl7ws.utils.MessageValidationV2Utils">
+ 		<property name="hl7DefaultTables">
+		  <map>
+		  	 <entry key="2.3.1" value="2.16.840.1.113883.3.72.4.1.90004" />
+		  	 <entry key="2.4" value="2.16.840.1.113883.3.72.4.1.90005" />
+		  	 <entry key="2.5" value="2.16.840.1.113883.3.72.4.1.90006" />
+		  	 <entry key="2.5.1" value="2.16.840.1.113883.3.72.4.1.90007" />
+ 		  </map>
+		</property>
+ 	</bean> 
+ 	
+ 	   <!-- delegator or utils for the MessageGeneration -->	
+   <bean id="messageGenerationUtils" class="gov.nist.healthcare.hl7ws.utils.MessageGenerationUtils">
+ 		<property name="tempRegistry" ref="tempRegistry" />
+ 		<property name="registry" ref="registry" />
+   </bean> 
+ 	  
+   <bean id="messageValidationV2" class="gov.nist.healthcare.hl7ws.messagevalidation.MessageValidationV2"/>  	
+   <bean id="messageGenerationV2" class="gov.nist.healthcare.hl7ws.messagegeneration.MessageGenerationV2"/>  	
+   
+    
+</beans>

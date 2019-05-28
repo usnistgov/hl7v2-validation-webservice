@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HL7V2ValidationContextDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ContextualInformation.xsd" Name="ContextualInformationExample" Version="1.0" DateCreated="2008-08-26" Description="a Contextual Information Example" OrganizationName="NIST" ValidationContextIdentifier="12.2.34532.4.2.234.1">
+	<FailureInterpretation>
+		<Failure Type="MESSAGE_STRUCTURE" Level="ERROR"/>
+		<Failure Type="USAGE" Level="ERROR"/>
+		<Failure Type="CARDINALITY" Level="ERROR"/>
+		<Failure Type="LENGTH" Level="IGNORE"/>
+		<Failure Type="DATATYPE" Level="ERROR"/>
+		<Failure Type="DATA" Level="ERROR"/>
+	</FailureInterpretation>
+	<MessageInstanceSpecificValues>
+		<DataValueLocationItem>
+			<Segment Name="MSH"/>
+			<Field Name="Sending Facility" Position="4"/>
+			<Component Position="1"/>
+			<Value>IBM</Value>
+		</DataValueLocationItem>
+		<DataValueLocationItem>
+			<Segment Name="MSH"/>
+			<Field Name="Receiving Application" Position="5"/>
+			<Component Position="1"/>
+			<Value>NIST</Value>
+		</DataValueLocationItem>
+	</MessageInstanceSpecificValues>
+</HL7V2ValidationContextDefinition>

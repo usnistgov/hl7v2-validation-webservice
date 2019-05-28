@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    This file describes the dynamic data type mapping.
+    Note:  If a an attribute (MaxLength, MinLength, Min, Max and the Table ) are defined in the mapping below, they will override the original definition in the profile
+-->
+<DynamicDatatypeMapping> 
+    <Segment Name="OBX">
+        <DynamicField DynamicField="OBX.5" FieldCarryingDefinition="OBX.2">
+            <Mapping>
+                <!-- primitive data type-->
+                <Field Datatype="DT" MaxLength="8" MinLength="4"/>
+                <Field Datatype="FT" MaxLength="65536" MinLength="1"/>
+                <Field Datatype="NM" MaxLength="16" MinLength="1"/>
+                <Field Datatype="ST" MaxLength="65536" MinLength="1"/>
+                <Field Datatype="TM" MaxLength="16" MinLength="2"/>
+                <Field Datatype="TX" MaxLength="65536" MinLength="1"/>
+                <!-- not primitive -->
+                <Field Datatype="CWE" Table="Laboratory Coded Observation Value Set">
+                    <Component Datatype="ST" MaxLength="20" MinLength="1" Name="Identifier" Truncation="false" Usage="R"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Text" Truncation="true" Usage="RE"/>
+                    <Component Datatype="ID" MaxLength="12" MinLength="1" Name="Name of Coding System" Table="0396" Usage="R"/>
+                    <Component Datatype="ST" MaxLength="20" MinLength="1" Name="Alternate Identifier" Truncation="false" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Alternate Text" Truncation="true" Usage="RE"/>
+                    <Component Datatype="ID" MaxLength="12" MinLength="1" Name="Name of Alternate Coding System" PredicateFalseUsage="X" PredicateTrueUsage="R" Table="0396" Usage="CE">
+                        <Predicate>
+                            <EnglishDescription>If CWE.4 (Identifier) is valued.</EnglishDescription>
+                            <Condition>
+                                <Valued location="./4"/>
+                            </Condition>
+                        </Predicate>
+                    </Component>
+                    <Component Datatype="ST" MaxLength="10" MinLength="1" Name="Coding System Version ID" Truncation="false" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="10" MinLength="1" Name="Alternate Coding System Version ID" Truncation="false" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Original Text" Truncation="true" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="20" MinLength="1" Name="Second Alternate Identifier" Truncation="false" Usage="O"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Second Alternate Text" Truncation="true" Usage="O"/>
+                    <Component Datatype="ID" MaxLength="12" MinLength="1" Name="Second Name of Alternate Coding System" Table="0396" Usage="O"/>
+                    <Component Datatype="ST" MaxLength="10" MinLength="1" Name="Second Alternate Coding System Version ID" Truncation="false" Usage="O"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Coding System OID" Truncation="false" Usage="O"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Value Set OID" Truncation="false" Usage="X"/>
+                    <Component Datatype="DTM" MaxLength="24" MinLength="4" Name="Value Set Version ID" Truncation="false" Usage="X"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Alternate Coding System OID" Truncation="false" Usage="X"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Alternate Value Set OID" Truncation="false" Usage="X"/>
+                    <Component Datatype="DTM" MaxLength="24" MinLength="4" Name="Alternate Value Set Version ID" Truncation="false" Usage="X"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Second Alternate Coding System OID" Truncation="false" Usage="X"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Second Alternate Value Set OID" Truncation="false" Usage="X"/>
+                    <Component Datatype="DTM" MaxLength="24" MinLength="4" Name="Second Alternate Value Set Version ID" Truncation="false" Usage="X"/>
+                </Field>
+                <Field Datatype="ED">
+                    <Component Datatype="HD_ELR" MaxLength="227" MinLength="1" Name="Source Application" Usage="RE">
+                        <SubComponent Datatype="IS" MaxLength="20" MinLength="1" Name="Namespace ID" Usage="RE"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Universal ID" Usage="R">
+                            <ConformanceStatement Profile="Base" id="ELR-063">
+                                <EnglishDescription>IF HD.3(Universal ID type) value is "ISO", SHALL be a valid ISO OID format.</EnglishDescription>
+                                <Assertion>
+                                    <OR>
+                                        <NOT>
+                                            <PlainText location="../3" value="ISO"/>
+                                        </NOT>
+                                        <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                                    </OR>
+                                </Assertion>
+                            </ConformanceStatement>
+                            <ConformanceStatement Profile="Base" id="ELR-062">
+                                <EnglishDescription>IF HD.3(Universal ID type) value is "CLIA", SHALL be a valid CLIA identifier format</EnglishDescription>
+                                <Assertion>
+                                    <OR>
+                                        <NOT>
+                                            <PlainText location="../3" value="CLIA"/>
+                                        </NOT>
+                                        <Regex location="." regex="\d{2}D\d{7}"/>
+                                    </OR>
+                                </Assertion>
+                            </ConformanceStatement>
+                        </SubComponent>
+                        <SubComponent Datatype="ID" MaxLength="6" MinLength="1" Name="Universal ID Type" Table="0301" Usage="R">
+                            <ConformanceStatement Profile="Base" id="ELR-007">
+                                <EnglishDescription>HD.3 (Universal ID Type) SHALL contain the value 'ISO'</EnglishDescription>
+                                <Assertion>
+                                    <PlainText location="." value="ISO"/>
+                                </Assertion>
+                            </ConformanceStatement>
+                        </SubComponent>
+                    </Component>
+                    <Component Datatype="ID" MaxLength="11" MinLength="4" Name="Type of Data" Table="0834" Usage="R"/>
+                    <Component Datatype="ID" MaxLength="32" MinLength="1" Name="Data Subtype" Table="0291" Truncation="false" Usage="RE"/>
+                    <Component Datatype="ID" MaxLength="6" MinLength="1" Name="Encoding" Table="0299" Usage="R"/>
+                    <Component Datatype="TX" MaxLength="65536" MinLength="1" Name="Data" Usage="R"/>
+                </Field>
+                <Field Datatype="RP">
+                    <Component Datatype="ST" MaxLength="999" MinLength="1" Name="Pointer" Truncation="true" Usage="R"/>
+                    <Component Datatype="HD_ELR_RP" MaxLength="227" MinLength="1" Name="Application ID" Usage="R">
+                        <SubComponent Datatype="IS" MaxLength="20" MinLength="1" Name="Namespace ID" Truncation="false" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Universal ID" Truncation="false" Usage="R"/>
+                        <SubComponent Datatype="ID" MaxLength="6" MinLength="1" Name="Universal ID Type" Table="0301" Usage="R"/>
+                    </Component>
+                    <Component Datatype="ID" MaxLength="11" MinLength="4" Name="Type of Data" Table="0834" Usage="RE"/>
+                    <Component Datatype="ID" MaxLength="32" MinLength="1" Name="Subtype" Table="0291" Truncation="false" Usage="RE"/>
+                </Field>
+                <Field Datatype="SN">
+                    <Component Datatype="ST" MaxLength="2" MinLength="1" Name="Comparator" Usage="RE">
+                        <ConformanceStatement Profile="Base" id="ELR-008">
+                            <EnglishDescription><![CDATA[SN.1 (Comparator) SHALL contain the value ">" or "<" or ">=" or "<=" or "=" or "<>". ]]></EnglishDescription>
+                            <Assertion>
+                                <OR>
+                                    <PlainText location="." value="&gt;"/>
+                                    <OR>
+                                        <PlainText location="." value="&lt;"/>
+                                        <OR>
+                                            <PlainText location="." value="&gt;="/>
+                                            <OR>
+                                                <PlainText location="." value="&lt;="/>
+                                                <OR>
+                                                    <PlainText location="." value="="/>
+                                                    <PlainText location="." value="&lt;&gt;"/>
+                                                </OR>
+                                            </OR>
+                                        </OR>
+                                    </OR>
+                                </OR>
+                            </Assertion>
+                        </ConformanceStatement>
+                    </Component>
+                    <Component Datatype="NM" MaxLength="16" MinLength="1" Name="Num1" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="1" MinLength="1" Name="Separator/Suffix" Usage="RE">
+                        <ConformanceStatement Profile="Base" id="ELR-009">
+                            <EnglishDescription>SN.3 (Separator/Suffix) SHALL contain the value "-" or "+" or "/" or "." or ":"</EnglishDescription>
+                            <Assertion>
+                                <OR>
+                                    <PlainText location="." value="-"/>
+                                    <OR>
+                                        <PlainText location="." value="+"/>
+                                        <OR>
+                                            <PlainText location="." value="/"/>
+                                            <OR>
+                                                <PlainText location="." value="."/>
+                                                <PlainText location="." value=":"/>
+                                            </OR>
+                                        </OR>
+                                    </OR>
+                                </OR>
+                            </Assertion>
+                        </ConformanceStatement>
+                    </Component>
+                    <Component Datatype="NM" MaxLength="16" MinLength="1" Name="Num2" Usage="RE"/>
+                </Field>
+                <Field Datatype="TS">
+                    <Component Datatype="DTM" MaxLength="24" MinLength="4" Name="Time" Usage="R"/>
+                    <Component Datatype="ID" MaxLength="15" MinLength="1" Name="Degree of Precision" Usage="X"/>
+                </Field>
+                <Field Datatype="CE" Table="Laboratory Coded Observation Value Set">
+                    <Component Datatype="ST" MaxLength="20" MinLength="1" Name="Identifier" Truncation="false" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Text" Truncation="true" Usage="RE"/>
+                    <Component Datatype="ID" MaxLength="12" MinLength="1" Name="Name of Coding System" Table="0396" Usage="CE"/>
+                    <Component Datatype="ST" MaxLength="20" MinLength="1" Name="Alternate Identifier" Truncation="false" Usage="RE"/>
+                    <Component Datatype="ST" MaxLength="199" MinLength="1" Name="Alternate Text" Truncation="true" Usage="RE"/>
+                    <Component Datatype="ID" MaxLength="12" MinLength="1" Name="Name of Alternate Coding System" Table="0396" Usage="CE"/>
+                </Field>
+                <Field Datatype="CX">
+                    <Component Datatype="ST" MaxLength="15" MinLength="1" Name="ID Number" Truncation="false" Usage="R"/>
+                    <Component Datatype="ST" MaxLength="4" MinLength="1" Name="Check Digit" Truncation="false" Usage="O"/>
+                    <Component Datatype="ID" MaxLength="3" MinLength="3" Name="Check Digit Scheme" Table="0061" Usage="O"/>
+                    <Component Datatype="HD_ELR" MaxLength="227" MinLength="1" Name="Assigning Authority" Usage="R">
+                        <SubComponent Datatype="IS" MaxLength="20" MinLength="1" Name="Namespace ID" Usage="RE"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Universal ID" Usage="R">
+                            <ConformanceStatement Profile="Base" id="ELR-063">
+                                <EnglishDescription>IF HD.3(Universal ID type) value is "ISO", SHALL be a valid ISO OID format.</EnglishDescription>
+                                <Assertion>
+                                    <OR>
+                                        <NOT>
+                                            <PlainText location="../3" value="ISO"/>
+                                        </NOT>
+                                        <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                                    </OR>
+                                </Assertion>
+                            </ConformanceStatement>
+                            <ConformanceStatement Profile="Base" id="ELR-062">
+                                <EnglishDescription>IF HD.3(Universal ID type) value is "CLIA", SHALL be a valid CLIA identifier format</EnglishDescription>
+                                <Assertion>
+                                    <OR>
+                                        <NOT>
+                                            <PlainText location="../3" value="CLIA"/>
+                                        </NOT>
+                                        <Regex location="." regex="\d{2}D\d{7}"/>
+                                    </OR>
+                                </Assertion>
+                            </ConformanceStatement>
+                        </SubComponent>
+                        <SubComponent Datatype="ID" MaxLength="6" MinLength="1" Name="Universal ID Type" Table="0301" Usage="R">
+                            <ConformanceStatement Profile="Base" id="ELR-007">
+                                <EnglishDescription>HD.3 (Universal ID Type) SHALL contain the value 'ISO'</EnglishDescription>
+                                <Assertion>
+                                    <PlainText location="." value="ISO"/>
+                                </Assertion>
+                            </ConformanceStatement>
+                        </SubComponent>
+                    </Component>
+                    <Component Datatype="ID" MaxLength="5" MinLength="1" Name="Identifier Type Code" Table="0203" Usage="R"/>
+                    <Component Datatype="HD_ELR" MaxLength="227" MinLength="1" Name="Assigning Facility" Usage="RE">
+                        <SubComponent Datatype="IS" MaxLength="20" MinLength="1" Name="Namespace ID" Usage="RE"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Universal ID" Usage="R">
+                            <ConformanceStatement Profile="Base" id="ELR-063">
+                                <EnglishDescription>IF HD.3(Universal ID type) value is "ISO", SHALL be a valid ISO OID format.</EnglishDescription>
+                                <Assertion>
+                                    <OR>
+                                        <NOT>
+                                            <PlainText location="../3" value="ISO"/>
+                                        </NOT>
+                                        <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                                    </OR>
+                                </Assertion>
+                            </ConformanceStatement>
+                            <ConformanceStatement Profile="Base" id="ELR-062">
+                                <EnglishDescription>IF HD.3(Universal ID type) value is "CLIA", SHALL be a valid CLIA identifier format</EnglishDescription>
+                                <Assertion>
+                                    <OR>
+                                        <NOT>
+                                            <PlainText location="../3" value="CLIA"/>
+                                        </NOT>
+                                        <Regex location="." regex="\d{2}D\d{7}"/>
+                                    </OR>
+                                </Assertion>
+                            </ConformanceStatement>
+                        </SubComponent>
+                        <SubComponent Datatype="ID" MaxLength="6" MinLength="1" Name="Universal ID Type" Table="0301" Usage="R">
+                            <ConformanceStatement Profile="Base" id="ELR-007">
+                                <EnglishDescription>HD.3 (Universal ID Type) SHALL contain the value 'ISO'</EnglishDescription>
+                                <Assertion>
+                                    <PlainText location="." value="ISO"/>
+                                </Assertion>
+                            </ConformanceStatement>
+                        </SubComponent>
+                    </Component>
+                    <Component Datatype="DT" MaxLength="8" MinLength="1" Name="Effective Date" Usage="O"/>
+                    <Component Datatype="DT" MaxLength="8" MinLength="1" Name="Expiration Date" Usage="O"/>
+                    <Component Datatype="CWE" MaxLength="705" MinLength="1" Name="Assigning Jurisdiction" Usage="O">
+                        <SubComponent Datatype="ST" MaxLength="20" MinLength="1" Name="Identifier" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Text" Usage="O"/>
+                        <SubComponent Datatype="ID" MaxLength="20" MinLength="1" Name="Name of Coding System" Table="0396" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="20" MinLength="1" Name="Alternate Identifier" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Alternate Text" Usage="O"/>
+                        <SubComponent Datatype="ID" MaxLength="20" MinLength="1" Name="Name of Alternate Coding System" Table="0396" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="10" MinLength="1" Name="Coding System Version ID" Usage="C"/>
+                        <SubComponent Datatype="ST" MaxLength="10" MinLength="1" Name="Alternate Coding System Version ID" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Original Text" Usage="O"/>
+                    </Component>
+                    <Component Datatype="CWE" MaxLength="705" MinLength="1" Name="Assigning Agency or Department" Usage="O">
+                        <SubComponent Datatype="ST" MaxLength="20" MinLength="1" Name="Identifier" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Text" Usage="O"/>
+                        <SubComponent Datatype="ID" MaxLength="20" MinLength="1" Name="Name of Coding System" Table="0396" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="20" MinLength="1" Name="Alternate Identifier" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Alternate Text" Usage="O"/>
+                        <SubComponent Datatype="ID" MaxLength="20" MinLength="1" Name="Name of Alternate Coding System" Table="0396" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="10" MinLength="1" Name="Coding System Version ID" Usage="C"/>
+                        <SubComponent Datatype="ST" MaxLength="10" MinLength="1" Name="Alternate Coding System Version ID" Usage="O"/>
+                        <SubComponent Datatype="ST" MaxLength="199" MinLength="1" Name="Original Text" Usage="O"/>
+                    </Component>
+                </Field>
+            </Mapping>
+        </DynamicField>
+    </Segment>
+</DynamicDatatypeMapping>

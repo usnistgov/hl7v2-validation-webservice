@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 2012-09-25 12:14:28 updated by JY, V2.6 -->
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of tables that are specified in the PHINVADs" Name="RestrictedTables_SYNDROMICVocab" OrganizationName="HL7 NIST" Status="Active" TableLibraryIdentifier="" TableLibraryVersion="1.0">  
+  <TableDefinition AlternateId="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Codesys="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Id="PHVS_AdministrativeDiagnosis_CDC_ICD-9CM" Name="Diagnosis (ICD-9 CM)" Oid="2.16.840.1.114222.4.11.856" Type="External" Version="4">
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Other motor vehicle traffic accident involving collision with motor vehicle injuring pedal cyclist" Code="E8126"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Toxic effect of carbon monoxide" Code="986"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Conflagration in private dwelling" Code="E890"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="fall on or from other stairs or steps" Code="E8809"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Diarrhea" Code="78791"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="shortness of breath" Code="78605"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Influenza with other respiratory manifestations" Code="4871"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Closed fracture of base of skull with intracranial injury of other and unspecified nature, with prolonged [more than 24 hours] loss of consciousness, without return to pre-existing conscious level" Code="80145"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Acute respiratory failure" Code="51881"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Subarachnoid hemorrhage following injury with open intracranial wound" Code="8521"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Dehydration" Code="27651"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="closed fracture of unspecified part of forearm" Code="81380"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Pneumococcal pneumonia [Streptococcus pneumoniae pneumonia]" Code="481"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion with loss of consciousness of unspecified duration [850.5] " Code="8505"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Closed fracture of shaft of ulna (alone)" Code="81322"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Cardiopulmonary arrest" Code="4275"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Compression of the brain" Code="3484"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Brain death" Code="34882"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Cryptosporidiosis" Code="0074"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Influenza with pneumonia" Code="4870"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Influenza" Code="487"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Cough" Code="7862"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Dehydration" Code="276.51"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Compression of the brain" Code="348.4"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Brain death" Code="348.82"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Cardiopulmonary arrest" Code="427.5"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Influenza with other respiratory manifestations" Code="487.1"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Acute respiratory failure" Code="518.81"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]shortness of breath" Code="786.05"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Diarrhea" Code="787.91"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Closed fracture of base of skull with intracranial injury of other and unspecified nature, with prolonged [more than 24 hours] loss of consciousness, without return to pre-existing conscious level" Code="801.45"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Closed fracture of shaft of ulna (alone)" Code="813.22"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Subarachnoid hemorrhage following injury with open intracranial wound" Code="852.1"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Other motor vehicle traffic accident involving collision with motor vehicle injuring pedal cyclist" Code="E812.6"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]falls on or from other stairs or steps" Code="E880.9"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]closed fracture of unspecified part of forearm" Code="813.80"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Influenza with pneumonia" Code="487.0"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Cryptosporidiosis" Code="007.4"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Cough" Code="786.2"/>
+    
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion, with loss of consciousness from 31 to 59 minutes [850.12]" Code="85012"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion, with loss of consciousness of 30 minutes or less [850.11]" Code="85011"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion with loss of consciousness of unspecified duration [850.5]" Code="8505"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion with prolonged loss of consciousness, without return to pre-existing conscious level [850.4]" Code="8504"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion with prolonged loss of consciousness and return to pre-existing conscious level [850.3]" Code="8503"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Concussion with moderate loss of consciousness [850.2]" Code="8502"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Concussion, with loss of consciousness from 31 to 59 minutes [850.12]" Code="850.12"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Concussion, with loss of consciousness of 30 minutes or less [850.11]" Code="850.11"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Concussion with loss of consciousness of unspecified duration [850.5]" Code="850.5"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Concussion with prolonged loss of consciousness, without return to pre-existing conscious level [850.4]" Code="850.4"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Concussion with prolonged loss of consciousness and return to pre-existing conscious level [850.3]" Code="850.3"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Concussion with moderate loss of consciousness [850.2]" Code="850.2"/>
+    
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Urinary tract infection, site not specified" Code="5990"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Urinary tract infection, site not specified" Code="599.0"/>
+    
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Influenza with other manifestations [487.8]" Code="4878"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Influenza with other manifestations [487.8]" Code="487.8"/>
+    
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Explosion caused by conflagration in private dwelling [E890.0]" Code="E8900"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Explosion caused by conflagration in private dwelling [E890.0]" Code="E890.0"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="Subarachnoid hemorrhage following injury with open intracranial wound, unspecified state of consciousness [852.10]" Code="85210"/>
+    <TableElement Codesys="I9CDX" Source="Local" DisplayName="[Alternative Code]Subarachnoid hemorrhage following injury with open intracranial wound, unspecified state of consciousness [852.10]" Code="852.10"/>
+    
+    
+  </TableDefinition>
+  <TableDefinition AlternateId="PHVS_CauseOfDeath_ICD-10_CDC" Codesys="PHVS_CauseOfDeath_ICD-10_CDC" Id="PHVS_CauseOfDeath_ICD-10_CDC" Name="Cause of Death (ICD-10)" Oid="2.16.840.1.114222.4.11.3593" Type="External" Version="1"/>
+  <TableDefinition AlternateId="PHVS_Disease_CDC" Codesys="PHVS_Disease_CDC" Id="PHVS_Disease_CDC" Name="Disease" Oid="2.16.840.1.114222.4.11.909" Type="External" Version="6"/>
+</TableLibrary>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Sydney Henrard (NIST) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="ContextualInformation.xsd"/>
+	<xs:element name="Hl7v2ValidationReport" type="Hl7v2ValidationReportType"/>
+	<xs:complexType name="Hl7v2ValidationReportType">
+		<xs:sequence>
+			<xs:element name="ProfileValidation" type="ProfileValidationType" minOccurs="0"/>
+			<xs:element name="MessageValidation" type="MessageValidationType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProfileValidationType">
+		<xs:sequence>
+			<xs:element name="MetaData">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Profile" type="ProfileType"/>
+					</xs:sequence>
+					<xs:attribute name="Version" type="xs:string" use="required"/>
+					<xs:attribute name="Datetime" type="xs:dateTime" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Context">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Failure" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="Type" type="ProfileFailureType" use="required"/>
+								<xs:attribute name="Level" type="FailureLevelType" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Result">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Error" type="ResultProfileChildType" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="Warning" type="ResultProfileChildType" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="Ignore" type="ResultProfileChildType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="ErrorCount" type="xs:int" use="required"/>
+					<xs:attribute name="WarningCount" type="xs:int" use="required"/>
+					<xs:attribute name="IgnoreCount" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MessageValidationType">
+		<xs:sequence>
+			<xs:element name="MetaData">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Message">
+							<xs:complexType>
+								<xs:attribute name="Id" type="xs:string" use="required"/>
+								<xs:attribute name="Filename" type="xs:string" use="required"/>
+								<xs:attribute name="Type" type="MessageType" use="required"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="Profile" type="ProfileType" minOccurs="0"/>
+					</xs:sequence>
+					<xs:attribute name="MessageValidationVersion" type="xs:string" use="required"/>
+					<xs:attribute name="Datetime" type="xs:dateTime" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Context">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Failure" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="Type" type="MessageFailureType" use="required"/>
+								<xs:attribute name="Level" type="FailureLevelType" use="required"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="DataValidationItem" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="XPath" type="xs:string" use="required"/>
+								<xs:attribute name="Value" type="xs:string" use="required"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="DataValidationRegEx" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="XPath" type="xs:string" use="required"/>
+								<xs:attribute name="RegEx" type="xs:string" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Result">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Error" type="ResultMessageChildType" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="Warning" type="ResultMessageChildType" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="Ignore" type="ResultMessageChildType" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="User" type="ResultMessageChildType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="ErrorCount" type="xs:int" use="required"/>
+					<xs:attribute name="WarningCount" type="xs:int" use="required"/>
+					<xs:attribute name="IgnoreCount" type="xs:int" use="required"/>
+					<xs:attribute name="UserCount" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="XMLMessage" type="xs:string" minOccurs="0"/>
+			<xs:element name="ER7Message" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProfileType">
+		<xs:attribute name="Id" type="xs:string" use="required"/>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="Organization" type="xs:string" use="required"/>
+		<xs:attribute name="Filename" type="xs:string" use="required"/>
+		<xs:attribute name="Type" type="xs:string" use="required"/>
+		<xs:attribute name="HL7Version" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ResultProfileChildType">
+		<xs:sequence>
+			<xs:element name="Description" type="xs:string"/>
+			<xs:element name="Location" type="ProfileLocation"/>
+		</xs:sequence>
+		<xs:attribute name="FailureType" type="ProfileFailureType" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ResultMessageChildType">
+		<xs:sequence>
+			<xs:element name="Description" type="xs:string"/>
+			<xs:element name="Location" type="MessageLocation"/>
+			<xs:element name="Test" type="DataValueLocationItemType" minOccurs="0"/>
+			<xs:element name="Reference" type="xs:string" minOccurs="0"/>
+			<xs:element name="ElementContent" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="FailureType" type="MessageFailureType" use="required"/>
+		<xs:attribute name="FailureSeverity" type="MessageFailureSeverity" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="ProfileFailureType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="VERSION"/>
+			<xs:enumeration value="MESSAGE_STRUCTURE_ID"/>
+			<xs:enumeration value="PROFILE_TYPE"/>
+			<xs:enumeration value="PROFILE_STRUCTURE"/>
+			<xs:enumeration value="SEGMENT_NAME"/>
+			<xs:enumeration value="USAGE"/>
+			<xs:enumeration value="CARDINALITY"/>
+			<xs:enumeration value="LENGTH"/>
+			<xs:enumeration value="USAGE_CARDINALITY"/>
+			<xs:enumeration value="STANDARD_DEVIATION"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MessageFailureSeverity">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="NORMAL"/>
+			<xs:enumeration value="FATAL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="MessageType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ER7"/>
+			<xs:enumeration value="XML"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ProfileLocation">
+		<xs:attribute name="Line" type="xs:int" use="required"/>
+		<xs:attribute name="Column" type="xs:int" use="required"/>
+		<xs:attribute name="XPath" type="xs:string" use="required"/>
+		<xs:attribute name="String" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="MessageLocation">
+		<xs:sequence>
+			<xs:element name="SegGroup" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string" use="required"/>
+					<xs:attribute name="InstanceNumber" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Segment" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string" use="required"/>
+					<xs:attribute name="InstanceNumber" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Field" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string" use="required"/>
+					<xs:attribute name="InstanceNumber" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Component" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string" use="required"/>
+					<xs:attribute name="InstanceNumber" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="SubComponent" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string" use="required"/>
+					<xs:attribute name="InstanceNumber" type="xs:int" use="required"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Line" type="xs:int"/>
+			<xs:element name="Column" type="xs:int"/>
+			<xs:element name="XPath" type="xs:string" minOccurs="0"/>
+			<xs:element name="EPath" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

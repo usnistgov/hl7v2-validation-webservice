@@ -1,0 +1,9 @@
+<!-- An xsdconfig file must begin with a "config" element in the
+        http://www.bea.com/2002/09/xbean/config namespace. Also, be sure
+        to declare any namespaces used to qualify types in your schema (here,
+        the namespace corresponding to the pol prefix. -->
+<xb:config xmlns:xb="http://xml.apache.org/xmlbeans/2004/02/xbean/config">
+    <xb:namespace>
+        <xb:package>gov.nist.hl7.ws.messagevalidation.hl7v2report</xb:package>
+    </xb:namespace>
+</xb:config>

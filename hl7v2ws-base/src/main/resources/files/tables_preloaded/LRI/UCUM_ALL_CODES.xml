@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TableLibrary TableLibraryIdentifier="1.0" xmlns="http://www.nist.gov/healthcare/data" TableLibraryVersion="1.0" OrganizationName="UCUM NIST" Name="UCUM Codes">
+    <TableDefinition Version="1.0" Type="External" Name="Unified Code for Units of Measure" Id="UCUM" Codesys="UCUM">
+        <TableElement  DisplayName="liter per 8 hour" Code="L/(8.h)"/>
+        <TableElement  DisplayName="milliliter per 72 hour" Code="mL/(72.h)"/>
+        <TableElement  DisplayName="equivalent per milliliter" Code="eq/mL"/>
+        <TableElement  DisplayName="percent lysis" Code="%{lysis}"/>
+        <TableElement  DisplayName="IgG anticardiolipin unit per milliliter**" Code="[GPL'U]/mL"/>
+        <TableElement  DisplayName="microliter per hour" Code="uL/h"/>
+        <TableElement  DisplayName="multiple of the median" Code="{M.o.M}"/>
+        <TableElement  DisplayName="gram meter per heart beat" Code="g.m/{beat}"/>
+        <TableElement  DisplayName="milligram fibrinogen equivalent unit per liter" Code="mg{FEU}/L"/>
+        <TableElement  DisplayName="micromole per millimole" Code="umol/mmol"/>
+        <TableElement  DisplayName="centimeter of water" Code="cm[H2O]"/>
+        <TableElement  DisplayName="milliequivalent per total volume" Code="meq/{total_volume}"/>
+        <TableElement  DisplayName="percent saturation" Code="%{saturation}"/>
+        <TableElement  DisplayName="per oil immersion field" Code="/{OIF}"/>
+        <TableElement  DisplayName="gram per millimole" Code="g/mmol"/>
+        <TableElement  DisplayName="equivalent per micromole" Code="eq/umol"/>
+        <TableElement  DisplayName="percent" Code="%"/>
+        <TableElement  DisplayName="milligram per gram of wet tissue" Code="mg/g{wet_tissue}"/>
+        <TableElement  DisplayName="percent of red blood cells" Code="%{RBCs}"/>
+        <TableElement  DisplayName="dimensionless" Code="1"/>
+        <TableElement  DisplayName="micromole per 24 hour" Code="umol/(24.h)"/>
+        <TableElement  DisplayName="meter per square second" Code="m/s2"/>
+        <TableElement  DisplayName="micromole per minute" Code="umol/min"/>
+        <TableElement  DisplayName="milliliter per heart beat per  square meter" Code="mL/{beat}/m2"/>
+        <TableElement  DisplayName="millimole per ejaculate" Code="mmol/{ejaculate}"/>
+        <TableElement  DisplayName="gram per 48 hour" Code="g/(48.h)"/>
+        <TableElement  DisplayName="copies per microgram" Code="{copies}/ug"/>
+        <TableElement  DisplayName="panbio unit" Code="{Pan_Bio'U}"/>
+        <TableElement  DisplayName="Farad" Code="F"/>
+        <TableElement  DisplayName="nanomole per milliliter per hour" Code="nmol/mL/h"/>
+        <TableElement  DisplayName="international unit per liter at 37 degrees Celsius" Code="[IU]/L{37Cel}"/>
+        <TableElement  DisplayName="ampere" Code="A"/>
+        <TableElement  DisplayName="liter" Code="L"/>
+        <TableElement  DisplayName="milligram per specimen" Code="mg/{specimen}"/>
+        <TableElement  DisplayName="cells per high power field" Code="{cells}/[HPF]"/>
+        <TableElement  DisplayName="milli enzyme unit per gram of protein" Code="mU/g{protein}"/>
+        <TableElement  DisplayName="Newton" Code="N"/>
+        <TableElement  DisplayName="EIA titer" Code="{EIA_titer}"/>
+        <TableElement  DisplayName="Henry" Code="H"/>
+        <TableElement  DisplayName="percent bound" Code="%{bound}"/>
+        <TableElement  DisplayName="joule" Code="J"/>
+        <TableElement  DisplayName="percent blocked" Code="%{blocked}"/>
+        <TableElement  DisplayName="degree Kelvin" Code="K"/>
+        <TableElement  DisplayName="enzyme unit" Code="U"/>
+        <TableElement  DisplayName="Tesla" Code="T"/>
+        <TableElement  DisplayName="volt" Code="V"/>
+        <TableElement  DisplayName="nanomole per meter per milligram of protein" Code="nmol/m/mg{protein}"/>
+        <TableElement  DisplayName="Siemens" Code="S"/>
+        <TableElement  DisplayName="billion per liter" Code="10*9/L"/>
+        <TableElement  DisplayName="joule per liter" Code="J/L"/>
+        <TableElement  DisplayName="dyne second per centimeter" Code="dyn.s/cm"/>
+        <TableElement  DisplayName="osmole per liter" Code="osm/L"/>
+        <TableElement  DisplayName="milligram per milligram" Code="mg/mg"/>
+        <TableElement  DisplayName="gram" Code="g"/>
+        <TableElement  DisplayName="day" Code="d"/>
+        <TableElement  DisplayName="milligram per milliliter" Code="mg/mL"/>
+        <TableElement  DisplayName="year" Code="a"/>
+        <TableElement  DisplayName="milli enzyme unit per gram of hemoglobin" Code="mU/g{Hb}"/>
+        <TableElement  DisplayName="meter" Code="m"/>
+        <TableElement  DisplayName="milliequivalent per 24 hour" Code="meq/(24.h)"/>
+        <TableElement  DisplayName="hour" Code="h"/>
+        <TableElement  DisplayName="picogram per cell" Code="pg/{cell}"/>
+        <TableElement  DisplayName="metric ton" Code="t"/>
+        <TableElement  DisplayName="per high power field" Code="/[HPF]"/>
+        <TableElement  DisplayName="second" Code="s"/>
+        <TableElement  DisplayName="immune status ratio" Code="{ISR}"/>
+        <TableElement  DisplayName="square yard (international)" Code="[syd_i]"/>
+        <TableElement  DisplayName="femtomole per milligram of protein" Code="fmol/mg{protein}"/>
+        <TableElement  DisplayName="international unit per milliliter" Code="[IU]/mL"/>
+        <TableElement  DisplayName="milliliter per minute" Code="mL/min"/>
+        <TableElement  DisplayName="nanogram per kilogram per 8 hour" Code="ng/kg/(8.h)"/>
+        <TableElement  DisplayName="immunofluorescence assay index" Code="{IFA_index}"/>
+        <TableElement  DisplayName="international unit per liter" Code="[IU]/L"/>
+        <TableElement  DisplayName="thousand red blood cells" Code="10*3{RBCs}"/>
+        <TableElement  DisplayName="nanogram fibrinogen equivalent unit per milliliter" Code="ng{FEU}/mL"/>
+        <TableElement  DisplayName="cubic meter per second" Code="m3/s"/>
+        <TableElement  DisplayName="gram per gram of tissue" Code="g/g{tissue}"/>
+        <TableElement  DisplayName="millimole per kilogram per 8 hour" Code="mmol/kg/(8.h)"/>
+        <TableElement  DisplayName="picomole per hour per milligram of protein" Code="pmol/h/mg{protein}"/>
+        <TableElement  DisplayName="international unit per kilogram" Code="[IU]/kg"/>
+        <TableElement  DisplayName="microgram per milliliter equivalent" Code="ug/mL{eqv}"/>
+        <TableElement  DisplayName="log (base 10) international unit" Code="{Log_IU}"/>
+        <TableElement  DisplayName="per international unit" Code="/[IU]"/>
+        <TableElement  DisplayName="Todd unit" Code="[Toddâ€™U]"/>
+        <TableElement  DisplayName="femtomole per milligram of cytosol protein" Code="fmol/mg{cytosol_protein}"/>
+        <TableElement  DisplayName="nanomole per second per liter" Code="nmol/s/L"/>
+        <TableElement  DisplayName="colony forming unit per liter" Code="[CFU]/L"/>
+        <TableElement  DisplayName="enzyme unit per 10 gram of feces" Code="U/(10.g){feces}"/>
+        <TableElement  DisplayName="gram per 12 hour" Code="g/(12.h)"/>
+        <TableElement  DisplayName="dilution" Code="{dilution}"/>
+        <TableElement  DisplayName="mole per mole" Code="mol/mol"/>
+        <TableElement  DisplayName="nanogram per million" Code="ng/10*6"/>
+        <TableElement  DisplayName="enzyme unit per kilogram of hemoglobin" Code="U/kg{Hb}"/>
+        <TableElement  DisplayName="nanogram per kilogram per minute" Code="ng/kg/min"/>
+        <TableElement  DisplayName="milligram per gram of creatinine" Code="mg/g{creat}"/>
+        <TableElement  DisplayName="number per milliliter" Code="{#}/mL"/>
+        <TableElement  DisplayName="picomole per red blood cell" Code="pmol/{RBC}"/>
+        <TableElement  DisplayName="centimeter of water per liter per second" Code="cm[H2O]/L/s"/>
+        <TableElement  DisplayName="Becquerel" Code="Bq"/>
+        <TableElement  DisplayName="picomole per deciliter" Code="pmol/dL"/>
+        <TableElement  DisplayName="microgram per 8 hour" Code="ug/(8.h)"/>
+        <TableElement  DisplayName="millimole per hour per milligram of hemoglobin" Code="mmol/h/mg{Hb}"/>
+        <TableElement  DisplayName="copies per milliliter" Code="{copies}/mL"/>
+        <TableElement  DisplayName="micro enzyme unit per milliliter" Code="uU/mL"/>
+        <TableElement  DisplayName="per 100 cells" Code="/100{cells}"/>
+        <TableElement  DisplayName="kilogram per second" Code="kg/s"/>
+        <TableElement  DisplayName="part per billion" Code="[ppb]"/>
+        <TableElement  DisplayName="millimeter of water" Code="mm[H2O]"/>
+        <TableElement  DisplayName="gram of wet tissue" Code="g{wet_tissue}"/>
+        <TableElement  DisplayName="milligram per week" Code="mg/wk"/>
+        <TableElement  DisplayName="nanomole per 24 hour" Code="nmol/(24.h)"/>
+        <TableElement  DisplayName="percent viable" Code="%{viable}"/>
+        <TableElement  DisplayName="high power field" Code="[HPF]"/>
+        <TableElement  DisplayName="nanomole per milligram per hour" Code="nmol/mg/h"/>
+        <TableElement  DisplayName="kilopascal" Code="kPa"/>
+        <TableElement  DisplayName="nanomole per minute per million cells" Code="nmol/min/10*6{cells}"/>
+        <TableElement  DisplayName="King Armstrong unit" Code="[KA'U]"/>
+        <TableElement  DisplayName="nanomole per millimole" Code="nmol/mmol"/>
+        <TableElement  DisplayName="microgram per gram of hemoglobin" Code="ug/g{Hb}"/>
+        <TableElement  DisplayName="IgM antiphosphatidylserine unit per milliliter" Code="{MPS'U}/mL"/>
+        <TableElement  DisplayName="nanomole per mole" Code="nmol/mol"/>
+        <TableElement  DisplayName="millimole per 12 hour" Code="mmol/(12.h)"/>
+        <TableElement  DisplayName="gram per 8 hour shift" Code="g/(8.h){shift}"/>
+        <TableElement  DisplayName="millimole per second per liter" Code="mmol/s/L"/>
+        <TableElement  DisplayName="bar" Code="bar"/>
+        <TableElement  DisplayName="percent breakdown" Code="%{breakdown}"/>
+        <TableElement  DisplayName="enzyme unit per gram of protein" Code="U/g{protein}"/>
+        <TableElement  DisplayName="megasecond" Code="Ms"/>
+        <TableElement  DisplayName="milligram per gram" Code="mg/g"/>
+        <TableElement  DisplayName="milliequivalent per specimen" Code="meq/{specimen}"/>
+        <TableElement  DisplayName="milligram per hour" Code="mg/h"/>
+        <TableElement  DisplayName="Kunkel unit" Code="[KNK'U]Â "/>
+        <TableElement  DisplayName="milligram per day" Code="mg/d"/>
+        <TableElement  DisplayName="liter per 24 hour" Code="L/(24.h)"/>
+        <TableElement  DisplayName="percent positive" Code="%{positive}"/>
+        <TableElement  DisplayName="milligram per 12 hour" Code="mg/(12.h)"/>
+        <TableElement  DisplayName="millimole per 2 hour" Code="mmol/(2.h)"/>
+        <TableElement  DisplayName="millimole per hour per milligram of protein" Code="mmol/h/mg{protein}"/>
+        <TableElement  DisplayName="picomole per minute per milligram of protein" Code="pmol/min/mg{protein}"/>
+        <TableElement  DisplayName="enzyme unit per 12 hour" Code="U/(12.h)"/>
+        <TableElement  DisplayName="gram of creatinine" Code="g{creat}"/>
+        <TableElement  DisplayName="milligram per liter" Code="mg/L"/>
+        <TableElement  DisplayName="microgram per 24 hour" Code="ug/(24.h)"/>
+        <TableElement  DisplayName="milli enzyme unit per milligram of creatinine" Code="mU/mg{creat}"/>
+        <TableElement  DisplayName="international unit per hour" Code="[IU]/h"/>
+        <TableElement  DisplayName="part per million in volume per volume" Code="[ppm]{v/v}"/>
+        <TableElement  DisplayName="international unit per gram" Code="[IU]/g"/>
+        <TableElement  DisplayName="millimole per gram of creatinine" Code="mmol/g{creat}"/>
+        <TableElement  DisplayName="international unit per day" Code="[IU]/d"/>
+        <TableElement  DisplayName="percent of bacteria" Code="%{bacteria}"/>
+        <TableElement  DisplayName="percent recovery" Code="%{recovery}"/>
+        <TableElement  DisplayName="IgM anticardiolipin unit**" Code="[MPL'U]"/>
+        <TableElement  DisplayName="dekaliter per minute per square meter" Code="daL/min/m2"/>
+        <TableElement  DisplayName="nanogram per kilogram per hour" Code="ng/kg/h"/>
+        <TableElement  DisplayName="IgG antiphosphatidylserine unit" Code="{GPS'U}"/>
+        <TableElement  DisplayName="micromole per day" Code="umol/d"/>
+        <TableElement  DisplayName="enzyme unit per gram of creatinine" Code="U/g{creat}"/>
+        <TableElement  DisplayName="micromole per hour" Code="umol/h"/>
+        <TableElement  DisplayName="milligram per day per 1.73 square meter" Code="mg/d/(1.73_m2)"/>
+        <TableElement  DisplayName="micromole per gram" Code="umol/g"/>
+        <TableElement  DisplayName="international unit per deciliter" Code="[IU]/dL"/>
+        <TableElement  DisplayName="attogram per cell" Code="ag/{cell}"/>
+        <TableElement  DisplayName="Gray" Code="Gy"/>
+        <TableElement  DisplayName="pound per square inch" Code="[psi]"/>
+        <TableElement  DisplayName="milliliter per 2 hour" Code="mL/(2.h)"/>
+        <TableElement  DisplayName="microgram per square foot (international)" Code="ug/[sft_i]"/>
+        <TableElement  DisplayName="enzyme unit per milliliter of red blood cells" Code="U/mL{RBCs}"/>
+        <TableElement  DisplayName="minidrop per second" Code="{minidrop}/s"/>
+        <TableElement  DisplayName="gram per total weight" Code="g/{total_weight}"/>
+        <TableElement  DisplayName="kilo enzyme unit per liter class" Code="kU/L{class}"/>
+        <TableElement  DisplayName="Hertz" Code="Hz"/>
+        <TableElement  DisplayName="ELISA unit" Code="{ELISA'U}"/>
+        <TableElement  DisplayName="kilogram per second per square meter" Code="kg/(s.m2)"/>
+        <TableElement  DisplayName="nanogram per minute" Code="ng/min"/>
+        <TableElement  DisplayName="international unit per billion red blood cells" Code="[IU]/10*9{RBCs}"/>
+        <TableElement  DisplayName="milliliter per kilogram per 8 hour" Code="mL/kg/(8.h)"/>
+        <TableElement  DisplayName="microgram  per gram of feces" Code="ug/g{feces}"/>
+        <TableElement  DisplayName="kilogram per liter" Code="kg/L"/>
+        <TableElement  DisplayName="percent reactive" Code="%{reactive}"/>
+        <TableElement  DisplayName="10 liter per minute" Code="10.L/min"/>
+        <TableElement  DisplayName="Maclagan unit" Code="[MCLG'U]"/>
+        <TableElement  DisplayName="spermatozoa per milliliter" Code="{spermatozoa}/mL"/>
+        <TableElement  DisplayName="nanogram per milligram of protein" Code="ng/mg{protein}"/>
+        <TableElement  DisplayName="micromole per micromole" Code="umol/umol"/>
+        <TableElement  DisplayName="centimeter of mercury" Code="cm[Hg]"/>
+        <TableElement  DisplayName="milligram per gram of dry tissue" Code="mg/g{dry_tissue}"/>
+        <TableElement  DisplayName="gram per gram of creatinine" Code="g/g{creat}"/>
+        <TableElement  DisplayName="liter per kilogram" Code="L/kg"/>
+        <TableElement  DisplayName="millimole per 5 hour" Code="mmol/(5.h)"/>
+        <TableElement  DisplayName="nanomole" Code="nmol"/>
+        <TableElement  DisplayName="milligram per total output" Code="mg/{total_output}"/>
+        <TableElement  DisplayName="nanogram per million red blood cells" Code="ng/10*6{RBCs}"/>
+        <TableElement  DisplayName="mile (international)" Code="[mi_i]"/>
+        <TableElement  DisplayName="log (base 10) copies per milliliter" Code="{Log_copies}/mL"/>
+        <TableElement  DisplayName="cubic inch (international)" Code="[cin_i]"/>
+        <TableElement  DisplayName="percent hemolysis" Code="%{hemolysis}"/>
+        <TableElement  DisplayName="copies" Code="{copies}"/>
+        <TableElement  DisplayName="nanomole per minute per milligram of hemoglobin" Code="nmol/min/mg{Hb}"/>
+        <TableElement  DisplayName="micromole per liter" Code="umol/L"/>
+        <TableElement  DisplayName="kilogram per hour" Code="kg/h"/>
+        <TableElement  DisplayName="square centimeter" Code="cm2"/>
+        <TableElement  DisplayName="milli  enzyme unit per gram" Code="mU/g"/>
+        <TableElement  DisplayName="micro international unit" Code="u[IU]"/>
+        <TableElement  DisplayName="microgram per millimole" Code="ug/mmol"/>
+        <TableElement  DisplayName="milli enzyme unit per liter" Code="mU/L"/>
+        <TableElement  DisplayName="Bodansky unit" Code="[bdsk'U]"/>
+        <TableElement  DisplayName="nanomole per minute per milliliter" Code="nmol/min/mL"/>
+        <TableElement  DisplayName="microgram per kilogram per minute" Code="ug/kg/min"/>
+        <TableElement  DisplayName="gram per deciliter" Code="g/dL"/>
+        <TableElement  DisplayName="micromole per 8 hour" Code="umol/(8.h)"/>
+        <TableElement  DisplayName="Newton second" Code="N.s"/>
+        <TableElement  DisplayName="picomole per milliliter" Code="pmol/mL"/>
+        <TableElement  DisplayName="picogram per deciliter" Code="pg/dL"/>
+        <TableElement  DisplayName="Sievert" Code="Sv"/>
+        <TableElement  DisplayName="nanomole bone collagen equivalent per millimole of creatinine" Code="nmol{BCE}/mmol{creat}"/>
+        <TableElement  DisplayName="IgG anticardiolipin unit**" Code="[GPL'U]"/>
+        <TableElement  DisplayName="part per million" Code="[ppm]"/>
+        <TableElement  DisplayName="Lyme index value" Code="{Lyme_index_value}"/>
+        <TableElement  DisplayName="nanomole per milliliter per minute" Code="nmol/mL/min"/>
+        <TableElement  DisplayName="Weber" Code="Wb"/>
+        <TableElement  DisplayName="millipascal" Code="mPa"/>
+        <TableElement  DisplayName="mole per kilogram" Code="mol/kg"/>
+        <TableElement  DisplayName="nanometer per second per liter" Code="nm/s/L"/>
+        <TableElement  DisplayName="milliequivalent per kilogram per hour" Code="meq/kg/h"/>
+        <TableElement  DisplayName="mole per cubic meter" Code="mol/m3"/>
+        <TableElement  DisplayName="milliosmole per liter" Code="mosm/L"/>
+        <TableElement  DisplayName="mole per kilogram per second" Code="mol/kg/s"/>
+        <TableElement  DisplayName="microgram per minute" Code="ug/min"/>
+        <TableElement  DisplayName="milliliter per kilogram per minute" Code="mL/kg/min"/>
+        <TableElement  DisplayName="gram per 3 days" Code="g/(3.d)"/>
+        <TableElement  DisplayName="Kronus unit per milliliter" Code="{KRONU'U}/mL"/>
+        <TableElement  DisplayName="Bethesda unit" Code="[bethâ€™U]"/>
+        <TableElement  DisplayName="mole per milliliter" Code="mol/mL"/>
+        <TableElement  DisplayName="phenotype" Code="{phenotype}"/>
+        <TableElement  DisplayName="square foot (international)" Code="[sft_i]"/>
+        <TableElement  DisplayName="milligram per millimole" Code="mg/mmol"/>
+        <TableElement  DisplayName="micromole per liter per hour" Code="umol/L/h"/>
+        <TableElement  DisplayName="gram per kilogram per minute" Code="g/kg/min"/>
+        <TableElement  DisplayName="nanoenzyme unit per milliliter" Code="nU/mL"/>
+        <TableElement  DisplayName="micromole per kilogram" Code="umol/kg"/>
+        <TableElement  DisplayName="enzyme unit per trillion" Code="U/10*12"/>
+        <TableElement  DisplayName="enzyme unit per 10 billion" Code="U/10*10"/>
+        <TableElement  DisplayName="percent excretion" Code="%{excretion}"/>
+        <TableElement  DisplayName="milligram per kilogram per hour" Code="mg/kg/h"/>
+        <TableElement  DisplayName="IgM anticardiolipin unit per milliliter**" Code="[MPL'U]/mL"/>
+        <TableElement  DisplayName="gram of total protein" Code="g{total_prot}"/>
+        <TableElement  DisplayName="milligram per kilogram per day" Code="mg/kg/d"/>
+        <TableElement  DisplayName="complement CH100 unit" Code="{CH100'U}"/>
+        <TableElement  DisplayName="Troy ounce" Code="[oz_tr]"/>
+        <TableElement  DisplayName="Ehrlich unit per deciliter" Code="{Ehrlich'U}/dL"/>
+        <TableElement  DisplayName="milligram per deciliter" Code="mg/dL"/>
+        <TableElement  DisplayName="Pascal" Code="Pa"/>
+        <TableElement  DisplayName="katal per kilogram" Code="kat/kg"/>
+        <TableElement  DisplayName="degree Celsius" Code="Cel"/>
+        <TableElement  DisplayName="nanomole per milligram of protein per hour" Code="nmol/mg{protein}/h"/>
+        <TableElement  DisplayName="international unit per gram of hemoglobin" Code="[IU]/g{Hb}"/>
+        <TableElement  DisplayName="per trillion" Code="/10*12"/>
+        <TableElement  DisplayName="EIA value" Code="{EV}"/>
+        <TableElement  DisplayName="per 10 billion" Code="/10*10"/>
+        <TableElement  DisplayName="liter per minute" Code="L/min"/>
+        <TableElement  DisplayName="erg" Code="erg"/>
+        <TableElement  DisplayName="nanomole per minute" Code="nmol/min"/>
+        <TableElement  DisplayName="micromole per milligram" Code="umol/mg"/>
+        <TableElement  DisplayName="milligram per 2 hour" Code="mg/(2.h)"/>
+        <TableElement  DisplayName="number per liter" Code="{#}/L"/>
+        <TableElement  DisplayName="count" Code="{count}"/>
+        <TableElement  DisplayName="Ehrlich unit per day" Code="{Ehrlichâ€™U}/d"/>
+        <TableElement  DisplayName="gram per minute" Code="g/min"/>
+        <TableElement  DisplayName="international unit per milligram of creatinine" Code="[IU]/mg{creat}"/>
+        <TableElement  DisplayName="calorie" Code="cal"/>
+        <TableElement  DisplayName="milliliter per millimeter" Code="mL/mm"/>
+        <TableElement  DisplayName="microgram per milligram of creatinine" Code="ug/mg{creat}"/>
+        <TableElement  DisplayName="gram per kilogram per 8 hour shift" Code="g/kg/(8.h){shift}"/>
+        <TableElement  DisplayName="micromole per milliliter" Code="umol/mL"/>
+        <TableElement  DisplayName="milligram per milligram of creatinine" Code="mg/mg{creat}"/>
+        <TableElement  DisplayName="millimole per millimole of urea" Code="mmol/mmol{urea}"/>
+        <TableElement  DisplayName="percent basal activity" Code="%{basal_activity}"/>
+        <TableElement  DisplayName="enzyme unit per deciliter" Code="U/dL"/>
+        <TableElement  DisplayName="cells" Code="{cells}"/>
+        <TableElement  DisplayName="millimole per 24 hour" Code="mmol/(24.h)"/>
+        <TableElement  DisplayName="katal per liter" Code="kat/L"/>
+        <TableElement  DisplayName="absorbance" Code="{absorbance}"/>
+        <TableElement  DisplayName="per millimole of creatinine" Code="/mmol{creat}"/>
+        <TableElement  DisplayName="milligram per kilogram per 8 hour" Code="mg/kg/(8.h)"/>
+        <TableElement  DisplayName="million colony forming unit per liter" Code="10*6.[CFU]/L"/>
+        <TableElement  DisplayName="liter per day" Code="L/d"/>
+        <TableElement  DisplayName="liter per hour" Code="L/h"/>
+        <TableElement  DisplayName="percent normal" Code="%{normal}"/>
+        <TableElement  DisplayName="milliliter per minute per square meter" Code="mL/min/m2"/>
+        <TableElement  DisplayName="liter per second" Code="L/s"/>
+        <TableElement  DisplayName="micromole per milligram of creatinine" Code="umol/mg{creat}"/>
+        <TableElement  DisplayName="milligram per gram of feces" Code="mg/g{feces}"/>
+        <TableElement  DisplayName="milli  enzyme unit per millimole of creatinine" Code="mU/mmol{creat}"/>
+        <TableElement  DisplayName="gram meter" Code="g.m"/>
+        <TableElement  DisplayName="gram per liter" Code="g/L"/>
+        <TableElement  DisplayName="Ehrlich unit per 100 gram" Code="{Ehrlichâ€™U}/100g"/>
+        <TableElement  DisplayName="liter per liter" Code="L/L"/>
+        <TableElement  DisplayName="nanomole per liter per millimole of creatinine" Code="nmol/L/mmol{creat}"/>
+        <TableElement  DisplayName="centistoke" Code="cSt"/>
+        <TableElement  DisplayName="per gram of total nitrogen" Code="/g{tot_nit}"/>
+        <TableElement  DisplayName="equivalent per liter" Code="eq/L"/>
+        <TableElement  DisplayName="colony forming unit" Code="[CFU]"/>
+        <TableElement  DisplayName="gram per gram" Code="g/g"/>
+        <TableElement  DisplayName="enzyme unit per 10 billion cells" Code="U/10*10{cells}"/>
+        <TableElement  DisplayName="gram per day" Code="g/d"/>
+        <TableElement  DisplayName="nanomole per deciliter" Code="nmol/dL"/>
+        <TableElement  DisplayName="femtomole per milliliter" Code="fmol/mL"/>
+        <TableElement  DisplayName="gram per hour" Code="g/h"/>
+        <TableElement  DisplayName="milliequivalent per liter" Code="meq/L"/>
+        <TableElement  DisplayName="counts per minute" Code="{CPM}"/>
+        <TableElement  DisplayName="kilo international unit per milliliter" Code="k[IU]/mL"/>
+        <TableElement  DisplayName="enzyme unit per 10" Code="U/10"/>
+        <TableElement  DisplayName="microgram per deciliter of red blood cells" Code="ug/dL{RBCs}"/>
+        <TableElement  DisplayName="milliosmole per kilogram" Code="mosm/kg"/>
+        <TableElement  DisplayName="change in (delta) optical density" Code="{delta_OD}"/>
+        <TableElement  DisplayName="degree Fahrenheit" Code="[degF]"/>
+        <TableElement  DisplayName="milliliter per second" Code="mL/s"/>
+        <TableElement  DisplayName="milligram per gram of tissue" Code="mg/g{tissue}"/>
+        <TableElement  DisplayName="mutation" Code="{mutation}"/>
+        <TableElement  DisplayName="milliliter per hour" Code="mL/h"/>
+        <TableElement  DisplayName="femtomole per milligram" Code="fmol/mg"/>
+        <TableElement  DisplayName="gram per 6 hour" Code="g/(6.h)"/>
+        <TableElement  DisplayName="nanokatal" Code="nkat"/>
+        <TableElement  DisplayName="milliliter per day" Code="mL/d"/>
+        <TableElement  DisplayName="micromole per milliliter per minute" Code="umol/mL/min"/>
+        <TableElement  DisplayName="milliequivalent per hour" Code="meq/h"/>
+        <TableElement  DisplayName="milliequivalent per gram" Code="meq/g"/>
+        <TableElement  DisplayName="milliequivalent per day" Code="meq/d"/>
+        <TableElement  DisplayName="nanogram per milliliter of red blood cells" Code="ng/mL{RBCs}"/>
+        <TableElement  DisplayName="milliequivalent per minute" Code="meq/min"/>
+        <TableElement  DisplayName="picomole per millimole of creatinine" Code="pmol/mmol{creat}"/>
+        <TableElement  DisplayName="part per trillion" Code="[ppt]"/>
+        <TableElement  DisplayName="Juvenile Diabetes Foundation unit" Code="{JDF'U}"/>
+        <TableElement  DisplayName="dyne second per centimeter per square meter" Code="dyn.s/(cm.m2)"/>
+        <TableElement  DisplayName="billion per milliliter" Code="10*9/mL"/>
+        <TableElement  DisplayName="nanomole per deciliter of glomerular filtrate" Code="nmol/dL{GF}"/>
+        <TableElement  DisplayName="tablespoon (US)" Code="[tbs_us]"/>
+        <TableElement  DisplayName="micromole per 2 hour" Code="umol/(2.h)"/>
+        <TableElement  DisplayName="micro international unit per milliliter" Code="u[IU]/mL"/>
+        <TableElement  DisplayName="liter per second per square second" Code="L/s/s2"/>
+        <TableElement  DisplayName="percent normal pooled plasma" Code="%{normal_pooled_plasma}"/>
+        <TableElement  DisplayName="micromole per mole of creatinine" Code="umol/mol{creat}"/>
+        <TableElement  DisplayName="gram per 24 hour" Code="g/(24.h)"/>
+        <TableElement  DisplayName="micromole per minute per liter" Code="umol/min/L"/>
+        <TableElement  DisplayName="millipascal second" Code="mPa.s"/>
+        <TableElement  DisplayName="complement activity enzyme unit" Code="{CAE'U}"/>
+        <TableElement  DisplayName="osmole per kilogram" Code="osm/kg"/>
+        <TableElement  DisplayName="microgram per gram of dry weight" Code="ug/g{dry_wt}"/>
+        <TableElement  DisplayName="percent  loss of acetylcholine receptor" Code="%{loss_AChR}"/>
+        <TableElement  DisplayName="international unit" Code="[IU]"/>
+        <TableElement  DisplayName="milligram per cubic meter" Code="mg/m3"/>
+        <TableElement  DisplayName="milligram per square meter" Code="mg/m2"/>
+        <TableElement  DisplayName="Ehrlich unit" Code="{Ehrlichâ€™U}"/>
+        <TableElement  DisplayName="standard deviation" Code="{STDV}"/>
+        <TableElement  DisplayName="milligram per kilogram" Code="mg/kg"/>
+        <TableElement  DisplayName="kilocalorie per ounce (US &amp; British)" Code="kcal/[oz_av]"/>
+        <TableElement  DisplayName="10 liter per minute per square meter" Code="10.L/(min.m2)"/>
+        <TableElement  DisplayName="micromole per minute per gram" Code="umol/min/g"/>
+        <TableElement  DisplayName="milliequivalent per 2 hour" Code="meq/(2.h)"/>
+        <TableElement  DisplayName="picomole" Code="pmol"/>
+        <TableElement  DisplayName="per low power field" Code="/[LPF]"/>
+        <TableElement  DisplayName="gram per mole of creatinine" Code="g/mol{creat}"/>
+        <TableElement  DisplayName="enzyme unit per gram of hemoglobin" Code="U/g{Hb}"/>
+        <TableElement  DisplayName="enzyme unit per liter" Code="U/L"/>
+        <TableElement  DisplayName="micromole per deciliter" Code="umol/dL"/>
+        <TableElement  DisplayName="enzyme unit per gram" Code="U/g"/>
+        <TableElement  DisplayName="nanogram per 24 hour" Code="ng/(24.h)"/>
+        <TableElement  DisplayName="enzyme unit per hour" Code="U/h"/>
+        <TableElement  DisplayName="enzyme unit per day" Code="U/d"/>
+        <TableElement  DisplayName="nanogram per 8 hour" Code="ng/(8.h)"/>
+        <TableElement  DisplayName="international unit per kilogram per day" Code="[IU]/kg/d"/>
+        <TableElement  DisplayName="enzyme unit per second" Code="U/s"/>
+        <TableElement  DisplayName="gram per cubic centimeter" Code="g/cm3"/>
+        <TableElement  DisplayName="IgA anticardiolipin unit** (**anticardiolipin can also be called &quot;biologic activity of anticardiolipin&quot; or &quot;antiphospholipid&quot;)" Code="[APL'U]"/>
+        <TableElement  DisplayName="gallon (US)" Code="[gal_us]"/>
+        <TableElement  DisplayName="nanomole per minute per milligram of protein" Code="nmol/min/mg{protein}"/>
+        <TableElement  DisplayName="milligram per millimole of creatinine" Code="mg/mmol{creat}"/>
+        <TableElement  DisplayName="enzyme unit per milliliter" Code="U/mL"/>
+        <TableElement  DisplayName="milli  enzyme unit per milliliter per minute" Code="mU/mL/min"/>
+        <TableElement  DisplayName="kilogram meter per second" Code="kg.m/s"/>
+        <TableElement  DisplayName="percent aggregation" Code="%{aggregation}"/>
+        <TableElement  DisplayName="microgram per gram of hair" Code="ug/g{hair}"/>
+        <TableElement  DisplayName="kilogram per minute" Code="kg/min"/>
+        <TableElement  DisplayName="milliliter per kilogram per hour" Code="mL/kg/h"/>
+        <TableElement  DisplayName="milliliter per kilogram per day" Code="mL/kg/d"/>
+        <TableElement  DisplayName="millimole per kilogram per day" Code="mmol/kg/d"/>
+        <TableElement  DisplayName="femtometer" Code="fm"/>
+        <TableElement  DisplayName="femtogram" Code="fg"/>
+        <TableElement  DisplayName="millimole per kilogram per hour" Code="mmol/kg/h"/>
+        <TableElement  DisplayName="Ehrlich unit per 2 hour" Code="{Ehrlichâ€™U}/(2.h)"/>
+        <TableElement  DisplayName="percentile" Code="{percentile}"/>
+        <TableElement  DisplayName="kilo allergy unit per liter" Code="k[AU]/L"/>
+        <TableElement  DisplayName="enzyme unit per 24 hour" Code="U/(24.h)"/>
+        <TableElement  DisplayName="milliliter per 8 hour" Code="mL/(8.h)"/>
+        <TableElement  DisplayName="enzyme unit per trillion red blood cells" Code="U/10*12{RBCs}"/>
+        <TableElement  DisplayName="10 micronewton second per centimeter to the fifth power per square meter" Code="10.uN.s/(cm5.m2)"/>
+        <TableElement  DisplayName="percent of cells" Code="%{cells}"/>
+        <TableElement  DisplayName="millimole per millmole of creatinine" Code="mmol/mmol{creat}"/>
+        <TableElement  DisplayName="nanomole per milligram of creatinine" Code="nmol/mg{creat}"/>
+        <TableElement  DisplayName="minidrop per minute" Code="{minidrop}/min"/>
+        <TableElement  DisplayName="percent activity" Code="%{activity}"/>
+        <TableElement  DisplayName="microgram per kilogram per 8 hour" Code="ug/kg/(8.h)"/>
+        <TableElement  DisplayName="optical density unit" Code="{OD_unit}"/>
+        <TableElement  DisplayName="inch (international) of water" Code="[in_i'H2O]"/>
+        <TableElement  DisplayName="number per minute" Code="{#}/min"/>
+        <TableElement  DisplayName="per gram of total protein" Code="/g{tot_prot}"/>
+        <TableElement  DisplayName="inch (international)" Code="[in_i]"/>
+        <TableElement  DisplayName="picomole per day" Code="pmol/d"/>
+        <TableElement  DisplayName="electron Volt" Code="eV"/>
+        <TableElement  DisplayName="Ohm meter" Code="Ohm.m"/>
+        <TableElement  DisplayName="American Hospital Formulary unit" Code="{AHF'U}"/>
+        <TableElement  DisplayName="milli  international unit per milliliter" Code="m[IU]/mL"/>
+        <TableElement  DisplayName="microequivalent" Code="ueq"/>
+        <TableElement  DisplayName="degree Kelvin per Watt" Code="K/W"/>
+        <TableElement  DisplayName="ampere per meter" Code="A/m"/>
+        <TableElement  DisplayName="ratio" Code="{ratio}"/>
+        <TableElement  DisplayName="nanomole per milliliter" Code="nmol/mL"/>
+        <TableElement  DisplayName="micromole per gram of hemoglobin" Code="umol/g{Hb}"/>
+        <TableElement  DisplayName="millimeter per hour" Code="mm/h"/>
+        <TableElement  DisplayName="decigram" Code="dg"/>
+        <TableElement  DisplayName="millimole per total volume" Code="mmol/{total_vol}"/>
+        <TableElement  DisplayName="gram per gram of globulin" Code="g/g{globulin}"/>
+        <TableElement  DisplayName="decimeter" Code="dm"/>
+        <TableElement  DisplayName="nanomole per nanomole" Code="nmol/nmol"/>
+        <TableElement  DisplayName="percent binding" Code="%{binding}"/>
+        <TableElement  DisplayName="picomole per gram" Code="pmol/g"/>
+        <TableElement  DisplayName="microgram per millimole of creatinine" Code="ug/mmol{creat}"/>
+        <TableElement  DisplayName="micro enzyme unit per gram" Code="uU/g"/>
+        <TableElement  DisplayName="per trillion red blood cells" Code="/10*12{RBCs}"/>
+        <TableElement  DisplayName="per centimeter of water" Code="/cm[H2O]"/>
+        <TableElement  DisplayName="microequivalent per liter" Code="ueq/L"/>
+        <TableElement  DisplayName="femtoliter" Code="fL"/>
+        <TableElement  DisplayName="milliliter per deciliter" Code="mL/dL"/>
+        <TableElement  DisplayName="nanomole per milligram" Code="nmol/mg"/>
+        <TableElement  DisplayName="picomole per liter" Code="pmol/L"/>
+        <TableElement  DisplayName="relative percent" Code="%{relative}"/>
+        <TableElement  DisplayName="per microliter" Code="/uL"/>
+        <TableElement  DisplayName="equivalent" Code="eq"/>
+        <TableElement  DisplayName="drop (1/12 milliliter)" Code="[drp]"/>
+        <TableElement  DisplayName="decibel" Code="dB"/>
+        <TableElement  DisplayName="micro enzyme unit per liter" Code="uU/L"/>
+        <TableElement  DisplayName="EIA unit per enzyme unit" Code="{EIA'U}/U"/>
+        <TableElement  DisplayName="per month" Code="/mo"/>
+        <TableElement  DisplayName="percent of white blood cells" Code="%{WBCs}"/>
+        <TableElement  DisplayName="kilocalorie per day" Code="kcal/d"/>
+        <TableElement  DisplayName="micromole per deciliter of glomerular filtrate" Code="umol/dL{GF}"/>
+        <TableElement  DisplayName="centipoise" Code="cP"/>
+        <TableElement  DisplayName="gram per  kilogram per 8 hour" Code="g/kg/8.h"/>
+        <TableElement  DisplayName="kilocalorie per hour" Code="kcal/h"/>
+        <TableElement  DisplayName="microns per second" Code="um/s"/>
+        <TableElement  DisplayName="centiliter" Code="cL"/>
+        <TableElement  DisplayName="quart (US)" Code="[qt_us]"/>
+        <TableElement  DisplayName="kaolin clotting time" Code="{KCT'U}"/>
+        <TableElement  DisplayName="per millimeter" Code="/mm"/>
+        <TableElement  DisplayName="billion per microliter" Code="10*9/uL"/>
+        <TableElement  DisplayName="per minute" Code="/min"/>
+        <TableElement  DisplayName="per milligram" Code="/mg"/>
+        <TableElement  DisplayName="international normalized ratio" Code="{INR}"/>
+        <TableElement  DisplayName="signal to cutoff ratio" Code="{s_co_ratio}"/>
+        <TableElement  DisplayName="arbitrary unit per milliliter" Code="[arb'U]/mL"/>
+        <TableElement  DisplayName="cells per microliter" Code="{cells}/uL"/>
+        <TableElement  DisplayName="mole per" Code="mol/"/>
+        <TableElement  DisplayName="centimeter" Code="cm"/>
+        <TableElement  DisplayName="Ohm" Code="Ohm"/>
+        <TableElement  DisplayName="deciliter" Code="dL"/>
+        <TableElement  DisplayName="gram per milligram" Code="g/mg"/>
+        <TableElement  DisplayName="centigram" Code="cg"/>
+        <TableElement  DisplayName="liter per minute per square meter" Code="L/(min.m2)"/>
+        <TableElement  DisplayName="nanomole per second" Code="nmol/s"/>
+        <TableElement  DisplayName="kilogram per mole" Code="kg/mol"/>
+        <TableElement  DisplayName="heart beats per minute" Code="{beats}/min"/>
+        <TableElement  DisplayName="kilo international unit per liter" Code="k[IU]/L"/>
+        <TableElement  DisplayName="pound (US and British)" Code="[lb_av]"/>
+        <TableElement  DisplayName="milliequivalent per milliliter" Code="meq/mL"/>
+        <TableElement  DisplayName="micromole per minute per gram of mucosa" Code="umol/min/g{mucosa}"/>
+        <TableElement  DisplayName="100 million" Code="10*8"/>
+        <TableElement  DisplayName="microgram per gram of tissue" Code="ug/g{tissue}"/>
+        <TableElement  DisplayName="gram per milliliter" Code="g/mL"/>
+        <TableElement  DisplayName="milliequivalent" Code="meq"/>
+        <TableElement  DisplayName="million" Code="10*6"/>
+        <TableElement  DisplayName="aspirin response unit" Code="{ARU}"/>
+        <TableElement  DisplayName="one hundred thousand" Code="10*5"/>
+        <TableElement  DisplayName="percent abnormal" Code="%{abnormal}"/>
+        <TableElement  DisplayName="thousand" Code="10*3"/>
+        <TableElement  DisplayName="immune complex unit" Code="{ImmuneComplexâ€™U}"/>
+        <TableElement  DisplayName="Juvenile Diabetes Foundation unit per liter" Code="{JDF'U}/L"/>
+        <TableElement  DisplayName="milliequivalent per square meter" Code="meq/m2"/>
+        <TableElement  DisplayName="milliliter per minute per 1.73 square meter" Code="mL/min/{1.73_m2}"/>
+        <TableElement  DisplayName="number" Code="{#}"/>
+        <TableElement  DisplayName="milliequivalent per kilogram" Code="meq/kg"/>
+        <TableElement  DisplayName="nanogram per deciliter" Code="ng/dL"/>
+        <TableElement  DisplayName="arbitrary unit" Code="[arb'U]"/>
+        <TableElement  DisplayName="index value" Code="{index_val}"/>
+        <TableElement  DisplayName="number per low power field" Code="{#}/[LPF]"/>
+        <TableElement  DisplayName="gram per kilogram" Code="g/kg"/>
+        <TableElement  DisplayName="international unit per 2 hour" Code="[IU]/(2.h)"/>
+        <TableElement  DisplayName="micromole per minute per gram of protein" Code="umol/min/g{protein}"/>
+        <TableElement  DisplayName="gram per square meter" Code="g/m2"/>
+        <TableElement  DisplayName="picomole per micromole of creatinine" Code="pmol/umol{creat}"/>
+        <TableElement  DisplayName="nanosecond" Code="ns"/>
+        <TableElement  DisplayName="microinternational unit per liter" Code="u[IU]/L"/>
+        <TableElement  DisplayName="micromole per liter of red blood cells" Code="umol/L{RBCs}"/>
+        <TableElement  DisplayName="gram of hemoglobin" Code="g{Hb}"/>
+        <TableElement  DisplayName="nanogram per day" Code="ng/d"/>
+        <TableElement  DisplayName="thousand copies per milliliter" Code="10*3{copies}/mL"/>
+        <TableElement  DisplayName="milliliter per 4 hour" Code="mL/(4.h)"/>
+        <TableElement  DisplayName="nanogram per gram" Code="ng/g"/>
+        <TableElement  DisplayName="nanogram per hour" Code="ng/h"/>
+        <TableElement  DisplayName="picoampere" Code="pA"/>
+        <TableElement  DisplayName="percent deficient" Code="%{deficient}"/>
+        <TableElement  DisplayName="millibar" Code="mbar"/>
+        <TableElement  DisplayName="milliliter per heart beat" Code="mL/{beat}"/>
+        <TableElement  DisplayName="nanogram per second" Code="ng/s"/>
+        <TableElement  DisplayName="nanogram per millliiter" Code="ng/mL"/>
+        <TableElement  DisplayName="picoliter" Code="pL"/>
+        <TableElement  DisplayName="ounce (US and British)" Code="[oz_av]"/>
+        <TableElement  DisplayName="percent residual" Code="%{residual}"/>
+        <TableElement  DisplayName="picotesla" Code="pT"/>
+        <TableElement  DisplayName="square meter per second" Code="m2/s"/>
+        <TableElement  DisplayName="pint (US)" Code="[pt_us]"/>
+        <TableElement  DisplayName="millimole" Code="mmol"/>
+        <TableElement  DisplayName="milliliter per 6 hour" Code="mL/(6.h)"/>
+        <TableElement  DisplayName="per 10 thousand red blood cells" Code="/10*4{RBCs}"/>
+        <TableElement  DisplayName="microOhm" Code="uOhm"/>
+        <TableElement  DisplayName="milliliter per 12 hour" Code="mL/(12.h)"/>
+        <TableElement  DisplayName="red blood cell per microliter" Code="{RBC}/uL"/>
+        <TableElement  DisplayName="picogram" Code="pg"/>
+        <TableElement  DisplayName="nanomole per hour per liter" Code="nmol/h/L"/>
+        <TableElement  DisplayName="milligram per minute" Code="mg/min"/>
+        <TableElement  DisplayName="nanomole per millimole of creatinine" Code="nmol/mmol{creat}"/>
+        <TableElement  DisplayName="picometer" Code="pm"/>
+        <TableElement  DisplayName="nanogram per milligram" Code="ng/mg"/>
+        <TableElement  DisplayName="nanogram per milligram of creatinine" Code="ng/mg{creat}"/>
+        <TableElement  DisplayName="lumen" Code="lm"/>
+        <TableElement  DisplayName="per entity" Code="/{entity}"/>
+        <TableElement  DisplayName="foot (international)" Code="[ft_i]"/>
+        <TableElement  DisplayName="millivolt" Code="mV"/>
+        <TableElement  DisplayName="activity" Code="{activity}"/>
+        <TableElement  DisplayName="milliliter per 8 hour per kilogram" Code="mL(8.h.kg)"/>
+        <TableElement  DisplayName="nanogram per milliliter per hour" Code="ng/mL/h"/>
+        <TableElement  DisplayName="white blood cells" Code="{WBCs}"/>
+        <TableElement  DisplayName="nanomole per day" Code="nmol/d"/>
+        <TableElement  DisplayName="microgram per deciliter" Code="ug/dL"/>
+        <TableElement  DisplayName="nanomole of ATP" Code="nmol{ATP}"/>
+        <TableElement  DisplayName="nanomole per gram" Code="nmol/g"/>
+        <TableElement  DisplayName="milligram" Code="mg"/>
+        <TableElement  DisplayName="percent reference" Code="%{reference}"/>
+        <TableElement  DisplayName="international unit per 24 hour" Code="[IU]/(24.h)"/>
+        <TableElement  DisplayName="milligram per total volume" Code="mg/{total_volume}"/>
+        <TableElement  DisplayName="nanoliter" Code="nL"/>
+        <TableElement  DisplayName="GAA trinucleotide repeats" Code="{GAA_repeats}"/>
+        <TableElement  DisplayName="millimeter" Code="mm"/>
+        <TableElement  DisplayName="month" Code="mo"/>
+        <TableElement  DisplayName="nanomole bone collagen equivalent" Code="nmol{BCE}"/>
+        <TableElement  DisplayName="nanomole per milligram of protein" Code="nmol/mg{protein}"/>
+        <TableElement  DisplayName="millisecond" Code="ms"/>
+        <TableElement  DisplayName="milliliter per square meter" Code="mL/m2"/>
+        <TableElement  DisplayName="thousand per microliter" Code="10*3/uL"/>
+        <TableElement  DisplayName="EIA unit" Code="{EIA'U}"/>
+        <TableElement  DisplayName="per 100 spermatozoa" Code="/100{spermatozoa}"/>
+        <TableElement  DisplayName="per gram of creatinine" Code="/g{creat}"/>
+        <TableElement  DisplayName="kilocalorie per kilogram per 24 hour" Code="kcal/kg/(24.h)"/>
+        <TableElement  DisplayName="picokatal" Code="pkat"/>
+        <TableElement  DisplayName="international unit per minute" Code="[IU]/min"/>
+        <TableElement  DisplayName="milligram per 10 hour" Code="mg/(10.h)"/>
+        <TableElement  DisplayName="enzyme unit per liter at 25 deg Celsius" Code="U{25Cel}/L"/>
+        <TableElement  DisplayName="milliliter per kilogram" Code="mL/kg"/>
+        <TableElement  DisplayName="nanomole per liter" Code="nmol/L"/>
+        <TableElement  DisplayName="nanogram" Code="ng"/>
+        <TableElement  DisplayName="enzyme unit per minute" Code="U/min"/>
+        <TableElement  DisplayName="nanoenzyme unit per red blood cell" Code="nU/{RBC}"/>
+        <TableElement  DisplayName="per arbitrary unit" Code="/[arb'U]"/>
+        <TableElement  DisplayName="nanometer" Code="nm"/>
+        <TableElement  DisplayName="microgram per gram" Code="ug/g"/>
+        <TableElement  DisplayName="microgram per hour" Code="ug/h"/>
+        <TableElement  DisplayName="millimole per gram" Code="mmol/g"/>
+        <TableElement  DisplayName="meter per second" Code="m/s"/>
+        <TableElement  DisplayName="millimole per hour" Code="mmol/h"/>
+        <TableElement  DisplayName="kilo enzyme unit" Code="kU"/>
+        <TableElement  DisplayName="millimole per day" Code="mmol/d"/>
+        <TableElement  DisplayName="microgram per day" Code="ug/d"/>
+        <TableElement  DisplayName="counts per minute per thousand cells" Code="{CPM}/10*3{cell}"/>
+        <TableElement  DisplayName="picomole per micromole" Code="pmol/umol"/>
+        <TableElement  DisplayName="kiloliter" Code="kL"/>
+        <TableElement  DisplayName="kilogram per square meter" Code="kg/m2"/>
+        <TableElement  DisplayName="kilogram per cubic meter" Code="kg/m3"/>
+        <TableElement  DisplayName="kilogram" Code="kg"/>
+        <TableElement  DisplayName="percent inhibition" Code="%{inhibition}"/>
+        <TableElement  DisplayName="millimole per 8 hour" Code="mmol/(8.h)"/>
+        <TableElement  DisplayName="nanomole per hour per milligram of protein" Code="nmol/h/mg{protein}"/>
+        <TableElement  DisplayName="per gram of hemoglobin" Code="/g{Hb}"/>
+        <TableElement  DisplayName="microgram per kilogram" Code="ug/kg"/>
+        <TableElement  DisplayName="kilosecond" Code="ks"/>
+        <TableElement  DisplayName="milligram per collection" Code="mg/{collection}"/>
+        <TableElement  DisplayName="microgram per liter" Code="ug/L"/>
+        <TableElement  DisplayName="milliliter of fetal red blood cells" Code="mL{fetal_RBCs}"/>
+        <TableElement  DisplayName="square meter" Code="m2"/>
+        <TableElement  DisplayName="per liter" Code="/L"/>
+        <TableElement  DisplayName="percent hemoglobin" Code="%{Hb}"/>
+        <TableElement  DisplayName="microgram per milliliter class" Code="ug/mL{class}"/>
+        <TableElement  DisplayName="influenza hemagglutination titer" Code="{HA_titer}"/>
+        <TableElement  DisplayName="per 100 neutrophils" Code="/100{neutrophils}"/>
+        <TableElement  DisplayName="kilometer" Code="km"/>
+        <TableElement  DisplayName="percent  penetration" Code="%{penetration}"/>
+        <TableElement  DisplayName="milliliter" Code="mL"/>
+        <TableElement  DisplayName="degree per second" Code="deg/s"/>
+        <TableElement  DisplayName="equivalent per millimole" Code="eq/mmol"/>
+        <TableElement  DisplayName="milliequivalent per gram of creatinine" Code="meq/g{creat}"/>
+        <TableElement  DisplayName="milliosmole" Code="mosm"/>
+        <TableElement  DisplayName="milliampere" Code="mA"/>
+        <TableElement  DisplayName="rubella virus" Code="{Rubella_virus}"/>
+        <TableElement  DisplayName="IgA antiphosphatidylserine unit" Code="{APS'U}"/>
+        <TableElement  DisplayName="dekaliter per minute" Code="daL/min"/>
+        <TableElement  DisplayName="picomole per milligram of protein" Code="pmol/mg{protein}"/>
+        <TableElement  DisplayName="shift" Code="{shift}"/>
+        <TableElement  DisplayName="per week" Code="/wk"/>
+        <TableElement  DisplayName="picogram per milliliter" Code="pg/mL"/>
+        <TableElement  DisplayName="microgram per 100 gram" Code="ug/100g"/>
+        <TableElement  DisplayName="percent of baseline" Code="%{baseline}"/>
+        <TableElement  DisplayName="micromole" Code="umol"/>
+        <TableElement  DisplayName="per thousand red blood cells" Code="/10*3.{RBCs}"/>
+        <TableElement  DisplayName="EIA index" Code="{EIA_index}"/>
+        <TableElement  DisplayName="picogram per milligram" Code="pg/mg"/>
+        <TableElement  DisplayName="millimole per liter" Code="mmol/L"/>
+        <TableElement  DisplayName="IgM antiphosphatidylserine unit" Code="{MPS'U}"/>
+        <TableElement  DisplayName="24 hour" Code="24.h"/>
+        <TableElement  DisplayName="picogram per millimeter" Code="pg/mm"/>
+        <TableElement  DisplayName="million per liter" Code="10*6/L"/>
+        <TableElement  DisplayName="nanogram per kilogram" Code="ng/kg"/>
+        <TableElement  DisplayName="nanogram per enzyme unit" Code="ng/U"/>
+        <TableElement  DisplayName="milliequivalent per deciliter" Code="meq/dL"/>
+        <TableElement  DisplayName="globules (drops)  per high power field" Code="{Globules}/[HPF]"/>
+        <TableElement  DisplayName="nanogram per square meter" Code="ng/m2"/>
+        <TableElement  DisplayName="nanogram per liter" Code="ng/L"/>
+        <TableElement  DisplayName="microgram per liter per 24 hour" Code="ug/L/(24.h)"/>
+        <TableElement  DisplayName="percent blockade" Code="%{blockade}"/>
+        <TableElement  DisplayName="picomole per hour per milliliter" Code="pmol/h/mL"/>
+        <TableElement  DisplayName="number per high power field" Code="{#}/[HPF]"/>
+        <TableElement  DisplayName="percent uptake" Code="%{uptake}"/>
+        <TableElement  DisplayName="tuberculin unit" Code="[tb'U]"/>
+        <TableElement  DisplayName="millimole per minute" Code="mmol/min"/>
+        <TableElement  DisplayName="million per milliliter" Code="10*6/mL"/>
+        <TableElement  DisplayName="percent by volume" Code="%{vol}"/>
+        <TableElement  DisplayName="fluorescent intensity unit" Code="{FIU}"/>
+        <TableElement  DisplayName="French (catheter gauge)" Code="[Ch]"/>
+        <TableElement  DisplayName="Torr" Code="Torr"/>
+        <TableElement  DisplayName="10 thousand per microliter" Code="10*4/uL"/>
+        <TableElement  DisplayName="thousand per milliliter" Code="10*3/mL"/>
+        <TableElement  DisplayName="centimeter of water per second per meter" Code="cm[H2O]/s/m"/>
+        <TableElement  DisplayName="micromole per mole of hemoglobin" Code="umol/mol{Hb}"/>
+        <TableElement  DisplayName="week" Code="wk"/>
+        <TableElement  DisplayName="femtomole per gram" Code="fmol/g"/>
+        <TableElement  DisplayName="microgram per gram of dry tissue" Code="ug/g{dry_tissue}"/>
+        <TableElement  DisplayName="clock time e.g 12:30PM" Code="{clock_time}"/>
+        <TableElement  DisplayName="milligram per liter of red blood cells" Code="mg/L{RBCs}"/>
+        <TableElement  DisplayName="mole" Code="mol"/>
+        <TableElement  DisplayName="nanogram per milligram per hour" Code="ng/mg/h"/>
+        <TableElement  DisplayName="million per kilogram" Code="10*6/kg"/>
+        <TableElement  DisplayName="microgram per nanogram" Code="ug/ng"/>
+        <TableElement  DisplayName="femtomole per liter" Code="fmol/L"/>
+        <TableElement  DisplayName="per twelve hour" Code="/(12.h)"/>
+        <TableElement  DisplayName="square decimeter per square second" Code="dm2/s2"/>
+        <TableElement  DisplayName="nanomole per gram of creatinine" Code="nmol/g{creat}"/>
+        <TableElement  DisplayName="per second" Code="/s"/>
+        <TableElement  DisplayName="colony forming unit per milliliter" Code="[CFU]/mL"/>
+        <TableElement  DisplayName="percent dose" Code="%{dose}"/>
+        <TableElement  DisplayName="millimeter per minute" Code="mm/min"/>
+        <TableElement  DisplayName="million international unit" Code="10*6.[IU]"/>
+        <TableElement  DisplayName="milliliter per 5 hour" Code="mL/(5.h)"/>
+        <TableElement  DisplayName="microgram per milligram" Code="ug/mg"/>
+        <TableElement  DisplayName="microgram per specimen" Code="ug/{specimen}"/>
+        <TableElement  DisplayName="mole per liter" Code="mol/L"/>
+        <TableElement  DisplayName="microgram per square meter" Code="ug/m2"/>
+        <TableElement  DisplayName="microgram per cubic meter" Code="ug/m3"/>
+        <TableElement  DisplayName="milliliter per square inch (international)" Code="mL/[sin_i]"/>
+        <TableElement  DisplayName="microgram" Code="ug"/>
+        <TableElement  DisplayName="per deciliter" Code="/dL"/>
+        <TableElement  DisplayName="microsecond" Code="us"/>
+        <TableElement  DisplayName="per enzyme unit" Code="/U"/>
+        <TableElement  DisplayName="milliliter per 24 hour" Code="mL/(24.h)"/>
+        <TableElement  DisplayName="micrometer" Code="um"/>
+        <TableElement  DisplayName="millimole per specimen" Code="mmol/{specimen}"/>
+        <TableElement  DisplayName="microgram per kilogram per day" Code="ug/kg/d"/>
+        <TableElement  DisplayName="month-day-year" Code="{mm/dd/yyyy}"/>
+        <TableElement  DisplayName="microgram per kilogram per hour" Code="ug/kg/h"/>
+        <TableElement  DisplayName="microvolt" Code="uV"/>
+        <TableElement  DisplayName="per hour" Code="/h"/>
+        <TableElement  DisplayName="per gram" Code="/g"/>
+        <TableElement  DisplayName="microgram per liter of red blood cells" Code="ug/L{RBCs}"/>
+        <TableElement  DisplayName="milligram per 6 hour" Code="mg/(6.h)"/>
+        <TableElement  DisplayName="mole per second" Code="mol/s"/>
+        <TableElement  DisplayName="per day" Code="/d"/>
+        <TableElement  DisplayName="low power field" Code="[LPF]"/>
+        <TableElement  DisplayName="millimole per kilogram per minute" Code="mmol/kg/min"/>
+        <TableElement  DisplayName="milligram per 24 hour" Code="mg/(24.h)"/>
+        <TableElement  DisplayName="microgram per milliliter" Code="ug/mL"/>
+        <TableElement  DisplayName="per year" Code="/a"/>
+        <TableElement  DisplayName="millibar per liter per second" Code="mbar/L/s"/>
+        <TableElement  DisplayName="picogram per liter" Code="pg/L"/>
+        <TableElement  DisplayName="microliter" Code="uL"/>
+        <TableElement  DisplayName="per kilogram of body weight" Code="/kg{body_wt}"/>
+        <TableElement  DisplayName="log (base 10) international unit per milliliter" Code="{Log_IU}/mL"/>
+        <TableElement  DisplayName="dram  (US and British)" Code="[dr_av]"/>
+        <TableElement  DisplayName="kilo enzyme unit per gram" Code="kU/g"/>
+        <TableElement  DisplayName="picomole per 24 hour" Code="pmol/(24.h)"/>
+        <TableElement  DisplayName="enzyme unit per 2 hour" Code="U/(2.h)"/>
+        <TableElement  DisplayName="micromole per kilogram of feces" Code="umol/kg{feces}"/>
+        <TableElement  DisplayName="square centimeter per second" Code="cm2/s"/>
+        <TableElement  DisplayName="millimole per millimole" Code="mmol/mmol"/>
+        <TableElement  DisplayName="square inch (international)" Code="[sin_i]"/>
+        <TableElement  DisplayName="kilo enzyme unit per liter" Code="kU/L"/>
+        <TableElement  DisplayName="micromole per micromole of creatinine" Code="umol/umol{creat}"/>
+        <TableElement  DisplayName="osmole" Code="osm"/>
+        <TableElement  DisplayName="molecule per platelet" Code="{molecule}/{platelet}"/>
+        <TableElement  DisplayName="milligram per kilogram per minute" Code="mg/kg/min"/>
+        <TableElement  DisplayName="microliter per 2 hour" Code="uL/(2.h)"/>
+        <TableElement  DisplayName="microgram fibrinogen equivalent unit per milliliter" Code="ug{FEU}/mL"/>
+        <TableElement  DisplayName="milligram per 8 hour" Code="mg/(8.h)"/>
+        <TableElement  DisplayName="nanomole bone collagen equivalent per liter" Code="nmol{BCE}/L"/>
+        <TableElement  DisplayName="nanomole per micromole  of creatinine" Code="nmol/umol{creat}"/>
+        <TableElement  DisplayName="millibar second per liter" Code="mbar.s/L"/>
+        <TableElement  DisplayName="Newton centimeter" Code="N.cm"/>
+        <TableElement  DisplayName="titer" Code="{titer}"/>
+        <TableElement  DisplayName="millimeter of mercury" Code="mm[Hg]"/>
+        <TableElement  DisplayName="milli  enzyme unit per millimole of red blood cells" Code="mU/mmol{RBCs}"/>
+        <TableElement  DisplayName="nanogram per gram of creatinine" Code="ng/g{creat}"/>
+        <TableElement  DisplayName="millimole per deciliter" Code="mmol/dL"/>
+        <TableElement  DisplayName="gram per 100 gram" Code="g/100g"/>
+        <TableElement  DisplayName="second per control" Code="s/{control}"/>
+        <TableElement  DisplayName="kilocalorie" Code="kcal"/>
+        <TableElement  DisplayName="microequivalent per milliliter" Code="ueq/mL"/>
+        <TableElement  DisplayName="micromole per gram of creatinine" Code="umol/g{creat}"/>
+        <TableElement  DisplayName="Immunofluorescence assay titer" Code="{IFA_titer}"/>
+        <TableElement  DisplayName="picosecond" Code="ps"/>
+        <TableElement  DisplayName="millimole per liter of red blood cells" Code="mmol/L{RBCs}"/>
+        <TableElement  DisplayName="picomole per minute" Code="pmol/min"/>
+        <TableElement  DisplayName="millimole per mole of creatinine" Code="mmol/mol{creat}"/>
+        <TableElement  DisplayName="micromole per mole" Code="umol/mol"/>
+        <TableElement  DisplayName="teaspoon (US)" Code="[tsp_us]"/>
+        <TableElement  DisplayName="micromole bone collagen equivalent per mole" Code="umol{BCE}/mol"/>
+        <TableElement  DisplayName="katal" Code="kat"/>
+        <TableElement  DisplayName="binding index" Code="{binding_index}"/>
+        <TableElement  DisplayName="fluid ounce (US)" Code="[foz_us]"/>
+        <TableElement  DisplayName="micromole per millimole of creatinine" Code="umol/mmol{creat}"/>
+        <TableElement  DisplayName="gram per specimen" Code="g/{specimen}"/>
+        <TableElement  DisplayName="enzyme unit per liter at 37 deg Celsius" Code="U{37Cel}/L"/>
+        <TableElement  DisplayName="microgram per gram of creatinine" Code="ug/g{creat}"/>
+        <TableElement  DisplayName="million per microliter" Code="10*6/uL"/>
+        <TableElement  DisplayName="thyroid-stimulating immunoglobulin index" Code="{TSI_index}"/>
+        <TableElement  DisplayName="per milliliter" Code="/mL"/>
+        <TableElement  DisplayName="gram per 4 hour" Code="g/(4.h)"/>
+        <TableElement  DisplayName="picogram per milligram of creatinine" Code="pg/mg{creat}"/>
+        <TableElement  DisplayName="genomes per milliliter" Code="{genomes}/mL"/>
+        <TableElement  DisplayName="log base 10" Code="{Log}"/>
+        <TableElement  DisplayName="kilo enzyme unit per milliliter" Code="kU/mL"/>
+        <TableElement  DisplayName="degree (plane angle)" Code="deg"/>
+        <TableElement  DisplayName="milligram per deciliter of red blood cells" Code="mg/dL{RBCs}"/>
+        <TableElement  DisplayName="microkatal" Code="ukat"/>
+        <TableElement  DisplayName="percent total" Code="%{total}"/>
+        <TableElement  DisplayName="lumen square meter" Code="lm.m2"/>
+        <TableElement  DisplayName="fraction" Code="{fraction}"/>
+        <TableElement  DisplayName="enzyme unit per millimole of creatinine" Code="U/mmol{creat}"/>
+        <TableElement  DisplayName="minute" Code="min"/>
+        <TableElement  DisplayName="part per thousand" Code="[ppth]"/>
+        <TableElement  DisplayName="milli  enzyme unit per milliliter" Code="mU/mL"/>
+        <TableElement  DisplayName="enzyme unit per billion" Code="U/10*9"/>
+        <TableElement  DisplayName="per kilogram" Code="/kg"/>
+        <TableElement  DisplayName="milligram per 72 hour" Code="mg/(72.h)"/>
+        <TableElement  DisplayName="enzyme unit per million" Code="U/10*6"/>
+        <TableElement  DisplayName="percent at 60 minute" Code="%{at_60_min}"/>
+        <TableElement  DisplayName="gram per 5 hour" Code="g/(5.h)"/>
+        <TableElement  DisplayName="pH" Code="[pH]"/>
+        <TableElement  DisplayName="per cubic meter" Code="/m3"/>
+        <TableElement  DisplayName="percent loss" Code="%{loss}"/>
+        <TableElement  DisplayName="per square meter" Code="/m2"/>
+        <TableElement  DisplayName="milli international unit per liter" Code="m[IU]/L"/>
+        <TableElement  DisplayName="number per microliter" Code="{#}/uL"/>
+        <TableElement  DisplayName="milli enzyme unit per milligram" Code="mU/mg"/>
+        <TableElement  DisplayName="thousand per liter" Code="10*3/L"/>
+        <TableElement  DisplayName="femtomole" Code="fmol"/>
+        <TableElement  DisplayName="per 100" Code="/100"/>
+        <TableElement  DisplayName="allergy unit" Code="[AU]"/>
+        <TableElement  DisplayName="gram per 72 hour" Code="g/(72.h)"/>
+        <TableElement  DisplayName="CAG trinucleotide repeats" Code="{CAG_repeats}"/>
+        <TableElement  DisplayName="milliliter per millibar" Code="mL/mbar"/>
+        <TableElement  DisplayName="yard (international)" Code="[yd_i]"/>
+        <TableElement  DisplayName="trillion per liter" Code="10*12/L"/>
+        <TableElement  DisplayName="gram per total output" Code="g/{total_output}"/>
+        <TableElement  DisplayName="IgA anticardiolipin unit per milliliter**" Code="[APL'U]/mL"/>
+        <TableElement  DisplayName="square millimeter" Code="mm2"/>
+        <TableElement  DisplayName="million per 24 hour" Code="10*6/(24.h)"/>
+        <TableElement  DisplayName="millimole per mole" Code="mmol/mol"/>
+        <TableElement  DisplayName="nanomole per liter of red blood cells" Code="nmol/L{RBCs}"/>
+        <TableElement  DisplayName="gram of total nitrogen" Code="g{total_nit}"/>
+        <TableElement  DisplayName="kilo allergy unit" Code="k[AU]"/>
+        <TableElement  DisplayName="nanomole of 1/2 cystine per milligram of protein" Code="nmol{1/2cys}/mg{protein}"/>
+        <TableElement  DisplayName="picogram per red blood cell" Code="pg/{RBC}"/>
+        <TableElement  DisplayName="per gram of wet tissue" Code="/g{wet_tis}"/>
+        <TableElement  DisplayName="per 100 white blood cells" Code="/100{WBCs}"/>
+        <TableElement  DisplayName="percent index" Code="%{index}"/>
+        <TableElement  DisplayName="atmosphere" Code="atm"/>
+        <TableElement  DisplayName="milliliter per 10 hour" Code="mL/(10.h)"/>
+        <TableElement  DisplayName="saturation" Code="{saturation}"/>
+        <TableElement  DisplayName="milliliter per centimeter of water" Code="mL/cm[H2O]"/>
+        <TableElement  DisplayName="millimole per 6 hour" Code="mmol/(6.h)"/>
+        <TableElement  DisplayName="millimole per kilogram" Code="mmol/kg"/>
+        <TableElement  DisplayName="gram per kilogram per hour" Code="g/kg/h"/>
+        <TableElement  DisplayName="gram per kilogram per day" Code="g/kg/d"/>
+        <TableElement  DisplayName="relative saturation" Code="{relative_saturation}"/>
+        <TableElement  DisplayName="nanomole per gram of dry weight" Code="nmol/g{dry_wt}"/>
+        <TableElement  DisplayName="per thousand" Code="/10*3"/>
+        <TableElement  DisplayName="per million" Code="/10*6"/>
+        <TableElement  DisplayName="gram per hour per square meter" Code="g/h/m2"/>
+        <TableElement  DisplayName="milliequivalent per 8 hour" Code="meq/(8.h)"/>
+        <TableElement  DisplayName="millimole per square meter" Code="mmol/m2"/>
+        <TableElement  DisplayName="per billion" Code="/10*9"/>
+    </TableDefinition>
+</TableLibrary>

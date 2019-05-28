@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of tables that are specified in the PHINVADs" TableLibraryIdentifier="" Status="Active" TableLibraryVersion="1.0" OrganizationName="HL7 NIST" Name="NoCheckTables_ELRVocab">
+    <TableDefinition AlternateId="PHVS_County_FIPS_6-4" Oid="2.16.840.1.114222.4.11.829" Codesys="PHVS_County_FIPS_6-4" Version="1" Type="External" Name="County" Id="PHVS_County_FIPS_6-4">
+        <TableElement Codesys="FIPS6_4" Source="HL7" DisplayName="(where yy is the FIPS state code (numeric characters) and zzz is the county FIPS code (numeric characters)" Code="yyzzz"/>
+    </TableDefinition>
+    <TableDefinition AlternateId="Postal Codes" Codesys="HL7" Version="V2.5.1" Type="External" Name="Postal Code Value Set" Id="Postal Code Value Set">
+        <TableElement Codesys="USPS" Source="HL7" DisplayName="ZIP Code (where z is a numeric character)" Code="zzzzz"/>
+        <TableElement Codesys="USPS" Source="HL7" DisplayName="ZIP+4 Code (where z is a numeric character)" Code="zzzzz-zzzz"/>
+    </TableDefinition>
+</TableLibrary>

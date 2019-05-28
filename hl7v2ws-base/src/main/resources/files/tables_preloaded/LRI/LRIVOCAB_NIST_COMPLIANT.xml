@@ -1,0 +1,2169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of tables that are specified in the Laboratory Results Interface HL7 Version 2.5.1 Implementation Guide DRAFT 0.6" TableLibraryIdentifier="2.16.840.1.113883.3.72.4.1.00007" Status="Active" TableLibraryVersion="1.0" OrganizationName="HL7 NIST" Name="HL7tableV2.5.1">
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Administrative Sex" Id="0001">
+        <TableElement Source="HL7" DisplayName="Ambiguous" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Female" Code="F"/>
+        <TableElement Source="HL7" DisplayName="Male" Code="M"/>
+        <TableElement Source="HL7" DisplayName="Not applicable" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Other" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Unknown" Code="U"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Marital Status" Id="0002">
+        <TableElement Source="HL7" DisplayName="Separated" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Unmarried" Code="B"/>
+        <TableElement Source="HL7" DisplayName="Common law" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Divorced" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Legally Separated" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Living together" Code="G"/>
+        <TableElement Source="HL7" DisplayName="Interlocutory" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Married" Code="M"/>
+        <TableElement Source="HL7" DisplayName="Annulled" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Other" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Domestic partner" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Registered domestic partner" Code="R"/>
+        <TableElement Source="HL7" DisplayName="Single" Code="S"/>
+        <TableElement Source="HL7" DisplayName="Unreported" Code="T"/>
+        <TableElement Source="HL7" DisplayName="Unknown" Code="U"/>
+        <TableElement Source="HL7" DisplayName="Widowed" Code="W"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Event type" Id="0003">
+        <TableElement Source="HL7" DisplayName="ORU/ACK - Unsolicited transmission of an observation message" Code="R01"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Patient Class" Id="0004">
+        <TableElement Source="HL7" DisplayName="Obstetrics" Code="B"/>
+        <TableElement Source="HL7" DisplayName="Commercial Account" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Emergency" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Inpatient" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Not Applicable" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Outpatient" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Preadmit" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Recurring patient" Code="R"/>
+        <TableElement Source="HL7" DisplayName="Unknown" Code="U"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Race" Id="0005">
+        <TableElement Source="HL7" DisplayName="American Indian or Alaska Native" Code="1002-5"/>
+        <TableElement Source="HL7" DisplayName="Asian" Code="2028-9"/>
+        <TableElement Source="HL7" DisplayName="Black or African American" Code="2054-5"/>
+        <TableElement Source="HL7" DisplayName="Native Hawaiian or Other Pacific Islander" Code="2076-8"/>
+        <TableElement Source="HL7" DisplayName="White" Code="2106-3"/>
+        <TableElement Source="HL7" DisplayName="Other Race" Code="2131-1"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Acknowledgment code" Id="0008">
+        <TableElement Source="HL7" DisplayName="Original mode: Application Accept - Enhanced mode: Application acknowledgment: Accept" Code="AA"/>
+        <TableElement Source="HL7" DisplayName="Original mode: Application Error - Enhanced mode: Application acknowledgment: Error" Code="AE"/>
+        <TableElement Source="HL7" DisplayName="Original mode: Application Reject - Enhanced mode: Application acknowledgment: Reject" Code="AR"/>
+        <TableElement Source="HL7" DisplayName="Enhanced mode: Accept acknowledgment: Commit Accept" Code="CA"/>
+        <TableElement Source="HL7" DisplayName="Enhanced mode: Accept acknowledgment: Commit Error" Code="CE"/>
+        <TableElement Source="HL7" DisplayName="Enhanced mode: Accept acknowledgment: Commit Reject" Code="CR"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Check digit scheme" Id="0061">
+        <TableElement Source="HL7" DisplayName="ISO 7064: 1983" Code="ISO"/>
+        <TableElement Source="HL7" DisplayName="Mod 10 algorithm" Code="M10"/>
+        <TableElement Source="HL7" DisplayName="Mod 11 algorithm" Code="M11"/>
+        <TableElement Source="HL7" DisplayName="Check digit algorithm in the US National Provider Identifier" Code="NPI"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Specimen Action Code" Id="0065">
+        <TableElement Source="HL7" DisplayName="Add ordered tests to the existing specimen" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Generated order; reflex order" Code="G"/>
+        <TableElement Source="HL7" DisplayName="Lab to obtain specimen from patient" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Specimen obtained by service other than Lab" Code="O"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Message type" Id="0076">
+        <TableElement Source="HL7" DisplayName="Unsolicited transmission of an observation message" Code="ORU"/>
+        <TableElement Source="HL7" DisplayName="General acknowledgment message" Code="ACK"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Observation Interpretation" Id="0078">
+        <TableElement Source="HL7" DisplayName="Below absolute low-off instrument scale" Code="&lt;"/>
+        <TableElement Source="HL7" DisplayName="Above absolute high-off instrument scale" Code="&gt;"/>
+        <TableElement Source="HL7" DisplayName="Abnormal (applies to non-numeric results)" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)" Code="AA"/>
+        <TableElement Source="HL7" DisplayName="Anti-complementary substances present" Code="AC"/>
+        <TableElement Source="HL7" DisplayName="Better-use when direction not relevant" Code="B"/>
+        <TableElement Source="HL7" DisplayName="Significant change down" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Detected" Code="DET"/>
+        <TableElement Source="HL7" DisplayName="Above high normal" Code="H"/>
+        <TableElement Source="HL7" DisplayName="Above upper panic limits" Code="HH"/>
+        <TableElement Source="HL7" DisplayName="High Urgent" Code="HU"/>
+        <TableElement Source="HL7" DisplayName="Intermediate. Indicates for microbiology susceptibilities only." Code="I"/>
+        <TableElement Source="HL7" DisplayName="Indeterminate" Code="IND"/>
+        <TableElement Source="HL7" DisplayName="Below low normal" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Below lower panic limits" Code="LL"/>
+        <TableElement Source="HL7" DisplayName="Low Urgent" Code="LU"/>
+        <TableElement Source="HL7" DisplayName="Moderately susceptible. Indicates for microbiology susceptibilities only." Code="MS"/>
+        <TableElement Source="HL7" DisplayName="Normal (applies to non-numeric results)" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Not Detected" Code="ND"/>
+        <TableElement Source="HL7" DisplayName="Negative" Code="NEG"/>
+        <TableElement Source="HL7" DisplayName="Non-reactive" Code="NR"/>
+        <TableElement Source="HL7" DisplayName="No range defined, or normal ranges don't apply" Code="null"/>
+        <TableElement Source="HL7" DisplayName="Positive" Code="POS"/>
+        <TableElement Source="HL7" DisplayName="Quality Control Failure" Code="QCF"/>
+        <TableElement Source="HL7" DisplayName="Resistant. Indicates for microbiology susceptibilities only." Code="R"/>
+        <TableElement Source="HL7" DisplayName="Reactive" Code="RR"/>
+        <TableElement Source="HL7" DisplayName="Susceptible. Indicates for microbiology susceptibilities only." Code="S"/>
+        <TableElement Source="HL7" DisplayName="Cytotoxic substance present" Code="TOX"/>
+        <TableElement Source="HL7" DisplayName="Significant change up" Code="U"/>
+        <TableElement Source="HL7" DisplayName="Very susceptible. Indicates for microbiology susceptibilities only." Code="VS"/>
+        <TableElement Source="HL7" DisplayName="Worse-use when direction not relevant" Code="W"/>
+        <TableElement Source="HL7" DisplayName="Weakly reactive" Code="WR"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Observation Result Status" Id="0085">
+        <TableElement Source="HL7" DisplayName="Record coming over is a correction and thus replaces a final result" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Deletes the OBX record" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Final results; Can only be changed with a corrected result." Code="F"/>
+        <TableElement Source="HL7" DisplayName="Specimen in lab; results pending" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Not asked; used to affirmatively document that the observation identified in the OBX was not sought when the universal service ID in OBR-4 implies that it would be sought." Code="N"/>
+        <TableElement Source="HL7" DisplayName="Order detail description only (no result)" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Preliminary results" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Results entered -- not verified" Code="R"/>
+        <TableElement Source="HL7" DisplayName="Partial results" Code="S"/>
+        <TableElement Source="HL7" DisplayName="Results status change to final without retransmitting results already sent as preliminary.' E.g., radiology changes status from preliminary to final" Code="U"/>
+        <TableElement Source="HL7" DisplayName="Post original as wrong, e.g., transmitted for wrong patient" Code="W"/>
+        <TableElement Source="HL7" DisplayName="Results cannot be obtained for this observation" Code="X"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Processing ID" Id="0103">
+        <TableElement Source="HL7" DisplayName="Debugging" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Production" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Training" Code="T"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Version ID" Id="0104">
+        <TableElement Source="HL7" DisplayName="Release 2.5.1" Code="2.5.1"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Order Control" Id="0119">
+        <TableElement Source="HL7" DisplayName="Order/service refill request approval" Code="AF"/>
+        <TableElement Source="HL7" DisplayName="Cancel order/service request" Code="CA"/>
+        <TableElement Source="HL7" DisplayName="Child order/service" Code="CH"/>
+        <TableElement Source="HL7" DisplayName="Combined result" Code="CN"/>
+        <TableElement Source="HL7" DisplayName="Canceled as requested" Code="CR"/>
+        <TableElement Source="HL7" DisplayName="Discontinue order/service request" Code="DC"/>
+        <TableElement Source="HL7" DisplayName="Data errors" Code="DE"/>
+        <TableElement Source="HL7" DisplayName="Order/service refill request denied" Code="DF"/>
+        <TableElement Source="HL7" DisplayName="Discontinued as requested" Code="DR"/>
+        <TableElement Source="HL7" DisplayName="Order/service refilled, unsolicited" Code="FU"/>
+        <TableElement Source="HL7" DisplayName="Hold order request" Code="HD"/>
+        <TableElement Source="HL7" DisplayName="On hold as requested" Code="HR"/>
+        <TableElement Source="HL7" DisplayName="Link order/service to patient care problem or goal" Code="LI"/>
+        <TableElement Source="HL7" DisplayName="Number assigned" Code="NA"/>
+        <TableElement Source="HL7" DisplayName="New order/service" Code="NW"/>
+        <TableElement Source="HL7" DisplayName="Order/service canceled" Code="OC"/>
+        <TableElement Source="HL7" DisplayName="Order/service discontinued" Code="OD"/>
+        <TableElement Source="HL7" DisplayName="Order/service released" Code="OE"/>
+        <TableElement Source="HL7" DisplayName="Order/service refilled as requested" Code="OF"/>
+        <TableElement Source="HL7" DisplayName="Order/service held" Code="OH"/>
+        <TableElement Source="HL7" DisplayName="Order/service accepted &amp; OK" Code="OK"/>
+        <TableElement Source="HL7" DisplayName="Notification of order for outside dispense" Code="OP"/>
+        <TableElement Source="HL7" DisplayName="Released as requested" Code="OR"/>
+        <TableElement Source="HL7" DisplayName="Parent order/service" Code="PA"/>
+        <TableElement Source="HL7" DisplayName="Previous Results with new order/service" Code="PR"/>
+        <TableElement Source="HL7" DisplayName="Notification of replacement order for outside dispense" Code="PY"/>
+        <TableElement Source="HL7" DisplayName="Observations/Performed Service to follow" Code="RE"/>
+        <TableElement Source="HL7" DisplayName="Refill order/service request" Code="RF"/>
+        <TableElement Source="HL7" DisplayName="Release previous hold" Code="RL"/>
+        <TableElement Source="HL7" DisplayName="Replacement order" Code="RO"/>
+        <TableElement Source="HL7" DisplayName="Order/service replace request" Code="RP"/>
+        <TableElement Source="HL7" DisplayName="Replaced as requested" Code="RQ"/>
+        <TableElement Source="HL7" DisplayName="Request received" Code="RR"/>
+        <TableElement Source="HL7" DisplayName="Replaced unsolicited" Code="RU"/>
+        <TableElement Source="HL7" DisplayName="Status changed" Code="SC"/>
+        <TableElement Source="HL7" DisplayName="Send order/service number" Code="SN"/>
+        <TableElement Source="HL7" DisplayName="Response to send order/service status request" Code="SR"/>
+        <TableElement Source="HL7" DisplayName="Send order/service status request" Code="SS"/>
+        <TableElement Source="HL7" DisplayName="Unable to accept order/service" Code="UA"/>
+        <TableElement Source="HL7" DisplayName="Unable to cancel" Code="UC"/>
+        <TableElement Source="HL7" DisplayName="Unable to discontinue" Code="UD"/>
+        <TableElement Source="HL7" DisplayName="Unable to refill" Code="UF"/>
+        <TableElement Source="HL7" DisplayName="Unable to put on hold" Code="UH"/>
+        <TableElement Source="HL7" DisplayName="Unable to replace" Code="UM"/>
+        <TableElement Source="HL7" DisplayName="Unlink order/service from patient care problem or goal" Code="UN"/>
+        <TableElement Source="HL7" DisplayName="Unable to release" Code="UR"/>
+        <TableElement Source="HL7" DisplayName="Unable to change" Code="UX"/>
+        <TableElement Source="HL7" DisplayName="Change order/service request" Code="XO"/>
+        <TableElement Source="HL7" DisplayName="Changed as requested" Code="XR"/>
+        <TableElement Source="HL7" DisplayName="Order/service changed, unsol." Code="XX"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Result Status" Id="0123">
+        <TableElement Source="HL7" DisplayName="Some, but not all, results available" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Correction to results" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Final results; results stored and verified. Can only be changed with a corrected result." Code="F"/>
+        <TableElement Source="HL7" DisplayName="No results available; specimen received, procedure incomplete" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Order received; specimen not yet received" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Preliminary: A verified early result is available, final results not yet obtained" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Results stored; not yet verified" Code="R"/>
+        <TableElement Source="HL7" DisplayName="No results available; procedure scheduled, but not done" Code="S"/>
+        <TableElement Source="HL7" DisplayName="No results available; Order canceled." Code="X"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Value Type" Id="0125">
+        <TableElement Source="HL7" DisplayName="Coded Entry" Code="CE"/>
+        <TableElement Source="HL7" DisplayName="Coded with Exceptions" Code="CWE"/>
+        <TableElement Source="HL7" DisplayName="Extended Composite ID With Check Digit" Code="CX"/>
+        <TableElement Source="HL7" DisplayName="Date" Code="DT"/>
+        <TableElement Source="HL7" DisplayName="Encapsulated Data" Code="ED"/>
+        <TableElement Source="HL7" DisplayName="Formatted Text (Display)" Code="FT"/>
+        <TableElement Source="HL7" DisplayName="Numeric" Code="NM"/>
+        <TableElement Source="HL7" DisplayName="Reference Pointer" Code="RP"/>
+        <TableElement Source="HL7" DisplayName="Structured Numeric" Code="SN"/>
+        <TableElement Source="HL7" DisplayName="String Data" Code="ST"/>
+        <TableElement Source="HL7" DisplayName="Time" Code="TM"/>
+        <TableElement Source="HL7" DisplayName="Time Stamp (Date &amp; Time)" Code="TS"/>
+        <TableElement Source="HL7" DisplayName="Text Data (Display)" Code="TX"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Accept/application acknowledgment condition" Id="0155">
+        <TableElement Source="HL7" DisplayName="Always" Code="AL"/>
+        <TableElement Source="HL7" DisplayName="Error/reject conditions only" Code="ER"/>
+        <TableElement Source="HL7" DisplayName="Never" Code="NE"/>
+        <TableElement Source="HL7" DisplayName="Successful completion only" Code="SU"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Ethnic Group" Id="0189">
+        <TableElement Source="HL7" DisplayName="Hispanic or Latino" Code="H"/>
+        <TableElement Source="HL7" DisplayName="Not Hispanic or Latino" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Unknown" Code="U"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Address type" Id="0190">
+        <TableElement Source="HL7" DisplayName="Firm/Business" Code="B"/>
+        <TableElement Source="HL7" DisplayName="Bad address" Code="BA"/>
+        <TableElement Source="HL7" DisplayName="Birth delivery location (address where birth occurred)" Code="BDL"/>
+        <TableElement Source="HL7" DisplayName="Residence at birth (home address at time of birth)" Code="BR"/>
+        <TableElement Source="HL7" DisplayName="Current Or Temporary" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Country Of Origin" Code="F"/>
+        <TableElement Source="HL7" DisplayName="Home" Code="H"/>
+        <TableElement Source="HL7" DisplayName="Legal Address" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Mailing" Code="M"/>
+        <TableElement Source="HL7" DisplayName="Birth (nee) (birth address, not otherwise specified)" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Office" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Permanent" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Registry home. Refers to the information system,typically managed by a public health agency, that stores patient information such as immunization histories or cancer data, regardless of where the patient obtains services." Code="RH"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Type of referenced data" Id="0191">
+        <TableElement Source="HL7" DisplayName="Other application data, typically uninterpreted binary data (HL7 V2.3 and later)" Code="AP"/>
+        <TableElement Source="HL7" DisplayName="Audio data (HL7 V2.3 and later)" Code="AU"/>
+        <TableElement Source="HL7" DisplayName="Formatted text (HL7 V2.2 only)" Code="FT"/>
+        <TableElement Source="HL7" DisplayName="Image data (HL7 V2.3 and later)" Code="IM"/>
+        <TableElement Source="HL7" DisplayName="MIME multipart package" Code="multipart"/>
+        <TableElement Source="HL7" DisplayName="Non-scanned image (HL7 V2.2 only)" Code="NS"/>
+        <TableElement Source="HL7" DisplayName="Scanned document (HL7 V2.2 only)" Code="SD"/>
+        <TableElement Source="HL7" DisplayName="Scanned image (HL7 V2.2 only)" Code="SI"/>
+        <TableElement Source="HL7" DisplayName="Machine readable text document (HL7 V2.3.1 and later)" Code="TEXT"/>
+        <TableElement Source="HL7" DisplayName="Machine readable text document (HL7 V2.2 only)" Code="TX"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Name type" Id="0200">
+        <TableElement Source="HL7" DisplayName="Alias Name" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Name at Birth" Code="B"/>
+        <TableElement Source="HL7" DisplayName="Adopted Name" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Display Name" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Licensing Name" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Legal Name" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Maiden Name" Code="M"/>
+        <TableElement Source="HL7" DisplayName="Nickname/ Call me Name/Street Name" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Name of Partner/Spouse (retained for backward compatibility only)" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Registered Name (animals only)" Code="R"/>
+        <TableElement Source="HL7" DisplayName="Coded Pseudo-Name to ensure anonymity" Code="S"/>
+        <TableElement Source="HL7" DisplayName="Indigenous/Tribal/Community Name" Code="T"/>
+        <TableElement Source="HL7" DisplayName="Unspecified" Code="U"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Identifier type" Id="0203">
+        <TableElement Source="HL7" DisplayName="American Express" Code="AM"/>
+        <TableElement Source="HL7" DisplayName="Account number" Code="AN"/>
+        <TableElement Source="HL7" DisplayName="Account number Creditor" Code="ANC"/>
+        <TableElement Source="HL7" DisplayName="Account number debitor" Code="AND"/>
+        <TableElement Source="HL7" DisplayName="Anonymous identifier" Code="ANON"/>
+        <TableElement Source="HL7" DisplayName="Temporary Account Number" Code="ANT"/>
+        <TableElement Source="HL7" DisplayName="Advanced Practice Registered Nurse number" Code="APRN"/>
+        <TableElement Source="HL7" DisplayName="Bank Account Number" Code="BA"/>
+        <TableElement Source="HL7" DisplayName="Bank Card Number" Code="BC"/>
+        <TableElement Source="HL7" DisplayName="Birth registry number" Code="BR"/>
+        <TableElement Source="HL7" DisplayName="Breed Registry Number" Code="BRN"/>
+        <TableElement Source="HL7" DisplayName="Cost Center number" Code="CC"/>
+        <TableElement Source="HL7" DisplayName="County number" Code="CY"/>
+        <TableElement Source="HL7" DisplayName="Dentist license number" Code="DDS"/>
+        <TableElement Source="HL7" DisplayName="Drug Enforcement Administration registration number" Code="DEA"/>
+        <TableElement Source="HL7" DisplayName="Drug Furnishing or prescriptive authority Number" Code="DFN"/>
+        <TableElement Source="HL7" DisplayName="Diner's Club card" Code="DI"/>
+        <TableElement Source="HL7" DisplayName="Driver's license number" Code="DL"/>
+        <TableElement Source="HL7" DisplayName="Doctor number" Code="DN"/>
+        <TableElement Source="HL7" DisplayName="Osteopathic License number" Code="DO"/>
+        <TableElement Source="HL7" DisplayName="Podiatrist license number" Code="DPM"/>
+        <TableElement Source="HL7" DisplayName="Donor Registration Number" Code="DR"/>
+        <TableElement Source="HL7" DisplayName="Discover Card" Code="DS"/>
+        <TableElement Source="HL7" DisplayName="Employee number" Code="EI"/>
+        <TableElement Source="HL7" DisplayName="Employer number" Code="EN"/>
+        <TableElement Source="HL7" DisplayName="Facility ID" Code="FI"/>
+        <TableElement Source="HL7" DisplayName="Guarantor internal identifier" Code="GI"/>
+        <TableElement Source="HL7" DisplayName="General ledger number" Code="GL"/>
+        <TableElement Source="HL7" DisplayName="Guarantor external identifier" Code="GN"/>
+        <TableElement Source="HL7" DisplayName="Health Card Number" Code="HC"/>
+        <TableElement Source="HL7" DisplayName="Indigenous/Aboriginal" Code="IND"/>
+        <TableElement Source="HL7" DisplayName="Jurisdictional health number (Canada)" Code="JHN"/>
+        <TableElement Source="HL7" DisplayName="Labor and industries number" Code="LI"/>
+        <TableElement Source="HL7" DisplayName="License number" Code="LN"/>
+        <TableElement Source="HL7" DisplayName="Local Registry ID" Code="LR"/>
+        <TableElement Source="HL7" DisplayName="Patient Medicaid number" Code="MA"/>
+        <TableElement Source="HL7" DisplayName="Member Number" Code="MB"/>
+        <TableElement Source="HL7" DisplayName="Patient's Medicare number" Code="MC"/>
+        <TableElement Source="HL7" DisplayName="Practitioner Medicaid number" Code="MCD"/>
+        <TableElement Source="HL7" DisplayName="Microchip Number" Code="MCN"/>
+        <TableElement Source="HL7" DisplayName="Practitioner Medicare number" Code="MCR"/>
+        <TableElement Source="HL7" DisplayName="Medical License number" Code="MD"/>
+        <TableElement Source="HL7" DisplayName="Military ID number" Code="MI"/>
+        <TableElement Source="HL7" DisplayName="Medical record number" Code="MR"/>
+        <TableElement Source="HL7" DisplayName="Temporary Medical Record Number" Code="MRT"/>
+        <TableElement Source="HL7" DisplayName="MasterCard" Code="MS"/>
+        <TableElement Source="HL7" DisplayName="National employer identifier" Code="NE"/>
+        <TableElement Source="HL7" DisplayName="National Health Plan Identifier" Code="NH"/>
+        <TableElement Source="HL7" DisplayName="National unique individual identifier" Code="NI"/>
+        <TableElement Source="HL7" DisplayName="National Insurance Organization Identifier" Code="NII"/>
+        <TableElement Source="HL7" DisplayName="National Insurance Payor Identifier (Payor)" Code="NIIP"/>
+        <TableElement Source="HL7" DisplayName="Nurse practitioner number" Code="NP"/>
+        <TableElement Source="HL7" DisplayName="National provider identifier" Code="NPI"/>
+        <TableElement Source="HL7" DisplayName="Optometrist license number" Code="OD"/>
+        <TableElement Source="HL7" DisplayName="Physician Assistant number" Code="PA"/>
+        <TableElement Source="HL7" DisplayName="Penitentiary/correctional institution Number" Code="PCN"/>
+        <TableElement Source="HL7" DisplayName="Living Subject Enterprise Number" Code="PE"/>
+        <TableElement Source="HL7" DisplayName="Pension Number" Code="PEN"/>
+        <TableElement Source="HL7" DisplayName="Patient internal identifier" Code="PI"/>
+        <TableElement Source="HL7" DisplayName="Person number" Code="PN"/>
+        <TableElement Source="HL7" DisplayName="Temporary Living Subject Number" Code="PNT"/>
+        <TableElement Source="HL7" DisplayName="Passport number" Code="PPN"/>
+        <TableElement Source="HL7" DisplayName="Permanent Resident Card Number" Code="PRC"/>
+        <TableElement Source="HL7" DisplayName="Provider number" Code="PRN"/>
+        <TableElement Source="HL7" DisplayName="Patient external identifier" Code="PT"/>
+        <TableElement Source="HL7" DisplayName="QA number" Code="QA"/>
+        <TableElement Source="HL7" DisplayName="Resource identifier" Code="RI"/>
+        <TableElement Source="HL7" DisplayName="Registered Nurse Number" Code="RN"/>
+        <TableElement Source="HL7" DisplayName="Pharmacist license number" Code="RPH"/>
+        <TableElement Source="HL7" DisplayName="Railroad Retirement number" Code="RR"/>
+        <TableElement Source="HL7" DisplayName="Regional registry ID" Code="RRI"/>
+        <TableElement Source="HL7" DisplayName="Specimen identifier" Code="SID"/>
+        <TableElement Source="HL7" DisplayName="State license" Code="SL"/>
+        <TableElement Source="HL7" DisplayName="Subscriber Number" Code="SN"/>
+        <TableElement Source="HL7" DisplayName="State registry ID" Code="SR"/>
+        <TableElement Source="HL7" DisplayName="Social Security number" Code="SS"/>
+        <TableElement Source="HL7" DisplayName="Tax ID number" Code="TAX"/>
+        <TableElement Source="HL7" DisplayName="Treaty Number/ (Canada)" Code="TN"/>
+        <TableElement Source="HL7" DisplayName="Unspecified identifier" Code="U"/>
+        <TableElement Source="HL7" DisplayName="Medicare/CMS (formerly HCFA)'s Universal Physician Identification numbers" Code="UPIN"/>
+        <TableElement Source="HL7" DisplayName="Visit number" Code="VN"/>
+        <TableElement Source="HL7" DisplayName="VISA" Code="VS"/>
+        <TableElement Source="HL7" DisplayName="WIC identifier" Code="WC"/>
+        <TableElement Source="HL7" DisplayName="Workers' Comp Number" Code="WCN"/>
+        <TableElement Source="HL7" DisplayName="Organization identifier" Code="XX"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Subtype of referenced data" Id="0291">
+        <TableElement Source="HL7" DisplayName="HL7 Clinical Document Architecture Level One document" Code="x-hl7-cda-level-one"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Encoding" Id="0299">
+        <TableElement Source="HL7" DisplayName="No encoding - data are displayable ASCII characters." Code="A"/>
+        <TableElement Source="HL7" DisplayName="Encoding as defined by MIME (Multipurpose Internet Mail Extensions) standard RFC 1521. Four consecutive ASCII characters represent three consecutive octets of binary data. Base64 utilizes a 65-character subset of US-ASCII, consisting of both the upper and" Code="Base64"/>
+        <TableElement Source="HL7" DisplayName="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets." Code="Hex"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Universal ID type" Id="0301">
+        <TableElement Source="HL7" DisplayName="Clinical Laboratory Improvement Amendments. Allows for the ability to designate organization identifier as a CLIA assigned number (for labs)" Code="CLIA"/>
+        <TableElement Source="HL7" DisplayName="An Internet dotted name. Either in ASCII or as integers" Code="DNS"/>
+        <TableElement Source="HL7" DisplayName="Same as UUID." Code="GUID"/>
+        <TableElement Source="HL7" DisplayName="The CEN Healthcare Coding Scheme Designator. (Identifiers used in DICOM follow this assignment scheme.)" Code="CEN"/>
+        <TableElement Source="HL7" DisplayName="Reserved for future HL7 registration schemes" Code="HL7"/>
+        <TableElement Source="HL7" DisplayName="An International Standards Organization Object Identifier" Code="ISO"/>
+        <TableElement Source="HL7" DisplayName="These are reserved for locally defined coding schemes." Code="L"/>
+        <TableElement Source="HL7" DisplayName="These are reserved for locally defined coding schemes." Code="M"/>
+        <TableElement Source="HL7" DisplayName="These are reserved for locally defined coding schemes." Code="N"/>
+        <TableElement Source="HL7" DisplayName="Uniform Resource Identifier" Code="URI"/>
+        <TableElement Source="HL7" DisplayName="The DCE Universal Unique Identifier" Code="UUID"/>
+        <TableElement Source="HL7" DisplayName="An X.400 MSH format identifier" Code="x400"/>
+        <TableElement Source="HL7" DisplayName="An X.500 directory name" Code="x500"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Message structure" Id="0354">
+        <TableElement Source="HL7" DisplayName="General Acknowledgment Message for unsolicited transmission of an observation message" Code="ACK"/>
+        <TableElement Source="HL7" DisplayName="Unsolicited transmission of an observation message" Code="ORU_R01"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Message Error Condition Codes" Id="0357">
+        <TableElement Source="HL7" DisplayName="Message accepted" Code="0"/>
+        <TableElement Source="HL7" DisplayName="Segment sequence error" Code="100"/>
+        <TableElement Source="HL7" DisplayName="Required field missing" Code="101"/>
+        <TableElement Source="HL7" DisplayName="Data type error" Code="102"/>
+        <TableElement Source="HL7" DisplayName="Table value not found" Code="103"/>
+        <TableElement Source="HL7" DisplayName="Unsupported message type" Code="200"/>
+        <TableElement Source="HL7" DisplayName="Unsupported event code" Code="201"/>
+        <TableElement Source="HL7" DisplayName="Unsupported processing id" Code="202"/>
+        <TableElement Source="HL7" DisplayName="Unsupported version id" Code="203"/>
+        <TableElement Source="HL7" DisplayName="Unknown key identifier" Code="204"/>
+        <TableElement Source="HL7" DisplayName="Duplicate key identifier" Code="205"/>
+        <TableElement Source="HL7" DisplayName="Application record locked" Code="206"/>
+        <TableElement Source="HL7" DisplayName="Application internal error" Code="207"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Sequence Condition Code" Id="0504">
+        <TableElement Source="HL7" DisplayName="End related service request(s), end current service request." Code="EE"/>
+        <TableElement Source="HL7" DisplayName="End related service request(s), start current service request." Code="ES"/>
+        <TableElement Source="HL7" DisplayName="Start related service request(s), end current service request." Code="SE"/>
+        <TableElement Source="HL7" DisplayName="Start related service request(s), start current service request." Code="SS"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Cyclic Entry/Exit Indicator" Id="0505">
+        <TableElement Source="HL7" DisplayName="The last service request in a cyclic group" Code="#"/>
+        <TableElement Source="HL7" DisplayName="The first service request in a cyclic group" Code="*"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Service Request Relationship" Id="0506">
+        <TableElement Source="HL7" DisplayName="Compound" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Exclusive" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Nurse prerogative" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Simultaneous" Code="S"/>
+        <TableElement Source="HL7" DisplayName="Tapering" Code="T"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Error severity" Id="0516">
+        <TableElement Source="HL7" DisplayName="Error" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Information" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Warning" Code="W"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="MIME Types" Id="0834">
+        <TableElement Source="HL7" DisplayName="Application data" Code="application"/>
+        <TableElement Source="HL7" DisplayName="Audio data" Code="audio"/>
+        <TableElement Source="HL7" DisplayName="Image data" Code="image"/>
+        <TableElement Source="HL7" DisplayName="Model data" Code="model"/>
+        <TableElement Source="HL7" DisplayName="MIME multipart package" Code="multipart"/>
+        <TableElement Source="HL7" DisplayName="Text data" Code="text"/>
+        <TableElement Source="HL7" DisplayName="Video data" Code="video"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Country code" Id="0399">
+        <TableElement Source="HL7" DisplayName="AFGHANISTAN" Code="AFG"/>
+        <TableElement Source="HL7" DisplayName="ALAND ISLANDS" Code="ALA"/>
+        <TableElement Source="HL7" DisplayName="ALBANIA" Code="ALB"/>
+        <TableElement Source="HL7" DisplayName="ALGERIA" Code="DZA"/>
+        <TableElement Source="HL7" DisplayName="AMERICAN SAMOA" Code="ASM"/>
+        <TableElement Source="HL7" DisplayName="ANDORRA" Code="AND"/>
+        <TableElement Source="HL7" DisplayName="ANGOLA" Code="AGO"/>
+        <TableElement Source="HL7" DisplayName="ANGUILLA" Code="AIA"/>
+        <TableElement Source="HL7" DisplayName="ANTARCTICA" Code="ATA"/>
+        <TableElement Source="HL7" DisplayName="ANTIGUA AND BARBUDA" Code="ATG"/>
+        <TableElement Source="HL7" DisplayName="ARGENTINA" Code="ARG"/>
+        <TableElement Source="HL7" DisplayName="ARMENIA" Code="ARM"/>
+        <TableElement Source="HL7" DisplayName="ARUBA" Code="ABW"/>
+        <TableElement Source="HL7" DisplayName="AUSTRALIA" Code="AUS"/>
+        <TableElement Source="HL7" DisplayName="AUSTRIA" Code="AUT"/>
+        <TableElement Source="HL7" DisplayName="AZERBAIJAN" Code="AZE"/>
+        <TableElement Source="HL7" DisplayName="BAHAMAS" Code="BHS"/>
+        <TableElement Source="HL7" DisplayName="BAHRAIN" Code="BHR"/>
+        <TableElement Source="HL7" DisplayName="BANGLADESH" Code="BGD"/>
+        <TableElement Source="HL7" DisplayName="BARBADOS" Code="BRB"/>
+        <TableElement Source="HL7" DisplayName="BELARUS" Code="BLR"/>
+        <TableElement Source="HL7" DisplayName="BELGIUM" Code="BEL"/>
+        <TableElement Source="HL7" DisplayName="BELIZE" Code="BLZ"/>
+        <TableElement Source="HL7" DisplayName="BENIN" Code="BEN"/>
+        <TableElement Source="HL7" DisplayName="BERMUDA" Code="BMU"/>
+        <TableElement Source="HL7" DisplayName="BHUTAN" Code="BTN"/>
+        <TableElement Source="HL7" DisplayName="BOLIVIA" Code="BOL"/>
+        <TableElement Source="HL7" DisplayName="BOSNIA AND HERZEGOVINA" Code="BIH"/>
+        <TableElement Source="HL7" DisplayName="BOTSWANA" Code="BWA"/>
+        <TableElement Source="HL7" DisplayName="BOUVET ISLAND" Code="BVT"/>
+        <TableElement Source="HL7" DisplayName="BRAZIL" Code="BRA"/>
+        <TableElement Source="HL7" DisplayName="BRITISH INDIAN OCEAN TERRITORY" Code="IOT"/>
+        <TableElement Source="HL7" DisplayName="BRUNEI DARUSSALAM" Code="BRN"/>
+        <TableElement Source="HL7" DisplayName="BULGARIA" Code="BGR"/>
+        <TableElement Source="HL7" DisplayName="BURKINA FASO" Code="BFA"/>
+        <TableElement Source="HL7" DisplayName="BURUNDI" Code="BDI"/>
+        <TableElement Source="HL7" DisplayName="CAMBODIA" Code="KHM"/>
+        <TableElement Source="HL7" DisplayName="CAMEROON" Code="CMR"/>
+        <TableElement Source="HL7" DisplayName="CANADA" Code="CAN"/>
+        <TableElement Source="HL7" DisplayName="CAPE VERDE" Code="CPV"/>
+        <TableElement Source="HL7" DisplayName="CAYMAN ISLANDS" Code="CYM"/>
+        <TableElement Source="HL7" DisplayName="CENTRAL AFRICAN REPUBLIC" Code="CAF"/>
+        <TableElement Source="HL7" DisplayName="CHAD" Code="TCD"/>
+        <TableElement Source="HL7" DisplayName="CHILE" Code="CHL"/>
+        <TableElement Source="HL7" DisplayName="CHINA" Code="CHN"/>
+        <TableElement Source="HL7" DisplayName="CHRISTMAS ISLAND" Code="CXR"/>
+        <TableElement Source="HL7" DisplayName="COCOS (KEELING) ISLANDS" Code="CCK"/>
+        <TableElement Source="HL7" DisplayName="COLOMBIA" Code="COL"/>
+        <TableElement Source="HL7" DisplayName="COMOROS" Code="COM"/>
+        <TableElement Source="HL7" DisplayName="CONGO" Code="COG"/>
+        <TableElement Source="HL7" DisplayName="CONGO, THE DEMOCRATIC REPUBLIC OF THE" Code="COD"/>
+        <TableElement Source="HL7" DisplayName="COOK ISLANDS" Code="COK"/>
+        <TableElement Source="HL7" DisplayName="COSTA RICA" Code="CRI"/>
+        <TableElement Source="HL7" DisplayName="COTE D'IVOIRE" Code="CIV"/>
+        <TableElement Source="HL7" DisplayName="CROATIA" Code="HRV"/>
+        <TableElement Source="HL7" DisplayName="CUBA" Code="CUB"/>
+        <TableElement Source="HL7" DisplayName="CYPRUS" Code="CYP"/>
+        <TableElement Source="HL7" DisplayName="CZECH REPUBLIC" Code="CZE"/>
+        <TableElement Source="HL7" DisplayName="DENMARK" Code="DNK"/>
+        <TableElement Source="HL7" DisplayName="DJIBOUTI" Code="DJI"/>
+        <TableElement Source="HL7" DisplayName="DOMINICA" Code="DMA"/>
+        <TableElement Source="HL7" DisplayName="DOMINICAN REPUBLIC" Code="DOM"/>
+        <TableElement Source="HL7" DisplayName="ECUADOR" Code="ECU"/>
+        <TableElement Source="HL7" DisplayName="EGYPT" Code="EGY"/>
+        <TableElement Source="HL7" DisplayName="EL SALVADOR" Code="SLV"/>
+        <TableElement Source="HL7" DisplayName="EQUATORIAL GUINEA" Code="GNQ"/>
+        <TableElement Source="HL7" DisplayName="ERITREA" Code="ERI"/>
+        <TableElement Source="HL7" DisplayName="ESTONIA" Code="EST"/>
+        <TableElement Source="HL7" DisplayName="ETHIOPIA" Code="ETH"/>
+        <TableElement Source="HL7" DisplayName="FALKLAND ISLANDS (MALVINAS)" Code="FLK"/>
+        <TableElement Source="HL7" DisplayName="FAROE ISLANDS" Code="FRO"/>
+        <TableElement Source="HL7" DisplayName="FIJI" Code="FJI"/>
+        <TableElement Source="HL7" DisplayName="FINLAND" Code="FIN"/>
+        <TableElement Source="HL7" DisplayName="FRANCE" Code="FRA"/>
+        <TableElement Source="HL7" DisplayName="FRENCH GUIANA" Code="GUF"/>
+        <TableElement Source="HL7" DisplayName="FRENCH POLYNESIA" Code="PYF"/>
+        <TableElement Source="HL7" DisplayName="FRENCH SOUTHERN TERRITORIES" Code="ATF"/>
+        <TableElement Source="HL7" DisplayName="GABON" Code="GAB"/>
+        <TableElement Source="HL7" DisplayName="GAMBIA" Code="GMB"/>
+        <TableElement Source="HL7" DisplayName="GEORGIA" Code="GEO"/>
+        <TableElement Source="HL7" DisplayName="GERMANY" Code="DEU"/>
+        <TableElement Source="HL7" DisplayName="GHANA" Code="GHA"/>
+        <TableElement Source="HL7" DisplayName="GIBRALTAR" Code="GIB"/>
+        <TableElement Source="HL7" DisplayName="GREECE" Code="GRC"/>
+        <TableElement Source="HL7" DisplayName="GREENLAND" Code="GRL"/>
+        <TableElement Source="HL7" DisplayName="GRENADA" Code="GRD"/>
+        <TableElement Source="HL7" DisplayName="GUADELOUPE" Code="GLP"/>
+        <TableElement Source="HL7" DisplayName="GUAM" Code="GUM"/>
+        <TableElement Source="HL7" DisplayName="GUATEMALA" Code="GTM"/>
+        <TableElement Source="HL7" DisplayName="GUERNSEY" Code="GGY"/>
+        <TableElement Source="HL7" DisplayName="GUINEA" Code="GIN"/>
+        <TableElement Source="HL7" DisplayName="GUINEA-BISSAU" Code="GNB"/>
+        <TableElement Source="HL7" DisplayName="GUYANA" Code="GUY"/>
+        <TableElement Source="HL7" DisplayName="HAITI" Code="HTI"/>
+        <TableElement Source="HL7" DisplayName="HEARD ISLAND AND MCDONALD ISLANDS" Code="HMD"/>
+        <TableElement Source="HL7" DisplayName="HOLY SEE (VATICAN CITY STATE)" Code="VAT"/>
+        <TableElement Source="HL7" DisplayName="HONDURAS" Code="HND"/>
+        <TableElement Source="HL7" DisplayName="HONG KONG" Code="HKG"/>
+        <TableElement Source="HL7" DisplayName="HUNGARY" Code="HUN"/>
+        <TableElement Source="HL7" DisplayName="ICELAND" Code="ISL"/>
+        <TableElement Source="HL7" DisplayName="INDIA" Code="IND"/>
+        <TableElement Source="HL7" DisplayName="INDONESIA" Code="IDN"/>
+        <TableElement Source="HL7" DisplayName="IRAN, ISLAMIC REPUBLIC OF" Code="IRN"/>
+        <TableElement Source="HL7" DisplayName="IRAQ" Code="IRQ"/>
+        <TableElement Source="HL7" DisplayName="IRELAND" Code="IRL"/>
+        <TableElement Source="HL7" DisplayName="ISLE OF MAN" Code="IMN"/>
+        <TableElement Source="HL7" DisplayName="ISRAEL" Code="ISR"/>
+        <TableElement Source="HL7" DisplayName="ITALY" Code="ITA"/>
+        <TableElement Source="HL7" DisplayName="JAMAICA" Code="JAM"/>
+        <TableElement Source="HL7" DisplayName="JAPAN" Code="JPN"/>
+        <TableElement Source="HL7" DisplayName="JERSEY" Code="JEY"/>
+        <TableElement Source="HL7" DisplayName="JORDAN" Code="JOR"/>
+        <TableElement Source="HL7" DisplayName="KAZAKHSTAN" Code="KAZ"/>
+        <TableElement Source="HL7" DisplayName="KENYA" Code="KEN"/>
+        <TableElement Source="HL7" DisplayName="KIRIBATI" Code="KIR"/>
+        <TableElement Source="HL7" DisplayName="KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF" Code="PRK"/>
+        <TableElement Source="HL7" DisplayName="KOREA, REPUBLIC OF" Code="KOR"/>
+        <TableElement Source="HL7" DisplayName="KUWAIT" Code="KWT"/>
+        <TableElement Source="HL7" DisplayName="KYRGYZSTAN" Code="KGZ"/>
+        <TableElement Source="HL7" DisplayName="LAO PEOPLE'S DEMOCRATIC REPUBLIC" Code="LAO"/>
+        <TableElement Source="HL7" DisplayName="LATVIA" Code="LVA"/>
+        <TableElement Source="HL7" DisplayName="LEBANON" Code="LBN"/>
+        <TableElement Source="HL7" DisplayName="LESOTHO" Code="LSO"/>
+        <TableElement Source="HL7" DisplayName="LIBERIA" Code="LBR"/>
+        <TableElement Source="HL7" DisplayName="LIBYAN ARAB JAMAHIRIYA" Code="LBY"/>
+        <TableElement Source="HL7" DisplayName="LIECHTENSTEIN" Code="LIE"/>
+        <TableElement Source="HL7" DisplayName="LITHUANIA" Code="LTU"/>
+        <TableElement Source="HL7" DisplayName="LUXEMBOURG" Code="LUX"/>
+        <TableElement Source="HL7" DisplayName="MACAO" Code="MAC"/>
+        <TableElement Source="HL7" DisplayName="MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF" Code="MKD"/>
+        <TableElement Source="HL7" DisplayName="MADAGASCAR" Code="MDG"/>
+        <TableElement Source="HL7" DisplayName="MALAWI" Code="MWI"/>
+        <TableElement Source="HL7" DisplayName="MALAYSIA" Code="MYS"/>
+        <TableElement Source="HL7" DisplayName="MALDIVES" Code="MDV"/>
+        <TableElement Source="HL7" DisplayName="MALI" Code="MLI"/>
+        <TableElement Source="HL7" DisplayName="MALTA" Code="MLT"/>
+        <TableElement Source="HL7" DisplayName="MARSHALL ISLANDS" Code="MHL"/>
+        <TableElement Source="HL7" DisplayName="MARTINIQUE" Code="MTQ"/>
+        <TableElement Source="HL7" DisplayName="MAURITANIA" Code="MRT"/>
+        <TableElement Source="HL7" DisplayName="MAURITIUS" Code="MUS"/>
+        <TableElement Source="HL7" DisplayName="MAYOTTE" Code="MYT"/>
+        <TableElement Source="HL7" DisplayName="MEXICO" Code="MEX"/>
+        <TableElement Source="HL7" DisplayName="MICRONESIA, FEDERATED STATES OF" Code="FSM"/>
+        <TableElement Source="HL7" DisplayName="MOLDOVA, REPUBLIC OF" Code="MDA"/>
+        <TableElement Source="HL7" DisplayName="MONACO" Code="MCO"/>
+        <TableElement Source="HL7" DisplayName="MONGOLIA" Code="MNG"/>
+        <TableElement Source="HL7" DisplayName="MONTENEGRO" Code="MNE"/>
+        <TableElement Source="HL7" DisplayName="MONTSERRAT" Code="MSR"/>
+        <TableElement Source="HL7" DisplayName="MOROCCO" Code="MAR"/>
+        <TableElement Source="HL7" DisplayName="MOZAMBIQUE" Code="MOZ"/>
+        <TableElement Source="HL7" DisplayName="MYANMAR" Code="MMR"/>
+        <TableElement Source="HL7" DisplayName="NAMIBIA" Code="NAM"/>
+        <TableElement Source="HL7" DisplayName="NAURU" Code="NRU"/>
+        <TableElement Source="HL7" DisplayName="NEPAL" Code="NPL"/>
+        <TableElement Source="HL7" DisplayName="NETHERLANDS" Code="NLD"/>
+        <TableElement Source="HL7" DisplayName="NETHERLANDS ANTILLES" Code="ANT"/>
+        <TableElement Source="HL7" DisplayName="NEW CALEDONIA" Code="NCL"/>
+        <TableElement Source="HL7" DisplayName="NEW ZEALAND" Code="NZL"/>
+        <TableElement Source="HL7" DisplayName="NICARAGUA" Code="NIC"/>
+        <TableElement Source="HL7" DisplayName="NIGER" Code="NER"/>
+        <TableElement Source="HL7" DisplayName="NIGERIA" Code="NGA"/>
+        <TableElement Source="HL7" DisplayName="NIUE" Code="NIU"/>
+        <TableElement Source="HL7" DisplayName="NORFOLK ISLAND" Code="NFK"/>
+        <TableElement Source="HL7" DisplayName="NORTHERN MARIANA ISLANDS" Code="MNP"/>
+        <TableElement Source="HL7" DisplayName="NORWAY" Code="NOR"/>
+        <TableElement Source="HL7" DisplayName="OMAN" Code="OMN"/>
+        <TableElement Source="HL7" DisplayName="PAKISTAN" Code="PAK"/>
+        <TableElement Source="HL7" DisplayName="PALAU" Code="PLW"/>
+        <TableElement Source="HL7" DisplayName="PALESTINIAN TERRITORY, OCCUPIED" Code="PSE"/>
+        <TableElement Source="HL7" DisplayName="PANAMA" Code="PAN"/>
+        <TableElement Source="HL7" DisplayName="PAPUA NEW GUINEA" Code="PNG"/>
+        <TableElement Source="HL7" DisplayName="PARAGUAY" Code="PRY"/>
+        <TableElement Source="HL7" DisplayName="PERU" Code="PER"/>
+        <TableElement Source="HL7" DisplayName="PHILIPPINES" Code="PHL"/>
+        <TableElement Source="HL7" DisplayName="PITCAIRN" Code="PCN"/>
+        <TableElement Source="HL7" DisplayName="POLAND" Code="POL"/>
+        <TableElement Source="HL7" DisplayName="PORTUGAL" Code="PRT"/>
+        <TableElement Source="HL7" DisplayName="PUERTO RICO" Code="PRI"/>
+        <TableElement Source="HL7" DisplayName="QATAR" Code="QAT"/>
+        <TableElement Source="HL7" DisplayName="REUNION" Code="REU"/>
+        <TableElement Source="HL7" DisplayName="ROMANIA" Code="ROU"/>
+        <TableElement Source="HL7" DisplayName="RUSSIAN FEDERATION" Code="RUS"/>
+        <TableElement Source="HL7" DisplayName="RWANDA" Code="RWA"/>
+        <TableElement Source="HL7" DisplayName="SAINT BARTHELEMY" Code="BLM"/>
+        <TableElement Source="HL7" DisplayName="SAINT HELENA" Code="SHN"/>
+        <TableElement Source="HL7" DisplayName="SAINT KITTS AND NEVIS" Code="KNA"/>
+        <TableElement Source="HL7" DisplayName="SAINT LUCIA" Code="LCA"/>
+        <TableElement Source="HL7" DisplayName="SAINT MARTIN (FRENCH PART)" Code="MAF"/>
+        <TableElement Source="HL7" DisplayName="SAINT PIERRE AND MIQUELON" Code="SPM"/>
+        <TableElement Source="HL7" DisplayName="SAINT VINCENT AND THE GRENADINES" Code="VCT"/>
+        <TableElement Source="HL7" DisplayName="SAMOA" Code="WSM"/>
+        <TableElement Source="HL7" DisplayName="SAN MARINO" Code="SMR"/>
+        <TableElement Source="HL7" DisplayName="SAO TOME AND PRINCIPE" Code="STP"/>
+        <TableElement Source="HL7" DisplayName="SAUDI ARABIA" Code="SAU"/>
+        <TableElement Source="HL7" DisplayName="SENEGAL" Code="SEN"/>
+        <TableElement Source="HL7" DisplayName="SERBIA" Code="SRB"/>
+        <TableElement Source="HL7" DisplayName="SEYCHELLES" Code="SYC"/>
+        <TableElement Source="HL7" DisplayName="SIERRA LEONE" Code="SLE"/>
+        <TableElement Source="HL7" DisplayName="SINGAPORE" Code="SGP"/>
+        <TableElement Source="HL7" DisplayName="SLOVAKIA" Code="SVK"/>
+        <TableElement Source="HL7" DisplayName="SLOVENIA" Code="SVN"/>
+        <TableElement Source="HL7" DisplayName="SOLOMON ISLANDS" Code="SLB"/>
+        <TableElement Source="HL7" DisplayName="SOMALIA" Code="SOM"/>
+        <TableElement Source="HL7" DisplayName="SOUTH AFRICA" Code="ZAF"/>
+        <TableElement Source="HL7" DisplayName="SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS" Code="SGS"/>
+        <TableElement Source="HL7" DisplayName="SPAIN" Code="ESP"/>
+        <TableElement Source="HL7" DisplayName="SRI LANKA" Code="LKA"/>
+        <TableElement Source="HL7" DisplayName="SUDAN" Code="SDN"/>
+        <TableElement Source="HL7" DisplayName="SURINAME" Code="SUR"/>
+        <TableElement Source="HL7" DisplayName="SVALBARD AND JAN MAYEN" Code="SJM"/>
+        <TableElement Source="HL7" DisplayName="SWAZILAND" Code="SWZ"/>
+        <TableElement Source="HL7" DisplayName="SWEDEN" Code="SWE"/>
+        <TableElement Source="HL7" DisplayName="SWITZERLAND" Code="CHE"/>
+        <TableElement Source="HL7" DisplayName="SYRIAN ARAB REPUBLIC" Code="SYR"/>
+        <TableElement Source="HL7" DisplayName="TAIWAN, PROVINCE OF CHINA" Code="TWN"/>
+        <TableElement Source="HL7" DisplayName="TAJIKISTAN" Code="TJK"/>
+        <TableElement Source="HL7" DisplayName="TANZANIA, UNITED REPUBLIC OF" Code="TZA"/>
+        <TableElement Source="HL7" DisplayName="THAILAND" Code="THA"/>
+        <TableElement Source="HL7" DisplayName="TIMOR-LESTE" Code="TLS"/>
+        <TableElement Source="HL7" DisplayName="TOGO" Code="TGO"/>
+        <TableElement Source="HL7" DisplayName="TOKELAU" Code="TKL"/>
+        <TableElement Source="HL7" DisplayName="TONGA" Code="TON"/>
+        <TableElement Source="HL7" DisplayName="TRINIDAD AND TOBAGO" Code="TTO"/>
+        <TableElement Source="HL7" DisplayName="TUNISIA" Code="TUN"/>
+        <TableElement Source="HL7" DisplayName="TURKEY" Code="TUR"/>
+        <TableElement Source="HL7" DisplayName="TURKMENISTAN" Code="TKM"/>
+        <TableElement Source="HL7" DisplayName="TURKS AND CAICOS ISLANDS" Code="TCA"/>
+        <TableElement Source="HL7" DisplayName="TUVALU" Code="TUV"/>
+        <TableElement Source="HL7" DisplayName="UGANDA" Code="UGA"/>
+        <TableElement Source="HL7" DisplayName="UKRAINE" Code="UKR"/>
+        <TableElement Source="HL7" DisplayName="UNITED ARAB EMIRATES" Code="ARE"/>
+        <TableElement Source="HL7" DisplayName="UNITED KINGDOM" Code="GBR"/>
+        <TableElement Source="HL7" DisplayName="UNITED STATES" Code="USA"/>
+        <TableElement Source="HL7" DisplayName="UNITED STATES MINOR OUTLYING ISLANDS" Code="UMI"/>
+        <TableElement Source="HL7" DisplayName="URUGUAY" Code="URY"/>
+        <TableElement Source="HL7" DisplayName="UZBEKISTAN" Code="UZB"/>
+        <TableElement Source="HL7" DisplayName="VANUATU" Code="VUT"/>
+        <TableElement Source="HL7" DisplayName="VENEZUELA" Code="VEN"/>
+        <TableElement Source="HL7" DisplayName="VIET NAM" Code="VNM"/>
+        <TableElement Source="HL7" DisplayName="VIRGIN ISLANDS, BRITISH" Code="VGB"/>
+        <TableElement Source="HL7" DisplayName="VIRGIN ISLANDS, U.S." Code="VIR"/>
+        <TableElement Source="HL7" DisplayName="WALLIS AND FUTUNA" Code="WLF"/>
+        <TableElement Source="HL7" DisplayName="WESTERN SAHARA" Code="ESH"/>
+        <TableElement Source="HL7" DisplayName="YEMEN" Code="YEM"/>
+        <TableElement Source="HL7" DisplayName="ZAMBIA" Code="ZMB"/>
+        <TableElement Source="HL7" DisplayName="ZIMBABWE" Code="ZWE"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Source of comment" Id="0105">
+        <TableElement Source="HL7" DisplayName="Ancillary (filler) department is source of comment" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Other system is source of comment" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Orderer (placer) is source of comment" Code="P"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Comment type" Id="0364">
+        <TableElement Source="HL7" DisplayName="Primary Reason" Code="1R"/>
+        <TableElement Source="HL7" DisplayName="Secondary Reason" Code="2R"/>
+        <TableElement Source="HL7" DisplayName="Ancillary Instructions" Code="AI"/>
+        <TableElement Source="HL7" DisplayName="Duplicate/Interaction Reason" Code="DR"/>
+        <TableElement Source="HL7" DisplayName="General Instructions" Code="GI"/>
+        <TableElement Source="HL7" DisplayName="General Reason" Code="GR"/>
+        <TableElement Source="HL7" DisplayName="Patient Instructions" Code="PI"/>
+        <TableElement Source="HL7" DisplayName="Remark" Code="RE"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Yes/no indicator" Id="0136">
+        <TableElement Source="HL7" DisplayName="No" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Yes" Code="Y"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Discharge Disposition" Id="0112">
+        <TableElement Source="HL7" DisplayName="Discharged to home or self care (routine discharge)" Code="1"/>
+        <TableElement Source="HL7" DisplayName="Discharged/transferred to another short term general hospital for inpatient care" Code="2"/>
+        <TableElement Source="HL7" DisplayName="Discharged/transferred to skilled nursing facility (SNF)" Code="3"/>
+        <TableElement Source="HL7" DisplayName="Discharged/transferred to an intermediate care facility (ICF)" Code="4"/>
+        <TableElement Source="HL7" DisplayName="Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution" Code="5"/>
+        <TableElement Source="HL7" DisplayName="Discharged/transferred to home under care oforganized home health service organization" Code="6"/>
+        <TableElement Source="HL7" DisplayName="Left against medical advice or discontinued care" Code="7"/>
+        <TableElement Source="HL7" DisplayName="Discharged/transferred to home under care of Home IV provider" Code="8"/>
+        <TableElement Source="HL7" DisplayName="Admitted as an inpatient to this hospital" Code="9"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="10"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="11"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="12"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="13"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="14"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="15"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="16"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="17"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="18"/>
+        <TableElement Source="HL7" DisplayName="Discharge to be defined at state level, if necessary" Code="19"/>
+        <TableElement Source="HL7" DisplayName="Expired (i.e. dead)" Code="20"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="21"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="22"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="23"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="24"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="25"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="26"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="27"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="28"/>
+        <TableElement Source="HL7" DisplayName="Expired to be defined at state level, if necessary" Code="29"/>
+        <TableElement Source="HL7" DisplayName="Still patient or expected to return for outpatient  services (i.e. still a patient)" Code="30"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="31"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="32"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="33"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="34"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="35"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="36"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="37"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="38"/>
+        <TableElement Source="HL7" DisplayName="Still patient to be defined at state level, if necessary (i.e. still a patient)" Code="39"/>
+        <TableElement Source="HL7" DisplayName="Expired (i.e. died) at home" Code="40"/>
+        <TableElement Source="HL7" DisplayName="Expired (i.e. died) in a medical facility; e.g., hospital, SNF, ICF, or free standing hospice" Code="41"/>
+        <TableElement Source="HL7" DisplayName="Expired (i.e. died) - place unknown" Code="42"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Admission Level of Care Code" Id="0432">
+        <TableElement Source="HL7" DisplayName="Acute" Code="AC"/>
+        <TableElement Source="HL7" DisplayName="Chronic" Code="CH"/>
+        <TableElement Source="HL7" DisplayName="Comatose" Code="CO"/>
+        <TableElement Source="HL7" DisplayName="Critical" Code="CR"/>
+        <TableElement Source="HL7" DisplayName="Improved" Code="IM"/>
+        <TableElement Source="HL7" DisplayName="Moribund" Code="MO"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Additive/Preservative" Id="0371">
+        <TableElement Source="HL7" DisplayName="ACD Solution A" Code="ACDA"/>
+        <TableElement Source="HL7" DisplayName="ACD Solution B" Code="ACDB"/>
+        <TableElement Source="HL7" DisplayName="Acetic Acid" Code="ACET"/>
+        <TableElement Source="HL7" DisplayName="Amies transport medium" Code="AMIES"/>
+        <TableElement Source="HL7" DisplayName="Bacterial Transport medium" Code="BACTM"/>
+        <TableElement Source="HL7" DisplayName="Buffered 10% formalin" Code="BF10"/>
+        <TableElement Source="HL7" DisplayName="Borate Boric Acid" Code="BOR"/>
+        <TableElement Source="HL7" DisplayName="Bouin's solution" Code="BOUIN"/>
+        <TableElement Source="HL7" DisplayName="Buffered skim milk" Code="BSKM"/>
+        <TableElement Source="HL7" DisplayName="3.2% Citrate" Code="C32"/>
+        <TableElement Source="HL7" DisplayName="3.8% Citrate" Code="C38"/>
+        <TableElement Source="HL7" DisplayName="Carson's Modified 10% formalin" Code="CARS"/>
+        <TableElement Source="HL7" DisplayName="Cary Blair Medium" Code="CARY"/>
+        <TableElement Source="HL7" DisplayName="Chlamydia transport medium" Code="CHLTM"/>
+        <TableElement Source="HL7" DisplayName="CTAD (this should be spelled out if not universally understood)" Code="CTAD"/>
+        <TableElement Source="HL7" DisplayName="Potassium/K EDTA" Code="EDTK"/>
+        <TableElement Source="HL7" DisplayName="Potassium/K EDTA 15%" Code="EDTK15"/>
+        <TableElement Source="HL7" DisplayName="Potassium/K EDTA 7.5%" Code="EDTK75"/>
+        <TableElement Source="HL7" DisplayName="Sodium/Na EDTA" Code="EDTN"/>
+        <TableElement Source="HL7" DisplayName="Enteric bacteria transport medium" Code="ENT"/>
+        <TableElement Source="HL7" DisplayName="Enteric plus" Code="ENT+"/>
+        <TableElement Source="HL7" DisplayName="10% Formalin" Code="F10"/>
+        <TableElement Source="HL7" DisplayName="Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)" Code="FDP"/>
+        <TableElement Source="HL7" DisplayName="Sodium Fluoride, 10mg" Code="FL10"/>
+        <TableElement Source="HL7" DisplayName="Sodium Fluoride, 100mg" Code="FL100"/>
+        <TableElement Source="HL7" DisplayName="6N HCL" Code="HCL6"/>
+        <TableElement Source="HL7" DisplayName="Ammonium heparin" Code="HEPA"/>
+        <TableElement Source="HL7" DisplayName="Lithium/Li Heparin" Code="HEPL"/>
+        <TableElement Source="HL7" DisplayName="Sodium/Na Heparin" Code="HEPN"/>
+        <TableElement Source="HL7" DisplayName="Nitric Acid" Code="HNO3"/>
+        <TableElement Source="HL7" DisplayName="Jones Kendrick Medium" Code="JKM"/>
+        <TableElement Source="HL7" DisplayName="Karnovsky's fixative" Code="KARN"/>
+        <TableElement Source="HL7" DisplayName="Potassium Oxalate" Code="KOX"/>
+        <TableElement Source="HL7" DisplayName="Lithium iodoacetate" Code="LIA"/>
+        <TableElement Source="HL7" DisplayName="M4" Code="M4"/>
+        <TableElement Source="HL7" DisplayName="M4-RT" Code="M4RT"/>
+        <TableElement Source="HL7" DisplayName="M5" Code="M5"/>
+        <TableElement Source="HL7" DisplayName="Michel's transport medium" Code="MICHTM"/>
+        <TableElement Source="HL7" DisplayName="MMD transport medium" Code="MMDTM"/>
+        <TableElement Source="HL7" DisplayName="Sodium Fluoride" Code="NAF"/>
+        <TableElement Source="HL7" DisplayName="Sodium polyanethol sulfonate 0.35% in 0.85%  sodium chloride" Code="NAPS"/>
+        <TableElement Source="HL7" DisplayName="None" Code="NONE"/>
+        <TableElement Source="HL7" DisplayName="Pages's Saline" Code="PAGE"/>
+        <TableElement Source="HL7" DisplayName="Phenol" Code="PHENOL"/>
+        <TableElement Source="HL7" DisplayName="PVA (polyvinylalcohol)" Code="PVA"/>
+        <TableElement Source="HL7" DisplayName="Reagan Lowe Medium" Code="RLM"/>
+        <TableElement Source="HL7" DisplayName="Siliceous earth, 12 mg" Code="SILICA"/>
+        <TableElement Source="HL7" DisplayName="SPS(this should be spelled out if not universally understood)" Code="SPS"/>
+        <TableElement Source="HL7" DisplayName="Serum Separator Tube (Polymer Gel)" Code="SST"/>
+        <TableElement Source="HL7" DisplayName="Stuart transport medium" Code="STUTM"/>
+        <TableElement Source="HL7" DisplayName="Thrombin" Code="THROM"/>
+        <TableElement Source="HL7" DisplayName="Thymol" Code="THYMOL"/>
+        <TableElement Source="HL7" DisplayName="Thyoglycollate broth" Code="THYO"/>
+        <TableElement Source="HL7" DisplayName="Toluene" Code="TOLU"/>
+        <TableElement Source="HL7" DisplayName="Ureaplasma transport medium" Code="URETM"/>
+        <TableElement Source="HL7" DisplayName="Viral Transport medium" Code="VIRTM"/>
+        <TableElement Source="HL7" DisplayName="Buffered Citrate (Westergren Sedimentation Rate)" Code="WEST"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Specimen Role" Id="0369">
+        <TableElement Source="HL7" DisplayName="Blind Sample" Code="B"/>
+        <TableElement Source="HL7" DisplayName="Calibrator" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Electronic QC, used with manufactured reference providing signals that simulate QC results" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Specimen used for testing proficiency of the organization performing the testing (Filler)" Code="F"/>
+        <TableElement Source="HL7" DisplayName="Group (where a specimen consists of multiple individual elements that are not individually identified)" Code="G"/>
+        <TableElement Source="HL7" DisplayName="Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Specimen used for testing Operator Proficiency" Code="O"/>
+        <TableElement Source="HL7" DisplayName="Patient (default if blank component value)" Code="P"/>
+        <TableElement Source="HL7" DisplayName="Control specimen" Code="Q"/>
+        <TableElement Source="HL7" DisplayName="Replicate (of patient sample as a control)" Code="R"/>
+        <TableElement Source="HL7" DisplayName="Verifying Calibrator, used for periodic calibration checks" Code="V"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Specimen Reject Reason" Id="0490">
+        <TableElement Source="HL7" DisplayName="Expired" Code="EX"/>
+        <TableElement Source="HL7" DisplayName="Quantity not sufficient" Code="QS"/>
+        <TableElement Source="HL7" DisplayName="Missing patient ID number" Code="RA"/>
+        <TableElement Source="HL7" DisplayName="Broken container" Code="RB"/>
+        <TableElement Source="HL7" DisplayName="Clotting" Code="RC"/>
+        <TableElement Source="HL7" DisplayName="Missing collection date" Code="RD"/>
+        <TableElement Source="HL7" DisplayName="Missing patient name" Code="RE"/>
+        <TableElement Source="HL7" DisplayName="Hemolysis" Code="RH"/>
+        <TableElement Source="HL7" DisplayName="Identification problem" Code="RI"/>
+        <TableElement Source="HL7" DisplayName="Labeling" Code="RM"/>
+        <TableElement Source="HL7" DisplayName="Contamination" Code="RN"/>
+        <TableElement Source="HL7" DisplayName="Missing phlebotomist ID" Code="RP"/>
+        <TableElement Source="HL7" DisplayName="Improper storage" Code="RR"/>
+        <TableElement Source="HL7" DisplayName="Name misspelling" Code="RS"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Coding system" Id="0396">
+        <TableElement Source="HL7" DisplayName="Local general code(where z is an alphanumeric character)" Code="99zzz"/>
+        <TableElement Source="HL7" DisplayName="Local general code" Code="L"/>
+        <TableElement Source="HL7" DisplayName="American College of Radiology finding codes" Code="ACR"/>
+        <TableElement Source="HL7" DisplayName="Table of HL7 Version 3 ActCode values" Code="ACTCODE"/>
+        <TableElement Source="HL7" DisplayName="German Alpha-ID v2006" Code="ALPHAID2006"/>
+        <TableElement Source="HL7" DisplayName="German Alpha-ID v2007" Code="ALPHAID2007"/>
+        <TableElement Source="HL7" DisplayName="German Alpha-ID v2008" Code="ALPHAID2008"/>
+        <TableElement Source="HL7" DisplayName="German Alpha-ID v2009" Code="ALPHAID2009"/>
+        <TableElement Source="HL7" DisplayName="HL7 set of units of measure" Code="ANS+"/>
+        <TableElement Source="HL7" DisplayName="WHO Adverse Reaction Terms" Code="ART"/>
+        <TableElement Source="HL7" DisplayName="ASTM E1238/ E1467 Universal" Code="AS4"/>
+        <TableElement Source="HL7" DisplayName="AS4 Neurophysiology Codes" Code="AS4E"/>
+        <TableElement Source="HL7" DisplayName="American Type Culture Collection" Code="ATC"/>
+        <TableElement Source="HL7" DisplayName="CPT-4" Code="C4"/>
+        <TableElement Source="HL7" DisplayName="CPT-5" Code="C5"/>
+        <TableElement Source="HL7" DisplayName="College of American Pathologists Electronic Cancer Checklist" Code="CAPECC"/>
+        <TableElement Source="HL7" DisplayName="Chemical abstract codes" Code="CAS"/>
+        <TableElement Source="HL7" DisplayName="Clinical Care Classification system" Code="CCC"/>
+        <TableElement Source="HL7" DisplayName="CDT-2 Codes" Code="CD2"/>
+        <TableElement Source="HL7" DisplayName="CDC Analyte Codes" Code="CDCA"/>
+        <TableElement Source="HL7" DisplayName="CDC Emergency Department Acuity" Code="CDCEDACUITY"/>
+        <TableElement Source="HL7" DisplayName="CDC Methods/Instruments Codes" Code="CDCM"/>
+        <TableElement Source="HL7" DisplayName="CDC National Healthcare Safety Network Codes" Code="CDCNHSN"/>
+        <TableElement Source="HL7" DisplayName="CDC BioSense RT observations (Census) - CDC" Code="CDCOBS"/>
+        <TableElement Source="HL7" DisplayName="CDC PHIN Vocabulary Coding System" Code="CDCPHINVS"/>
+        <TableElement Source="HL7" DisplayName="Race &amp; Ethnicity - CDC" Code="CDCREC"/>
+        <TableElement Source="HL7" DisplayName="CDC Surveillance" Code="CDS"/>
+        <TableElement Source="HL7" DisplayName="CEN ECG diagnostic codes" Code="CE (obsolete)"/>
+        <TableElement Source="HL7" DisplayName="CLIP" Code="CLP"/>
+        <TableElement Source="HL7" DisplayName="CPT Modifier Code" Code="CPTM"/>
+        <TableElement Source="HL7" DisplayName="COSTART" Code="CST"/>
+        <TableElement Source="HL7" DisplayName="CDC Vaccine Codes" Code="CVX"/>
+        <TableElement Source="HL7" DisplayName="DICOM Controlled Terminology" Code="DCM"/>
+        <TableElement Source="HL7" DisplayName="EUCLIDES" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Euclides  quantity codes" Code="E5"/>
+        <TableElement Source="HL7" DisplayName="Euclides Lab method codes" Code="E6"/>
+        <TableElement Source="HL7" DisplayName="Euclides Lab equipment codes" Code="E7"/>
+        <TableElement Source="HL7" DisplayName="Education Level" Code="EDLEVEL"/>
+        <TableElement Source="HL7" DisplayName="Entity Code" Code="ENTITYCODE"/>
+        <TableElement Source="HL7" DisplayName="Entity Handling Code" Code="ENTITYHDLG"/>
+        <TableElement Source="HL7" DisplayName="Enzyme Codes" Code="ENZC"/>
+        <TableElement Source="HL7" DisplayName="EPA SRS" Code="EPASRS"/>
+        <TableElement Source="HL7" DisplayName="Unique Ingredient Identifier (UNII)" Code="FDAUNII"/>
+        <TableElement Source="HL7" DisplayName="First DataBank Drug Codes" Code="FDDC"/>
+        <TableElement Source="HL7" DisplayName="First DataBank Diagnostic Codes" Code="FDDX"/>
+        <TableElement Source="HL7" DisplayName="FDA K10" Code="FDK"/>
+        <TableElement Source="HL7" DisplayName="FIPS 5-2 (State)" Code="FIPS5_2"/>
+        <TableElement Source="HL7" DisplayName="FIPS 6-4 (County)" Code="FIPS6_4"/>
+        <TableElement Source="HL7" DisplayName="G-DRG German DRG Codes v 2004" Code="GDRG2004"/>
+        <TableElement Source="HL7" DisplayName="G-DRG German DRG Codes v 2005" Code="GDRG2005"/>
+        <TableElement Source="HL7" DisplayName="G-DRG German DRG Codes v 2006" Code="GDRG2006"/>
+        <TableElement Source="HL7" DisplayName="G-DRG German DRG Codes v2007" Code="GDRG2007"/>
+        <TableElement Source="HL7" DisplayName="G-DRG German DRG Codes v2008" Code="GDRG2008"/>
+        <TableElement Source="HL7" DisplayName="G-DRG German DRG Codes v2008" Code="GDRG2009"/>
+        <TableElement Source="HL7" DisplayName="German Major Diagnostic Codes v 1004" Code="GMDC2004"/>
+        <TableElement Source="HL7" DisplayName="German Major Diagnostic Codes v2005" Code="GMDC2005"/>
+        <TableElement Source="HL7" DisplayName="German Major v2006 Diagnostic Codes" Code="GMDC2006"/>
+        <TableElement Source="HL7" DisplayName="German Major Diagnostic Codes v2007" Code="GMDC2007"/>
+        <TableElement Source="HL7" DisplayName="German Major Diagnostic Codes v2008" Code="GMDC2008"/>
+        <TableElement Source="HL7" DisplayName="HIBCC" Code="HB"/>
+        <TableElement Source="HL7" DisplayName="CMS (formerly HCFA)  Common Procedure Coding System" Code="HCPCS"/>
+        <TableElement Source="HL7" DisplayName="Health Care Provider Taxonomy" Code="HCPT"/>
+        <TableElement Source="HL7" DisplayName="Home Health Care" Code="HHC"/>
+        <TableElement Source="HL7" DisplayName="Health Outcomes" Code="HI"/>
+        <TableElement Source="HL7" DisplayName="HL7 Defined Codes where nnnn is the HL7 table number" Code="HL7nnnn"/>
+        <TableElement Source="HL7" DisplayName="Japanese Nationwide Medicine Code" Code="HOT"/>
+        <TableElement Source="HL7" DisplayName="CMS (formerly HCFA )Procedure Codes (HCPCS)" Code="HPC"/>
+        <TableElement Source="HL7" DisplayName="Healthcare Service Location" Code="HSLOC"/>
+        <TableElement Source="HL7" DisplayName="ICD-10" Code="I10"/>
+        <TableElement Source="HL7" DisplayName="ICD 10 Germany 2004" Code="I10G2004"/>
+        <TableElement Source="HL7" DisplayName="ICD 10 Germany 2005" Code="I10G2005"/>
+        <TableElement Source="HL7" DisplayName="ICD 10 Germany 2006" Code="I10G2006"/>
+        <TableElement Source="HL7" DisplayName="ICD-10  Procedure Codes" Code="I10P"/>
+        <TableElement Source="HL7" DisplayName="ICD9" Code="I9"/>
+        <TableElement Source="HL7" DisplayName="ICD-9CM" Code="I9C"/>
+        <TableElement Source="HL7" DisplayName="ICD-9CM Diagnosis codes" Code="I9CDX"/>
+        <TableElement Source="HL7" DisplayName="ICD-9CM Procedure codes" Code="I9CP"/>
+        <TableElement Source="HL7" DisplayName="ISBT" Code="IBT"/>
+        <TableElement Source="HL7" DisplayName="ISBT 128 Standard transfusion/transplantation data items" Code="IBT0001"/>
+        <TableElement Source="HL7" DisplayName="ICHPPC-2" Code="IC2"/>
+        <TableElement Source="HL7" DisplayName="ICD-10 Australian modification" Code="ICD10AM"/>
+        <TableElement Source="HL7" DisplayName="ICD-10 Canada" Code="ICD10CA"/>
+        <TableElement Source="HL7" DisplayName="ICD 10 Germany v2007" Code="ICD10GM2007"/>
+        <TableElement Source="HL7" DisplayName="ICD 10 Germany v2008" Code="ICD10GM2008"/>
+        <TableElement Source="HL7" DisplayName="ICD 10 Germany v2009" Code="ICD10GM2009"/>
+        <TableElement Source="HL7" DisplayName="International Classification of Diseases for Oncology" Code="ICDO"/>
+        <TableElement Source="HL7" DisplayName="International Classification of Disease for Oncology Second Edition" Code="ICDO2"/>
+        <TableElement Source="HL7" DisplayName="International Classification of Disease for Oncology Third Edition" Code="ICDO3"/>
+        <TableElement Source="HL7" DisplayName="ICCS" Code="ICS"/>
+        <TableElement Source="HL7" DisplayName="International Classification of Sleep Disorders" Code="ICSD"/>
+        <TableElement Source="HL7" DisplayName="ISO 2955.83 (units of measure) with HL7 extensions" Code="ISO+"/>
+        <TableElement Source="HL7" DisplayName="ISO 3166-1 Country Codes" Code="ISO3166_1"/>
+        <TableElement Source="HL7" DisplayName="ISO 3166-2 Country subdivisions" Code="ISO3166_2"/>
+        <TableElement Source="HL7" DisplayName="ISO4217 Currency Codes" Code="ISO4217"/>
+        <TableElement Source="HL7" DisplayName="ISO 639 Language" Code="ISO639"/>
+        <TableElement Source="HL7" DisplayName="ISO Defined Codes where nnnn is the ISO table number. (deprecated)" Code="ISOnnnn"/>
+        <TableElement Source="HL7" DisplayName="Integrated Taxonomic Information System" Code="ITIS"/>
+        <TableElement Source="HL7" DisplayName="IUPAC/IFCC Component Codes" Code="IUPC"/>
+        <TableElement Source="HL7" DisplayName="IUPAC/IFCC Property Codes" Code="IUPP"/>
+        <TableElement Source="HL7" DisplayName="JLAC/JSLM, nationwide laboratory code" Code="JC10"/>
+        <TableElement Source="HL7" DisplayName="Japanese Chemistry" Code="JC8"/>
+        <TableElement Source="HL7" DisplayName="Japanese Image Examination Cache" Code="JJ1017"/>
+        <TableElement Source="HL7" DisplayName="LanguaL" Code="LANGUAL"/>
+        <TableElement Source="HL7" DisplayName="Local billing code" Code="LB"/>
+        <TableElement Source="HL7" DisplayName="Logical Observation Identifier Names and Codes (LOINCÂ®)" Code="LN"/>
+        <TableElement Source="HL7" DisplayName="Medicaid" Code="MCD"/>
+        <TableElement Source="HL7" DisplayName="Medicare" Code="MCR"/>
+        <TableElement Source="HL7" DisplayName="Medical Device Communication" Code="MDC"/>
+        <TableElement Source="HL7" DisplayName="Medispan Diagnostic Codes" Code="MDDX"/>
+        <TableElement Source="HL7" DisplayName="Medical Economics Drug Codes" Code="MEDC"/>
+        <TableElement Source="HL7" DisplayName="MIME Media Type IANA" Code="MEDIATYPE"/>
+        <TableElement Source="HL7" DisplayName="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)" Code="MEDR"/>
+        <TableElement Source="HL7" DisplayName="Medical Economics Diagnostic Codes" Code="MEDX"/>
+        <TableElement Source="HL7" DisplayName="Medispan GPI" Code="MGPI"/>
+        <TableElement Source="HL7" DisplayName="CDC Vaccine Manufacturer Codes" Code="MVX"/>
+        <TableElement Source="HL7" DisplayName="Industry (NAICS)" Code="NAICS"/>
+        <TableElement Source="HL7" DisplayName="NCPDP code list for data element nnnn [as used in segment sss]" Code="NCPDPnnnnsss"/>
+        <TableElement Source="HL7" DisplayName="NANDA" Code="NDA"/>
+        <TableElement Source="HL7" DisplayName="National drug codes" Code="NDC"/>
+        <TableElement Source="HL7" DisplayName="NDF-RT (Drug Classification)" Code="NDFRT"/>
+        <TableElement Source="HL7" DisplayName="Nursing Interventions Classification" Code="NIC"/>
+        <TableElement Source="HL7" DisplayName="Source of Information (Immunization)" Code="NIP001"/>
+        <TableElement Source="HL7" DisplayName="Substance refusal reason" Code="NIP002"/>
+        <TableElement Source="HL7" DisplayName="Vaccination - Contraindications, Precautions, and Immunities" Code="NIP004"/>
+        <TableElement Source="HL7" DisplayName="Vaccinated at location (facility)" Code="NIP007"/>
+        <TableElement Source="HL7" DisplayName="Vaccine purchased with (Type of funding)" Code="NIP008"/>
+        <TableElement Source="HL7" DisplayName="Reported adverse event previously" Code="NIP009"/>
+        <TableElement Source="HL7" DisplayName="VAERS Report type" Code="NIP010"/>
+        <TableElement Source="HL7" DisplayName="Notifiable Event (Disease/Condition) Code List" Code="NND"/>
+        <TableElement Source="HL7" DisplayName="National Provider Identifier" Code="NPI"/>
+        <TableElement Source="HL7" DisplayName="National Uniform Billing Committee Code" Code="NUBC"/>
+        <TableElement Source="HL7" DisplayName="Flavors of NULL" Code="NULLFL"/>
+        <TableElement Source="HL7" DisplayName="German Procedure Codes" Code="O301"/>
+        <TableElement Source="HL7" DisplayName="OPS Germany 2004" Code="O3012004"/>
+        <TableElement Source="HL7" DisplayName="OPS Germany 2005" Code="O3012005"/>
+        <TableElement Source="HL7" DisplayName="Ops Germany 2006" Code="O3012006"/>
+        <TableElement Source="HL7" DisplayName="Observation Method Code" Code="OBSMETHOD"/>
+        <TableElement Source="HL7" DisplayName="Omaha System" Code="OHA"/>
+        <TableElement Source="HL7" DisplayName="OPS Germany v2007" Code="OPS2007"/>
+        <TableElement Source="HL7" DisplayName="OPS Germany v2008" Code="OPS2008"/>
+        <TableElement Source="HL7" DisplayName="OPS Germany v2008" Code="OPS2009"/>
+        <TableElement Source="HL7" DisplayName="CDC Public Health Information Network (PHIN) Question" Code="PHINQUESTION"/>
+        <TableElement Source="HL7" DisplayName="CDC PHLIP Lab result codes that are not covered in SNOMED at the time of this implementation" Code="PLR"/>
+        <TableElement Source="HL7" DisplayName="CDC PHLIP Lab test codes, where LOINC concept is too broad or not yet available, especially as needed for ordering and or lab to lab reporting )" Code="PLT"/>
+        <TableElement Source="HL7" DisplayName="POS Codes" Code="POS"/>
+        <TableElement Source="HL7" DisplayName="Paticipation Mode Code" Code="PRTCPTNMODE"/>
+        <TableElement Source="HL7" DisplayName="Read Classification" Code="RC"/>
+        <TableElement Source="HL7" DisplayName="Used initially for contact roles." Code="ROLECLASS"/>
+        <TableElement Source="HL7" DisplayName="Participation Mode" Code="ROLECODE"/>
+        <TableElement Source="HL7" DisplayName="Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities." Code="RSPMODE"/>
+        <TableElement Source="HL7" DisplayName="RxNorm" Code="RXNORM"/>
+        <TableElement Source="HL7" DisplayName="SNOMED Clinical Terms" Code="SCT"/>
+        <TableElement Source="HL7" DisplayName="SNOMED Clinical Terms alphanumeric codes" Code="SCT2"/>
+        <TableElement Source="HL7" DisplayName="SNOMED- DICOM Microglossary" Code="SDM"/>
+        <TableElement Source="HL7" DisplayName="Industry (SIC)" Code="SIC"/>
+        <TableElement Source="HL7" DisplayName="Systemized Nomenclature of Medicine (SNOMED)" Code="SNM"/>
+        <TableElement Source="HL7" DisplayName="SNOMED International" Code="SNM3"/>
+        <TableElement Source="HL7" DisplayName="SNOMED topology codes (anatomic sites)" Code="SNT"/>
+        <TableElement Source="HL7" DisplayName="Occupation (SOC 2000)" Code="SOC"/>
+        <TableElement Source="HL7" DisplayName="Priority (Type) of Visit" Code="UB04FL14"/>
+        <TableElement Source="HL7" DisplayName="Point of Origin" Code="UB04FL15"/>
+        <TableElement Source="HL7" DisplayName="Patient Discharge Status" Code="UB04FL17"/>
+        <TableElement Source="HL7" DisplayName="Occurrence Code" Code="UB04FL31"/>
+        <TableElement Source="HL7" DisplayName="Occurrence Span" Code="UB04FL35"/>
+        <TableElement Source="HL7" DisplayName="Value Code" Code="UB04FL39"/>
+        <TableElement Source="HL7" DisplayName="UCDS" Code="UC"/>
+        <TableElement Source="HL7" DisplayName="UCUM code set for units of measure(from Regenstrief)" Code="UCUM"/>
+        <TableElement Source="HL7" DisplayName="MDNS" Code="UMD"/>
+        <TableElement Source="HL7" DisplayName="Unified Medical Language" Code="UML"/>
+        <TableElement Source="HL7" DisplayName="Universal Product Code" Code="UPC"/>
+        <TableElement Source="HL7" DisplayName="UPIN" Code="UPIN"/>
+        <TableElement Source="HL7" DisplayName="U.S. Board on Geographic Names (USGS - GNIS)" Code="USGSGNIS"/>
+        <TableElement Source="HL7" DisplayName="United States Postal Service" Code="USPS"/>
+        <TableElement Source="HL7" DisplayName="Clinicians are required to track the Vaccine Information Sheet (VIS) that was shared with the recipient of a vaccination.  This code system contains codes that  identify the document type and the owner of the document." Code="VIS"/>
+        <TableElement Source="HL7" DisplayName="WHO record # drug codes (6 digit)" Code="W1"/>
+        <TableElement Source="HL7" DisplayName="WHO record # drug codes (8 digit)" Code="W2"/>
+        <TableElement Source="HL7" DisplayName="WHO record # code with ASTM extension" Code="W4"/>
+        <TableElement Source="HL7" DisplayName="WHO ATC" Code="WC"/>
+        <TableElement Source="HL7" DisplayName="ASC X12 Code List nnnn" Code="X12DEnnnn"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Specimen Type" Id="0487">
+        <TableElement Source="HL7" DisplayName="Abscess" Code="ABS"/>
+        <TableElement Source="HL7" DisplayName="Tissue, Acne" Code="ACNE"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Acne" Code="ACNFLD"/>
+        <TableElement Source="HL7" DisplayName="Air Sample" Code="AIRS"/>
+        <TableElement Source="HL7" DisplayName="Allograft" Code="ALL"/>
+        <TableElement Source="HL7" DisplayName="Amputation" Code="AMP"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Angio" Code="ANGI"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Arterial" Code="ARTC"/>
+        <TableElement Source="HL7" DisplayName="Serum, Acute" Code="ASERU"/>
+        <TableElement Source="HL7" DisplayName="Aspirate" Code="ASP"/>
+        <TableElement Source="HL7" DisplayName="Environment, Attest" Code="ATTE"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Autoclave Ampule" Code="AUTOA"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Autoclave Capsule" Code="AUTOC"/>
+        <TableElement Source="HL7" DisplayName="Autopsy" Code="AUTP"/>
+        <TableElement Source="HL7" DisplayName="Blood bag" Code="BBL"/>
+        <TableElement Source="HL7" DisplayName="Cyst, Baker's" Code="BCYST"/>
+        <TableElement Source="HL7" DisplayName="Bite" Code="BITE"/>
+        <TableElement Source="HL7" DisplayName="Bleb" Code="BLEB"/>
+        <TableElement Source="HL7" DisplayName="Blister" Code="BLIST"/>
+        <TableElement Source="HL7" DisplayName="Boil" Code="BOIL"/>
+        <TableElement Source="HL7" DisplayName="Bone" Code="BON"/>
+        <TableElement Source="HL7" DisplayName="Bowel contents" Code="BOWL"/>
+        <TableElement Source="HL7" DisplayName="Blood product unit" Code="BPU"/>
+        <TableElement Source="HL7" DisplayName="Burn" Code="BRN"/>
+        <TableElement Source="HL7" DisplayName="Brush" Code="BRSH"/>
+        <TableElement Source="HL7" DisplayName="Breath (use EXHLD)" Code="BRTH"/>
+        <TableElement Source="HL7" DisplayName="Brushing" Code="BRUS"/>
+        <TableElement Source="HL7" DisplayName="Bubo" Code="BUB"/>
+        <TableElement Source="HL7" DisplayName="Bulla/Bullae" Code="BULLA"/>
+        <TableElement Source="HL7" DisplayName="Biopsy" Code="BX"/>
+        <TableElement Source="HL7" DisplayName="Calculus (=Stone)" Code="CALC"/>
+        <TableElement Source="HL7" DisplayName="Carbuncle" Code="CARBU"/>
+        <TableElement Source="HL7" DisplayName="Catheter" Code="CAT"/>
+        <TableElement Source="HL7" DisplayName="Bite, Cat" Code="CBITE"/>
+        <TableElement Source="HL7" DisplayName="Clippings" Code="CLIPP"/>
+        <TableElement Source="HL7" DisplayName="Conjunctiva" Code="CNJT"/>
+        <TableElement Source="HL7" DisplayName="Colostrum" Code="COL"/>
+        <TableElement Source="HL7" DisplayName="Biospy, Cone" Code="CONE"/>
+        <TableElement Source="HL7" DisplayName="Scratch, Cat" Code="CSCR"/>
+        <TableElement Source="HL7" DisplayName="Serum, Convalescent" Code="CSERU"/>
+        <TableElement Source="HL7" DisplayName="Catheter Insertion Site" Code="CSITE"/>
+        <TableElement Source="HL7" DisplayName="Fluid,  Cystostomy Tube" Code="CSMY"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Cyst" Code="CST"/>
+        <TableElement Source="HL7" DisplayName="Blood, Cell Saver" Code="CSVR"/>
+        <TableElement Source="HL7" DisplayName="Catheter tip" Code="CTP"/>
+        <TableElement Source="HL7" DisplayName="Site, CVP" Code="CVPS"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, CVP" Code="CVPT"/>
+        <TableElement Source="HL7" DisplayName="Nodule, Cystic" Code="CYN"/>
+        <TableElement Source="HL7" DisplayName="Cyst" Code="CYST"/>
+        <TableElement Source="HL7" DisplayName="Bite, Dog" Code="DBITE"/>
+        <TableElement Source="HL7" DisplayName="Sputum, Deep Cough" Code="DCS"/>
+        <TableElement Source="HL7" DisplayName="Ulcer, Decubitus" Code="DEC"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Water  (Deionized)" Code="DEION"/>
+        <TableElement Source="HL7" DisplayName="Dialysate" Code="DIA"/>
+        <TableElement Source="HL7" DisplayName="Discharge" Code="DISCHG"/>
+        <TableElement Source="HL7" DisplayName="Diverticulum" Code="DIV"/>
+        <TableElement Source="HL7" DisplayName="Drain" Code="DRN"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Tube" Code="DRNG"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Penrose" Code="DRNGP"/>
+        <TableElement Source="HL7" DisplayName="Ear wax (cerumen)" Code="EARW"/>
+        <TableElement Source="HL7" DisplayName="Brush, Esophageal" Code="EBRUSH"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Eye Wash" Code="EEYE"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Effluent" Code="EFF"/>
+        <TableElement Source="HL7" DisplayName="Effusion" Code="EFFUS"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Food" Code="EFOD"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Isolette" Code="EISO"/>
+        <TableElement Source="HL7" DisplayName="Electrode" Code="ELT"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Unidentified Substance" Code="ENVIR"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Other Substance" Code="EOTH"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Soil" Code="ESOI"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Solution (Sterile)" Code="ESOS"/>
+        <TableElement Source="HL7" DisplayName="Aspirate,  Endotrach" Code="ETA"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Endotracheal" Code="ETTP"/>
+        <TableElement Source="HL7" DisplayName="Tube, Endotracheal" Code="ETTUB"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Whirlpool" Code="EWHI"/>
+        <TableElement Source="HL7" DisplayName="Gas, exhaled (=breath)" Code="EXG"/>
+        <TableElement Source="HL7" DisplayName="Shunt, External" Code="EXS"/>
+        <TableElement Source="HL7" DisplayName="Exudate" Code="EXUDTE"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Water  (Well)" Code="FAW"/>
+        <TableElement Source="HL7" DisplayName="Blood, Fetal" Code="FBLOOD"/>
+        <TableElement Source="HL7" DisplayName="Fluid,  Abdomen" Code="FGA"/>
+        <TableElement Source="HL7" DisplayName="Fistula" Code="FIST"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Other" Code="FLD"/>
+        <TableElement Source="HL7" DisplayName="Filter" Code="FLT"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Body unsp" Code="FLU"/>
+        <TableElement Source="HL7" DisplayName="Fluid" Code="FLUID"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Foley" Code="FOLEY"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Respiratory" Code="FRS"/>
+        <TableElement Source="HL7" DisplayName="Scalp, Fetal" Code="FSCLP"/>
+        <TableElement Source="HL7" DisplayName="Furuncle" Code="FUR"/>
+        <TableElement Source="HL7" DisplayName="Gas" Code="GAS"/>
+        <TableElement Source="HL7" DisplayName="Aspirate, Gastric" Code="GASA"/>
+        <TableElement Source="HL7" DisplayName="Antrum, Gastric" Code="GASAN"/>
+        <TableElement Source="HL7" DisplayName="Brushing, Gastric" Code="GASBR"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Gastric" Code="GASD"/>
+        <TableElement Source="HL7" DisplayName="Fluid/contents, Gastric" Code="GAST"/>
+        <TableElement Source="HL7" DisplayName="Genital vaginal" Code="GENV"/>
+        <TableElement Source="HL7" DisplayName="Graft" Code="GRAFT"/>
+        <TableElement Source="HL7" DisplayName="Graft Site" Code="GRAFTS"/>
+        <TableElement Source="HL7" DisplayName="Granuloma" Code="GRANU"/>
+        <TableElement Source="HL7" DisplayName="Catheter, Groshong" Code="GROSH"/>
+        <TableElement Source="HL7" DisplayName="Solution, Gastrostomy" Code="GSOL"/>
+        <TableElement Source="HL7" DisplayName="Biopsy, Gastric" Code="GSPEC"/>
+        <TableElement Source="HL7" DisplayName="Tube, Gastric" Code="GT"/>
+        <TableElement Source="HL7" DisplayName="Drainage Tube, Drainage (Gastrostomy)" Code="GTUBE"/>
+        <TableElement Source="HL7" DisplayName="Bite, Human" Code="HBITE"/>
+        <TableElement Source="HL7" DisplayName="Blood, Autopsy" Code="HBLUD"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Hemaquit" Code="HEMAQ"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Hemovac" Code="HEMO"/>
+        <TableElement Source="HL7" DisplayName="Tissue, Herniated" Code="HERNI"/>
+        <TableElement Source="HL7" DisplayName="Drain, Hemovac" Code="HEV"/>
+        <TableElement Source="HL7" DisplayName="Catheter, Hickman" Code="HIC"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Hydrocele" Code="HYDC"/>
+        <TableElement Source="HL7" DisplayName="Bite, Insect" Code="IBITE"/>
+        <TableElement Source="HL7" DisplayName="Cyst, Inclusion" Code="ICYST"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Indwelling" Code="IDC"/>
+        <TableElement Source="HL7" DisplayName="Gas, Inhaled" Code="IHG"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Ileostomy" Code="ILEO"/>
+        <TableElement Source="HL7" DisplayName="Source of Specimen Is Illegible" Code="ILLEG"/>
+        <TableElement Source="HL7" DisplayName="Implant" Code="IMP"/>
+        <TableElement Source="HL7" DisplayName="Site, Incision/Surgical" Code="INCI"/>
+        <TableElement Source="HL7" DisplayName="Infiltrate" Code="INFIL"/>
+        <TableElement Source="HL7" DisplayName="Insect" Code="INS"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Introducer" Code="INTRD"/>
+        <TableElement Source="HL7" DisplayName="Intubation tube" Code="IT"/>
+        <TableElement Source="HL7" DisplayName="Intrauterine Device" Code="IUD"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, IV" Code="IVCAT"/>
+        <TableElement Source="HL7" DisplayName="Fluid, IV" Code="IVFLD"/>
+        <TableElement Source="HL7" DisplayName="Tubing Tip, IV" Code="IVTIP"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Jejunal" Code="JEJU"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Joint" Code="JNTFLD"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Jackson Pratt" Code="JP"/>
+        <TableElement Source="HL7" DisplayName="Lavage" Code="KELOI"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Kidney" Code="KIDFLD"/>
+        <TableElement Source="HL7" DisplayName="Lavage, Bronhial" Code="LAVG"/>
+        <TableElement Source="HL7" DisplayName="Lavage, Gastric" Code="LAVGG"/>
+        <TableElement Source="HL7" DisplayName="Lavage, Peritoneal" Code="LAVGP"/>
+        <TableElement Source="HL7" DisplayName="Lavage, Pre-Bronch" Code="LAVPG"/>
+        <TableElement Source="HL7" DisplayName="Contact Lens" Code="LENS1"/>
+        <TableElement Source="HL7" DisplayName="Contact Lens Case" Code="LENS2"/>
+        <TableElement Source="HL7" DisplayName="Lesion" Code="LESN"/>
+        <TableElement Source="HL7" DisplayName="Liquid, Unspecified" Code="LIQ"/>
+        <TableElement Source="HL7" DisplayName="Liquid, Other" Code="LIQO"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Lumbar Sac" Code="LSAC"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Makurkour" Code="MAHUR"/>
+        <TableElement Source="HL7" DisplayName="Mass" Code="MASS"/>
+        <TableElement Source="HL7" DisplayName="Blood, Menstrual" Code="MBLD"/>
+        <TableElement Source="HL7" DisplayName="Mucosa" Code="MUCOS"/>
+        <TableElement Source="HL7" DisplayName="Mucus" Code="MUCUS"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Nasal" Code="NASDR"/>
+        <TableElement Source="HL7" DisplayName="Needle" Code="NEDL"/>
+        <TableElement Source="HL7" DisplayName="Site, Nephrostomy" Code="NEPH"/>
+        <TableElement Source="HL7" DisplayName="Aspirate, Nasogastric" Code="NGASP"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Nasogastric" Code="NGAST"/>
+        <TableElement Source="HL7" DisplayName="Site, Naso/Gastric" Code="NGS"/>
+        <TableElement Source="HL7" DisplayName="Nodule(s)" Code="NODUL"/>
+        <TableElement Source="HL7" DisplayName="Secretion, Nasal" Code="NSECR"/>
+        <TableElement Source="HL7" DisplayName="Other" Code="ORH"/>
+        <TableElement Source="HL7" DisplayName="Lesion, Oral" Code="ORL"/>
+        <TableElement Source="HL7" DisplayName="Source, Other" Code="OTH"/>
+        <TableElement Source="HL7" DisplayName="Pacemaker" Code="PACEM"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Pericardial" Code="PCFL"/>
+        <TableElement Source="HL7" DisplayName="Site, Peritoneal Dialysis" Code="PDSIT"/>
+        <TableElement Source="HL7" DisplayName="Site, Peritoneal Dialysis Tunnel" Code="PDTS"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Pelvic" Code="PELVA"/>
+        <TableElement Source="HL7" DisplayName="Lesion, Penile" Code="PENIL"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Perianal" Code="PERIA"/>
+        <TableElement Source="HL7" DisplayName="Cyst, Pilonidal" Code="PILOC"/>
+        <TableElement Source="HL7" DisplayName="Site, Pin" Code="PINS"/>
+        <TableElement Source="HL7" DisplayName="Site, Pacemaker Insetion" Code="PIS"/>
+        <TableElement Source="HL7" DisplayName="Plant Material" Code="PLAN"/>
+        <TableElement Source="HL7" DisplayName="Plasma" Code="PLAS"/>
+        <TableElement Source="HL7" DisplayName="Plasma bag" Code="PLB"/>
+        <TableElement Source="HL7" DisplayName="Serum, Peak Level" Code="PLEVS"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Penile" Code="PND"/>
+        <TableElement Source="HL7" DisplayName="Polyps" Code="POL"/>
+        <TableElement Source="HL7" DisplayName="Graft Site, Popliteal" Code="POPGS"/>
+        <TableElement Source="HL7" DisplayName="Graft, Popliteal" Code="POPLG"/>
+        <TableElement Source="HL7" DisplayName="Site, Popliteal Vein" Code="POPLV"/>
+        <TableElement Source="HL7" DisplayName="Catheter, Porta" Code="PORTA"/>
+        <TableElement Source="HL7" DisplayName="Plasma, Platelet poor" Code="PPP"/>
+        <TableElement Source="HL7" DisplayName="Prosthetic Device" Code="PROST"/>
+        <TableElement Source="HL7" DisplayName="Plasma, Platelet rich" Code="PRP"/>
+        <TableElement Source="HL7" DisplayName="Pseudocyst" Code="PSC"/>
+        <TableElement Source="HL7" DisplayName="Wound, Puncture" Code="PUNCT"/>
+        <TableElement Source="HL7" DisplayName="Pus" Code="PUS"/>
+        <TableElement Source="HL7" DisplayName="Pustule" Code="PUSFR"/>
+        <TableElement Source="HL7" DisplayName="Pus" Code="PUST"/>
+        <TableElement Source="HL7" DisplayName="Quality Control" Code="QC3"/>
+        <TableElement Source="HL7" DisplayName="Urine, Random" Code="RANDU"/>
+        <TableElement Source="HL7" DisplayName="Bite, Reptile" Code="RBITE"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Rectal" Code="RECT"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Rectal" Code="RECTA"/>
+        <TableElement Source="HL7" DisplayName="Cyst, Renal" Code="RENALC"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Renal Cyst" Code="RENC"/>
+        <TableElement Source="HL7" DisplayName="Respiratory" Code="RES"/>
+        <TableElement Source="HL7" DisplayName="Saliva" Code="SAL"/>
+        <TableElement Source="HL7" DisplayName="Tissue, Keloid (Scar)" Code="SCAR"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Subclavian" Code="SCLV"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Scrotal" Code="SCROA"/>
+        <TableElement Source="HL7" DisplayName="Secretion(s)" Code="SECRE"/>
+        <TableElement Source="HL7" DisplayName="Serum" Code="SER"/>
+        <TableElement Source="HL7" DisplayName="Site, Shunt" Code="SHU"/>
+        <TableElement Source="HL7" DisplayName="Fluid, Shunt" Code="SHUNF"/>
+        <TableElement Source="HL7" DisplayName="Shunt" Code="SHUNT"/>
+        <TableElement Source="HL7" DisplayName="Site" Code="SITE"/>
+        <TableElement Source="HL7" DisplayName="Biopsy, Skin" Code="SKBP"/>
+        <TableElement Source="HL7" DisplayName="Skin" Code="SKN"/>
+        <TableElement Source="HL7" DisplayName="Mass, Sub-Mandibular" Code="SMM"/>
+        <TableElement Source="HL7" DisplayName="Fluid, synovial (Joint fluid)" Code="SNV"/>
+        <TableElement Source="HL7" DisplayName="Spermatozoa" Code="SPRM"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Suprapubic" Code="SPRP"/>
+        <TableElement Source="HL7" DisplayName="Cathether Tip, Suprapubic" Code="SPRPB"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Spore Strip" Code="SPS"/>
+        <TableElement Source="HL7" DisplayName="Sputum" Code="SPT"/>
+        <TableElement Source="HL7" DisplayName="Sputum - coughed" Code="SPTC"/>
+        <TableElement Source="HL7" DisplayName="Sputum - tracheal aspirate" Code="SPTT"/>
+        <TableElement Source="HL7" DisplayName="Sputum, Simulated" Code="SPUT1"/>
+        <TableElement Source="HL7" DisplayName="Sputum, Inducted" Code="SPUTIN"/>
+        <TableElement Source="HL7" DisplayName="Sputum, Spontaneous" Code="SPUTSP"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Sterrad" Code="STER"/>
+        <TableElement Source="HL7" DisplayName="Stool = Fecal" Code="STL"/>
+        <TableElement Source="HL7" DisplayName="Stone, Kidney" Code="STONE"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Submandibular" Code="SUBMA"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Submaxillary" Code="SUBMX"/>
+        <TableElement Source="HL7" DisplayName="Drainage, Sump" Code="SUMP"/>
+        <TableElement Source="HL7" DisplayName="Suprapubic Tap" Code="SUP"/>
+        <TableElement Source="HL7" DisplayName="Suture" Code="SUTUR"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Swan Gantz" Code="SWGZ"/>
+        <TableElement Source="HL7" DisplayName="Aspirate, Tracheal" Code="TASP"/>
+        <TableElement Source="HL7" DisplayName="Tissue" Code="TISS"/>
+        <TableElement Source="HL7" DisplayName="Tissue ulcer" Code="TISU"/>
+        <TableElement Source="HL7" DisplayName="Cathether Tip, Triple Lumen" Code="TLC"/>
+        <TableElement Source="HL7" DisplayName="Site, Tracheostomy" Code="TRAC"/>
+        <TableElement Source="HL7" DisplayName="Transudate" Code="TRANS"/>
+        <TableElement Source="HL7" DisplayName="Serum, Trough" Code="TSERU"/>
+        <TableElement Source="HL7" DisplayName="Abscess, Testicular" Code="TSTES"/>
+        <TableElement Source="HL7" DisplayName="Aspirate, Transtracheal" Code="TTRA"/>
+        <TableElement Source="HL7" DisplayName="Tubes" Code="TUBES"/>
+        <TableElement Source="HL7" DisplayName="Tumor" Code="TUMOR"/>
+        <TableElement Source="HL7" DisplayName="Smear, Tzanck" Code="TZANC"/>
+        <TableElement Source="HL7" DisplayName="Source, Unidentified" Code="UDENT"/>
+        <TableElement Source="HL7" DisplayName="Urine" Code="UR"/>
+        <TableElement Source="HL7" DisplayName="Urine clean catch" Code="URC"/>
+        <TableElement Source="HL7" DisplayName="Urine, Bladder Washings" Code="URINB"/>
+        <TableElement Source="HL7" DisplayName="Urine, Catheterized" Code="URINC"/>
+        <TableElement Source="HL7" DisplayName="Urine, Midstream" Code="URINM"/>
+        <TableElement Source="HL7" DisplayName="Urine, Nephrostomy" Code="URINN"/>
+        <TableElement Source="HL7" DisplayName="Urine, Pedibag" Code="URINP"/>
+        <TableElement Source="HL7" DisplayName="Urine catheter" Code="URT"/>
+        <TableElement Source="HL7" DisplayName="Urine, Cystoscopy" Code="USCOP"/>
+        <TableElement Source="HL7" DisplayName="Source, Unspecified" Code="USPEC"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Vas" Code="VASTIP"/>
+        <TableElement Source="HL7" DisplayName="Catheter Tip, Ventricular" Code="VENT"/>
+        <TableElement Source="HL7" DisplayName="Vitreous Fluid" Code="VITF"/>
+        <TableElement Source="HL7" DisplayName="Vomitus" Code="VOM"/>
+        <TableElement Source="HL7" DisplayName="Wash" Code="WASH"/>
+        <TableElement Source="HL7" DisplayName="Washing, e.g. bronchial washing" Code="WASI"/>
+        <TableElement Source="HL7" DisplayName="Water" Code="WAT"/>
+        <TableElement Source="HL7" DisplayName="Blood, Whole" Code="WB"/>
+        <TableElement Source="HL7" DisplayName="Wen" Code="WEN"/>
+        <TableElement Source="HL7" DisplayName="Wick" Code="WICK"/>
+        <TableElement Source="HL7" DisplayName="Wound" Code="WND"/>
+        <TableElement Source="HL7" DisplayName="Wound abscess" Code="WNDA"/>
+        <TableElement Source="HL7" DisplayName="Wound drainage" Code="WNDD"/>
+        <TableElement Source="HL7" DisplayName="Wound exudate" Code="WNDE"/>
+        <TableElement Source="HL7" DisplayName="Worm" Code="WORM"/>
+        <TableElement Source="HL7" DisplayName="Wart" Code="WRT"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Water" Code="WWA"/>
+        <TableElement Source="HL7" DisplayName="Environmental, Water (Ocean)" Code="WWO"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Religion" Id="0006">
+        <TableElement Source="HL7" DisplayName="Christian: American Baptist Church" Code="ABC"/>
+        <TableElement Source="HL7" DisplayName="Agnostic" Code="AGN"/>
+        <TableElement Source="HL7" DisplayName="Christian: African Methodist Episcopal Zion" Code="AME"/>
+        <TableElement Source="HL7" DisplayName="Christian: African Methodist Episcopal" Code="AMT"/>
+        <TableElement Source="HL7" DisplayName="Christian: Anglican" Code="ANG"/>
+        <TableElement Source="HL7" DisplayName="Christian: Assembly of God" Code="AOG"/>
+        <TableElement Source="HL7" DisplayName="Atheist" Code="ATH"/>
+        <TableElement Source="HL7" DisplayName="Baha'i" Code="BAH"/>
+        <TableElement Source="HL7" DisplayName="Christian: Baptist" Code="BAP"/>
+        <TableElement Source="HL7" DisplayName="Buddhist: Mahayana" Code="BMA"/>
+        <TableElement Source="HL7" DisplayName="Buddhist: Other" Code="BOT"/>
+        <TableElement Source="HL7" DisplayName="Buddhist: Tantrayana" Code="BTA"/>
+        <TableElement Source="HL7" DisplayName="Buddhist: Theravada" Code="BTH"/>
+        <TableElement Source="HL7" DisplayName="Buddhist" Code="BUD"/>
+        <TableElement Source="HL7" DisplayName="Christian: Roman Catholic" Code="CAT"/>
+        <TableElement Source="HL7" DisplayName="Chinese Folk Religionist" Code="CFR"/>
+        <TableElement Source="HL7" DisplayName="Christian" Code="CHR"/>
+        <TableElement Source="HL7" DisplayName="Christian: Christian Science" Code="CHS"/>
+        <TableElement Source="HL7" DisplayName="Christian: Christian Missionary Alliance" Code="CMA"/>
+        <TableElement Source="HL7" DisplayName="Confucian" Code="CNF"/>
+        <TableElement Source="HL7" DisplayName="Christian: Church of Christ" Code="COC"/>
+        <TableElement Source="HL7" DisplayName="Christian: Church of God" Code="COG"/>
+        <TableElement Source="HL7" DisplayName="Christian: Church of God in Christ" Code="COI"/>
+        <TableElement Source="HL7" DisplayName="Christian: Congregational" Code="COL"/>
+        <TableElement Source="HL7" DisplayName="Christian: Community" Code="COM"/>
+        <TableElement Source="HL7" DisplayName="Christian: Other Pentecostal" Code="COP"/>
+        <TableElement Source="HL7" DisplayName="Christian: Other" Code="COT"/>
+        <TableElement Source="HL7" DisplayName="Christian: Christian Reformed" Code="CRR"/>
+        <TableElement Source="HL7" DisplayName="Christian: Eastern Orthodox" Code="EOT"/>
+        <TableElement Source="HL7" DisplayName="Christian: Episcopalian" Code="EPI"/>
+        <TableElement Source="HL7" DisplayName="Ethnic Religionist" Code="ERL"/>
+        <TableElement Source="HL7" DisplayName="Christian: Evangelical Church" Code="EVC"/>
+        <TableElement Source="HL7" DisplayName="Christian: Friends" Code="FRQ"/>
+        <TableElement Source="HL7" DisplayName="Christian: Free Will Baptist" Code="FWB"/>
+        <TableElement Source="HL7" DisplayName="Christian: Greek Orthodox" Code="GRE"/>
+        <TableElement Source="HL7" DisplayName="Hindu" Code="HIN"/>
+        <TableElement Source="HL7" DisplayName="Hindu: Other" Code="HOT"/>
+        <TableElement Source="HL7" DisplayName="Hindu: Shaivites" Code="HSH"/>
+        <TableElement Source="HL7" DisplayName="Hindu: Vaishnavites" Code="HVA"/>
+        <TableElement Source="HL7" DisplayName="Jain" Code="JAI"/>
+        <TableElement Source="HL7" DisplayName="Jewish: Conservative" Code="JCO"/>
+        <TableElement Source="HL7" DisplayName="Jewish" Code="JEW"/>
+        <TableElement Source="HL7" DisplayName="Jewish: Orthodox" Code="JOR"/>
+        <TableElement Source="HL7" DisplayName="Jewish: Other" Code="JOT"/>
+        <TableElement Source="HL7" DisplayName="Jewish: Reconstructionist" Code="JRC"/>
+        <TableElement Source="HL7" DisplayName="Jewish: Reform" Code="JRF"/>
+        <TableElement Source="HL7" DisplayName="Jewish: Renewal" Code="JRN"/>
+        <TableElement Source="HL7" DisplayName="Christian: Jehovah's Witness" Code="JWN"/>
+        <TableElement Source="HL7" DisplayName="Christian: Lutheran Missouri Synod" Code="LMS"/>
+        <TableElement Source="HL7" DisplayName="Christian: Lutheran" Code="LUT"/>
+        <TableElement Source="HL7" DisplayName="Christian: Mennonite" Code="MEN"/>
+        <TableElement Source="HL7" DisplayName="Christian: Methodist" Code="MET"/>
+        <TableElement Source="HL7" DisplayName="Christian: Latter-day Saints" Code="MOM"/>
+        <TableElement Source="HL7" DisplayName="Muslim" Code="MOS"/>
+        <TableElement Source="HL7" DisplayName="Muslim: Other" Code="MOT"/>
+        <TableElement Source="HL7" DisplayName="Muslim: Shiite" Code="MSH"/>
+        <TableElement Source="HL7" DisplayName="Muslim: Sunni" Code="MSU"/>
+        <TableElement Source="HL7" DisplayName="Native American" Code="NAM"/>
+        <TableElement Source="HL7" DisplayName="Christian: Church of the Nazarene" Code="NAZ"/>
+        <TableElement Source="HL7" DisplayName="Nonreligious" Code="NOE"/>
+        <TableElement Source="HL7" DisplayName="New Religionist" Code="NRL"/>
+        <TableElement Source="HL7" DisplayName="Christian: Orthodox" Code="ORT"/>
+        <TableElement Source="HL7" DisplayName="Other" Code="OTH"/>
+        <TableElement Source="HL7" DisplayName="Christian: Pentecostal" Code="PEN"/>
+        <TableElement Source="HL7" DisplayName="Christian: Other Protestant" Code="PRC"/>
+        <TableElement Source="HL7" DisplayName="Christian: Presbyterian" Code="PRE"/>
+        <TableElement Source="HL7" DisplayName="Christian: Protestant" Code="PRO"/>
+        <TableElement Source="HL7" DisplayName="Christian: Friends" Code="QUA"/>
+        <TableElement Source="HL7" DisplayName="Christian: Reformed Church" Code="REC"/>
+        <TableElement Source="HL7" DisplayName="Christian: Reorganized Church of Jesus Christ-LDS" Code="REO"/>
+        <TableElement Source="HL7" DisplayName="Christian: Salvation Army" Code="SAA"/>
+        <TableElement Source="HL7" DisplayName="Christian: Seventh Day Adventist" Code="SEV"/>
+        <TableElement Source="HL7" DisplayName="Shintoist" Code="SHN"/>
+        <TableElement Source="HL7" DisplayName="Sikh" Code="SIK"/>
+        <TableElement Source="HL7" DisplayName="Christian: Southern Baptist" Code="SOU"/>
+        <TableElement Source="HL7" DisplayName="Spiritist" Code="SPI"/>
+        <TableElement Source="HL7" DisplayName="Christian: United Church of Christ" Code="UCC"/>
+        <TableElement Source="HL7" DisplayName="Christian: United Methodist" Code="UMD"/>
+        <TableElement Source="HL7" DisplayName="Christian: Unitarian" Code="UNI"/>
+        <TableElement Source="HL7" DisplayName="Christian: Unitarian Universalist" Code="UNU"/>
+        <TableElement Source="HL7" DisplayName="Unknown" Code="VAR"/>
+        <TableElement Source="HL7" DisplayName="Christian: Wesleyan" Code="WES"/>
+        <TableElement Source="HL7" DisplayName="Christian: Wesleyan Methodist" Code="WMC"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Admit Source" Id="0023">
+        <TableElement Source="HL7" DisplayName="Physician referral" Code="1"/>
+        <TableElement Source="HL7" DisplayName="Clinic referral" Code="2"/>
+        <TableElement Source="HL7" DisplayName="HMO referral" Code="3"/>
+        <TableElement Source="HL7" DisplayName="Transfer from a hospital" Code="4"/>
+        <TableElement Source="HL7" DisplayName="Transfer from a skilled nursing facility" Code="5"/>
+        <TableElement Source="HL7" DisplayName="Transfer from another health care facility" Code="6"/>
+        <TableElement Source="HL7" DisplayName="Emergency room" Code="7"/>
+        <TableElement Source="HL7" DisplayName="Court/law enforcement" Code="8"/>
+        <TableElement Source="HL7" DisplayName="Information not available" Code="9"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Order status" Id="0038">
+        <TableElement Source="HL7" DisplayName="Some, but not all, results available" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Order was canceled" Code="CA"/>
+        <TableElement Source="HL7" DisplayName="Order is completed" Code="CM"/>
+        <TableElement Source="HL7" DisplayName="Order was discontinued" Code="DC"/>
+        <TableElement Source="HL7" DisplayName="Error, order not found" Code="ER"/>
+        <TableElement Source="HL7" DisplayName="Order is on hold" Code="HD"/>
+        <TableElement Source="HL7" DisplayName="In process, unspecified" Code="IP"/>
+        <TableElement Source="HL7" DisplayName="Order has been replaced" Code="RP"/>
+        <TableElement Source="HL7" DisplayName="In process, scheduled" Code="SC"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Response flag" Id="0121">
+        <TableElement Source="HL7" DisplayName="Same as R, also other associated segments" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Report exceptions only" Code="E"/>
+        <TableElement Source="HL7" DisplayName="Same as D, plus confirmations explicitly" Code="F"/>
+        <TableElement Source="HL7" DisplayName="Only the MSA segment is returned" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Same as E, also Replacement and Parent-Child" Code="R"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Citizenship" Id="0171"/>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Organizational name type" Id="0204">
+        <TableElement Source="HL7" DisplayName="Alias name" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Display name" Code="D"/>
+        <TableElement Source="HL7" DisplayName="Legal name" Code="L"/>
+        <TableElement Source="HL7" DisplayName="Stock exchange listing name" Code="SL"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Census Tract" Id="0288"/>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="CN ID Source" Id="0297"/>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="CWE statuses" Id="0353">
+        <TableElement Source="HL7" DisplayName="Not applicable" Code="NA"/>
+        <TableElement Source="HL7" DisplayName="Unknown" Code="U"/>
+        <TableElement Source="HL7" DisplayName="Asked but Unknown" Code="UASK"/>
+        <TableElement Source="HL7" DisplayName="Not available" Code="NAV"/>
+        <TableElement Source="HL7" DisplayName="Not asked" Code="NASK"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Degree/license/certificate" Id="0360">
+        <TableElement Source="HL7" DisplayName="Associate of Arts" Code="AA"/>
+        <TableElement Source="HL7" DisplayName="Associate of Applied Science" Code="AAS"/>
+        <TableElement Source="HL7" DisplayName="Associate of Business Administration" Code="ABA"/>
+        <TableElement Source="HL7" DisplayName="Associate of Engineering" Code="AE"/>
+        <TableElement Source="HL7" DisplayName="Associate of Science" Code="AS"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Arts" Code="BA"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Business Administration" Code="BBA"/>
+        <TableElement Source="HL7" DisplayName="Bachelor or Engineering" Code="BE"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Fine Arts" Code="BFA"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Nursing" Code="BN"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Science" Code="BS"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Science - Law" Code="BSL"/>
+        <TableElement Source="HL7" DisplayName="Bachelor on Science - Nursing" Code="BSN"/>
+        <TableElement Source="HL7" DisplayName="Bachelor of Theology" Code="BT"/>
+        <TableElement Source="HL7" DisplayName="Certified Adult Nurse Practitioner" Code="CANP"/>
+        <TableElement Source="HL7" DisplayName="Certificate" Code="CER"/>
+        <TableElement Source="HL7" DisplayName="Certified Medical Assistant" Code="CMA"/>
+        <TableElement Source="HL7" DisplayName="Certified Nurse Midwife" Code="CNM"/>
+        <TableElement Source="HL7" DisplayName="Certified Nurse Practitioner" Code="CNP"/>
+        <TableElement Source="HL7" DisplayName="Certified Nurse Specialist" Code="CNS"/>
+        <TableElement Source="HL7" DisplayName="Certified Pediatric Nurse Practitioner" Code="CPNP"/>
+        <TableElement Source="HL7" DisplayName="Certified Registered Nurse" Code="CRN"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Business Administration" Code="DBA"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Education" Code="DED"/>
+        <TableElement Source="HL7" DisplayName="Diploma" Code="DIP"/>
+        <TableElement Source="HL7" DisplayName="octor of Osteopathy" Code="DO D"/>
+        <TableElement Source="HL7" DisplayName="Emergency Medical Technician" Code="EMT"/>
+        <TableElement Source="HL7" DisplayName="Emergency Medical Technician - Paramedic" Code="EMTP"/>
+        <TableElement Source="HL7" DisplayName="Family Practice Nurse Practitioner" Code="FPNP"/>
+        <TableElement Source="HL7" DisplayName="High School Graduate" Code="HS"/>
+        <TableElement Source="HL7" DisplayName="Juris Doctor" Code="JD"/>
+        <TableElement Source="HL7" DisplayName="Master of Arts" Code="MA"/>
+        <TableElement Source="HL7" DisplayName="Master of Business Administration" Code="MBA"/>
+        <TableElement Source="HL7" DisplayName="Master of Civil Engineering" Code="MCE"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Medicine" Code="MD"/>
+        <TableElement Source="HL7" DisplayName="Medical Assistant" Code="MDA"/>
+        <TableElement Source="HL7" DisplayName="Master of Divinity" Code="MDI"/>
+        <TableElement Source="HL7" DisplayName="Master of Engineering" Code="ME"/>
+        <TableElement Source="HL7" DisplayName="Master of Education" Code="MED"/>
+        <TableElement Source="HL7" DisplayName="Master of Electrical Engineering" Code="MEE"/>
+        <TableElement Source="HL7" DisplayName="Master of Fine Arts" Code="MFA"/>
+        <TableElement Source="HL7" DisplayName="Master of Mechanical Engineering" Code="MME"/>
+        <TableElement Source="HL7" DisplayName="Master of Science" Code="MS"/>
+        <TableElement Source="HL7" DisplayName="Master of Science - Law" Code="MSL"/>
+        <TableElement Source="HL7" DisplayName="Master of Science - Nursing" Code="MSN"/>
+        <TableElement Source="HL7" DisplayName="Master of Theology" Code="MT"/>
+        <TableElement Source="HL7" DisplayName="Non-Graduate" Code="NG"/>
+        <TableElement Source="HL7" DisplayName="Nurse Practitioner" Code="NP"/>
+        <TableElement Source="HL7" DisplayName="Physician Assistant" Code="PA"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Pharmacy" Code="PharmD"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Philosophy" Code="PHD"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Engineering" Code="PHE"/>
+        <TableElement Source="HL7" DisplayName="Doctor of Science" Code="PHS"/>
+        <TableElement Source="HL7" DisplayName="Advanced Practice Nurse" Code="PN"/>
+        <TableElement Source="HL7" DisplayName="Registered Medical Assistant" Code="RMA"/>
+        <TableElement Source="HL7" DisplayName="Registered Pharmacist" Code="RPH"/>
+        <TableElement Source="HL7" DisplayName="Secretarial Certificate" Code="SEC"/>
+        <TableElement Source="HL7" DisplayName="Trade School Graduate" Code="TS"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Special Handling Code" Id="0376">
+        <TableElement Source="HL7" DisplayName="Ambient temperature" Code="AMB"/>
+        <TableElement Source="HL7" DisplayName="Body temperature" Code="C37"/>
+        <TableElement Source="HL7" DisplayName="Critical ambient temperature" Code="CAMB"/>
+        <TableElement Source="HL7" DisplayName="Protect from air" Code="CATM"/>
+        <TableElement Source="HL7" DisplayName="Critical frozen temperature" Code="CFRZ"/>
+        <TableElement Source="HL7" DisplayName="Critical refrigerated temperature" Code="CREF"/>
+        <TableElement Source="HL7" DisplayName="Deep frozen" Code="DFRZ"/>
+        <TableElement Source="HL7" DisplayName="Dry" Code="DRY"/>
+        <TableElement Source="HL7" DisplayName="Frozen temperature" Code="FRZ"/>
+        <TableElement Source="HL7" DisplayName="Metal Free" Code="MTLF"/>
+        <TableElement Source="HL7" DisplayName="Liquid nitrogen" Code="NTR"/>
+        <TableElement Source="HL7" DisplayName="Protect from light" Code="PRTL"/>
+        <TableElement Source="HL7" DisplayName="Do not shake" Code="PSA"/>
+        <TableElement Source="HL7" DisplayName="No shock" Code="PSO"/>
+        <TableElement Source="HL7" DisplayName="Refrigerated temperature" Code="REF"/>
+        <TableElement Source="HL7" DisplayName="Ultra frozen" Code="UFRZ"/>
+        <TableElement Source="HL7" DisplayName="Upright" Code="UPR"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Name assembly order" Id="0444">
+        <TableElement Source="HL7" DisplayName="Prefix Family Middle Given Suffix" Code="F"/>
+        <TableElement Source="HL7" DisplayName="Prefix Given Middle Family Suffix" Code="G"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Name Context" Id="0448"/>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Name/address representation" Id="0465">
+        <TableElement Source="HL7" DisplayName="Alphabetic (i.e., Default or some single-byte)" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Ideographic (i.e., Kanji)" Code="I"/>
+        <TableElement Source="HL7" DisplayName="Phonetic (i.e., ASCII, Katakana, Hiragana, etc.)" Code="P"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="TQ conjunction ID" Id="0472">
+        <TableElement Source="HL7" DisplayName="Asynchronous" Code="A"/>
+        <TableElement Source="HL7" DisplayName="This is an actuation time" Code="C"/>
+        <TableElement Source="HL7" DisplayName="Synchronous." Code="S"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Risk Codes" Id="0489">
+        <TableElement Source="HL7" DisplayName="Aggressive" Code="AGG"/>
+        <TableElement Source="HL7" DisplayName="Biohazard" Code="BHZ"/>
+        <TableElement Source="HL7" DisplayName="Biological" Code="BIO"/>
+        <TableElement Source="HL7" DisplayName="Corrosive" Code="COR"/>
+        <TableElement Source="HL7" DisplayName="Escape Risk" Code="ESC"/>
+        <TableElement Source="HL7" DisplayName="Explosive" Code="EXP"/>
+        <TableElement Source="HL7" DisplayName="MaterialDangerInflammable" Code="IFL"/>
+        <TableElement Source="HL7" DisplayName="MaterialDangerInfectious" Code="INF"/>
+        <TableElement Source="HL7" DisplayName="Injury Hazard" Code="INJ"/>
+        <TableElement Source="HL7" DisplayName="Poison" Code="POI"/>
+        <TableElement Source="HL7" DisplayName="Radioactive" Code="RAD"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Specimen Condition" Id="0493">
+        <TableElement Source="HL7" DisplayName="Autolyzed" Code="AUT"/>
+        <TableElement Source="HL7" DisplayName="Clotted" Code="CLOT"/>
+        <TableElement Source="HL7" DisplayName="Contaminated" Code="CON"/>
+        <TableElement Source="HL7" DisplayName="Cool" Code="COOL"/>
+        <TableElement Source="HL7" DisplayName="Frozen" Code="FROZ"/>
+        <TableElement Source="HL7" DisplayName="Hemolyzed" Code="HEM"/>
+        <TableElement Source="HL7" DisplayName="Live" Code="LIVE"/>
+        <TableElement Source="HL7" DisplayName="Room temperature" Code="ROOM"/>
+        <TableElement Source="HL7" DisplayName="Sample not received" Code="SNR"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Observation Result Handling" Id="0507">
+        <TableElement Source="HL7" DisplayName="Film-with-patient" Code="F"/>
+        <TableElement Source="HL7" DisplayName="Notify provider when ready" Code="N"/>
+        <TableElement Source="HL7" DisplayName="Alert provider when abnormal" Code="A"/>
+        <TableElement Source="HL7" DisplayName="Copies Requested" Code="CC"/>
+        <TableElement Source="HL7" DisplayName="Blind Copy" Code="BCC"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="HL7" Name="Body site" Id="0163">
+        <TableElement Source="HL7" DisplayName="Bilateral Ears" Code="BE"/>
+        <TableElement Source="HL7" DisplayName="Bilateral Nares" Code="BN"/>
+        <TableElement Source="HL7" DisplayName="Buttock" Code="BU"/>
+        <TableElement Source="HL7" DisplayName="Chest Tube" Code="CT"/>
+        <TableElement Source="HL7" DisplayName="Left Arm" Code="LA"/>
+        <TableElement Source="HL7" DisplayName="Left Anterior Chest" Code="LAC"/>
+        <TableElement Source="HL7" DisplayName="Left Antecubital Fossa" Code="LACF"/>
+        <TableElement Source="HL7" DisplayName="Left Deltoid" Code="LD"/>
+        <TableElement Source="HL7" DisplayName="Left Ear" Code="LE"/>
+        <TableElement Source="HL7" DisplayName="Left External Jugular" Code="LEJ"/>
+        <TableElement Source="HL7" DisplayName="Left Foot" Code="LF"/>
+        <TableElement Source="HL7" DisplayName="Left Gluteus Medius" Code="LG"/>
+        <TableElement Source="HL7" DisplayName="Left Hand" Code="LH"/>
+        <TableElement Source="HL7" DisplayName="Left Internal Jugular" Code="LIJ"/>
+        <TableElement Source="HL7" DisplayName="Left Lower Abd Quadrant" Code="LLAQ"/>
+        <TableElement Source="HL7" DisplayName="Left Lower Forearm" Code="LLFA"/>
+        <TableElement Source="HL7" DisplayName="Left Mid Forearm" Code="LMFA"/>
+        <TableElement Source="HL7" DisplayName="Left Naris" Code="LN"/>
+        <TableElement Source="HL7" DisplayName="Left Posterior Chest" Code="LPC"/>
+        <TableElement Source="HL7" DisplayName="Left Subclavian" Code="LSC"/>
+        <TableElement Source="HL7" DisplayName="Left Thigh" Code="LT"/>
+        <TableElement Source="HL7" DisplayName="Left Upper Arm" Code="LUA"/>
+        <TableElement Source="HL7" DisplayName="Left Upper Abd Quadrant" Code="LUAQ"/>
+        <TableElement Source="HL7" DisplayName="Left Upper Forearm" Code="LUFA"/>
+        <TableElement Source="HL7" DisplayName="Left Ventragluteal" Code="LVG"/>
+        <TableElement Source="HL7" DisplayName="Left Vastus Lateralis" Code="LVL"/>
+        <TableElement Source="HL7" DisplayName="Nebulized" Code="NB"/>
+        <TableElement Source="HL7" DisplayName="Right Eye" Code="OD"/>
+        <TableElement Source="HL7" DisplayName="Left Eye" Code="OS"/>
+        <TableElement Source="HL7" DisplayName="Bilateral Eyes" Code="OU"/>
+        <TableElement Source="HL7" DisplayName="Perianal" Code="PA"/>
+        <TableElement Source="HL7" DisplayName="Perineal" Code="PERIN"/>
+        <TableElement Source="HL7" DisplayName="Right Antecubital Fossa" Code="RACF"/>
+        <TableElement Source="HL7" DisplayName="Right Deltoid" Code="RD"/>
+        <TableElement Source="HL7" DisplayName="Right Ear" Code="RE"/>
+        <TableElement Source="HL7" DisplayName="Right External Jugular" Code="REJ"/>
+        <TableElement Source="HL7" DisplayName="Right Foot" Code="RF"/>
+        <TableElement Source="HL7" DisplayName="Right Gluteus Medius" Code="RG"/>
+        <TableElement Source="HL7" DisplayName="Right Hand" Code="RH"/>
+        <TableElement Source="HL7" DisplayName="Right Internal Jugular" Code="RIJ"/>
+        <TableElement Source="HL7" DisplayName="Rt Lower Abd Quadrant" Code="RLAQ"/>
+        <TableElement Source="HL7" DisplayName="Right Lower Forearm" Code="RLFA"/>
+        <TableElement Source="HL7" DisplayName="Right Mid Forearm" Code="RMFA"/>
+        <TableElement Source="HL7" DisplayName="Right Naris" Code="RN"/>
+        <TableElement Source="HL7" DisplayName="Right Posterior Chest" Code="RPC"/>
+        <TableElement Source="HL7" DisplayName="Right Subclavian" Code="RSC"/>
+        <TableElement Source="HL7" DisplayName="Right Thigh" Code="RT"/>
+        <TableElement Source="HL7" DisplayName="Right Upper Arm" Code="RUA"/>
+        <TableElement Source="HL7" DisplayName="Right Upper Abd Quadrant" Code="RUAQ"/>
+        <TableElement Source="HL7" DisplayName="Right Upper Forearm" Code="RUFA"/>
+        <TableElement Source="HL7" DisplayName="Right Ventragluteal" Code="RVG"/>
+        <TableElement Source="HL7" DisplayName="Right Vastus Lateralis" Code="RVL"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="External" Name="State Value Set" Id="FIPS5_2">
+        <TableElement Source="HL7" DisplayName="Alabama" Code="AL"/>
+        <TableElement Source="HL7" DisplayName="Alaska" Code="AK"/>
+        <TableElement Source="HL7" DisplayName="Arizona" Code="AZ"/>
+        <TableElement Source="HL7" DisplayName="Arkansas" Code="AR"/>
+        <TableElement Source="HL7" DisplayName="California" Code="CA"/>
+        <TableElement Source="HL7" DisplayName="Colorado" Code="CO"/>
+        <TableElement Source="HL7" DisplayName="Connecticut" Code="CT"/>
+        <TableElement Source="HL7" DisplayName="Delaware" Code="DE"/>
+        <TableElement Source="HL7" DisplayName="District of Columbia" Code="DC"/>
+        <TableElement Source="HL7" DisplayName="Florida" Code="FL"/>
+        <TableElement Source="HL7" DisplayName="Georgia" Code="GA"/>
+        <TableElement Source="HL7" DisplayName="Hawaii" Code="HI"/>
+        <TableElement Source="HL7" DisplayName="Idaho" Code="ID"/>
+        <TableElement Source="HL7" DisplayName="Illinois" Code="IL"/>
+        <TableElement Source="HL7" DisplayName="Indiana" Code="IN"/>
+        <TableElement Source="HL7" DisplayName="Iowa" Code="IA"/>
+        <TableElement Source="HL7" DisplayName="Kansas" Code="KS"/>
+        <TableElement Source="HL7" DisplayName="Kentucky" Code="KY"/>
+        <TableElement Source="HL7" DisplayName="Louisiana" Code="LA"/>
+        <TableElement Source="HL7" DisplayName="Maine" Code="ME"/>
+        <TableElement Source="HL7" DisplayName="Maryland" Code="MD"/>
+        <TableElement Source="HL7" DisplayName="Massachusetts" Code="MA"/>
+        <TableElement Source="HL7" DisplayName="Michigan" Code="MI"/>
+        <TableElement Source="HL7" DisplayName="Minnesota" Code="MN"/>
+        <TableElement Source="HL7" DisplayName="Mississippi" Code="MS"/>
+        <TableElement Source="HL7" DisplayName="Missouri" Code="MO"/>
+        <TableElement Source="HL7" DisplayName="Montana" Code="MT"/>
+        <TableElement Source="HL7" DisplayName="Nebraska" Code="NE"/>
+        <TableElement Source="HL7" DisplayName="Nevada" Code="NV"/>
+        <TableElement Source="HL7" DisplayName="New Hampshire" Code="NH"/>
+        <TableElement Source="HL7" DisplayName="New Jersey" Code="NJ"/>
+        <TableElement Source="HL7" DisplayName="New Mexico" Code="NM"/>
+        <TableElement Source="HL7" DisplayName="New York" Code="NY"/>
+        <TableElement Source="HL7" DisplayName="North Carolina" Code="NC"/>
+        <TableElement Source="HL7" DisplayName="North Dakota" Code="ND"/>
+        <TableElement Source="HL7" DisplayName="Ohio" Code="OH"/>
+        <TableElement Source="HL7" DisplayName="Oklahoma" Code="OK"/>
+        <TableElement Source="HL7" DisplayName="Oregon" Code="OR"/>
+        <TableElement Source="HL7" DisplayName="Pennsylvania" Code="PA"/>
+        <TableElement Source="HL7" DisplayName="Rhode Island" Code="RI"/>
+        <TableElement Source="HL7" DisplayName="South Carolina" Code="SC"/>
+        <TableElement Source="HL7" DisplayName="South Dakota" Code="SD"/>
+        <TableElement Source="HL7" DisplayName="Tennessee" Code="TN"/>
+        <TableElement Source="HL7" DisplayName="Texas" Code="TX"/>
+        <TableElement Source="HL7" DisplayName="Utah" Code="UT"/>
+        <TableElement Source="HL7" DisplayName="Vermont" Code="VT"/>
+        <TableElement Source="HL7" DisplayName="Virginia" Code="VA"/>
+        <TableElement Source="HL7" DisplayName="Washington" Code="WA"/>
+        <TableElement Source="HL7" DisplayName="West Virginia" Code="WV"/>
+        <TableElement Source="HL7" DisplayName="Wisconsin" Code="WI"/>
+        <TableElement Source="HL7" DisplayName="Wyoming" Code="WY"/>
+        <TableElement Source="HL7" DisplayName="American Samoa" Code="AS"/>
+        <TableElement Source="HL7" DisplayName="Federated States of Micronesia" Code="FM"/>
+        <TableElement Source="HL7" DisplayName="Guam" Code="GU"/>
+        <TableElement Source="HL7" DisplayName="Marshall Islands" Code="MH"/>
+        <TableElement Source="HL7" DisplayName="Northern Mariana Islands" Code="MP"/>
+        <TableElement Source="HL7" DisplayName="Palau" Code="PW"/>
+        <TableElement Source="HL7" DisplayName="Puerto Rico" Code="PR"/>
+        <TableElement Source="HL7" DisplayName="U.S. Minor Outlying Islands" Code="UM"/>
+        <TableElement Source="HL7" DisplayName="Virgin Islands of the U.S." Code="VI"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="External" Name="Postal Code Value Set" Id="USPS">
+        <TableElement Source="HL7" DisplayName="ZIP Code (where z is a numeric character)" Code="zzzzz"/>
+        <TableElement Source="HL7" DisplayName="ZIP+4 Code (where z is a numeric character)" Code="zzzzz-zzzz"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="External" Name="County" Id="FIPS6_4">
+        <TableElement Source="HL7" DisplayName="(where yy is the FIPS state code (numeric characters) and zzz is the county FIPS code (numeric characters)" Code="yyzzz"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="External" Name="Language" Id="ISO_639-2_Alpha3">
+        <TableElement Source="HL7" DisplayName="Afar" Code="aar"/>
+        <TableElement Source="HL7" DisplayName="Abkhazian" Code="abk"/>
+        <TableElement Source="HL7" DisplayName="Achinese" Code="ace"/>
+        <TableElement Source="HL7" DisplayName="Acoli" Code="ach"/>
+        <TableElement Source="HL7" DisplayName="Adangme" Code="ada"/>
+        <TableElement Source="HL7" DisplayName="Adyghe; Adygei" Code="ady"/>
+        <TableElement Source="HL7" DisplayName="Afro-Asiatic languages" Code="afa"/>
+        <TableElement Source="HL7" DisplayName="Afrihili" Code="afh"/>
+        <TableElement Source="HL7" DisplayName="Afrikaans" Code="afr"/>
+        <TableElement Source="HL7" DisplayName="Ainu" Code="ain"/>
+        <TableElement Source="HL7" DisplayName="Akan" Code="aka"/>
+        <TableElement Source="HL7" DisplayName="Akkadian" Code="akk"/>
+        <TableElement Source="HL7" DisplayName="Albanian" Code="alb (B)"/>
+        <TableElement Source="HL7" DisplayName="Aleut" Code="ale"/>
+        <TableElement Source="HL7" DisplayName="Algonquian languages" Code="alg"/>
+        <TableElement Source="HL7" DisplayName="Southern Altai" Code="alt"/>
+        <TableElement Source="HL7" DisplayName="Amharic" Code="amh"/>
+        <TableElement Source="HL7" DisplayName="English, Old (ca.450-1100)" Code="ang"/>
+        <TableElement Source="HL7" DisplayName="Angika" Code="anp"/>
+        <TableElement Source="HL7" DisplayName="Apache languages" Code="apa"/>
+        <TableElement Source="HL7" DisplayName="Arabic" Code="ara"/>
+        <TableElement Source="HL7" DisplayName="Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)" Code="arc"/>
+        <TableElement Source="HL7" DisplayName="Aragonese" Code="arg"/>
+        <TableElement Source="HL7" DisplayName="Armenian" Code="arm (B)"/>
+        <TableElement Source="HL7" DisplayName="Mapudungun; Mapuche" Code="arn"/>
+        <TableElement Source="HL7" DisplayName="Arapaho" Code="arp"/>
+        <TableElement Source="HL7" DisplayName="Artificial languages" Code="art"/>
+        <TableElement Source="HL7" DisplayName="Arawak" Code="arw"/>
+        <TableElement Source="HL7" DisplayName="Assamese" Code="asm"/>
+        <TableElement Source="HL7" DisplayName="Asturian; Bable; Leonese; Asturleonese" Code="ast"/>
+        <TableElement Source="HL7" DisplayName="Athapascan languages" Code="ath"/>
+        <TableElement Source="HL7" DisplayName="Australian languages" Code="aus"/>
+        <TableElement Source="HL7" DisplayName="Avaric" Code="ava"/>
+        <TableElement Source="HL7" DisplayName="Avestan" Code="ave"/>
+        <TableElement Source="HL7" DisplayName="Awadhi" Code="awa"/>
+        <TableElement Source="HL7" DisplayName="Aymara" Code="aym"/>
+        <TableElement Source="HL7" DisplayName="Azerbaijani" Code="aze"/>
+        <TableElement Source="HL7" DisplayName="Banda languages" Code="bad"/>
+        <TableElement Source="HL7" DisplayName="Bamileke languages" Code="bai"/>
+        <TableElement Source="HL7" DisplayName="Bashkir" Code="bak"/>
+        <TableElement Source="HL7" DisplayName="Baluchi" Code="bal"/>
+        <TableElement Source="HL7" DisplayName="Bambara" Code="bam"/>
+        <TableElement Source="HL7" DisplayName="Balinese" Code="ban"/>
+        <TableElement Source="HL7" DisplayName="Basque" Code="baq (B)"/>
+        <TableElement Source="HL7" DisplayName="Basa" Code="bas"/>
+        <TableElement Source="HL7" DisplayName="Baltic languages" Code="bat"/>
+        <TableElement Source="HL7" DisplayName="Beja; Bedawiyet" Code="bej"/>
+        <TableElement Source="HL7" DisplayName="Belarusian" Code="bel"/>
+        <TableElement Source="HL7" DisplayName="Bemba" Code="bem"/>
+        <TableElement Source="HL7" DisplayName="Bengali" Code="ben"/>
+        <TableElement Source="HL7" DisplayName="Berber languages" Code="ber"/>
+        <TableElement Source="HL7" DisplayName="Bhojpuri" Code="bho"/>
+        <TableElement Source="HL7" DisplayName="Bihari languages" Code="bih"/>
+        <TableElement Source="HL7" DisplayName="Bikol" Code="bik"/>
+        <TableElement Source="HL7" DisplayName="Bini; Edo" Code="bin"/>
+        <TableElement Source="HL7" DisplayName="Bislama" Code="bis"/>
+        <TableElement Source="HL7" DisplayName="Siksika" Code="bla"/>
+        <TableElement Source="HL7" DisplayName="Bantu languages" Code="bnt"/>
+        <TableElement Source="HL7" DisplayName="Tibetan" Code="bod (T)"/>
+        <TableElement Source="HL7" DisplayName="Bosnian" Code="bos"/>
+        <TableElement Source="HL7" DisplayName="Braj" Code="bra"/>
+        <TableElement Source="HL7" DisplayName="Breton" Code="bre"/>
+        <TableElement Source="HL7" DisplayName="Batak languages" Code="btk"/>
+        <TableElement Source="HL7" DisplayName="Buriat" Code="bua"/>
+        <TableElement Source="HL7" DisplayName="Buginese" Code="bug"/>
+        <TableElement Source="HL7" DisplayName="Bulgarian" Code="bul"/>
+        <TableElement Source="HL7" DisplayName="Burmese" Code="bur (B)"/>
+        <TableElement Source="HL7" DisplayName="Blin; Bilin" Code="byn"/>
+        <TableElement Source="HL7" DisplayName="Caddo" Code="cad"/>
+        <TableElement Source="HL7" DisplayName="Central American Indian languages" Code="cai"/>
+        <TableElement Source="HL7" DisplayName="Galibi Carib" Code="car"/>
+        <TableElement Source="HL7" DisplayName="Catalan; Valencian" Code="cat"/>
+        <TableElement Source="HL7" DisplayName="Caucasian languages" Code="cau"/>
+        <TableElement Source="HL7" DisplayName="Cebuano" Code="ceb"/>
+        <TableElement Source="HL7" DisplayName="Celtic languages" Code="cel"/>
+        <TableElement Source="HL7" DisplayName="Czech" Code="ces (T)"/>
+        <TableElement Source="HL7" DisplayName="Chamorro" Code="cha"/>
+        <TableElement Source="HL7" DisplayName="Chibcha" Code="chb"/>
+        <TableElement Source="HL7" DisplayName="Chechen" Code="che"/>
+        <TableElement Source="HL7" DisplayName="Chagatai" Code="chg"/>
+        <TableElement Source="HL7" DisplayName="Chinese" Code="chi (B)"/>
+        <TableElement Source="HL7" DisplayName="Chuukese" Code="chk"/>
+        <TableElement Source="HL7" DisplayName="Mari" Code="chm"/>
+        <TableElement Source="HL7" DisplayName="Chinook jargon" Code="chn"/>
+        <TableElement Source="HL7" DisplayName="Choctaw" Code="cho"/>
+        <TableElement Source="HL7" DisplayName="Chipewyan; Dene Suline" Code="chp"/>
+        <TableElement Source="HL7" DisplayName="Cherokee" Code="chr"/>
+        <TableElement Source="HL7" DisplayName="Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic" Code="chu"/>
+        <TableElement Source="HL7" DisplayName="Chuvash" Code="chv"/>
+        <TableElement Source="HL7" DisplayName="Cheyenne" Code="chy"/>
+        <TableElement Source="HL7" DisplayName="Chamic languages" Code="cmc"/>
+        <TableElement Source="HL7" DisplayName="Coptic" Code="cop"/>
+        <TableElement Source="HL7" DisplayName="Cornish" Code="cor"/>
+        <TableElement Source="HL7" DisplayName="Corsican" Code="cos"/>
+        <TableElement Source="HL7" DisplayName="Creoles and pidgins, English based" Code="cpe"/>
+        <TableElement Source="HL7" DisplayName="Creoles and pidgins, French-based" Code="cpf"/>
+        <TableElement Source="HL7" DisplayName="Creoles and pidgins, Portuguese-based" Code="cpp"/>
+        <TableElement Source="HL7" DisplayName="Cree" Code="cre"/>
+        <TableElement Source="HL7" DisplayName="Crimean Tatar; Crimean Turkish" Code="crh"/>
+        <TableElement Source="HL7" DisplayName="Creoles and pidgins" Code="crp"/>
+        <TableElement Source="HL7" DisplayName="Kashubian" Code="csb"/>
+        <TableElement Source="HL7" DisplayName="Cushitic languages" Code="cus"/>
+        <TableElement Source="HL7" DisplayName="Welsh" Code="cym (T)"/>
+        <TableElement Source="HL7" DisplayName="Czech" Code="cze (B)"/>
+        <TableElement Source="HL7" DisplayName="Dakota" Code="dak"/>
+        <TableElement Source="HL7" DisplayName="Danish" Code="dan"/>
+        <TableElement Source="HL7" DisplayName="Dargwa" Code="dar"/>
+        <TableElement Source="HL7" DisplayName="Land Dayak languages" Code="day"/>
+        <TableElement Source="HL7" DisplayName="Delaware" Code="del"/>
+        <TableElement Source="HL7" DisplayName="Slave (Athapascan)" Code="den"/>
+        <TableElement Source="HL7" DisplayName="German" Code="deu (T)"/>
+        <TableElement Source="HL7" DisplayName="Dogrib" Code="dgr"/>
+        <TableElement Source="HL7" DisplayName="Dinka" Code="din"/>
+        <TableElement Source="HL7" DisplayName="Divehi; Dhivehi; Maldivian" Code="div"/>
+        <TableElement Source="HL7" DisplayName="Dogri" Code="doi"/>
+        <TableElement Source="HL7" DisplayName="Dravidian languages" Code="dra"/>
+        <TableElement Source="HL7" DisplayName="Lower Sorbian" Code="dsb"/>
+        <TableElement Source="HL7" DisplayName="Duala" Code="dua"/>
+        <TableElement Source="HL7" DisplayName="Dutch, Middle (ca.1050-1350)" Code="dum"/>
+        <TableElement Source="HL7" DisplayName="Dutch; Flemish" Code="dut (B)"/>
+        <TableElement Source="HL7" DisplayName="Dyula" Code="dyu"/>
+        <TableElement Source="HL7" DisplayName="Dzongkha" Code="dzo"/>
+        <TableElement Source="HL7" DisplayName="Efik" Code="efi"/>
+        <TableElement Source="HL7" DisplayName="Egyptian (Ancient)" Code="egy"/>
+        <TableElement Source="HL7" DisplayName="Ekajuk" Code="eka"/>
+        <TableElement Source="HL7" DisplayName="Greek, Modern (1453-)" Code="ell (T)"/>
+        <TableElement Source="HL7" DisplayName="Elamite" Code="elx"/>
+        <TableElement Source="HL7" DisplayName="English" Code="eng"/>
+        <TableElement Source="HL7" DisplayName="English, Middle (1100-1500)" Code="enm"/>
+        <TableElement Source="HL7" DisplayName="Esperanto" Code="epo"/>
+        <TableElement Source="HL7" DisplayName="Estonian" Code="est"/>
+        <TableElement Source="HL7" DisplayName="Basque" Code="eus (T)"/>
+        <TableElement Source="HL7" DisplayName="Ewe" Code="ewe"/>
+        <TableElement Source="HL7" DisplayName="Ewondo" Code="ewo"/>
+        <TableElement Source="HL7" DisplayName="Fang" Code="fan"/>
+        <TableElement Source="HL7" DisplayName="Faroese" Code="fao"/>
+        <TableElement Source="HL7" DisplayName="Persian" Code="fas (T)"/>
+        <TableElement Source="HL7" DisplayName="Fanti" Code="fat"/>
+        <TableElement Source="HL7" DisplayName="Fijian" Code="fij"/>
+        <TableElement Source="HL7" DisplayName="Filipino; Pilipino" Code="fil"/>
+        <TableElement Source="HL7" DisplayName="Finnish" Code="fin"/>
+        <TableElement Source="HL7" DisplayName="Finno-Ugrian languages" Code="fiu"/>
+        <TableElement Source="HL7" DisplayName="Fon" Code="fon"/>
+        <TableElement Source="HL7" DisplayName="French" Code="fra (T)"/>
+        <TableElement Source="HL7" DisplayName="French" Code="fre (B)"/>
+        <TableElement Source="HL7" DisplayName="French, Middle (ca.1400-1600)" Code="frm"/>
+        <TableElement Source="HL7" DisplayName="French, Old (842-ca.1400)" Code="fro"/>
+        <TableElement Source="HL7" DisplayName="Northern Frisian" Code="frr"/>
+        <TableElement Source="HL7" DisplayName="Eastern Frisian" Code="frs"/>
+        <TableElement Source="HL7" DisplayName="Western Frisian" Code="fry"/>
+        <TableElement Source="HL7" DisplayName="Fulah" Code="ful"/>
+        <TableElement Source="HL7" DisplayName="Friulian" Code="fur"/>
+        <TableElement Source="HL7" DisplayName="Ga" Code="gaa"/>
+        <TableElement Source="HL7" DisplayName="Gayo" Code="gay"/>
+        <TableElement Source="HL7" DisplayName="Gbaya" Code="gba"/>
+        <TableElement Source="HL7" DisplayName="Germanic languages" Code="gem"/>
+        <TableElement Source="HL7" DisplayName="Georgian" Code="geo (B)"/>
+        <TableElement Source="HL7" DisplayName="German" Code="ger (B)"/>
+        <TableElement Source="HL7" DisplayName="Geez" Code="gez"/>
+        <TableElement Source="HL7" DisplayName="Gilbertese" Code="gil"/>
+        <TableElement Source="HL7" DisplayName="Gaelic; Scottish Gaelic" Code="gla"/>
+        <TableElement Source="HL7" DisplayName="Irish" Code="gle"/>
+        <TableElement Source="HL7" DisplayName="Galician" Code="glg"/>
+        <TableElement Source="HL7" DisplayName="Manx" Code="glv"/>
+        <TableElement Source="HL7" DisplayName="German, Middle High (ca.1050-1500)" Code="gmh"/>
+        <TableElement Source="HL7" DisplayName="German, Old High (ca.750-1050)" Code="goh"/>
+        <TableElement Source="HL7" DisplayName="Gondi" Code="gon"/>
+        <TableElement Source="HL7" DisplayName="Gorontalo" Code="gor"/>
+        <TableElement Source="HL7" DisplayName="Gothic" Code="got"/>
+        <TableElement Source="HL7" DisplayName="Grebo" Code="grb"/>
+        <TableElement Source="HL7" DisplayName="Greek, Ancient (to 1453)" Code="grc"/>
+        <TableElement Source="HL7" DisplayName="Greek, Modern (1453-)" Code="gre (B)"/>
+        <TableElement Source="HL7" DisplayName="Guarani" Code="grn"/>
+        <TableElement Source="HL7" DisplayName="Swiss German; Alemannic; Alsatian" Code="gsw"/>
+        <TableElement Source="HL7" DisplayName="Gujarati" Code="guj"/>
+        <TableElement Source="HL7" DisplayName="Gwich'in" Code="gwi"/>
+        <TableElement Source="HL7" DisplayName="Haida" Code="hai"/>
+        <TableElement Source="HL7" DisplayName="Haitian; Haitian Creole" Code="hat"/>
+        <TableElement Source="HL7" DisplayName="Hausa" Code="hau"/>
+        <TableElement Source="HL7" DisplayName="Hawaiian" Code="haw"/>
+        <TableElement Source="HL7" DisplayName="Hebrew" Code="heb"/>
+        <TableElement Source="HL7" DisplayName="Herero" Code="her"/>
+        <TableElement Source="HL7" DisplayName="Hiligaynon" Code="hil"/>
+        <TableElement Source="HL7" DisplayName="Himachali languages; Western Pahari languages" Code="him"/>
+        <TableElement Source="HL7" DisplayName="Hindi" Code="hin"/>
+        <TableElement Source="HL7" DisplayName="Hittite" Code="hit"/>
+        <TableElement Source="HL7" DisplayName="Hmong; Mong" Code="hmn"/>
+        <TableElement Source="HL7" DisplayName="Hiri Motu" Code="hmo"/>
+        <TableElement Source="HL7" DisplayName="Croatian" Code="hrv"/>
+        <TableElement Source="HL7" DisplayName="Upper Sorbian" Code="hsb"/>
+        <TableElement Source="HL7" DisplayName="Hungarian" Code="hun"/>
+        <TableElement Source="HL7" DisplayName="Hupa" Code="hup"/>
+        <TableElement Source="HL7" DisplayName="Armenian" Code="hye (T)"/>
+        <TableElement Source="HL7" DisplayName="Iban" Code="iba"/>
+        <TableElement Source="HL7" DisplayName="Igbo" Code="ibo"/>
+        <TableElement Source="HL7" DisplayName="Icelandic" Code="ice (B)"/>
+        <TableElement Source="HL7" DisplayName="Ido" Code="ido"/>
+        <TableElement Source="HL7" DisplayName="Sichuan Yi; Nuosu" Code="iii"/>
+        <TableElement Source="HL7" DisplayName="Ijo languages" Code="ijo"/>
+        <TableElement Source="HL7" DisplayName="Inuktitut" Code="iku"/>
+        <TableElement Source="HL7" DisplayName="Interlingue; Occidental" Code="ile"/>
+        <TableElement Source="HL7" DisplayName="Iloko" Code="ilo"/>
+        <TableElement Source="HL7" DisplayName="Interlingua (International Auxiliary Language Association)" Code="ina"/>
+        <TableElement Source="HL7" DisplayName="Indic languages" Code="inc"/>
+        <TableElement Source="HL7" DisplayName="Indonesian" Code="ind"/>
+        <TableElement Source="HL7" DisplayName="Indo-European languages" Code="ine"/>
+        <TableElement Source="HL7" DisplayName="Ingush" Code="inh"/>
+        <TableElement Source="HL7" DisplayName="Inupiaq" Code="ipk"/>
+        <TableElement Source="HL7" DisplayName="Iranian languages" Code="ira"/>
+        <TableElement Source="HL7" DisplayName="Iroquoian languages" Code="iro"/>
+        <TableElement Source="HL7" DisplayName="Icelandic" Code="isl (T)"/>
+        <TableElement Source="HL7" DisplayName="Italian" Code="ita"/>
+        <TableElement Source="HL7" DisplayName="Javanese" Code="jav"/>
+        <TableElement Source="HL7" DisplayName="Lojban" Code="jbo"/>
+        <TableElement Source="HL7" DisplayName="Japanese" Code="jpn"/>
+        <TableElement Source="HL7" DisplayName="Judeo-Persian" Code="jpr"/>
+        <TableElement Source="HL7" DisplayName="Judeo-Arabic" Code="jrb"/>
+        <TableElement Source="HL7" DisplayName="Kara-Kalpak" Code="kaa"/>
+        <TableElement Source="HL7" DisplayName="Kabyle" Code="kab"/>
+        <TableElement Source="HL7" DisplayName="Kachin; Jingpho" Code="kac"/>
+        <TableElement Source="HL7" DisplayName="Kalaallisut; Greenlandic" Code="kal"/>
+        <TableElement Source="HL7" DisplayName="Kamba" Code="kam"/>
+        <TableElement Source="HL7" DisplayName="Kannada" Code="kan"/>
+        <TableElement Source="HL7" DisplayName="Karen languages" Code="kar"/>
+        <TableElement Source="HL7" DisplayName="Kashmiri" Code="kas"/>
+        <TableElement Source="HL7" DisplayName="Georgian" Code="kat (T)"/>
+        <TableElement Source="HL7" DisplayName="Kanuri" Code="kau"/>
+        <TableElement Source="HL7" DisplayName="Kawi" Code="kaw"/>
+        <TableElement Source="HL7" DisplayName="Kazakh" Code="kaz"/>
+        <TableElement Source="HL7" DisplayName="Kabardian" Code="kbd"/>
+        <TableElement Source="HL7" DisplayName="Khasi" Code="kha"/>
+        <TableElement Source="HL7" DisplayName="Khoisan languages" Code="khi"/>
+        <TableElement Source="HL7" DisplayName="Central Khmer" Code="khm"/>
+        <TableElement Source="HL7" DisplayName="Khotanese; Sakan" Code="kho"/>
+        <TableElement Source="HL7" DisplayName="Kikuyu; Gikuyu" Code="kik"/>
+        <TableElement Source="HL7" DisplayName="Kinyarwanda" Code="kin"/>
+        <TableElement Source="HL7" DisplayName="Kirghiz; Kyrgyz" Code="kir"/>
+        <TableElement Source="HL7" DisplayName="Kimbundu" Code="kmb"/>
+        <TableElement Source="HL7" DisplayName="Konkani" Code="kok"/>
+        <TableElement Source="HL7" DisplayName="Komi" Code="kom"/>
+        <TableElement Source="HL7" DisplayName="Kongo" Code="kon"/>
+        <TableElement Source="HL7" DisplayName="Korean" Code="kor"/>
+        <TableElement Source="HL7" DisplayName="Kosraean" Code="kos"/>
+        <TableElement Source="HL7" DisplayName="Kpelle" Code="kpe"/>
+        <TableElement Source="HL7" DisplayName="Karachay-Balkar" Code="krc"/>
+        <TableElement Source="HL7" DisplayName="Karelian" Code="krl"/>
+        <TableElement Source="HL7" DisplayName="Kru languages" Code="kro"/>
+        <TableElement Source="HL7" DisplayName="Kurukh" Code="kru"/>
+        <TableElement Source="HL7" DisplayName="Kuanyama; Kwanyama" Code="kua"/>
+        <TableElement Source="HL7" DisplayName="Kumyk" Code="kum"/>
+        <TableElement Source="HL7" DisplayName="Kurdish" Code="kur"/>
+        <TableElement Source="HL7" DisplayName="Kutenai" Code="kut"/>
+        <TableElement Source="HL7" DisplayName="Ladino" Code="lad"/>
+        <TableElement Source="HL7" DisplayName="Lahnda" Code="lah"/>
+        <TableElement Source="HL7" DisplayName="Lamba" Code="lam"/>
+        <TableElement Source="HL7" DisplayName="Lao" Code="lao"/>
+        <TableElement Source="HL7" DisplayName="Latin" Code="lat"/>
+        <TableElement Source="HL7" DisplayName="Latvian" Code="lav"/>
+        <TableElement Source="HL7" DisplayName="Lezghian" Code="lez"/>
+        <TableElement Source="HL7" DisplayName="Limburgan; Limburger; Limburgish" Code="lim"/>
+        <TableElement Source="HL7" DisplayName="Lingala" Code="lin"/>
+        <TableElement Source="HL7" DisplayName="Lithuanian" Code="lit"/>
+        <TableElement Source="HL7" DisplayName="Mongo" Code="lol"/>
+        <TableElement Source="HL7" DisplayName="Lozi" Code="loz"/>
+        <TableElement Source="HL7" DisplayName="Luxembourgish; Letzeburgesch" Code="ltz"/>
+        <TableElement Source="HL7" DisplayName="Luba-Lulua" Code="lua"/>
+        <TableElement Source="HL7" DisplayName="Luba-Katanga" Code="lub"/>
+        <TableElement Source="HL7" DisplayName="Ganda" Code="lug"/>
+        <TableElement Source="HL7" DisplayName="Luiseno" Code="lui"/>
+        <TableElement Source="HL7" DisplayName="Lunda" Code="lun"/>
+        <TableElement Source="HL7" DisplayName="Luo (Kenya and Tanzania)" Code="luo"/>
+        <TableElement Source="HL7" DisplayName="Lushai" Code="lus"/>
+        <TableElement Source="HL7" DisplayName="Macedonian" Code="mac (B)"/>
+        <TableElement Source="HL7" DisplayName="Madurese" Code="mad"/>
+        <TableElement Source="HL7" DisplayName="Magahi" Code="mag"/>
+        <TableElement Source="HL7" DisplayName="Marshallese" Code="mah"/>
+        <TableElement Source="HL7" DisplayName="Maithili" Code="mai"/>
+        <TableElement Source="HL7" DisplayName="Makasar" Code="mak"/>
+        <TableElement Source="HL7" DisplayName="Malayalam" Code="mal"/>
+        <TableElement Source="HL7" DisplayName="Mandingo" Code="man"/>
+        <TableElement Source="HL7" DisplayName="Maori" Code="mao (B)"/>
+        <TableElement Source="HL7" DisplayName="Austronesian languages" Code="map"/>
+        <TableElement Source="HL7" DisplayName="Marathi" Code="mar"/>
+        <TableElement Source="HL7" DisplayName="Masai" Code="mas"/>
+        <TableElement Source="HL7" DisplayName="Malay" Code="may (B)"/>
+        <TableElement Source="HL7" DisplayName="Moksha" Code="mdf"/>
+        <TableElement Source="HL7" DisplayName="Mandar" Code="mdr"/>
+        <TableElement Source="HL7" DisplayName="Mende" Code="men"/>
+        <TableElement Source="HL7" DisplayName="Irish, Middle (900-1200)" Code="mga"/>
+        <TableElement Source="HL7" DisplayName="Mi'kmaq; Micmac" Code="mic"/>
+        <TableElement Source="HL7" DisplayName="Minangkabau" Code="min"/>
+        <TableElement Source="HL7" DisplayName="Uncoded languages" Code="mis"/>
+        <TableElement Source="HL7" DisplayName="Macedonian" Code="mkd (T)"/>
+        <TableElement Source="HL7" DisplayName="Mon-Khmer languages" Code="mkh"/>
+        <TableElement Source="HL7" DisplayName="Malagasy" Code="mlg"/>
+        <TableElement Source="HL7" DisplayName="Maltese" Code="mlt"/>
+        <TableElement Source="HL7" DisplayName="Manchu" Code="mnc"/>
+        <TableElement Source="HL7" DisplayName="Manipuri" Code="mni"/>
+        <TableElement Source="HL7" DisplayName="Manobo languages" Code="mno"/>
+        <TableElement Source="HL7" DisplayName="Mohawk" Code="moh"/>
+        <TableElement Source="HL7" DisplayName="Mongolian" Code="mon"/>
+        <TableElement Source="HL7" DisplayName="Mossi" Code="mos"/>
+        <TableElement Source="HL7" DisplayName="Maori" Code="mri (T)"/>
+        <TableElement Source="HL7" DisplayName="Malay" Code="msa (T)"/>
+        <TableElement Source="HL7" DisplayName="Multiple languages" Code="mul"/>
+        <TableElement Source="HL7" DisplayName="Munda languages" Code="mun"/>
+        <TableElement Source="HL7" DisplayName="Creek" Code="mus"/>
+        <TableElement Source="HL7" DisplayName="Mirandese" Code="mwl"/>
+        <TableElement Source="HL7" DisplayName="Marwari" Code="mwr"/>
+        <TableElement Source="HL7" DisplayName="Burmese" Code="mya (T)"/>
+        <TableElement Source="HL7" DisplayName="Mayan languages" Code="myn"/>
+        <TableElement Source="HL7" DisplayName="Erzya" Code="myv"/>
+        <TableElement Source="HL7" DisplayName="Nahuatl languages" Code="nah"/>
+        <TableElement Source="HL7" DisplayName="North American Indian languages" Code="nai"/>
+        <TableElement Source="HL7" DisplayName="Neapolitan" Code="nap"/>
+        <TableElement Source="HL7" DisplayName="Nauru" Code="nau"/>
+        <TableElement Source="HL7" DisplayName="Navajo; Navaho" Code="nav"/>
+        <TableElement Source="HL7" DisplayName="Ndebele, South; South Ndebele" Code="nbl"/>
+        <TableElement Source="HL7" DisplayName="Ndebele, North; North Ndebele" Code="nde"/>
+        <TableElement Source="HL7" DisplayName="Ndonga" Code="ndo"/>
+        <TableElement Source="HL7" DisplayName="Low German; Low Saxon; German, Low; Saxon, Low" Code="nds"/>
+        <TableElement Source="HL7" DisplayName="Nepali" Code="nep"/>
+        <TableElement Source="HL7" DisplayName="Nepal Bhasa; Newari" Code="new"/>
+        <TableElement Source="HL7" DisplayName="Nias" Code="nia"/>
+        <TableElement Source="HL7" DisplayName="Niger-Kordofanian languages" Code="nic"/>
+        <TableElement Source="HL7" DisplayName="Niuean" Code="niu"/>
+        <TableElement Source="HL7" DisplayName="Dutch; Flemish" Code="nld (T)"/>
+        <TableElement Source="HL7" DisplayName="Norwegian Nynorsk; Nynorsk, Norwegian" Code="nno"/>
+        <TableElement Source="HL7" DisplayName="BokmÃ¥l, Norwegian; Norwegian BokmÃ¥l" Code="nob"/>
+        <TableElement Source="HL7" DisplayName="Nogai" Code="nog"/>
+        <TableElement Source="HL7" DisplayName="Norse, Old" Code="non"/>
+        <TableElement Source="HL7" DisplayName="Norwegian" Code="nor"/>
+        <TableElement Source="HL7" DisplayName="N'Ko" Code="nqo"/>
+        <TableElement Source="HL7" DisplayName="Pedi; Sepedi; Northern Sotho" Code="nso"/>
+        <TableElement Source="HL7" DisplayName="Nubian languages" Code="nub"/>
+        <TableElement Source="HL7" DisplayName="Classical Newari; Old Newari; Classical Nepal Bhasa" Code="nwc"/>
+        <TableElement Source="HL7" DisplayName="Chichewa; Chewa; Nyanja" Code="nya"/>
+        <TableElement Source="HL7" DisplayName="Nyamwezi" Code="nym"/>
+        <TableElement Source="HL7" DisplayName="Nyankole" Code="nyn"/>
+        <TableElement Source="HL7" DisplayName="Nyoro" Code="nyo"/>
+        <TableElement Source="HL7" DisplayName="Nzima" Code="nzi"/>
+        <TableElement Source="HL7" DisplayName="Occitan (post 1500)" Code="oci"/>
+        <TableElement Source="HL7" DisplayName="Ojibwa" Code="oji"/>
+        <TableElement Source="HL7" DisplayName="Oriya" Code="ori"/>
+        <TableElement Source="HL7" DisplayName="Oromo" Code="orm"/>
+        <TableElement Source="HL7" DisplayName="Osage" Code="osa"/>
+        <TableElement Source="HL7" DisplayName="Ossetian; Ossetic" Code="oss"/>
+        <TableElement Source="HL7" DisplayName="Turkish, Ottoman (1500-1928)" Code="ota"/>
+        <TableElement Source="HL7" DisplayName="Otomian languages" Code="oto"/>
+        <TableElement Source="HL7" DisplayName="Papuan languages" Code="paa"/>
+        <TableElement Source="HL7" DisplayName="Pangasinan" Code="pag"/>
+        <TableElement Source="HL7" DisplayName="Pahlavi" Code="pal"/>
+        <TableElement Source="HL7" DisplayName="Pampanga; Kapampangan" Code="pam"/>
+        <TableElement Source="HL7" DisplayName="Panjabi; Punjabi" Code="pan"/>
+        <TableElement Source="HL7" DisplayName="Papiamento" Code="pap"/>
+        <TableElement Source="HL7" DisplayName="Palauan" Code="pau"/>
+        <TableElement Source="HL7" DisplayName="Persian, Old (ca.600-400 B.C.)" Code="peo"/>
+        <TableElement Source="HL7" DisplayName="Persian" Code="per (B)"/>
+        <TableElement Source="HL7" DisplayName="Philippine languages" Code="phi"/>
+        <TableElement Source="HL7" DisplayName="Phoenician" Code="phn"/>
+        <TableElement Source="HL7" DisplayName="Pali" Code="pli"/>
+        <TableElement Source="HL7" DisplayName="Polish" Code="pol"/>
+        <TableElement Source="HL7" DisplayName="Pohnpeian" Code="pon"/>
+        <TableElement Source="HL7" DisplayName="Portuguese" Code="por"/>
+        <TableElement Source="HL7" DisplayName="Prakrit languages" Code="pra"/>
+        <TableElement Source="HL7" DisplayName="ProvenÃ§al, Old (to 1500);Occitan, Old (to 1500)" Code="pro"/>
+        <TableElement Source="HL7" DisplayName="Pushto; Pashto" Code="pus"/>
+        <TableElement Source="HL7" DisplayName="Reserved for local use" Code="qaa-qtz"/>
+        <TableElement Source="HL7" DisplayName="Quechua" Code="que"/>
+        <TableElement Source="HL7" DisplayName="Rajasthani" Code="raj"/>
+        <TableElement Source="HL7" DisplayName="Rapanui" Code="rap"/>
+        <TableElement Source="HL7" DisplayName="Rarotongan; Cook Islands Maori" Code="rar"/>
+        <TableElement Source="HL7" DisplayName="Romance languages" Code="roa"/>
+        <TableElement Source="HL7" DisplayName="Romansh" Code="roh"/>
+        <TableElement Source="HL7" DisplayName="Romany" Code="rom"/>
+        <TableElement Source="HL7" DisplayName="Romanian; Moldavian; Moldovan" Code="ron (T)"/>
+        <TableElement Source="HL7" DisplayName="Romanian; Moldavian; Moldovan" Code="rum (B)"/>
+        <TableElement Source="HL7" DisplayName="Rundi" Code="run"/>
+        <TableElement Source="HL7" DisplayName="Aromanian; Arumanian; Macedo-Romanian" Code="rup"/>
+        <TableElement Source="HL7" DisplayName="Russian" Code="rus"/>
+        <TableElement Source="HL7" DisplayName="Sandawe" Code="sad"/>
+        <TableElement Source="HL7" DisplayName="Sango" Code="sag"/>
+        <TableElement Source="HL7" DisplayName="Yakut" Code="sah"/>
+        <TableElement Source="HL7" DisplayName="South American Indian languages" Code="sai"/>
+        <TableElement Source="HL7" DisplayName="Salishan languages" Code="sal"/>
+        <TableElement Source="HL7" DisplayName="Samaritan Aramaic" Code="sam"/>
+        <TableElement Source="HL7" DisplayName="Sanskrit" Code="san"/>
+        <TableElement Source="HL7" DisplayName="Sasak" Code="sas"/>
+        <TableElement Source="HL7" DisplayName="Santali" Code="sat"/>
+        <TableElement Source="HL7" DisplayName="Sicilian" Code="scn"/>
+        <TableElement Source="HL7" DisplayName="Scots" Code="sco"/>
+        <TableElement Source="HL7" DisplayName="Selkup" Code="sel"/>
+        <TableElement Source="HL7" DisplayName="Semitic languages" Code="sem"/>
+        <TableElement Source="HL7" DisplayName="Irish, Old (to 900)" Code="sga"/>
+        <TableElement Source="HL7" DisplayName="Sign Languages" Code="sgn"/>
+        <TableElement Source="HL7" DisplayName="Shan" Code="shn"/>
+        <TableElement Source="HL7" DisplayName="Sidamo" Code="sid"/>
+        <TableElement Source="HL7" DisplayName="Sinhala; Sinhalese" Code="sin"/>
+        <TableElement Source="HL7" DisplayName="Siouan languages" Code="sio"/>
+        <TableElement Source="HL7" DisplayName="Sino-Tibetan languages" Code="sit"/>
+        <TableElement Source="HL7" DisplayName="Slavic languages" Code="sla"/>
+        <TableElement Source="HL7" DisplayName="Slovak" Code="slk (T)"/>
+        <TableElement Source="HL7" DisplayName="Slovak" Code="slo (B)"/>
+        <TableElement Source="HL7" DisplayName="Slovenian" Code="slv"/>
+        <TableElement Source="HL7" DisplayName="Southern Sami" Code="sma"/>
+        <TableElement Source="HL7" DisplayName="Northern Sami" Code="sme"/>
+        <TableElement Source="HL7" DisplayName="Sami languages" Code="smi"/>
+        <TableElement Source="HL7" DisplayName="Lule Sami" Code="smj"/>
+        <TableElement Source="HL7" DisplayName="Inari Sami" Code="smn"/>
+        <TableElement Source="HL7" DisplayName="Samoan" Code="smo"/>
+        <TableElement Source="HL7" DisplayName="Skolt Sami" Code="sms"/>
+        <TableElement Source="HL7" DisplayName="Shona" Code="sna"/>
+        <TableElement Source="HL7" DisplayName="Sindhi" Code="snd"/>
+        <TableElement Source="HL7" DisplayName="Soninke" Code="snk"/>
+        <TableElement Source="HL7" DisplayName="Sogdian" Code="sog"/>
+        <TableElement Source="HL7" DisplayName="Somali" Code="som"/>
+        <TableElement Source="HL7" DisplayName="Songhai languages" Code="son"/>
+        <TableElement Source="HL7" DisplayName="Sotho, Southern" Code="sot"/>
+        <TableElement Source="HL7" DisplayName="Spanish; Castilian" Code="spa"/>
+        <TableElement Source="HL7" DisplayName="Albanian" Code="sqi (T)"/>
+        <TableElement Source="HL7" DisplayName="Sardinian" Code="srd"/>
+        <TableElement Source="HL7" DisplayName="Sranan Tongo" Code="srn"/>
+        <TableElement Source="HL7" DisplayName="Serbian" Code="srp"/>
+        <TableElement Source="HL7" DisplayName="Serer" Code="srr"/>
+        <TableElement Source="HL7" DisplayName="Nilo-Saharan languages" Code="ssa"/>
+        <TableElement Source="HL7" DisplayName="Swati" Code="ssw"/>
+        <TableElement Source="HL7" DisplayName="Sukuma" Code="suk"/>
+        <TableElement Source="HL7" DisplayName="Sundanese" Code="sun"/>
+        <TableElement Source="HL7" DisplayName="Susu" Code="sus"/>
+        <TableElement Source="HL7" DisplayName="Sumerian" Code="sux"/>
+        <TableElement Source="HL7" DisplayName="Swahili" Code="swa"/>
+        <TableElement Source="HL7" DisplayName="Swedish" Code="swe"/>
+        <TableElement Source="HL7" DisplayName="Classical Syriac" Code="syc"/>
+        <TableElement Source="HL7" DisplayName="Syriac" Code="syr"/>
+        <TableElement Source="HL7" DisplayName="Tahitian" Code="tah"/>
+        <TableElement Source="HL7" DisplayName="Tai languages" Code="tai"/>
+        <TableElement Source="HL7" DisplayName="Tamil" Code="tam"/>
+        <TableElement Source="HL7" DisplayName="Tatar" Code="tat"/>
+        <TableElement Source="HL7" DisplayName="Telugu" Code="tel"/>
+        <TableElement Source="HL7" DisplayName="Timne" Code="tem"/>
+        <TableElement Source="HL7" DisplayName="Tereno" Code="ter"/>
+        <TableElement Source="HL7" DisplayName="Tetum" Code="tet"/>
+        <TableElement Source="HL7" DisplayName="Tajik" Code="tgk"/>
+        <TableElement Source="HL7" DisplayName="Tagalog" Code="tgl"/>
+        <TableElement Source="HL7" DisplayName="Thai" Code="tha"/>
+        <TableElement Source="HL7" DisplayName="Tibetan" Code="tib (B)"/>
+        <TableElement Source="HL7" DisplayName="Tigre" Code="tig"/>
+        <TableElement Source="HL7" DisplayName="Tigrinya" Code="tir"/>
+        <TableElement Source="HL7" DisplayName="Tiv" Code="tiv"/>
+        <TableElement Source="HL7" DisplayName="Tokelau" Code="tkl"/>
+        <TableElement Source="HL7" DisplayName="Klingon; tlhIngan-Hol" Code="tlh"/>
+        <TableElement Source="HL7" DisplayName="Tlingit" Code="tli"/>
+        <TableElement Source="HL7" DisplayName="Tamashek" Code="tmh"/>
+        <TableElement Source="HL7" DisplayName="Tonga (Nyasa)" Code="tog"/>
+        <TableElement Source="HL7" DisplayName="Tonga (Tonga Islands)" Code="ton"/>
+        <TableElement Source="HL7" DisplayName="Tok Pisin" Code="tpi"/>
+        <TableElement Source="HL7" DisplayName="Tsimshian" Code="tsi"/>
+        <TableElement Source="HL7" DisplayName="Tswana" Code="tsn"/>
+        <TableElement Source="HL7" DisplayName="Tsonga" Code="tso"/>
+        <TableElement Source="HL7" DisplayName="Turkmen" Code="tuk"/>
+        <TableElement Source="HL7" DisplayName="Tumbuka" Code="tum"/>
+        <TableElement Source="HL7" DisplayName="Tupi languages" Code="tup"/>
+        <TableElement Source="HL7" DisplayName="Turkish" Code="tur"/>
+        <TableElement Source="HL7" DisplayName="Altaic languages" Code="tut"/>
+        <TableElement Source="HL7" DisplayName="Tuvalu" Code="tvl"/>
+        <TableElement Source="HL7" DisplayName="Twi" Code="twi"/>
+        <TableElement Source="HL7" DisplayName="Tuvinian" Code="tyv"/>
+        <TableElement Source="HL7" DisplayName="Udmurt" Code="udm"/>
+        <TableElement Source="HL7" DisplayName="Ugaritic" Code="uga"/>
+        <TableElement Source="HL7" DisplayName="Uighur; Uyghur" Code="uig"/>
+        <TableElement Source="HL7" DisplayName="Ukrainian" Code="ukr"/>
+        <TableElement Source="HL7" DisplayName="Umbundu" Code="umb"/>
+        <TableElement Source="HL7" DisplayName="Undetermined" Code="und"/>
+        <TableElement Source="HL7" DisplayName="Urdu" Code="urd"/>
+        <TableElement Source="HL7" DisplayName="Uzbek" Code="uzb"/>
+        <TableElement Source="HL7" DisplayName="Vai" Code="vai"/>
+        <TableElement Source="HL7" DisplayName="Venda" Code="ven"/>
+        <TableElement Source="HL7" DisplayName="Vietnamese" Code="vie"/>
+        <TableElement Source="HL7" DisplayName="VolapÃ¼k" Code="vol"/>
+        <TableElement Source="HL7" DisplayName="Votic" Code="vot"/>
+        <TableElement Source="HL7" DisplayName="Wakashan languages" Code="wak"/>
+        <TableElement Source="HL7" DisplayName="Wolaitta; Wolaytta" Code="wal"/>
+        <TableElement Source="HL7" DisplayName="Waray" Code="war"/>
+        <TableElement Source="HL7" DisplayName="Washo" Code="was"/>
+        <TableElement Source="HL7" DisplayName="Welsh" Code="wel (B)"/>
+        <TableElement Source="HL7" DisplayName="Sorbian languages" Code="wen"/>
+        <TableElement Source="HL7" DisplayName="Walloon" Code="wln"/>
+        <TableElement Source="HL7" DisplayName="Wolof" Code="wol"/>
+        <TableElement Source="HL7" DisplayName="Kalmyk; Oirat" Code="xal"/>
+        <TableElement Source="HL7" DisplayName="Xhosa" Code="xho"/>
+        <TableElement Source="HL7" DisplayName="Yao" Code="yao"/>
+        <TableElement Source="HL7" DisplayName="Yapese" Code="yap"/>
+        <TableElement Source="HL7" DisplayName="Yiddish" Code="yid"/>
+        <TableElement Source="HL7" DisplayName="Yoruba" Code="yor"/>
+        <TableElement Source="HL7" DisplayName="Yupik languages" Code="ypk"/>
+        <TableElement Source="HL7" DisplayName="Zapotec" Code="zap"/>
+        <TableElement Source="HL7" DisplayName="Blissymbols; Blissymbolics; Bliss" Code="zbl"/>
+        <TableElement Source="HL7" DisplayName="Zenaga" Code="zen"/>
+        <TableElement Source="HL7" DisplayName="Zhuang; Chuang" Code="zha"/>
+        <TableElement Source="HL7" DisplayName="Chinese" Code="zho (T)"/>
+        <TableElement Source="HL7" DisplayName="Zande languages" Code="znd"/>
+        <TableElement Source="HL7" DisplayName="Zulu" Code="zul"/>
+        <TableElement Source="HL7" DisplayName="Zuni" Code="zun"/>
+        <TableElement Source="HL7" DisplayName="No linguistic content; Not applicable" Code="zxx"/>
+        <TableElement Source="HL7" DisplayName="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki" Code="zza"/>
+    </TableDefinition>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Application" Id="0361"/>
+    <TableDefinition Codesys="HL7" Version="V2.5.1" Type="User" Name="Facility" Id="0362"/>
+</TableLibrary>

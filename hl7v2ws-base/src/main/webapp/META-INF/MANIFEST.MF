@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Class-Path: HCRRQueryService-1.0.jar axis-1.4.jar jaxrpc-api-1.1.jar c
+ ommons-discovery-0.4.jar commons-logging-1.0.4.jar cxf-rt-frontend-ja
+ xws-2.3.2.jar xml-resolver-1.2.jar asm-3.3.jar cxf-api-2.3.2.jar cxf-
+ common-utilities-2.3.2.jar XmlSchema-1.4.7.jar woodstox-core-asl-4.0.
+ 8.jar stax2-api-3.0.2.jar neethi-2.0.4.jar wsdl4j-1.6.2.jar cxf-commo
+ n-schemas-2.3.2.jar cxf-rt-core-2.3.2.jar jaxb-impl-2.1.13.jar geroni
+ mo-javamail_1.4_spec-1.7.1.jar cxf-rt-bindings-soap-2.3.2.jar cxf-too
+ ls-common-2.3.2.jar cxf-rt-databinding-jaxb-2.3.2.jar cxf-rt-bindings
+ -xml-2.3.2.jar cxf-rt-frontend-simple-2.3.2.jar cxf-rt-transports-htt
+ p-2.3.2.jar cxf-rt-transports-common-2.3.2.jar spring-web-3.0.5.RELEA
+ SE.jar aopalliance-1.0.jar spring-beans-3.0.5.RELEASE.jar spring-core
+ -3.0.5.RELEASE.jar spring-asm-3.0.5.RELEASE.jar spring-context-3.0.5.
+ RELEASE.jar spring-aop-3.0.5.RELEASE.jar spring-expression-3.0.5.RELE
+ ASE.jar cxf-rt-ws-addr-2.3.2.jar cxf-rt-frontend-jaxrs-2.3.2.jar jsr3
+ 11-api-1.1.1.jar jettison-1.2.jar dom4j-1.6.1.jar xml-apis-1.0.b2.jar
+  commons-fileupload-1.2.2.jar validation-proxy-0.0.6-SNAPSHOT.jar rep
+ ort-0.0.6-SNAPSHOT.jar xml-schema-0.0.6-SNAPSHOT.jar json-20131018.ja
+ r hl7-v2-validation-1.0.0-beta-11.5-SNAPSHOT.jar scala-library-2.10.4
+ .jar hl7-v2-parser-1.0.0-beta-11.5-SNAPSHOT.jar hl7-v2-profile-1.0.0-
+ beta-11.5-SNAPSHOT.jar xml-util-1.0.1-SNAPSHOT.jar xom-1.2.5.jar xerc
+ esImpl-2.8.1.jar xalan-2.7.0.jar config-1.2.1.jar validation-report-1
+ .0.0.jar jackson-databind-2.4.4.jar jackson-annotations-2.4.0.jar jac
+ kson-core-2.4.4.jar hl7v2ws-xml-beans.jar xmlbeans-2.3.0.jar stax-api
+ -1.0.1.jar spring-webmvc-3.0.5.RELEASE.jar spring-context-support-3.0
+ .5.RELEASE.jar core-base-1.0.48.jar xmlbeans-xpath-2.3.0.jar saxon-8.
+ 7.jar saxon-dom-8.7.jar core-xml-beans-1.0.48.jar core-message-valida
+ tion-1.0.48.jar core-hl7-v2-parser-1.0.48.jar core-hl7-v2-message-1.0
+ .48.jar commons-lang3-3.0.1.jar jackson-mapper-lgpl-1.7.5.jar jackson
+ -core-lgpl-1.7.5.jar core-xml2bar-1.0.48.jar core-message-generation-
+ 1.0.48.jar log4j-1.2.4.jar stat-logging-0.0.1.jar slf4j-api-1.7.2.jar
+  jstl-1.1.2.jar standard-1.1.2.jar mail-1.4.jar activation-1.1.jar co
+ mmons-httpclient-3.1.jar commons-codec-1.2.jar juli-6.0.26.jar slf4j-
+ log4j12-1.5.8.jar axis2-jws-api-1.4.1.jar ant-1.7.0.jar ant-launcher-
+ 1.7.0.jar axiom-api-1.2.7.jar geronimo-activation_1.1_spec-1.0.1.jar 
+ jaxen-1.1.1.jar geronimo-stax-api_1.0_spec-1.0.1.jar axiom-impl-1.2.7
+ .jar wstx-asl-3.2.4.jar axiom-dom-1.2.7.jar commons-io-1.4.jar
+

@@ -1,0 +1,28 @@
+2014-01-24/13:42:11.891/ESTFATALjava.lang.Exception: Can't find a profile with oid=null
+2014-01-24/13:42:15.405/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-24/13:42:15.790/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-24/13:42:15.811/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_140124134215-0500.xml to log the message. (MV)
+2014-01-24/13:42:15.909/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_140124134215-0500.xml to log the message. (MV)
+2014-01-24/13:42:15.953/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_profileOID_140124134215-0500.xml to log the message. (MV)
+2014-01-24/13:42:15.953/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-24/13:42:15.964/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-24/13:42:15.976/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_140124134215-0500.xml to log the message. (MV)
+2014-01-24/13:42:19.825/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_140124134219-0500.xml to log the message. (MV)
+2014-01-24/13:42:19.871/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_profileOID_140124134219-0500.xml to log the message. (MV)
+2014-01-24/13:42:19.876/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-24/13:42:19.887/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_140124134219-0500.xml to log the message. (MV)
+2014-01-24/13:42:21.453/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_140124134221-0500.xml to log the message. (MV)
+2014-01-24/13:47:18.841/ESTFATALjava.lang.Exception: Can't find a profile with oid=null
+2014-01-24/13:47:21.297/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-24/13:47:21.505/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-24/13:47:21.528/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_140124134721-0500.xml to log the message. (MV)
+2014-01-24/13:47:21.608/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_140124134721-0500.xml to log the message. (MV)
+2014-01-24/13:47:21.645/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_profileOID_140124134721-0500.xml to log the message. (MV)
+2014-01-24/13:47:21.645/ESTINFOMessageValidationInterface - User sets a message validation context
+2014-01-24/13:47:21.653/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-24/13:47:21.665/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_140124134721-0500.xml to log the message. (MV)
+2014-01-24/13:47:24.550/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_140124134724-0500.xml to log the message. (MV)
+2014-01-24/13:47:24.584/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_profileOID_140124134724-0500.xml to log the message. (MV)
+2014-01-24/13:47:24.587/ESTINFOMessageValidationInterface - User runs a Validation
+2014-01-24/13:47:24.596/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_message_140124134724-0500.xml to log the message. (MV)
+2014-01-24/13:47:25.963/ESTINFOCouldn't create the file /Users/indovina/temp/temp_repository/hl7v2ws/hl7v2ws-base/null/logs/hl7ws/msgValid_report_140124134725-0500.xml to log the message. (MV)

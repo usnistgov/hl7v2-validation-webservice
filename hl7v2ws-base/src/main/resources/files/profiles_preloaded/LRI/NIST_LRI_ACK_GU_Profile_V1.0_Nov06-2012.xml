@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Changes from version 1.0 1) Changed MSH.21 cardinality from 1..3 to 1..* 2) Changed the MsgStructID from "ACK_ALL" to "ACK" -->
+<!-- Changes from version 1.2 1) Changed ERR.3 Table from '0357' to 'VS_HL70357' -->
+<HL7v2xConformanceProfile HL7Version="2.5.1" ProfileType="Constrainable">
+   <MetaData Name="Laboratory Results Interface" OrgName="HL7 Orders&amp;Observations WG and Health and Human Services" Version="1 - draft 0.9" Status="Informative" Topics="confsig-HL7 Orders&amp;Observations WG and Health and Human Services-2.5.1-profile-accNE_accAL-Immediate"/>
+   <ImpNote>Note that this specification focuses on the Laboratory Information System message. </ImpNote>
+   <Encodings>
+      <Encoding>ER7</Encoding>
+   </Encodings>
+   <DynamicDef AccAck="NE" AppAck="AL" MsgAckMode="Immediate"/>
+   <HL7v2xStaticDef MsgType="ACK" EventType="R01" MsgStructID="ACK" OrderControl="RE" EventDesc="ACK for Laboratory Results Interface for US Realm, Release 1 (HL7 Version 2.5.1 Implementation Guide)" Role="Sender">
+      <MetaData Name="Laboratory Results Interface" OrgName="HL7 Orders&amp;Observations WG and Health and Human Services" Version="1 - draft 0.9" Status="Informative" Topics="confsig-HL7 Orders&amp;Observations WG and Health and Human Services-2.5.1-static-ACK-R01-null-ACK_ALL-1 - draft 0.9-Informative-Sender"/>
+      <Segment Name="MSH" LongName="Message Header" Usage="R" Min="1" Max="1">
+         <ConformanceStatement id="LRI-22">
+            <EnglishDescription>MSH.21 (Message Profile Identifier) SHALL be valued with 2.16.840.1.113883.9.21 (GU_Acknowledgment_Profile) when acknowledging ORU GU Profiles where MSH.21 contains 2.16.840.1.113883.9.17, or 2.16.840.1.113883.9.18, or 2.16.840.1.113883.9.12</EnglishDescription>
+            <Assertion>
+               <Custom className="gov.nist.healthcare.mu.lri.custom.MSH" id="5"/>
+            </Assertion>
+         </ConformanceStatement>
+         <Reference>2.15.9</Reference>
+         <Field Name="Field Separator" Usage="R" Min="1" Max="1" Datatype="LRI_ST" MaxLength="1" MinLength="1">
+            <ConformanceStatement id="LRI-16">
+               <EnglishDescription>MSH.1 (Field Separator) SHALL contain the constant value '|'.</EnglishDescription>
+               <Assertion>
+                  <PlainText location="." value="|"/>
+               </Assertion>
+            </ConformanceStatement>
+         </Field>
+         <Field Name="Encoding Characters" Usage="R" Min="1" Max="1" Datatype="LRI_ST" MaxLength="5" MinLength="4">
+            <ConformanceStatement id="LRI-17">
+               <EnglishDescription>MSH.2 (Encoding Characters) SHALL contain the constant value '^~\&amp;' or the constant value '^~\&amp;#'.</EnglishDescription>
+               <Assertion>
+                  <OR>
+                     <PlainText location="." value="^~\&amp;"/>
+                     <PlainText location="." value="^~\&amp;#"/>
+                  </OR>
+               </Assertion>
+            </ConformanceStatement>
+         </Field>
+         <Field Name="Sending Application" Usage="RE" Min="0" Max="1" Table="0361" Datatype="LRI_HD_GU" MaxLength="227" MinLength="1">
+            <Component Name="Namespace ID" Usage="RE" Datatype="LRI_IS" MaxLength="20" MinLength="1">
+               <ImpNote>Length 1..20 Value Set Local The coding system for this component is locally managed. </ImpNote>
+            </Component>
+            <Component Name="Universal ID" Usage="R" Datatype="LRI_ST" MaxLength="199" MinLength="1">
+               <ConformanceStatement id="LRI-4">
+                  <EnglishDescription>HD_GU.2 (Universal ID) SHALL be valued with an ISO-compliant OID.</EnglishDescription>
+                  <Assertion>
+                     <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..199 IMust be an ISO-compliant OID </ImpNote>
+               <Reference>LRI-HD.a-1: HD.2 (Universal ID) SHALL be valued with an ISO-compliant OID.</Reference>
+            </Component>
+            <Component Name="Universal ID Type" Usage="R" Datatype="LRI_ID" MaxLength="3" MinLength="3">
+               <ConformanceStatement id="LRI-5">
+                  <EnglishDescription>HD_GU.3 (Universal ID Type) SHALL contain the value "ISO".</EnglishDescription>
+                  <Assertion>
+                     <PlainText location="." value="ISO"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..6 Fixed value: LRI-HD-2: HD.3 (Universal ID Type) SHALL contain the value _ISO_. Constrained to the value _ISO' except for Lab Result Receiver for MSH-4 where the value _CLIA' is allowed. </ImpNote>
+               <Reference>LRI-HD.a-2: HD.3 (Universal ID Type) SHALL contain the value "ISO".</Reference>
+               <DataValues ExValue="ISO"/>
+            </Component>
+         </Field>
+         <Field Name="Sending Facility" Usage="R" Min="1" Max="1" Table="0362" Datatype="LRI_HD_GU" MaxLength="227" MinLength="1">
+            <Component Name="Namespace ID" Usage="RE" Datatype="LRI_IS" MaxLength="20" MinLength="1">
+               <ImpNote>Length 1..20 Value Set Local The coding system for this component is locally managed. </ImpNote>
+            </Component>
+            <Component Name="Universal ID" Usage="R" Datatype="LRI_ST" MaxLength="199" MinLength="1">
+               <ConformanceStatement id="LRI-4">
+                  <EnglishDescription>HD_GU.2 (Universal ID) SHALL be valued with an ISO-compliant OID.</EnglishDescription>
+                  <Assertion>
+                     <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..199 IMust be an ISO-compliant OID </ImpNote>
+               <Reference>LRI-HD.a-1: HD.2 (Universal ID) SHALL be valued with an ISO-compliant OID.</Reference>
+            </Component>
+            <Component Name="Universal ID Type" Usage="R" Datatype="LRI_ID" MaxLength="3" MinLength="3">
+               <ConformanceStatement id="LRI-5">
+                  <EnglishDescription>HD_GU.3 (Universal ID Type) SHALL contain the value "ISO".</EnglishDescription>
+                  <Assertion>
+                     <PlainText location="." value="ISO"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..6 Fixed value: LRI-HD-2: HD.3 (Universal ID Type) SHALL contain the value _ISO_. Constrained to the value _ISO' except for Lab Result Receiver for MSH-4 where the value _CLIA' is allowed. </ImpNote>
+               <Reference>LRI-HD.a-2: HD.3 (Universal ID Type) SHALL contain the value "ISO".</Reference>
+               <DataValues ExValue="ISO"/>
+            </Component>
+         </Field>
+         <Field Name="Receiving Application" Usage="O" Min="0" Max="1" Datatype="HD" Table="0361" MaxLength="227" MinLength="1">
+            <Component Name="Namespace ID" Usage="O" Datatype="IS" Table="0300" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Universal ID" Usage="C" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Universal ID Type" Usage="C" Datatype="ID" Table="0301" MaxLength="6" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Receiving Facility" Usage="RE" Min="0" Max="1" Table="0362" Datatype="LRI_HD_GU" MaxLength="227" MinLength="1">
+            <Component Name="Namespace ID" Usage="RE" Datatype="LRI_IS" MaxLength="20" MinLength="1">
+               <ImpNote>Length 1..20 Value Set Local The coding system for this component is locally managed. </ImpNote>
+            </Component>
+            <Component Name="Universal ID" Usage="R" Datatype="LRI_ST" MaxLength="199" MinLength="1">
+               <ConformanceStatement id="LRI-4">
+                  <EnglishDescription>HD_GU.2 (Universal ID) SHALL be valued with an ISO-compliant OID.</EnglishDescription>
+                  <Assertion>
+                     <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..199 IMust be an ISO-compliant OID </ImpNote>
+               <Reference>LRI-HD.a-1: HD.2 (Universal ID) SHALL be valued with an ISO-compliant OID.</Reference>
+            </Component>
+            <Component Name="Universal ID Type" Usage="R" Datatype="LRI_ID" MaxLength="3" MinLength="3">
+               <ConformanceStatement id="LRI-5">
+                  <EnglishDescription>HD_GU.3 (Universal ID Type) SHALL contain the value "ISO".</EnglishDescription>
+                  <Assertion>
+                     <PlainText location="." value="ISO"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..6 Fixed value: LRI-HD-2: HD.3 (Universal ID Type) SHALL contain the value _ISO_. Constrained to the value _ISO' except for Lab Result Receiver for MSH-4 where the value _CLIA' is allowed. </ImpNote>
+               <Reference>LRI-HD.a-2: HD.3 (Universal ID Type) SHALL contain the value "ISO".</Reference>
+               <DataValues ExValue="ISO"/>
+            </Component>
+         </Field>
+         <Field Name="Date/Time Of Message" Usage="R" Min="1" Max="1" Datatype="LRI_TS_1" MaxLength="26" MinLength="1">
+            <Component Name="Time" Usage="R" Datatype="LRI_DTM" MaxLength="24" MinLength="4">
+               <ConformanceStatement id="LRI-TS_1">
+                  <EnglishDescription> Format : YYYY[MM[DD[HH[MM[SS[.S[S[S[S]]]]]]]]]+/-ZZZZ WITH YYYY = R, MM = R, DD = R, HH = R, MM = R, SS[.S[S[S[S]]]] = O, +/-ZZZZ = C(R/O) If TimeZone Offset Profile </EnglishDescription>
+                  <Assertion>
+                     <Regex location="." regex="([0-9]{4})((0[1-9])|(1[0-2]))((0[1-9])|([1-2][0-9])|(3[0-1]))(([0-1][0-9])|(2[0-3]))([0-5][0-9])([0-5][0-9](\.[0-9]{1,4}){0,1})((\+|\-)[0-9]{4}){0,1}"/>
+                  </Assertion>
+               </ConformanceStatement>
+            </Component>
+            <Component Name="Degree of Precision" Usage="X" Datatype="ID" Table="0529"/>
+         </Field>
+         <Field Name="Security" Usage="O" Min="0" Max="1" Datatype="ST" MaxLength="40" MinLength="1"/>
+         <Field Name="Message Type" Usage="R" Min="1" Max="1" Datatype="LRI_MSG" MaxLength="15" MinLength="1">
+            <ConformanceStatement id="LRI-18">
+               <EnglishDescription>MSH.9 (Message Type) SHALL contain the constant value 'ACK^R01^ACK'.</EnglishDescription>
+               <Assertion>
+                  <AND>
+                     <PlainText location="./1" value="ACK"/>
+                     <AND>
+                        <PlainText location="./2" value="R01"/>
+                        <PlainText location="./3" value="ACK"/>
+                     </AND>
+                  </AND>
+               </Assertion>
+            </ConformanceStatement>
+            <Component Name="Message Code" Usage="R" Datatype="LRI_ID" Table="0076" MaxLength="3" MinLength="3">
+               <ImpNote>Length 3..3 </ImpNote>
+            </Component>
+            <Component Name="Trigger Event" Usage="R" Datatype="LRI_ID" Table="0003" MaxLength="3" MinLength="3">
+               <ImpNote>Length 3..3 </ImpNote>
+            </Component>
+            <Component Name="Message Structure" Usage="R" Datatype="LRI_ID" Table="0354" MaxLength="7" MinLength="3">
+               <ImpNote>Length 3...7 </ImpNote>
+            </Component>
+         </Field>
+         <Field Name="Message Control ID" Usage="R" Min="1" Max="1" Datatype="LRI_ST" MaxLength="199" MinLength="1" ConformanceLength="199"/>
+         <Field Name="Processing ID" Usage="R" Min="1" Max="1" Datatype="LRI_PT" MaxLength="3" MinLength="1">
+            <Component Name="Processing ID" Usage="R" Datatype="LRI_ID" Table="0103" MaxLength="1" MinLength="1"> </Component>
+            <Component Name="Processing Mode" Usage="O" Datatype="ID" MaxLength="1" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Version ID" Usage="R" Min="1" Max="1" Datatype="LRI_VID" MaxLength="1417" MinLength="1">
+            <ConformanceStatement id="LRI-19">
+               <EnglishDescription>MSH.12.1 (Version ID) SHALL contain the constant value '2.5.1'.</EnglishDescription>
+               <Assertion>
+                  <PlainText location="./1" value="2.5.1"/>
+               </Assertion>
+            </ConformanceStatement>
+            <Component Name="Version ID" Usage="R" Datatype="LRI_ID" Table="0104" MaxLength="5" MinLength="5">
+               <ImpNote>Length 3..5 Restricted to 2.5.1 in this guide. Literal value: _2.5.1' </ImpNote>
+               <DataValues ExValue="2.5.1"/>
+            </Component>
+            <Component Name="Internationalization Code" Usage="O" Datatype="CE" MaxLength="705" MinLength="1">
+               <SubComponent Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </SubComponent>
+            </Component>
+            <Component Name="International Version ID" Usage="O" Datatype="CE" MaxLength="705" MinLength="1">
+               <SubComponent Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </SubComponent>
+            </Component>
+         </Field>
+         <Field Name="Sequence Number" Usage="O" Min="0" Max="1" Datatype="NM" MaxLength="15" MinLength="1"/>
+         <Field Name="Continuation Pointer" Usage="O" Min="0" Max="1" Datatype="ST" MaxLength="180" MinLength="1"/>
+         <Field Name="Accept Acknowledgment Type" Usage="R" Min="1" Max="1" Datatype="LRI_ID" Table="0155" MaxLength="2" MinLength="2">
+            <ConformanceStatement id="LRI-20">
+               <EnglishDescription>MSH.15 (Accept Acknowledgement Type) SHALL contain the constant value 'NE'.</EnglishDescription>
+               <Assertion>
+                  <PlainText location="." value="NE"/>
+               </Assertion>
+            </ConformanceStatement>
+            <ImpNote>Length 1..15 </ImpNote>
+         </Field>
+         <Field Name="Application Acknowledgment Type" Usage="R" Min="1" Max="1" Datatype="LRI_ID" Table="0155" MaxLength="2" MinLength="2">
+            <ConformanceStatement id="LRI-21">
+               <EnglishDescription>MSH.16 (Application Acknowledgement Type) SHALL contain the constant value 'NE'.</EnglishDescription>
+               <Assertion>
+                  <PlainText location="." value="NE"/>
+               </Assertion>
+            </ConformanceStatement>
+            <ImpNote>Length 1..15 </ImpNote>
+         </Field>
+         <Field Name="Country Code" Usage="O" Min="0" Max="1" Datatype="ID" Table="0399" MaxLength="3" MinLength="1">
+            <ImpNote>Max length actually varies depending on the max length of a code in the code set </ImpNote>
+         </Field>
+         <Field Name="Character Set" Usage="O" Min="0" Max="*" Datatype="ID" MaxLength="15" MinLength="1">
+            <ImpNote>Max length actually varies depending on the max length of a code in the code set </ImpNote>
+         </Field>
+         <Field Name="Principal Language Of Message" Usage="O" Min="0" Max="1" Datatype="CE" MaxLength="2161" MinLength="1">
+            <Component Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Alternate Character Set Handling Scheme" Usage="O" Min="0" Max="1" Datatype="ID" MaxLength="13" MinLength="1">
+            <ImpNote>Max length actually varies depending on the max length of a code in the code set </ImpNote>
+         </Field>
+         <Field Name="Message Profile Identifier" Usage="R" Min="1" Max="3" Datatype="LRI_EI_GU" MaxLength="427" MinLength="1">
+            <Component Name="Entity Identifier" Usage="R" Datatype="LRI_ST" MaxLength="199" MinLength="1">
+               <ImpNote>Length 1..199 </ImpNote>
+            </Component>
+            <Component Name="Namespace ID" Usage="RE" Datatype="LRI_IS" MaxLength="20" MinLength="1">
+               <ImpNote>Length 1..20 The coding system for this component is locally managed. </ImpNote>
+               <Reference>LRI-EI.a-2: CE.2 (Namespace ID) SHALL be valued with an ISO-compliant OID.</Reference>
+            </Component>
+            <Component Name="Universal ID" Usage="R" Datatype="LRI_ST" MaxLength="199" MinLength="1">
+               <ConformanceStatement id="LRI-2">
+                  <EnglishDescription>EI_GU.3 (Universal ID) SHALL be valued with an ISO-compliant OID.</EnglishDescription>
+                  <Assertion>
+                     <Regex location="." regex="[0-2](\.(0|[1-9][0-9]*))*"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..199. LRI-EI.a-2: CEI.32 (Namespace Universal ID) SHALL be valued with an ISO- compliant OID. </ImpNote>
+            </Component>
+            <Component Name="Universal ID Type" Usage="R" Datatype="LRI_ID" MaxLength="3" MinLength="3">
+               <ConformanceStatement id="LRI-3">
+                  <EnglishDescription>EI_GU.4 (Universal ID Type) SHALL contain the value "ISO".</EnglishDescription>
+                  <Assertion>
+                     <PlainText location="." value="ISO"/>
+                  </Assertion>
+               </ConformanceStatement>
+               <ImpNote>Length 1..6 Constrained to the value "ISO.". </ImpNote>
+               <Reference>LRI-EI.a-1: CE.4 (Universal ID Type) SHALL contain the value _ISO_.</Reference>
+            </Component>
+         </Field>
+      </Segment>
+      <Segment Name="SFT" LongName="Software Segment." Usage="O" Min="0" Max="*">
+         <Reference>2.15.12</Reference>
+         <Field Name="Software Vendor Organization" Usage="R" Min="1" Max="1" Datatype="XON" MaxLength="567" MinLength="1">
+            <Reference>2.15.12.1</Reference>
+            <Component Name="Organization Name" Usage="R" Datatype="ST" MaxLength="50" MinLength="1"> </Component>
+            <Component Name="Organization Name Type Code" Usage="O" Datatype="IS" Table="0204" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="ID Number" Usage="X" Datatype="NM"> </Component>
+            <Component Name="Check Digit" Usage="O" Datatype="NM" MaxLength="1" MinLength="1"> </Component>
+            <Component Name="Check Digit Scheme" Usage="O" Datatype="ID" Table="0061" MaxLength="3" MinLength="1"> </Component>
+            <Component Name="Assigning Authority" Usage="O" Datatype="HD" Table="0363" MaxLength="227" MinLength="1">
+               <SubComponent Name="Namespace ID" Usage="O" Datatype="IS" Table="0300" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Universal ID" Usage="C" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Universal ID Type" Usage="C" Datatype="ID" Table="0301" MaxLength="6" MinLength="1"> </SubComponent>
+            </Component>
+            <Component Name="Identifier Type Code" Usage="O" Datatype="ID" Table="0203" MaxLength="5" MinLength="1"> </Component>
+            <Component Name="Assigning Facility" Usage="O" Datatype="HD" MaxLength="227" MinLength="1">
+               <SubComponent Name="Namespace ID" Usage="O" Datatype="IS" Table="0300" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Universal ID" Usage="C" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Universal ID Type" Usage="C" Datatype="ID" Table="0301" MaxLength="6" MinLength="1"> </SubComponent>
+            </Component>
+            <Component Name="Name Representation Code" Usage="O" Datatype="ID" Table="0465" MaxLength="1" MinLength="1"> </Component>
+            <Component Name="Organization Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Software Certified Version or Release Number" Usage="R" Min="1" Max="1" Datatype="ST" MaxLength="15" MinLength="1">
+            <ImpNote>Length 1..15# </ImpNote>
+            <Reference>2.15.12.2</Reference>
+         </Field>
+         <Field Name="Software Product Name" Usage="R" Min="1" Max="1" Datatype="ST" MaxLength="20" MinLength="1">
+            <ImpNote>Length 1..20# </ImpNote>
+            <Reference>2.15.12.3</Reference>
+         </Field>
+         <Field Name="Software Binary ID" Usage="R" Min="1" Max="1" Datatype="ST" MaxLength="20" MinLength="1">
+            <ImpNote>Length 1..20# </ImpNote>
+            <Reference>2.15.12.4</Reference>
+         </Field>
+         <Field Name="Software Product Information" Usage="O" Min="0" Max="1" Datatype="TX" MaxLength="1024" MinLength="1">
+            <Reference>2.15.12.5</Reference>
+         </Field>
+         <Field Name="Software Install Date" Usage="O" Min="0" Max="1" Datatype="TS" MaxLength="26" MinLength="1">
+            <Reference>2.15.12.6</Reference>
+            <Component Name="Time" Usage="R" Datatype="DTM" MaxLength="24" MinLength="1"> </Component>
+            <Component Name="Degree of Precision" Usage="X" Datatype="ID" Table="0529"> </Component>
+         </Field>
+      </Segment>
+      <Segment Name="MSA" LongName="Message Acknowledgment" Usage="R" Min="1" Max="1">
+         <Reference>2.14.8</Reference>
+         <Field Name="Acknowledgment Code" Usage="R" Min="1" Max="1" Datatype="LRI_ID" Table="0008" MaxLength="2" MinLength="2">
+            <ImpNote>Length 1..15 </ImpNote>
+         </Field>
+         <Field Name="Message Control ID" Usage="R" Min="1" Max="1" Datatype="LRI_ST" MaxLength="199" MinLength="1"/>
+         <Field Name="Text Message" Usage="X" Min="0" Max="*" Datatype="ST" MaxLength="1" MinLength="1"/>
+         <Field Name="Expected Sequence Number" Usage="O" Min="0" Max="1" Datatype="NM" MaxLength="15" MinLength="1"/>
+         <Field Name="Delayed Acknowledgment Type" Usage="X" Min="0" Max="0" Datatype="ID">
+            <ImpNote>Max length actually varies depending on the max length of a code in the code set </ImpNote>
+         </Field>
+         <Field Name="Error Condition" Usage="X" Min="0" Max="0" Datatype="CWE" MaxLength="483" MinLength="1">
+            <Component Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Original Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+         </Field>
+      </Segment>
+      <Segment Name="ERR" LongName="Error" Usage="C" Min="0" Max="*" PredicateTrueUsage="R" PredicateFalseUsage="O">
+         <Predicate>
+            <EnglishDescription>If MSA.1 (Message Acknowledgement) is not valued AA or CA </EnglishDescription>
+            <Condition>
+               <NOT>
+                  <AND>
+                     <PlainText location="./3/1" value="AA"/>
+                     <PlainText location="./3/1" value="CA"/>
+                  </AND>
+               </NOT>
+            </Condition>
+         </Predicate>
+         <ImpNote>The ERR segment is used to add error comments to acknowledgment messages. </ImpNote>
+         <Reference>2.14.5</Reference> 
+         <Field Name="Error Code and Location" Usage="X" Min="0" Max="0" Datatype="ELD" MaxLength="712" MinLength="1">
+            <Component Name="Segment ID" Usage="O" Datatype="ST" MaxLength="3" MinLength="1"> </Component>
+            <Component Name="Segment Sequence" Usage="O" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+            <Component Name="Field Position" Usage="O" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+            <Component Name="Code Identifying Error" Usage="O" Datatype="CE" Table="0357" MaxLength="483" MinLength="1">
+               <SubComponent Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </SubComponent>
+               <SubComponent Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </SubComponent>
+               <SubComponent Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </SubComponent>
+            </Component>
+         </Field>
+         <Field Name="Error Location" Usage="O" Min="0" Max="*" Datatype="ERL" MaxLength="18" MinLength="1">
+            <Component Name="Segment ID" Usage="R" Datatype="ST" MaxLength="3" MinLength="1"> </Component>
+            <Component Name="Segment Sequence" Usage="R" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+            <Component Name="Field Position" Usage="O" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+            <Component Name="Field Repetition" Usage="O" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+            <Component Name="Component Number" Usage="O" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+            <Component Name="Sub-Component Number" Usage="O" Datatype="NM" MaxLength="2" MinLength="1"> </Component>
+         </Field>
+         <Field Name="HL7 Error Code" Usage="R" Min="1" Max="1" Datatype="LRI_CWE_CRE" Table="VS_HL70357" MaxLength="705" MinLength="1">
+            <ImpNote>Pre-adoption from V2.72.7.1 of Components 10-22 </ImpNote>
+            <Component Name="Identifier" Usage="RE" Datatype="LRI_ST" MaxLength="20" MinLength="1">
+               <ImpNote>Length 1..20 LRI-CWE.a-1: If data is available for only one Coded Element then the triplet of CWE.1 (Identifier), CWE.2 (Text), and CWE.3 (Name of Coding System) shall be valued in accordance with the rules given for CE.1, CE.2, and CE.3. </ImpNote>
+            </Component>
+            <Component Name="Text" Usage="C" Datatype="LRI_ST" MaxLength="199" MinLength="1" PredicateTrueUsage="RE" PredicateFalseUsage="X">
+               <Predicate>
+                  <EnglishDescription> If CWE_CRE.1 (Identifier) is valued</EnglishDescription>
+                  <Condition>
+                     <Valued location="./1"/>
+                  </Condition>
+               </Predicate>
+               <ImpNote>Length 1..199, C(RE/X) LRI-CWE.a-2: If CWE.1 (Identifier) is empty then CWE.2 (Text) SHALL NOT be valued. </ImpNote>
+            </Component>
+            <Component Name="Name of Coding System" Usage="C" Datatype="LRI_ID" Table="0396" MaxLength="12" MinLength="1" PredicateTrueUsage="R" PredicateFalseUsage="X">
+               <Predicate>
+                  <EnglishDescription> If CWE_CRE.1 (Identifier) is valued</EnglishDescription>
+                  <Condition>
+                     <Valued location="./1"/>
+                  </Condition>
+               </Predicate>
+               <ImpNote>Length 1..12, C(R/X) LRI-CWE.a-3: If CWE.1 (Identifier) is populated then CWE.3 (Name of Coding System) SHALL be valued. </ImpNote>
+            </Component>
+            <Component Name="Alternate Identifier" Usage="C" Datatype="LRI_ST" MaxLength="20" MinLength="1" PredicateTrueUsage="RE" PredicateFalseUsage="X">
+               <Predicate>
+                  <EnglishDescription> If CWE_CRE.1 (Identifier) is valued</EnglishDescription>
+                  <Condition>
+                     <Valued location="./1"/>
+                  </Condition>
+               </Predicate>
+               <ImpNote>Length 1..20, C(RE/X) The alternate identifier (from the alternate coding system) should be the closest match for the identifier found in component 1. LRI-CWE.a-4: If CWE.4 (Alternate Identifier) is populated then CWE.6 (Name of Alternate Coding System) SHALL be valued. </ImpNote>
+            </Component>
+            <Component Name="Alternate Text" Usage="C" Datatype="LRI_ST" MaxLength="199" MinLength="1" PredicateTrueUsage="RE" PredicateFalseUsage="X">
+               <Predicate>
+                  <EnglishDescription> If CWE_CRE.4 (Alternate Identifier) is valued</EnglishDescription>
+                  <Condition>
+                     <Valued location="./4"/>
+                  </Condition>
+               </Predicate>
+               <ImpNote>Length 1..199 C(RE/X) </ImpNote>
+            </Component>
+            <Component Name="Name of Alternate Coding System" Usage="C" Datatype="LRI_ID" Table="0396" MaxLength="12" MinLength="1" PredicateTrueUsage="R" PredicateFalseUsage="X">
+               <Predicate>
+                  <EnglishDescription> If CWE_CRE.4 (Alternate Identifier) is valued</EnglishDescription>
+                  <Condition>
+                     <Valued location="./4"/>
+                  </Condition>
+               </Predicate>
+               <ImpNote>Length 1..12 C(R/X) </ImpNote>
+            </Component>
+            <Component Name="Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Original Text" Usage="C" Datatype="LRI_ST" MaxLength="199" MinLength="1" PredicateTrueUsage="R" PredicateFalseUsage="RE">
+               <Predicate>
+                  <EnglishDescription> If CWE_CRE.1 (Identifier) is not valued</EnglishDescription>
+                  <Condition>
+                     <NOT>
+                        <Valued location="./1"/>
+                     </NOT>
+                  </Condition>
+               </Predicate>
+               <ImpNote>Length 1..199, C(R/RE) LRI-CWE.a-6: If CWE.1 (Identifier) and CWE.4 (Alternate Identifier) are not populated, then CWE.9 (Original Text) SHALL be valued. LRI-CWE.a-7: If the triplets identified by elements CWE.1 (Identifier), CWE.2 (Text) and CWE.3 (Name of Coding System) and CWE.4 (Alternate Identifer), CWE.5 (Alternate Text), and CWE.6 (Name of Alternate Coding System) are not valued then CWE.9 (Original Text) sshall be valued. LRI-CWE.a-6: If CWE.1 (Identifier) and CWE.4 (Alternate Identifier) are not populated, then CWE.9 (Original Text) SHALL be valued. LRI-CWE.a-7: If the triplets identified by elements CWE.1 (Identifier), CWE.2 (Text) and CWE.3 (Name of Coding System) and CWE.4 (Alternate Identifer), CWE.5 (Alternate Text), and CWE.6 (Name of Alternate Coding System) are not valued then CWE.9 (Original Text) sshall be valued. </ImpNote>
+            </Component>
+            <Component Name="Second Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Second Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Second Name of Alternate Coding System" Usage="O" Datatype="ID" MaxLength="12" MinLength="1">
+               <ImpNote>WARNING: the table should be specified for an ID type. </ImpNote>
+            </Component>
+            <Component Name="Second Alternate Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Coding System OID" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Value Set OID" Usage="O" Datatype="ST" MaxLength="199" MinLength="1">
+               <ImpNote>Length 1...199 </ImpNote>
+            </Component>
+            <Component Name="Value Set Version ID" Usage="O" Datatype="DTM" MaxLength="8" MinLength="1"> </Component>
+            <Component Name="Alternate Coding System OID" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Alternate Value Set OID" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Alternate Value Set Version ID" Usage="O" Datatype="DTM" MaxLength="8" MinLength="1">
+               <ImpNote>Length 1...8 </ImpNote>
+            </Component>
+            <Component Name="Second Alternate Coding System OID" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Second Alternate Value Set OID" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Second Alternate Value Set Version ID" Usage="O" Datatype="DTM" MaxLength="8" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Severity" Usage="R" Min="1" Max="1" Datatype="LRI_ID" Table="0516" MaxLength="1" MinLength="1">
+            <ImpNote>Length 1..15 </ImpNote>
+         </Field>
+         <Field Name="Application Error Code" Usage="O" Min="0" Max="1" Datatype="CWE" MaxLength="705" MinLength="1">
+            <Component Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Original Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Application Error Parameter" Usage="O" Min="0" Max="10" Datatype="ST" MaxLength="80" MinLength="1"/>
+         <Field Name="Diagnostic Information" Usage="RE" Min="0" Max="1" Datatype="LRI_TX" MaxLength="2048" MinLength="1"/>
+         <Field Name="User Message" Usage="O" Min="0" Max="1" Datatype="TX" MaxLength="250" MinLength="1"/>
+         <Field Name="Inform Person Indicator" Usage="O" Min="0" Max="*" Datatype="IS" Table="0517" MaxLength="20" MinLength="1"/>
+         <Field Name="Override Type" Usage="O" Min="0" Max="1" Datatype="CWE" Table="0518" MaxLength="705" MinLength="1">
+            <Component Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Original Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Override Reason Code" Usage="O" Min="0" Max="*" Datatype="CWE" Table="0519" MaxLength="705" MinLength="1">
+            <Component Name="Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Identifier" Usage="O" Datatype="ST" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Alternate Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Name of Alternate Coding System" Usage="O" Datatype="ID" Table="0396" MaxLength="20" MinLength="1"> </Component>
+            <Component Name="Coding System Version ID" Usage="C" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Alternate Coding System Version ID" Usage="O" Datatype="ST" MaxLength="10" MinLength="1"> </Component>
+            <Component Name="Original Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+         </Field>
+         <Field Name="Help Desk Contact Point" Usage="O" Min="0" Max="*" Datatype="XTN" MaxLength="2527" MinLength="1">
+            <Component Name="Telephone Number" Usage="B" Datatype="ST"> </Component>
+            <Component Name="Telecommunication Use Code" Usage="O" Datatype="ID" Table="0201" MaxLength="3" MinLength="1"> </Component>
+            <Component Name="Telecommunication Equipment Type" Usage="O" Datatype="ID" Table="0202" MaxLength="8" MinLength="1"> </Component>
+            <Component Name="Email Address" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Country Code" Usage="O" Datatype="NM" MaxLength="3" MinLength="1"> </Component>
+            <Component Name="Area/City Code" Usage="O" Datatype="NM" MaxLength="5" MinLength="1"> </Component>
+            <Component Name="Local Number" Usage="O" Datatype="NM" MaxLength="9" MinLength="1"> </Component>
+            <Component Name="Extension" Usage="O" Datatype="NM" MaxLength="5" MinLength="1"> </Component>
+            <Component Name="Any Text" Usage="O" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+            <Component Name="Extension Prefix" Usage="O" Datatype="ST" MaxLength="4" MinLength="1"> </Component>
+            <Component Name="Speed Dial Code" Usage="O" Datatype="ST" MaxLength="6" MinLength="1"> </Component>
+            <Component Name="Unformatted Telephone number" Usage="C" Datatype="ST" MaxLength="199" MinLength="1"> </Component>
+         </Field>
+      </Segment>
+   </HL7v2xStaticDef>
+</HL7v2xConformanceProfile>

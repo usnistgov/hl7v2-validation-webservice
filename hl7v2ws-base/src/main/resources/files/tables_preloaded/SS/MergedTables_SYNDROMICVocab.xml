@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 2012-09-25 12:14:28 updated by JY, V2.6 -->
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of tables that are specified in the PHINVADs" Name="MergedTables_SYNDROMICVocab" OrganizationName="HL7 NIST" Status="Active" TableLibraryIdentifier="" TableLibraryVersion="1.0">
+  <TableDefinition AlternateId="UCUM" Codesys="PHVS_AgeUnit_SyndromicSurveillance &amp; PHVS_PulseOximetryUnit_UCUM &amp; PHVS_TemperatureUnit_UCUM" Id="UCUM" Name="Age Unit (Syndromic Surveillance) &amp; Pulse Oximetry Unit &amp; Temperature Unit" Oid="2.16.840.1.114222.4.11.3402" Type="External" Version="1">
+    <TableElement Code="d" Codesys="UCUM" DisplayName="day" Source="Local"/>
+    <TableElement Code="mo" Codesys="UCUM" DisplayName="month" Source="Local"/>
+    <TableElement Code="UNK" Codesys="NULLFL" DisplayName="unknown" Source="Local"/>
+    <TableElement Code="wk" Codesys="UCUM" DisplayName="week" Source="Local"/>
+    <TableElement Code="a" Codesys="UCUM" DisplayName="year" Source="Local"/>
+    
+    <TableElement Code="Cel" Codesys="UCUM" DisplayName="degree Celsius" Source="Local"/>
+    <TableElement Code="[degF]" Codesys="UCUM" DisplayName="degree Fahrenheit" Source="Local"/>
+    
+    <TableElement Code="%" Codesys="UCUM" DisplayName="percent" Source="Local"/>
+  </TableDefinition>
+</TableLibrary>

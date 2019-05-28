@@ -1,0 +1,9 @@
+gov.nist.healthcare.hl7ws
+gov.nist.healthcare.hl7ws.client
+gov.nist.healthcare.hl7ws.controller
+gov.nist.healthcare.hl7ws.messagegeneration
+gov.nist.healthcare.hl7ws.messagevalidation
+gov.nist.healthcare.hl7ws.registry
+gov.nist.healthcare.hl7ws.tests.messagegeneration
+gov.nist.healthcare.hl7ws.tests.messagevalidation
+gov.nist.healthcare.hl7ws.utils
